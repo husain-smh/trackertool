@@ -1,0 +1,1667 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:03:31.591Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(entrepreneurship) lang:en min_faves:1000 since:2025-11-27 until:2025-12-04",
+  "weekSince": "2025-11-27",
+  "weekUntilInclusive": "2025-12-03",
+  "weekUntilExclusive": "2025-12-04",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1995762044847481148",
+      "url": "https://x.com/PaulDMauro/status/1995762044847481148",
+      "twitterUrl": "https://twitter.com/PaulDMauro/status/1995762044847481148",
+      "text": "Here's Walz with Ayan Abukar, who is receiving Minnesota's 2021 \"Outstanding Refugee Entrepreneurship Award\" (I kid you not). Abukar was later convicted in the $250 million Feeding Our Future case. Entrepreneurial, all right.\nhttps://t.co/1KmpLgPJNn",
+      "source": "Twitter for iPhone",
+      "retweetCount": 5852,
+      "replyCount": 534,
+      "likeCount": 13435,
+      "quoteCount": 203,
+      "viewCount": 208877,
+      "createdAt": "Tue Dec 02 07:48:45 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 390,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1995762044847481148",
+      "displayTextRange": [
+        0,
+        249
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "PaulDMauro",
+        "url": "https://x.com/PaulDMauro",
+        "twitterUrl": "https://twitter.com/PaulDMauro",
+        "id": "1661221066998439938",
+        "name": "Paul Mauro",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1661227922491953152/u68rdb8w_normal.jpg",
+        "coverPicture": "",
+        "description": "",
+        "location": "New York City",
+        "followers": 49766,
+        "following": 1044,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Wed May 24 04:04:21 +0000 2023",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 288,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 413,
+        "statusesCount": 2675,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Fox News Contributor focusing on law enforcement, legal, and intelligence issues. Founder of https://t.co/ceMziOL1kE. Find my latest podcasts and articles there.",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "Opsdesk.org",
+                  "expanded_url": "http://Opsdesk.org",
+                  "indices": [
+                    93,
+                    116
+                  ],
+                  "url": "https://t.co/ceMziOL1kE"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "opsdesk.org",
+                  "expanded_url": "http://opsdesk.org",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/NHkstG8qnT"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": {
+        "binding_values": [
+          {
+            "key": "photo_image_full_size_large",
+            "value": {
+              "image_value": {
+                "height": 419,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=800x419",
+                "width": 800
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image",
+            "value": {
+              "image_value": {
+                "height": 150,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=280x150",
+                "width": 215
+              }
+            }
+          },
+          {
+            "key": "description",
+            "value": {
+              "string_value": "Amazingly, state and local governments continue to promote people and places linked to the free-food scandal. Lots of names have come up during the ongoing Feeding Our Future trial underway in..."
+            }
+          },
+          {
+            "key": "domain",
+            "value": {
+              "string_value": "www.americanexperiment.org"
+            }
+          },
+          {
+            "key": "thumbnail_image_large",
+            "value": {
+              "image_value": {
+                "height": 293,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=420x420_1",
+                "width": 420
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_small",
+            "value": {
+              "image_value": {
+                "height": 202,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=386x202",
+                "width": 386
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_original",
+            "value": {
+              "image_value": {
+                "height": 950,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=orig",
+                "width": 1360
+              }
+            }
+          },
+          {
+            "key": "site",
+            "value": {
+              "scribe_key": "publisher_id",
+              "user_value": {
+                "id_str": "26076579"
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_small",
+            "value": {
+              "image_value": {
+                "height": 202,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=386x202",
+                "width": 386
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_large",
+            "value": {
+              "image_value": {
+                "height": 419,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=800x419",
+                "width": 800
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_small",
+            "value": {
+              "image_value": {
+                "height": 70,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=100x100",
+                "width": 100
+              }
+            }
+          },
+          {
+            "key": "creator",
+            "value": {
+              "user_value": {
+                "id_str": "26076579"
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_x_large",
+            "value": {
+              "image_value": {
+                "height": 950,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=png&name=2048x2048_2_exp",
+                "width": 1360
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_original",
+            "value": {
+              "image_value": {
+                "height": 950,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=orig",
+                "width": 1360
+              }
+            }
+          },
+          {
+            "key": "vanity_url",
+            "value": {
+              "scribe_key": "vanity_url",
+              "string_value": "americanexperiment.org"
+            }
+          },
+          {
+            "key": "photo_image_full_size",
+            "value": {
+              "image_value": {
+                "height": 314,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=600x314",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 38.27,
+                    "rgb": {
+                      "blue": 203,
+                      "green": 171,
+                      "red": 179
+                    }
+                  },
+                  {
+                    "percentage": 16.06,
+                    "rgb": {
+                      "blue": 66,
+                      "green": 34,
+                      "red": 23
+                    }
+                  },
+                  {
+                    "percentage": 15.1,
+                    "rgb": {
+                      "blue": 152,
+                      "green": 112,
+                      "red": 116
+                    }
+                  },
+                  {
+                    "percentage": 14.2,
+                    "rgb": {
+                      "blue": 146,
+                      "green": 145,
+                      "red": 188
+                    }
+                  },
+                  {
+                    "percentage": 10.88,
+                    "rgb": {
+                      "blue": 160,
+                      "green": 79,
+                      "red": 45
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "title",
+            "value": {
+              "string_value": "Feeding Our Future wins awards!"
+            }
+          },
+          {
+            "key": "summary_photo_image_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 38.27,
+                    "rgb": {
+                      "blue": 203,
+                      "green": 171,
+                      "red": 179
+                    }
+                  },
+                  {
+                    "percentage": 16.06,
+                    "rgb": {
+                      "blue": 66,
+                      "green": 34,
+                      "red": 23
+                    }
+                  },
+                  {
+                    "percentage": 15.1,
+                    "rgb": {
+                      "blue": 152,
+                      "green": 112,
+                      "red": 116
+                    }
+                  },
+                  {
+                    "percentage": 14.2,
+                    "rgb": {
+                      "blue": 146,
+                      "green": 145,
+                      "red": 188
+                    }
+                  },
+                  {
+                    "percentage": 10.88,
+                    "rgb": {
+                      "blue": 160,
+                      "green": 79,
+                      "red": 45
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_x_large",
+            "value": {
+              "image_value": {
+                "height": 950,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=png&name=2048x2048_2_exp",
+                "width": 1360
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image",
+            "value": {
+              "image_value": {
+                "height": 314,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=600x314",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 38.27,
+                    "rgb": {
+                      "blue": 203,
+                      "green": 171,
+                      "red": 179
+                    }
+                  },
+                  {
+                    "percentage": 16.06,
+                    "rgb": {
+                      "blue": 66,
+                      "green": 34,
+                      "red": 23
+                    }
+                  },
+                  {
+                    "percentage": 15.1,
+                    "rgb": {
+                      "blue": 152,
+                      "green": 112,
+                      "red": 116
+                    }
+                  },
+                  {
+                    "percentage": 14.2,
+                    "rgb": {
+                      "blue": 146,
+                      "green": 145,
+                      "red": 188
+                    }
+                  },
+                  {
+                    "percentage": 10.88,
+                    "rgb": {
+                      "blue": 160,
+                      "green": 79,
+                      "red": 45
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_x_large",
+            "value": {
+              "image_value": {
+                "height": 950,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=png&name=2048x2048_2_exp",
+                "width": 1360
+              }
+            }
+          },
+          {
+            "key": "card_url",
+            "value": {
+              "scribe_key": "card_url",
+              "string_value": "https://t.co/1KmpLgPJNn"
+            }
+          },
+          {
+            "key": "summary_photo_image_original",
+            "value": {
+              "image_value": {
+                "height": 950,
+                "url": "https://pbs.twimg.com/card_img/2010741508660740096/n-MiJgBJ?format=jpg&name=orig",
+                "width": 1360
+              }
+            }
+          }
+        ],
+        "card_platform": {
+          "platform": {
+            "audience": {
+              "name": "production"
+            },
+            "device": {
+              "name": "iPhone",
+              "version": "13"
+            }
+          }
+        },
+        "name": "summary_large_image",
+        "url": "https://t.co/1KmpLgPJNn",
+        "user_refs_results": [
+          {
+            "rest_id": "26076579",
+            "result": {
+              "__typename": "User",
+              "action_counts": {
+                "favorites_count": 1230
+              },
+              "avatar": {
+                "image_url": "https://pbs.twimg.com/profile_images/1886515532024680448/-vQlVCq1_normal.jpg"
+              },
+              "banner": {
+                "image_url": "https://pbs.twimg.com/profile_banners/26076579/1707510665"
+              },
+              "core": {
+                "created_at": "Mon Mar 23 20:00:13 +0000 2009",
+                "name": "American Experiment",
+                "screen_name": "MNThinkTank"
+              },
+              "dm_permissions": {
+                "can_dm": true
+              },
+              "exclusive_tweet_following": false,
+              "identity_profile_labels_highlighted_label": {},
+              "location": {
+                "location": "Minneapolis, MN"
+              },
+              "media_permissions": {
+                "can_media_tag": true
+              },
+              "notifications_settings": {},
+              "pinned_items": {},
+              "privacy": {},
+              "private_super_following": false,
+              "profile_bio": {
+                "description": "We're Minnesota's leading public policy organization. Working to make Minnesota a freer, more prosperous, and better-governed state.",
+                "entities": {
+                  "description": {},
+                  "url": {
+                    "urls": [
+                      {
+                        "display_url": "AmericanExperiment.org",
+                        "expanded_url": "http://www.AmericanExperiment.org",
+                        "indices": [
+                          0,
+                          23
+                        ],
+                        "url": "https://t.co/7gJIXilMa3"
+                      }
+                    ]
+                  }
+                }
+              },
+              "profile_image_shape": "Square",
+              "profile_metadata": {
+                "profile_interstitial_type": "",
+                "profile_link_color": "3B94D9"
+              },
+              "profile_translation": {
+                "translator_type_enum": "None"
+              },
+              "properties": {
+                "has_extended_profile": true
+              },
+              "relationship_counts": {
+                "followers": 18872,
+                "following": 970
+              },
+              "relationship_perspectives": {},
+              "rest_id": "26076579",
+              "super_follow_eligible": false,
+              "super_followed_by": false,
+              "super_following": false,
+              "tweet_counts": {
+                "media_tweets": 1687,
+                "tweets": 12428
+              },
+              "website": {
+                "url": "https://t.co/7gJIXilMa3"
+              },
+              "verification": {
+                "is_blue_verified": true,
+                "verified_type": "Business"
+              }
+            }
+          },
+          {
+            "rest_id": "26076579",
+            "result": {
+              "__typename": "User",
+              "action_counts": {
+                "favorites_count": 1230
+              },
+              "avatar": {
+                "image_url": "https://pbs.twimg.com/profile_images/1886515532024680448/-vQlVCq1_normal.jpg"
+              },
+              "banner": {
+                "image_url": "https://pbs.twimg.com/profile_banners/26076579/1707510665"
+              },
+              "core": {
+                "created_at": "Mon Mar 23 20:00:13 +0000 2009",
+                "name": "American Experiment",
+                "screen_name": "MNThinkTank"
+              },
+              "dm_permissions": {
+                "can_dm": true
+              },
+              "exclusive_tweet_following": false,
+              "identity_profile_labels_highlighted_label": {},
+              "location": {
+                "location": "Minneapolis, MN"
+              },
+              "media_permissions": {
+                "can_media_tag": true
+              },
+              "notifications_settings": {},
+              "pinned_items": {},
+              "privacy": {},
+              "private_super_following": false,
+              "profile_bio": {
+                "description": "We're Minnesota's leading public policy organization. Working to make Minnesota a freer, more prosperous, and better-governed state.",
+                "entities": {
+                  "description": {},
+                  "url": {
+                    "urls": [
+                      {
+                        "display_url": "AmericanExperiment.org",
+                        "expanded_url": "http://www.AmericanExperiment.org",
+                        "indices": [
+                          0,
+                          23
+                        ],
+                        "url": "https://t.co/7gJIXilMa3"
+                      }
+                    ]
+                  }
+                }
+              },
+              "profile_image_shape": "Square",
+              "profile_metadata": {
+                "profile_interstitial_type": "",
+                "profile_link_color": "3B94D9"
+              },
+              "profile_translation": {
+                "translator_type_enum": "None"
+              },
+              "properties": {
+                "has_extended_profile": true
+              },
+              "relationship_counts": {
+                "followers": 18872,
+                "following": 970
+              },
+              "relationship_perspectives": {},
+              "rest_id": "26076579",
+              "super_follow_eligible": false,
+              "super_followed_by": false,
+              "super_following": false,
+              "tweet_counts": {
+                "media_tweets": 1687,
+                "tweets": 12428
+              },
+              "website": {
+                "url": "https://t.co/7gJIXilMa3"
+              },
+              "verification": {
+                "is_blue_verified": true,
+                "verified_type": "Business"
+              }
+            }
+          }
+        ]
+      },
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "americanexperiment.org/feeding-our-fu…",
+            "expanded_url": "https://www.americanexperiment.org/feeding-our-future-wins-awards/",
+            "indices": [
+              226,
+              249
+            ],
+            "url": "https://t.co/1KmpLgPJNn"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1996356601939210523",
+      "url": "https://x.com/SecRubio/status/1996356601939210523",
+      "twitterUrl": "https://twitter.com/SecRubio/status/1996356601939210523",
+      "text": "The United States is forging ahead with a new G20. South Africa operated with spite, division, and radical agendas that failed to produce economic growth. America's G20 will propel us forward with innovation, entrepreneurship and perseverance that makes America great and provides a roadmap of prosperity to the world. We're ready to lead the way in Miami. https://t.co/9SVTRUtAlu",
+      "source": "Twitter for iPhone",
+      "retweetCount": 3103,
+      "replyCount": 2876,
+      "likeCount": 14032,
+      "quoteCount": 579,
+      "viewCount": 2700029,
+      "createdAt": "Wed Dec 03 23:11:19 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 660,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1996356601939210523",
+      "displayTextRange": [
+        0,
+        305
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "SecRubio",
+        "url": "https://x.com/SecRubio",
+        "twitterUrl": "https://twitter.com/SecRubio",
+        "id": "1858947201709305856",
+        "name": "Secretary Marco Rubio",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Government",
+        "profilePicture": "https://pbs.twimg.com/profile_images/1884698736950988800/YqKlDWfT_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1858947201709305856/1754673928",
+        "description": "",
+        "location": "Washington, DC",
+        "followers": 1750831,
+        "following": 14,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Tue Nov 19 18:56:28 +0000 2024",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 1,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 293,
+        "statusesCount": 987,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2007528891288826023"
+        ],
+        "profile_bio": {
+          "description": "72nd Secretary of State serving under the leadership of @POTUS Trump.",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    56,
+                    62
+                  ],
+                  "name": "",
+                  "screen_name": "POTUS"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {},
+            "display_url": "pic.twitter.com/N3npfX4WvH",
+            "expanded_url": "https://twitter.com/SecRubio/status/1996356601939210523/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1996356488839745536",
+            "indices": [
+              306,
+              329
+            ],
+            "media_key": "3_1996356488839745536",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARu0e6ZCVtAACgACG7R7wJeXsRsAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG7R7pkJW0AAKAAIbtHvAl5exGwAA",
+                "media_key": "3_1996356488839745536"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G7R7pkJW0AAJrrK.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 429,
+                  "w": 766,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 766,
+                  "w": 766,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 813,
+                  "w": 713,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 813,
+                  "w": 407,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 813,
+                  "w": 766,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 813,
+              "width": 766
+            },
+            "sizes": {
+              "large": {
+                "h": 813,
+                "w": 766
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/N3npfX4WvH"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "statedept.substack.com/p/america-welc…",
+            "expanded_url": "https://statedept.substack.com/p/america-welcomes-a-new-g20",
+            "indices": [
+              357,
+              380
+            ],
+            "url": "https://t.co/9SVTRUtAlu"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1995707096839360645",
+      "url": "https://x.com/kaylaparrilla/status/1995707096839360645",
+      "twitterUrl": "https://twitter.com/kaylaparrilla/status/1995707096839360645",
+      "text": "She lived a dope life, made crazy hits, transitioned to entrepreneurship, dated whoever she wanted, left whoever she wanted, settled down got a family &amp; is a billionaire",
+      "source": "Twitter for iPhone",
+      "retweetCount": 8544,
+      "replyCount": 270,
+      "likeCount": 90813,
+      "quoteCount": 196,
+      "viewCount": 2062602,
+      "createdAt": "Tue Dec 02 04:10:24 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 2063,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1995707096839360645",
+      "displayTextRange": [
+        0,
+        173
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "kaylaparrilla",
+        "url": "https://x.com/kaylaparrilla",
+        "twitterUrl": "https://twitter.com/kaylaparrilla",
+        "id": "1729731679",
+        "name": "KAYLA PARRILLA",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1875956317761806336/5jNjCcs4_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1729731679/1684216247",
+        "description": "",
+        "location": "Pembroke Pines, FL",
+        "followers": 47522,
+        "following": 996,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Sep 04 19:35:58 +0000 2013",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 79832,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 396,
+        "statusesCount": 27864,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1883922557088456809"
+        ],
+        "profile_bio": {
+          "description": "Faith | Freedom | Investor | ₿itcoin🧡| IG: kaylaparrilla",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "linktr.ee/KaylaParrilla",
+                  "expanded_url": "https://linktr.ee/KaylaParrilla",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/RydD5jvIfn"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1995351689155523054",
+        "url": "https://x.com/headnavy/status/1995351689155523054",
+        "twitterUrl": "https://twitter.com/headnavy/status/1995351689155523054",
+        "text": "Rihanna shares new picture of her, Rocky, and Rza 💙 https://t.co/p860dOw35b",
+        "source": "Twitter for iPhone",
+        "retweetCount": 833,
+        "replyCount": 37,
+        "likeCount": 14794,
+        "quoteCount": 116,
+        "viewCount": 2487954,
+        "createdAt": "Mon Dec 01 04:38:09 +0000 2025",
+        "lang": "en",
+        "bookmarkCount": 289,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "1995351689155523054",
+        "displayTextRange": [
+          0,
+          51
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "headnavy",
+          "url": "https://x.com/headnavy",
+          "twitterUrl": "https://twitter.com/headnavy",
+          "id": "1389475061862699009",
+          "name": "۟",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1791769639724220416/V_3EcylE_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/1389475061862699009/1716025625",
+          "description": "",
+          "location": "~2 Admins",
+          "followers": 29907,
+          "following": 2772,
+          "status": "",
+          "canDm": false,
+          "canMediaTag": false,
+          "createdAt": "Tue May 04 07:00:52 +0000 2021",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 8825,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 2618,
+          "statusesCount": 28783,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [
+            "1916867711067476218"
+          ],
+          "profile_bio": {
+            "description": "Fan account that’s not affiliated with any celebrities",
+            "entities": {
+              "description": {}
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {
+          "media": [
+            {
+              "display_url": "pic.twitter.com/p860dOw35b",
+              "expanded_url": "https://twitter.com/headnavy/status/1995351689155523054/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "h": 100,
+                      "w": 100,
+                      "x": 1420,
+                      "y": 534
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "h": 100,
+                      "w": 100,
+                      "x": 1420,
+                      "y": 534
+                    }
+                  ]
+                }
+              },
+              "id_str": "1995351685699338240",
+              "indices": [
+                52,
+                75
+              ],
+              "media_key": "3_1995351685699338240",
+              "media_results": {
+                "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuw6clMFgAACgACG7DpyhoXMe4AAA==",
+                "result": {
+                  "__typename": "ApiMedia",
+                  "id": "QXBpTWVkaWE6DAABCgABG7DpyUwWAAAKAAIbsOnKGhcx7gAA",
+                  "media_key": "3_1995351685699338240"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/G7DpyUwWAAA964r.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 919,
+                    "w": 1641,
+                    "x": 0,
+                    "y": 1025
+                  },
+                  {
+                    "h": 1641,
+                    "w": 1641,
+                    "x": 0,
+                    "y": 407
+                  },
+                  {
+                    "h": 1871,
+                    "w": 1641,
+                    "x": 0,
+                    "y": 177
+                  },
+                  {
+                    "h": 2048,
+                    "w": 1024,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 2048,
+                    "w": 1641,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 2048,
+                "width": 1641
+              },
+              "sizes": {
+                "large": {
+                  "h": 2048,
+                  "w": 1641
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/p860dOw35b"
+            }
+          ]
+        },
+        "card": null,
+        "place": {},
+        "entities": {},
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1995230417654567149",
+      "url": "https://x.com/GrageDustin/status/1995230417654567149",
+      "twitterUrl": "https://twitter.com/GrageDustin/status/1995230417654567149",
+      "text": "Since we’re back on the topic of Tim Walz and Feeding Our Future…\n\nHere’s Walz pictured with defendant #58 in the $250 million Feeding Our Future fraud scheme.\n\nAmran Abukar was literally given an “Entrepreneurship” award by Governor Walz. https://t.co/IgfNJNW6lf",
+      "source": "Twitter for iPhone",
+      "retweetCount": 4917,
+      "replyCount": 261,
+      "likeCount": 11188,
+      "quoteCount": 120,
+      "viewCount": 141844,
+      "createdAt": "Sun Nov 30 20:36:15 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 409,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1995230417654567149",
+      "displayTextRange": [
+        0,
+        239
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "GrageDustin",
+        "url": "https://x.com/GrageDustin",
+        "twitterUrl": "https://twitter.com/GrageDustin",
+        "id": "1407287713531899911",
+        "name": "Dustin Grage",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1999150695426015232/3iG8MR9J_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1407287713531899911/1758675873",
+        "description": "",
+        "location": "Minnesota ",
+        "followers": 135874,
+        "following": 5479,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Tue Jun 22 10:42:02 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 150520,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 14839,
+        "statusesCount": 66003,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2011226123129274862"
+        ],
+        "profile_bio": {
+          "description": "Husband, father, Memento Mori | Columnist @Townhallcom | Political analysis & research | “The Minnesota guy with the receipts”",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    42,
+                    54
+                  ],
+                  "name": "",
+                  "screen_name": "Townhallcom"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "dustingrage.com",
+                  "expanded_url": "http://www.dustingrage.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/RUTTiOd37k"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/IgfNJNW6lf",
+            "expanded_url": "https://twitter.com/GrageDustin/status/1995230417654567149/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 122,
+                    "w": 122,
+                    "x": 407,
+                    "y": 255
+                  },
+                  {
+                    "h": 121,
+                    "w": 121,
+                    "x": 701,
+                    "y": 145
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 122,
+                    "w": 122,
+                    "x": 407,
+                    "y": 255
+                  },
+                  {
+                    "h": 121,
+                    "w": 121,
+                    "x": 701,
+                    "y": 145
+                  }
+                ]
+              }
+            },
+            "id_str": "1995230412390510592",
+            "indices": [
+              240,
+              263
+            ],
+            "media_key": "3_1995230412390510592",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuwe30nl7AACgACG7B7fmFa0O0AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG7B7fSeXsAAKAAIbsHt+YVrQ7QAA",
+                "media_key": "3_1995230412390510592"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G7B7fSeXsAAXCuU.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 689,
+                  "w": 1230,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 859,
+                  "w": 859,
+                  "x": 339,
+                  "y": 0
+                },
+                {
+                  "h": 859,
+                  "w": 754,
+                  "x": 391,
+                  "y": 0
+                },
+                {
+                  "h": 859,
+                  "w": 430,
+                  "x": 553,
+                  "y": 0
+                },
+                {
+                  "h": 859,
+                  "w": 1230,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 859,
+              "width": 1230
+            },
+            "sizes": {
+              "large": {
+                "h": 859,
+                "w": 1230
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/IgfNJNW6lf"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/IgfNJNW6lf",
+            "expanded_url": "https://twitter.com/GrageDustin/status/1995230417654567149/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1995230412390494208",
+            "indices": [
+              240,
+              263
+            ],
+            "media_key": "3_1995230412390494208",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuwe30nl3AACgACG7B7fmFa0O0AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG7B7fSeXcAAKAAIbsHt+YVrQ7QAA",
+                "media_key": "3_1995230412390494208"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G7B7fSeXcAAwY8v.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 295,
+                  "w": 526,
+                  "x": 0,
+                  "y": 673
+                },
+                {
+                  "h": 526,
+                  "w": 526,
+                  "x": 0,
+                  "y": 533
+                },
+                {
+                  "h": 600,
+                  "w": 526,
+                  "x": 0,
+                  "y": 459
+                },
+                {
+                  "h": 1052,
+                  "w": 526,
+                  "x": 0,
+                  "y": 7
+                },
+                {
+                  "h": 1059,
+                  "w": 526,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1059,
+              "width": 526
+            },
+            "sizes": {
+              "large": {
+                "h": 1059,
+                "w": 526
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/IgfNJNW6lf"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1995033980543144334",
+      "url": "https://x.com/Oluwanonso_Esq/status/1995033980543144334",
+      "twitterUrl": "https://twitter.com/Oluwanonso_Esq/status/1995033980543144334",
+      "text": "@LawrenceEzeali He derided someone else because sells food for a living. The doctor rightly challenged him and asked what important work he does that gives him the right to look down on others entrepreneurship.\n\nHer comment was proportionate. His response to that doesn't hold merit.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 58,
+      "replyCount": 58,
+      "likeCount": 2081,
+      "quoteCount": 13,
+      "viewCount": 83236,
+      "createdAt": "Sun Nov 30 07:35:41 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 11,
+      "isReply": true,
+      "inReplyToId": "1995033220891775363",
+      "conversationId": "1995031663286407168",
+      "displayTextRange": [
+        16,
+        283
+      ],
+      "inReplyToUserId": "1625764081",
+      "inReplyToUsername": "LawrenceEzeali",
+      "author": {
+        "type": "user",
+        "userName": "Oluwanonso_Esq",
+        "url": "https://x.com/Oluwanonso_Esq",
+        "twitterUrl": "https://twitter.com/Oluwanonso_Esq",
+        "id": "920717797",
+        "name": "Equivocator™",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1978852796318244864/KxeC8iuL_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/920717797/1618687593",
+        "description": "",
+        "location": "🇪🇺",
+        "followers": 25896,
+        "following": 6583,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Fri Nov 02 09:56:56 +0000 2012",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 140050,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3612,
+        "statusesCount": 124164,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1989227807092670644"
+        ],
+        "profile_bio": {
+          "description": "Jurisprudence & International Law || Tweets are purely legalistic but ≠ legal advice || Enjoyment & FC Barcelona 💙❤️",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1625764081",
+            "indices": [
+              0,
+              15
+            ],
+            "name": "Ugama Ebonyi",
+            "screen_name": "LawrenceEzeali"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1993963156352454867",
+      "url": "https://x.com/shubhvanii/status/1993963156352454867",
+      "twitterUrl": "https://twitter.com/shubhvanii/status/1993963156352454867",
+      "text": "Things to Teach Your Son\n\n1. Chess\n2. How to sell\n3. When to tip\n4. Story telling\n5. Change a tire\n6. Firearm safety\n7. Throw a punch\n8. Love for nature\n9. Public speaking\n10. How to tell a joke\n11. Entrepreneurship\n12. How to catch a fish\n13. How to treat a girlfriend\n14. How to treat his parents.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1574,
+      "replyCount": 79,
+      "likeCount": 10007,
+      "quoteCount": 33,
+      "viewCount": 480790,
+      "createdAt": "Thu Nov 27 08:40:37 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 5324,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1993963156352454867",
+      "displayTextRange": [
+        0,
+        305
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "shubhvanii",
+        "url": "https://x.com/shubhvanii",
+        "twitterUrl": "https://twitter.com/shubhvanii",
+        "id": "846291844048793600",
+        "name": "Shubhvani",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1991465455899537408/7TdwGMiH_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/846291844048793600/1734602790",
+        "description": "",
+        "location": "India",
+        "followers": 57604,
+        "following": 910,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Mon Mar 27 09:24:33 +0000 2017",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 261335,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3926,
+        "statusesCount": 73890,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2008066052924768259"
+        ],
+        "profile_bio": {
+          "description": "Motivation, and life's truths,words that speak to the heart and mind. 🌿✍️",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1993971080105525630",
+      "url": "https://x.com/benleo444/status/1993971080105525630",
+      "twitterUrl": "https://twitter.com/benleo444/status/1993971080105525630",
+      "text": "The problem Britain has right now is there’s no reward for working hard. You actually get stung for it. \n\nThere’s no drive for aspiration, ideas or entrepreneurship. \n\nI remember as a kid, being out of work and claiming benefits was an embarrassing thing. Now there’s no shame.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 945,
+      "replyCount": 301,
+      "likeCount": 8026,
+      "quoteCount": 48,
+      "viewCount": 122884,
+      "createdAt": "Thu Nov 27 09:12:06 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 116,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1993971080105525630",
+      "displayTextRange": [
+        0,
+        277
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "benleo444",
+        "url": "https://x.com/benleo444",
+        "twitterUrl": "https://twitter.com/benleo444",
+        "id": "202605992",
+        "name": "Ben Leo",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2011786682979520512/xPazCsHm_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/202605992/1757623818",
+        "description": "",
+        "location": "Washington DC / London",
+        "followers": 66039,
+        "following": 1896,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Thu Oct 14 12:28:15 +0000 2010",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 17094,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 956,
+        "statusesCount": 14428,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1990373264502436156"
+        ],
+        "profile_bio": {
+          "description": "Chief US correspondent @GBNews / Host of The Late Show Live Friday to Sunday - Believer in Britain 🇬🇧",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    23,
+                    30
+                  ],
+                  "name": "",
+                  "screen_name": "GBNews"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "gbnews.uk",
+                  "expanded_url": "https://www.gbnews.uk/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/h8Ifss3HpW"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

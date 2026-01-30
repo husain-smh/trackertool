@@ -1,0 +1,37 @@
+/* SOCAP scoped theme overrides (Design v2) */
+/* This avoids changing the global app theme. */
+
+.socap-scope {
+  --background: #F5F3F0;
+  --foreground: #2B2B2B;
+
+  --card: #FEFEFE;
+  --card-foreground: #2B2B2B;
+
+  --popover: #FEFEFE;
+  --popover-foreground: #2B2B2B;
+
+  --primary: #2B2B2B;
+  --primary-foreground: #F5F3F0;
+
+  --secondary: #E0DDD8;
+  --secondary-foreground: #2B2B2B;
+
+  --muted: #E0DDD8;
+  --muted-foreground: #6B6B6B;
+
+  --accent: #2F6FED;
+  --accent-foreground: #FFFFFF;
+
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #E8E4DF;
+  --input: #E8E4DF;
+  --ring: #2F6FED;
+
+  --radius: 0.25rem;
+  --shadow-card: none;
+}
+
+

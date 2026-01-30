@@ -1,0 +1,1054 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-23T14:23:03.682Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(claude code) since:2025-04-11 until:2025-04-18",
+  "weekSince": "2025-04-11",
+  "weekUntilInclusive": "2025-04-17",
+  "weekUntilExclusive": "2025-04-18",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1914333416134525039",
+      "url": "https://x.com/alexalbert__/status/1914333416134525039",
+      "twitterUrl": "https://twitter.com/alexalbert__/status/1914333416134525039",
+      "text": "Check out the blog post for more details and more best practices: https://t.co/uu0j4Kft1i",
+      "source": "Twitter for iPhone",
+      "retweetCount": 21,
+      "replyCount": 6,
+      "likeCount": 251,
+      "quoteCount": 5,
+      "viewCount": 48477,
+      "createdAt": "Mon Apr 21 15:00:27 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 224,
+      "isReply": true,
+      "inReplyToId": "1914333404369441056",
+      "conversationId": "1914333320877584397",
+      "displayTextRange": [
+        0,
+        89
+      ],
+      "inReplyToUserId": "1380719534970040322",
+      "inReplyToUsername": "alexalbert__",
+      "author": {
+        "type": "user",
+        "userName": "alexalbert__",
+        "url": "https://x.com/alexalbert__",
+        "twitterUrl": "https://twitter.com/alexalbert__",
+        "id": "1380719534970040322",
+        "name": "Alex Albert",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1856486626072915968/JEQpB9CW_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1380719534970040322/1723397536",
+        "description": "",
+        "location": "San Francisco",
+        "followers": 116760,
+        "following": 677,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Sat Apr 10 03:09:58 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 7692,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 528,
+        "statusesCount": 2152,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Claude Relations @AnthropicAI. Opinions are my own!",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    17,
+                    29
+                  ],
+                  "name": "",
+                  "screen_name": "AnthropicAI"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "alexalbert.me",
+                  "expanded_url": "https://alexalbert.me/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/DJKa5PBGjz"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": {
+        "binding_values": [
+          {
+            "key": "photo_image_full_size_large",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 419,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=800x419",
+                "width": 800
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 147,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=280x150",
+                "width": 280
+              }
+            }
+          },
+          {
+            "key": "description",
+            "value": {
+              "string_value": "A blog post covering tips and tricks that have proven effective for using Claude Code across various codebases, languages, and environments."
+            }
+          },
+          {
+            "key": "domain",
+            "value": {
+              "string_value": "www.anthropic.com"
+            }
+          },
+          {
+            "key": "thumbnail_image_large",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 315,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=600x600",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_small",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 202,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=386x202",
+                "width": 386
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_original",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 1260,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=orig",
+                "width": 2400
+              }
+            }
+          },
+          {
+            "key": "site",
+            "value": {
+              "scribe_key": "publisher_id",
+              "user_value": {
+                "id_str": "1353836358901501952"
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_small",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 202,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=386x202",
+                "width": 386
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_large",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 419,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=800x419",
+                "width": 800
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_small",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 76,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=144x144",
+                "width": 144
+              }
+            }
+          },
+          {
+            "key": "creator",
+            "value": {
+              "user_value": {
+                "id_str": "1353836358901501952"
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_x_large",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 1075,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=2048x2048_2_exp",
+                "width": 2048
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_original",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 1260,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=orig",
+                "width": 2400
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_alt_text",
+            "value": {
+              "string_value": "Anthropic logo"
+            }
+          },
+          {
+            "key": "vanity_url",
+            "value": {
+              "scribe_key": "vanity_url",
+              "string_value": "anthropic.com"
+            }
+          },
+          {
+            "key": "photo_image_full_size",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 314,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=600x314",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_alt_text",
+            "value": {
+              "string_value": "Anthropic logo"
+            }
+          },
+          {
+            "key": "thumbnail_image_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 97.03,
+                    "rgb": {
+                      "blue": 230,
+                      "green": 238,
+                      "red": 240
+                    }
+                  },
+                  {
+                    "percentage": 1.91,
+                    "rgb": {
+                      "blue": 12,
+                      "green": 13,
+                      "red": 13
+                    }
+                  },
+                  {
+                    "percentage": 1.17,
+                    "rgb": {
+                      "blue": 116,
+                      "green": 120,
+                      "red": 121
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "title",
+            "value": {
+              "string_value": "Claude Code Best Practices"
+            }
+          },
+          {
+            "key": "summary_photo_image_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 97.03,
+                    "rgb": {
+                      "blue": 230,
+                      "green": 238,
+                      "red": 240
+                    }
+                  },
+                  {
+                    "percentage": 1.91,
+                    "rgb": {
+                      "blue": 12,
+                      "green": 13,
+                      "red": 13
+                    }
+                  },
+                  {
+                    "percentage": 1.17,
+                    "rgb": {
+                      "blue": 116,
+                      "green": 120,
+                      "red": 121
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_x_large",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 1075,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=2048x2048_2_exp",
+                "width": 2048
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 314,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=600x314",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 97.03,
+                    "rgb": {
+                      "blue": 230,
+                      "green": 238,
+                      "red": 240
+                    }
+                  },
+                  {
+                    "percentage": 1.91,
+                    "rgb": {
+                      "blue": 12,
+                      "green": 13,
+                      "red": 13
+                    }
+                  },
+                  {
+                    "percentage": 1.17,
+                    "rgb": {
+                      "blue": 116,
+                      "green": 120,
+                      "red": 121
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_x_large",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 1075,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=2048x2048_2_exp",
+                "width": 2048
+              }
+            }
+          },
+          {
+            "key": "card_url",
+            "value": {
+              "scribe_key": "card_url",
+              "string_value": "https://t.co/uu0j4Kft1i"
+            }
+          },
+          {
+            "key": "summary_photo_image_original",
+            "value": {
+              "image_value": {
+                "alt": "Anthropic logo",
+                "height": 1260,
+                "url": "https://pbs.twimg.com/card_img/2011730652551409664/VB6S3YxC?format=png&name=orig",
+                "width": 2400
+              }
+            }
+          }
+        ],
+        "card_platform": {
+          "platform": {
+            "audience": {
+              "name": "production"
+            },
+            "device": {
+              "name": "iPhone",
+              "version": "13"
+            }
+          }
+        },
+        "name": "summary_large_image",
+        "url": "https://t.co/uu0j4Kft1i",
+        "user_refs_results": [
+          {
+            "rest_id": "1353836358901501952",
+            "result": {
+              "__typename": "User",
+              "action_counts": {
+                "favorites_count": 1486
+              },
+              "avatar": {
+                "image_url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+              },
+              "banner": {
+                "image_url": "https://pbs.twimg.com/profile_banners/1353836358901501952/1719228429"
+              },
+              "core": {
+                "created_at": "Mon Jan 25 22:45:28 +0000 2021",
+                "name": "Anthropic",
+                "screen_name": "AnthropicAI"
+              },
+              "dm_permissions": {
+                "can_dm": false
+              },
+              "exclusive_tweet_following": false,
+              "identity_profile_labels_highlighted_label": {},
+              "location": {
+                "location": ""
+              },
+              "media_permissions": {
+                "can_media_tag": true
+              },
+              "notifications_settings": {},
+              "pinned_items": {},
+              "privacy": {},
+              "private_super_following": false,
+              "profile_bio": {
+                "description": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+                "entities": {
+                  "description": {
+                    "urls": [
+                      {
+                        "display_url": "claude.ai",
+                        "expanded_url": "https://claude.ai",
+                        "indices": [
+                          141,
+                          164
+                        ],
+                        "url": "https://t.co/FhDI3KQh0n"
+                      }
+                    ],
+                    "user_mentions": [
+                      {
+                        "id_str": "0",
+                        "indices": [
+                          128,
+                          137
+                        ],
+                        "name": "",
+                        "screen_name": "claudeai"
+                      }
+                    ]
+                  },
+                  "url": {
+                    "urls": [
+                      {
+                        "display_url": "anthropic.com",
+                        "expanded_url": "https://anthropic.com",
+                        "indices": [
+                          0,
+                          23
+                        ],
+                        "url": "https://t.co/w94SABjAXZ"
+                      }
+                    ]
+                  }
+                }
+              },
+              "profile_image_shape": "Square",
+              "profile_metadata": {
+                "profile_interstitial_type": "",
+                "profile_link_color": "1DA1F2"
+              },
+              "profile_translation": {
+                "translator_type_enum": "None"
+              },
+              "properties": {
+                "has_extended_profile": true
+              },
+              "relationship_counts": {
+                "followers": 755113,
+                "following": 35
+              },
+              "relationship_perspectives": {},
+              "rest_id": "1353836358901501952",
+              "super_follow_eligible": false,
+              "super_followed_by": false,
+              "super_following": false,
+              "tweet_counts": {
+                "media_tweets": 547,
+                "tweets": 1342
+              },
+              "website": {
+                "url": "https://t.co/w94SABjAXZ"
+              },
+              "verification": {
+                "is_blue_verified": true,
+                "verified_type": "Business"
+              }
+            }
+          },
+          {
+            "rest_id": "1353836358901501952",
+            "result": {
+              "__typename": "User",
+              "action_counts": {
+                "favorites_count": 1486
+              },
+              "avatar": {
+                "image_url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+              },
+              "banner": {
+                "image_url": "https://pbs.twimg.com/profile_banners/1353836358901501952/1719228429"
+              },
+              "core": {
+                "created_at": "Mon Jan 25 22:45:28 +0000 2021",
+                "name": "Anthropic",
+                "screen_name": "AnthropicAI"
+              },
+              "dm_permissions": {
+                "can_dm": false
+              },
+              "exclusive_tweet_following": false,
+              "identity_profile_labels_highlighted_label": {},
+              "location": {
+                "location": ""
+              },
+              "media_permissions": {
+                "can_media_tag": true
+              },
+              "notifications_settings": {},
+              "pinned_items": {},
+              "privacy": {},
+              "private_super_following": false,
+              "profile_bio": {
+                "description": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+                "entities": {
+                  "description": {
+                    "urls": [
+                      {
+                        "display_url": "claude.ai",
+                        "expanded_url": "https://claude.ai",
+                        "indices": [
+                          141,
+                          164
+                        ],
+                        "url": "https://t.co/FhDI3KQh0n"
+                      }
+                    ],
+                    "user_mentions": [
+                      {
+                        "id_str": "0",
+                        "indices": [
+                          128,
+                          137
+                        ],
+                        "name": "",
+                        "screen_name": "claudeai"
+                      }
+                    ]
+                  },
+                  "url": {
+                    "urls": [
+                      {
+                        "display_url": "anthropic.com",
+                        "expanded_url": "https://anthropic.com",
+                        "indices": [
+                          0,
+                          23
+                        ],
+                        "url": "https://t.co/w94SABjAXZ"
+                      }
+                    ]
+                  }
+                }
+              },
+              "profile_image_shape": "Square",
+              "profile_metadata": {
+                "profile_interstitial_type": "",
+                "profile_link_color": "1DA1F2"
+              },
+              "profile_translation": {
+                "translator_type_enum": "None"
+              },
+              "properties": {
+                "has_extended_profile": true
+              },
+              "relationship_counts": {
+                "followers": 755113,
+                "following": 35
+              },
+              "relationship_perspectives": {},
+              "rest_id": "1353836358901501952",
+              "super_follow_eligible": false,
+              "super_followed_by": false,
+              "super_following": false,
+              "tweet_counts": {
+                "media_tweets": 547,
+                "tweets": 1342
+              },
+              "website": {
+                "url": "https://t.co/w94SABjAXZ"
+              },
+              "verification": {
+                "is_blue_verified": true,
+                "verified_type": "Business"
+              }
+            }
+          }
+        ]
+      },
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "anthropic.com/engineering/cl…",
+            "expanded_url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+            "indices": [
+              66,
+              89
+            ],
+            "url": "https://t.co/uu0j4Kft1i"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1910105525951606865",
+      "url": "https://x.com/lululu63sp2/status/1910105525951606865",
+      "twitterUrl": "https://twitter.com/lululu63sp2/status/1910105525951606865",
+      "text": "4月10日 今日はクライドの誕生日🎂\nHAPPY BIRTHDAY CLYDE!!\nおめでとう！🎈🥳🎉 https://t.co/54djwe7utR",
+      "source": "Twitter for iPhone",
+      "retweetCount": 71,
+      "replyCount": 0,
+      "likeCount": 449,
+      "quoteCount": 7,
+      "viewCount": 10088,
+      "createdAt": "Wed Apr 09 23:00:20 +0000 2025",
+      "lang": "ja",
+      "bookmarkCount": 18,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1910105525951606865",
+      "displayTextRange": [
+        0,
+        51
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "lululu63sp2",
+        "url": "https://x.com/lululu63sp2",
+        "twitterUrl": "https://twitter.com/lululu63sp2",
+        "id": "1028253629587677184",
+        "name": "Jillcha",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1908012802427727873/UNhfXwXz_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1028253629587677184/1748189456",
+        "description": "",
+        "location": "",
+        "followers": 4105,
+        "following": 50,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Sat Aug 11 12:15:44 +0000 2018",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 29116,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 1509,
+        "statusesCount": 19615,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1915423796686979202"
+        ],
+        "profile_bio": {
+          "description": "SOUTH PARK│主にサウスパークの情報│20+│Colorado✈2019⛄🏔",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/54djwe7utR",
+            "expanded_url": "https://twitter.com/lululu63sp2/status/1910105525951606865/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1910105523841884160",
+            "indices": [
+              52,
+              75
+            ],
+            "media_key": "3_1910105523841884160",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARqCDtqQG2AACgACGoIO2w3bMFEAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGoIO2pAbYAAKAAIagg7bDdswUQAA",
+                "media_key": "3_1910105523841884160"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GoIO2pAbYAArw7y.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 414,
+                  "w": 739,
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "h": 415,
+                  "w": 415,
+                  "x": 180,
+                  "y": 0
+                },
+                {
+                  "h": 415,
+                  "w": 364,
+                  "x": 205,
+                  "y": 0
+                },
+                {
+                  "h": 415,
+                  "w": 208,
+                  "x": 283,
+                  "y": 0
+                },
+                {
+                  "h": 415,
+                  "w": 739,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 415,
+              "width": 739
+            },
+            "sizes": {
+              "large": {
+                "h": 415,
+                "w": 739
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/54djwe7utR"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1914664417687691545",
+      "url": "https://x.com/______hnjs/status/1914664417687691545",
+      "twitterUrl": "https://twitter.com/______hnjs/status/1914664417687691545",
+      "text": "𝑵𝑰𝑪𝑬 𝑪𝑳𝑨𝑼𝑷\n\n.˚⊹⁺‧┈┈┈┈┈┈┈┈┈┈┈┈‧⁺ ⊹˚.\n\n🩶グレー🩶🩵ブルー️🩵🅘🅣🅔🅜\n今年はこの2色を特に纏いたい＿✍︎\n\n.˚⊹⁺‧┈┈┈┈┈┈┈┈┈┈┈┈‧⁺ ⊹˚. https://t.co/XXnSljDItK",
+      "source": "Twitter for iPhone",
+      "retweetCount": 69,
+      "replyCount": 1,
+      "likeCount": 1688,
+      "quoteCount": 10,
+      "viewCount": 107881,
+      "createdAt": "Tue Apr 22 12:55:44 +0000 2025",
+      "lang": "ja",
+      "bookmarkCount": 319,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1914664417687691545",
+      "displayTextRange": [
+        0,
+        95
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "______hnjs",
+        "url": "https://x.com/______hnjs",
+        "twitterUrl": "https://twitter.com/______hnjs",
+        "id": "800085358192930817",
+        "name": "☽",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1760933935163580416/LO3Uya7A_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/800085358192930817/1708674380",
+        "description": "",
+        "location": "",
+        "followers": 747150,
+        "following": 190,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sat Nov 19 21:16:29 +0000 2016",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 46613,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 12674,
+        "statusesCount": 20259,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2013868787301306405"
+        ],
+        "profile_bio": {
+          "description": "𝘝𝘰𝘨𝘶𝘦 ⸝꙳⋆ ✉️仕事のご依頼【𝐑𝐏拡散⋆紹介投稿等】【広告主･広告代理店のご依頼】ございましたら【𝐗の𝐃𝐌】までお気軽にご連絡ください。※𝐏𝐑担当枠募集中のクライアント様もぜひ 【☾ ໋https://t.co/QcQ4yUmTFX 】",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "instagram.com/_moon13bg_",
+                  "expanded_url": "https://www.instagram.com/_moon13bg_",
+                  "indices": [
+                    97,
+                    120
+                  ],
+                  "url": "https://t.co/QcQ4yUmTFX"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "amazon.co.jp/shop/_moon13bg_",
+                  "expanded_url": "https://www.amazon.co.jp/shop/_moon13bg_",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/146LSHyMby"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/XXnSljDItK",
+            "expanded_url": "https://twitter.com/______hnjs/status/1914664417687691545/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 116,
+                    "w": 116,
+                    "x": 1062,
+                    "y": 328
+                  },
+                  {
+                    "h": 244,
+                    "w": 244,
+                    "x": 936,
+                    "y": 476
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 116,
+                    "w": 116,
+                    "x": 1062,
+                    "y": 328
+                  },
+                  {
+                    "h": 244,
+                    "w": 244,
+                    "x": 936,
+                    "y": 476
+                  }
+                ]
+              }
+            },
+            "id_str": "1914664409194225666",
+            "indices": [
+              96,
+              119
+            ],
+            "media_key": "3_1914664409194225666",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARqSQSLGGuACCgACGpJBJMBa4RkAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGpJBIsYa4AIKAAIakkEkwFrhGQAA",
+                "media_key": "3_1914664409194225666"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GpJBIsYa4AIP8bA.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 860,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1751,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1024,
+                  "x": 512,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1536,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2048,
+              "width": 1536
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1536
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/XXnSljDItK"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": true,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

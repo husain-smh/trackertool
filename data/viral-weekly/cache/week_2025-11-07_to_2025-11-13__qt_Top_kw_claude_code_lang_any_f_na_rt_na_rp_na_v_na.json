@@ -1,0 +1,2968 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-23T14:26:21.048Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(claude code) since:2025-11-07 until:2025-11-14",
+  "weekSince": "2025-11-07",
+  "weekUntilInclusive": "2025-11-13",
+  "weekUntilExclusive": "2025-11-14",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1985754411675930775",
+      "url": "https://x.com/_catwu/status/1985754411675930775",
+      "twitterUrl": "https://twitter.com/_catwu/status/1985754411675930775",
+      "text": "We're giving Pro and Max users free usage credits for Claude Code on the web.\n\nSince launching, your feedback has been invaluable for improving Claude Code. We’re temporarily adding free usage so you can more flexibly experiment with the product. https://t.co/pJVBeoY3Kh",
+      "source": "Twitter for iPhone",
+      "retweetCount": 177,
+      "replyCount": 257,
+      "likeCount": 2390,
+      "quoteCount": 99,
+      "viewCount": 606049,
+      "createdAt": "Tue Nov 04 17:01:59 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 872,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1985754411675930775",
+      "displayTextRange": [
+        0,
+        246
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "_catwu",
+        "url": "https://x.com/_catwu",
+        "twitterUrl": "https://twitter.com/_catwu",
+        "id": "974757274206978049",
+        "name": "cat",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1645578728532246528/Llilll47_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/974757274206978049/1635393880",
+        "description": "",
+        "location": "sf",
+        "followers": 52261,
+        "following": 372,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Fri Mar 16 21:20:19 +0000 2018",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 5930,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 153,
+        "statusesCount": 1316,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "claude code pm @anthropicai\nprev: @indexventures, @dagster, @scale_ai",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    15,
+                    27
+                  ],
+                  "name": "",
+                  "screen_name": "anthropicai"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    34,
+                    48
+                  ],
+                  "name": "",
+                  "screen_name": "indexventures"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    50,
+                    58
+                  ],
+                  "name": "",
+                  "screen_name": "dagster"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    60,
+                    69
+                  ],
+                  "name": "",
+                  "screen_name": "scale_ai"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/pJVBeoY3Kh",
+            "expanded_url": "https://twitter.com/_catwu/status/1985754411675930775/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1985752880075395072",
+            "indices": [
+              247,
+              270
+            ],
+            "media_key": "13_1985752880075395072",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARuOz7k0mlAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG47PuTSaUAAAAA==",
+                "media_key": "13_1985752880075395072"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1985752880075395072/img/NtZB04LRHvpshP5g.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 2160,
+              "width": 3196
+            },
+            "sizes": {
+              "large": {
+                "h": 1384,
+                "w": 2048
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/pJVBeoY3Kh",
+            "video_info": {
+              "aspect_ratio": [
+                799,
+                540
+              ],
+              "duration_millis": 27983,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1985752880075395072/pl/srrgitAWiW9QvHRC.m3u8?tag=21"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/398x270/rZjJ8teaoqCMvxe0.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/532x360/9QGoYtLa8EWkXGV8.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/1064x720/cfBM-vIfaT7-et70.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/1598x1080/bzRznkASdpmQ2IZs.mp4?tag=21"
+                },
+                {
+                  "bitrate": 25128000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/3196x2160/4hOOwyDcSZ6UDF5g.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1985766988724244839",
+      "url": "https://x.com/adocomplete/status/1985766988724244839",
+      "twitterUrl": "https://twitter.com/adocomplete/status/1985766988724244839",
+      "text": "If you're a Claude Pro or Max user and haven't tried out Claude Code on the web, there's no better time. \n\nHead over to https://t.co/50rnKrJ0zE and look in the right hand corner. We're giving Pro and Max users $250 and $1000 in free credits to push CC on the Web to the limit! https://t.co/Jyg1Jv8bPl",
+      "source": "Twitter for iPhone",
+      "retweetCount": 53,
+      "replyCount": 88,
+      "likeCount": 1062,
+      "quoteCount": 18,
+      "viewCount": 125453,
+      "createdAt": "Tue Nov 04 17:51:58 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 629,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1985766988724244839",
+      "displayTextRange": [
+        0,
+        276
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "adocomplete",
+        "url": "https://x.com/adocomplete",
+        "twitterUrl": "https://twitter.com/adocomplete",
+        "id": "440609049",
+        "name": "Ado",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2006485392326004737/EMUfrfo8_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/440609049/1591998410",
+        "description": "",
+        "location": "Colorado",
+        "followers": 19650,
+        "following": 1459,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Mon Dec 19 06:16:31 +0000 2011",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 12793,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 487,
+        "statusesCount": 2571,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2007518563356291573"
+        ],
+        "profile_bio": {
+          "description": "Community, Claude, Code at @AnthropicAI",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    27,
+                    39
+                  ],
+                  "name": "",
+                  "screen_name": "AnthropicAI"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "adocomplete.com",
+                  "expanded_url": "https://adocomplete.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/ymcpnWCcfZ"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/Jyg1Jv8bPl",
+            "expanded_url": "https://twitter.com/adocomplete/status/1985766988724244839/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1985766328758910979",
+            "indices": [
+              277,
+              300
+            ],
+            "media_key": "3_1985766328758910979",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuO2/R4m0ADCgACG47cjiGbEWcAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG47b9HibQAMKAAIbjtyOIZsRZwAA",
+                "media_key": "3_1985766328758910979"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G47b9HibQAM8mcR.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 444,
+                  "w": 793,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 444,
+                  "w": 444,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 444,
+                  "w": 389,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 444,
+                  "w": 222,
+                  "x": 38,
+                  "y": 0
+                },
+                {
+                  "h": 444,
+                  "w": 1196,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 444,
+              "width": 1196
+            },
+            "sizes": {
+              "large": {
+                "h": 444,
+                "w": 1196
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Jyg1Jv8bPl"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "claude.ai/code",
+            "expanded_url": "http://claude.ai/code",
+            "indices": [
+              120,
+              143
+            ],
+            "url": "https://t.co/50rnKrJ0zE"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1991001234359427451",
+      "url": "https://x.com/donvito/status/1991001234359427451",
+      "twitterUrl": "https://twitter.com/donvito/status/1991001234359427451",
+      "text": "Claude Code free credits extended!!!\n\nNew expiry: 23 Nov https://t.co/j0rt1k5D6W",
+      "source": "Twitter for iPhone",
+      "retweetCount": 2,
+      "replyCount": 9,
+      "likeCount": 282,
+      "quoteCount": 1,
+      "viewCount": 16399,
+      "createdAt": "Wed Nov 19 04:30:59 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 42,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1991001234359427451",
+      "displayTextRange": [
+        0,
+        56
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "donvito",
+        "url": "https://x.com/donvito",
+        "twitterUrl": "https://twitter.com/donvito",
+        "id": "7974112",
+        "name": "Melvin Vivas",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1948088618029080576/8Qsk5--v_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/7974112/1751444423",
+        "description": "",
+        "location": "Singapore",
+        "followers": 22268,
+        "following": 614,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sun Aug 05 15:50:16 +0000 2007",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 23505,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3925,
+        "statusesCount": 22687,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2013959507253117366"
+        ],
+        "profile_bio": {
+          "description": "building https://t.co/YMOQvBHo9X\nLLM APIs @aibackends\nglm coding plan https://t.co/YkdP982CHI\nminimax coding plan https://t.co/BBJpgEiOGH",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "skillsbento.com",
+                  "expanded_url": "http://skillsbento.com",
+                  "indices": [
+                    9,
+                    32
+                  ],
+                  "url": "https://t.co/YMOQvBHo9X"
+                },
+                {
+                  "display_url": "dub.sh/tryglm",
+                  "expanded_url": "https://dub.sh/tryglm",
+                  "indices": [
+                    70,
+                    93
+                  ],
+                  "url": "https://t.co/YkdP982CHI"
+                },
+                {
+                  "display_url": "dub.sh/tryminimax",
+                  "expanded_url": "https://dub.sh/tryminimax",
+                  "indices": [
+                    114,
+                    137
+                  ],
+                  "url": "https://t.co/BBJpgEiOGH"
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    42,
+                    53
+                  ],
+                  "name": "",
+                  "screen_name": "aibackends"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "donvitocodes.com",
+                  "expanded_url": "https://donvitocodes.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/E5ghwtLGE5"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/j0rt1k5D6W",
+            "expanded_url": "https://twitter.com/donvito/status/1991001234359427451/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 79,
+                    "w": 79,
+                    "x": 58,
+                    "y": 4
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 79,
+                    "w": 79,
+                    "x": 58,
+                    "y": 4
+                  }
+                ]
+              }
+            },
+            "id_str": "1991000891349188608",
+            "indices": [
+              57,
+              80
+            ],
+            "media_key": "3_1991000891349188608",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuhdMMMWsAACgACG6F1EulboXsAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG6F0wwxawAAKAAIboXUS6VuhewAA",
+                "media_key": "3_1991000891349188608"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G6F0wwxawAArO-r.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 169,
+                  "w": 302,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 169,
+                  "x": 25,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 148,
+                  "x": 35,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 85,
+                  "x": 67,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 489,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 169,
+              "width": 489
+            },
+            "sizes": {
+              "large": {
+                "h": 169,
+                "w": 489
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/j0rt1k5D6W"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1985771936991826009",
+      "url": "https://x.com/testingcatalog/status/1985771936991826009",
+      "twitterUrl": "https://twitter.com/testingcatalog/status/1985771936991826009",
+      "text": "Claude Pro and Max subscribers are getting free credits to use Claude Code on the web for a limited time. \n\nGifts 🎁 https://t.co/xih6XbsMdf",
+      "source": "Twitter for iPhone",
+      "retweetCount": 36,
+      "replyCount": 13,
+      "likeCount": 577,
+      "quoteCount": 2,
+      "viewCount": 115332,
+      "createdAt": "Tue Nov 04 18:11:38 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 195,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1985771936991826009",
+      "displayTextRange": [
+        0,
+        115
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "testingcatalog",
+        "url": "https://x.com/testingcatalog",
+        "twitterUrl": "https://twitter.com/testingcatalog",
+        "id": "3980735590",
+        "name": "TestingCatalog News 🗞",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business",
+        "profilePicture": "https://pbs.twimg.com/profile_images/1899962463115751424/i-6MBWau_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/3980735590/1731778741",
+        "description": "",
+        "location": "Berlin, Germany",
+        "followers": 48085,
+        "following": 998,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sat Oct 17 16:21:57 +0000 2015",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 85599,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 9671,
+        "statusesCount": 26958,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2014021536475177280"
+        ],
+        "profile_bio": {
+          "description": "Reporting AI nonsense. A future news media, driven by virtual assistants 🤖",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "stan.store/testingcatalog",
+                  "expanded_url": "https://stan.store/testingcatalog",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/xj4zTpOg81"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/xih6XbsMdf",
+            "expanded_url": "https://twitter.com/testingcatalog/status/1985771936991826009/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 210,
+                    "w": 210,
+                    "x": 980,
+                    "y": 570
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 210,
+                    "w": 210,
+                    "x": 980,
+                    "y": 570
+                  }
+                ]
+              }
+            },
+            "id_str": "1985771931694497792",
+            "indices": [
+              116,
+              139
+            ],
+            "media_key": "3_1985771931694497792",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuO4Q0Bl4AACgACG47hDj1WUFkAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG47hDQGXgAAKAAIbjuEOPVZQWQAA",
+                "media_key": "3_1985771931694497792"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G47hDQGXgAALxGx.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 722,
+                  "w": 1290,
+                  "x": 0,
+                  "y": 568
+                },
+                {
+                  "h": 1290,
+                  "w": 1290,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1290,
+                  "w": 1132,
+                  "x": 79,
+                  "y": 0
+                },
+                {
+                  "h": 1290,
+                  "w": 645,
+                  "x": 323,
+                  "y": 0
+                },
+                {
+                  "h": 1290,
+                  "w": 1290,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1290,
+              "width": 1290
+            },
+            "sizes": {
+              "large": {
+                "h": 1290,
+                "w": 1290
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/xih6XbsMdf"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/xih6XbsMdf",
+            "expanded_url": "https://twitter.com/testingcatalog/status/1985771936991826009/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1985771931690274816",
+            "indices": [
+              116,
+              139
+            ],
+            "media_key": "3_1985771931690274816",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuO4Q0BVxAACgACG47hDj1WUFkAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG47hDQFXEAAKAAIbjuEOPVZQWQAA",
+                "media_key": "3_1985771931690274816"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G47hDQFXEAACNoQ.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 224,
+                  "w": 400,
+                  "x": 0,
+                  "y": 138
+                },
+                {
+                  "h": 400,
+                  "w": 400,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 400,
+                  "w": 351,
+                  "x": 49,
+                  "y": 0
+                },
+                {
+                  "h": 400,
+                  "w": 200,
+                  "x": 150,
+                  "y": 0
+                },
+                {
+                  "h": 400,
+                  "w": 400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 400,
+              "width": 400
+            },
+            "sizes": {
+              "large": {
+                "h": 400,
+                "w": 400
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/xih6XbsMdf"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1985754413429113409",
+        "url": "https://x.com/_catwu/status/1985754413429113409",
+        "twitterUrl": "https://twitter.com/_catwu/status/1985754413429113409",
+        "text": "Available for a limited time (til Nov 18):  \n\nMax users: $1,000 in credits\nPro users: $250 in credits  \n\nStart using your credits at https://t.co/wbJhWHsewH",
+        "source": "Twitter for iPhone",
+        "retweetCount": 35,
+        "replyCount": 14,
+        "likeCount": 400,
+        "quoteCount": 18,
+        "viewCount": 147005,
+        "createdAt": "Tue Nov 04 17:02:00 +0000 2025",
+        "lang": "en",
+        "bookmarkCount": 325,
+        "isReply": true,
+        "inReplyToId": "1985754411675930775",
+        "conversationId": "1985754411675930775",
+        "displayTextRange": [
+          0,
+          156
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "_catwu",
+          "url": "https://x.com/_catwu",
+          "twitterUrl": "https://twitter.com/_catwu",
+          "id": "974757274206978049",
+          "name": "cat",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1645578728532246528/Llilll47_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/974757274206978049/1635393880",
+          "description": "",
+          "location": "sf",
+          "followers": 52261,
+          "following": 372,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": true,
+          "createdAt": "Fri Mar 16 21:20:19 +0000 2018",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 5930,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 153,
+          "statusesCount": 1316,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [],
+          "profile_bio": {
+            "description": "claude code pm @anthropicai\nprev: @indexventures, @dagster, @scale_ai",
+            "entities": {
+              "description": {
+                "user_mentions": [
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      15,
+                      27
+                    ],
+                    "name": "",
+                    "screen_name": "anthropicai"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      34,
+                      48
+                    ],
+                    "name": "",
+                    "screen_name": "indexventures"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      50,
+                      58
+                    ],
+                    "name": "",
+                    "screen_name": "dagster"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      60,
+                      69
+                    ],
+                    "name": "",
+                    "screen_name": "scale_ai"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {},
+        "card": {
+          "binding_values": [
+            {
+              "key": "photo_image_full_size_large",
+              "value": {
+                "image_value": {
+                  "height": 419,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=800x419",
+                  "width": 800
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image",
+              "value": {
+                "image_value": {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=280x150",
+                  "width": 267
+                }
+              }
+            },
+            {
+              "key": "description",
+              "value": {
+                "string_value": "Talk with Claude, an AI assistant from Anthropic"
+              }
+            },
+            {
+              "key": "domain",
+              "value": {
+                "string_value": "claude.ai"
+              }
+            },
+            {
+              "key": "thumbnail_image_large",
+              "value": {
+                "image_value": {
+                  "height": 320,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=800x320_1",
+                  "width": 569
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_small",
+              "value": {
+                "image_value": {
+                  "height": 202,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=386x202",
+                  "width": 386
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_original",
+              "value": {
+                "image_value": {
+                  "height": 640,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=orig",
+                  "width": 1138
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_small",
+              "value": {
+                "image_value": {
+                  "height": 202,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=386x202",
+                  "width": 386
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_large",
+              "value": {
+                "image_value": {
+                  "height": 419,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=800x419",
+                  "width": 800
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_small",
+              "value": {
+                "image_value": {
+                  "height": 81,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=144x144",
+                  "width": 144
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_x_large",
+              "value": {
+                "image_value": {
+                  "height": 640,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=2048x2048_2_exp",
+                  "width": 1138
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_original",
+              "value": {
+                "image_value": {
+                  "height": 640,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=orig",
+                  "width": 1138
+                }
+              }
+            },
+            {
+              "key": "vanity_url",
+              "value": {
+                "scribe_key": "vanity_url",
+                "string_value": "claude.ai"
+              }
+            },
+            {
+              "key": "photo_image_full_size",
+              "value": {
+                "image_value": {
+                  "height": 314,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=600x314",
+                  "width": 600
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 96.19,
+                      "rgb": {
+                        "blue": 229,
+                        "green": 238,
+                        "red": 240
+                      }
+                    },
+                    {
+                      "percentage": 1.97,
+                      "rgb": {
+                        "blue": 41,
+                        "green": 43,
+                        "red": 43
+                      }
+                    },
+                    {
+                      "percentage": 0.88,
+                      "rgb": {
+                        "blue": 102,
+                        "green": 132,
+                        "red": 219
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "title",
+              "value": {
+                "string_value": "Claude Code"
+              }
+            },
+            {
+              "key": "summary_photo_image_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 96.19,
+                      "rgb": {
+                        "blue": 229,
+                        "green": 238,
+                        "red": 240
+                      }
+                    },
+                    {
+                      "percentage": 1.97,
+                      "rgb": {
+                        "blue": 41,
+                        "green": 43,
+                        "red": 43
+                      }
+                    },
+                    {
+                      "percentage": 0.88,
+                      "rgb": {
+                        "blue": 102,
+                        "green": 132,
+                        "red": 219
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_x_large",
+              "value": {
+                "image_value": {
+                  "height": 640,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=2048x2048_2_exp",
+                  "width": 1138
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image",
+              "value": {
+                "image_value": {
+                  "height": 314,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=600x314",
+                  "width": 600
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 96.19,
+                      "rgb": {
+                        "blue": 229,
+                        "green": 238,
+                        "red": 240
+                      }
+                    },
+                    {
+                      "percentage": 1.97,
+                      "rgb": {
+                        "blue": 41,
+                        "green": 43,
+                        "red": 43
+                      }
+                    },
+                    {
+                      "percentage": 0.88,
+                      "rgb": {
+                        "blue": 102,
+                        "green": 132,
+                        "red": 219
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_x_large",
+              "value": {
+                "image_value": {
+                  "height": 640,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=2048x2048_2_exp",
+                  "width": 1138
+                }
+              }
+            },
+            {
+              "key": "card_url",
+              "value": {
+                "scribe_key": "card_url",
+                "string_value": "https://t.co/wbJhWHsewH"
+              }
+            },
+            {
+              "key": "summary_photo_image_original",
+              "value": {
+                "image_value": {
+                  "height": 640,
+                  "url": "https://pbs.twimg.com/card_img/2013203052635869184/zBXs4YbT?format=png&name=orig",
+                  "width": 1138
+                }
+              }
+            }
+          ],
+          "card_platform": {
+            "platform": {
+              "audience": {
+                "name": "production"
+              },
+              "device": {
+                "name": "iPhone",
+                "version": "13"
+              }
+            }
+          },
+          "name": "summary_large_image",
+          "url": "https://t.co/wbJhWHsewH"
+        },
+        "place": {},
+        "entities": {
+          "urls": [
+            {
+              "display_url": "claude.ai/code",
+              "expanded_url": "http://claude.ai/code",
+              "indices": [
+                133,
+                156
+              ],
+              "url": "https://t.co/wbJhWHsewH"
+            }
+          ]
+        },
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1991280133014278273",
+      "url": "https://x.com/_catwu/status/1991280133014278273",
+      "twitterUrl": "https://twitter.com/_catwu/status/1991280133014278273",
+      "text": "We're extending our free usage credits for Claude Code on the web, and they'll now expire on November 22 11:59 PM PT.\n\nWe heard your feedback that Claude Code on the web would occasionally hang. We’ve landed several reliability improvements over the past two weeks to address this, and are continuing to work on it. \n\nLet us know how it's working for you!",
+      "source": "Twitter for iPhone",
+      "retweetCount": 69,
+      "replyCount": 196,
+      "likeCount": 1190,
+      "quoteCount": 22,
+      "viewCount": 181428,
+      "createdAt": "Wed Nov 19 22:59:14 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 252,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1991280133014278273",
+      "displayTextRange": [
+        0,
+        300
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "_catwu",
+        "url": "https://x.com/_catwu",
+        "twitterUrl": "https://twitter.com/_catwu",
+        "id": "974757274206978049",
+        "name": "cat",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1645578728532246528/Llilll47_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/974757274206978049/1635393880",
+        "description": "",
+        "location": "sf",
+        "followers": 52261,
+        "following": 372,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Fri Mar 16 21:20:19 +0000 2018",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 5930,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 153,
+        "statusesCount": 1316,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "claude code pm @anthropicai\nprev: @indexventures, @dagster, @scale_ai",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    15,
+                    27
+                  ],
+                  "name": "",
+                  "screen_name": "anthropicai"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    34,
+                    48
+                  ],
+                  "name": "",
+                  "screen_name": "indexventures"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    50,
+                    58
+                  ],
+                  "name": "",
+                  "screen_name": "dagster"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    60,
+                    69
+                  ],
+                  "name": "",
+                  "screen_name": "scale_ai"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1985754411675930775",
+        "url": "https://x.com/_catwu/status/1985754411675930775",
+        "twitterUrl": "https://twitter.com/_catwu/status/1985754411675930775",
+        "text": "We're giving Pro and Max users free usage credits for Claude Code on the web.\n\nSince launching, your feedback has been invaluable for improving Claude Code. We’re temporarily adding free usage so you can more flexibly experiment with the product. https://t.co/pJVBeoY3Kh",
+        "source": "Twitter for iPhone",
+        "retweetCount": 177,
+        "replyCount": 257,
+        "likeCount": 2390,
+        "quoteCount": 99,
+        "viewCount": 606049,
+        "createdAt": "Tue Nov 04 17:01:59 +0000 2025",
+        "lang": "en",
+        "bookmarkCount": 872,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "1985754411675930775",
+        "displayTextRange": [
+          0,
+          246
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "_catwu",
+          "url": "https://x.com/_catwu",
+          "twitterUrl": "https://twitter.com/_catwu",
+          "id": "974757274206978049",
+          "name": "cat",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1645578728532246528/Llilll47_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/974757274206978049/1635393880",
+          "description": "",
+          "location": "sf",
+          "followers": 52261,
+          "following": 372,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": true,
+          "createdAt": "Fri Mar 16 21:20:19 +0000 2018",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 5930,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 153,
+          "statusesCount": 1316,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [],
+          "profile_bio": {
+            "description": "claude code pm @anthropicai\nprev: @indexventures, @dagster, @scale_ai",
+            "entities": {
+              "description": {
+                "user_mentions": [
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      15,
+                      27
+                    ],
+                    "name": "",
+                    "screen_name": "anthropicai"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      34,
+                      48
+                    ],
+                    "name": "",
+                    "screen_name": "indexventures"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      50,
+                      58
+                    ],
+                    "name": "",
+                    "screen_name": "dagster"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      60,
+                      69
+                    ],
+                    "name": "",
+                    "screen_name": "scale_ai"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {
+          "media": [
+            {
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "display_url": "pic.twitter.com/pJVBeoY3Kh",
+              "expanded_url": "https://twitter.com/_catwu/status/1985754411675930775/video/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "id_str": "1985752880075395072",
+              "indices": [
+                247,
+                270
+              ],
+              "media_key": "13_1985752880075395072",
+              "media_results": {
+                "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARuOz7k0mlAAAAA=",
+                "result": {
+                  "__typename": "ApiMedia",
+                  "id": "QXBpTWVkaWE6DAAECgABG47PuTSaUAAAAA==",
+                  "media_key": "13_1985752880075395072"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1985752880075395072/img/NtZB04LRHvpshP5g.jpg",
+              "original_info": {
+                "focus_rects": [],
+                "height": 2160,
+                "width": 3196
+              },
+              "sizes": {
+                "large": {
+                  "h": 1384,
+                  "w": 2048
+                }
+              },
+              "type": "video",
+              "url": "https://t.co/pJVBeoY3Kh",
+              "video_info": {
+                "aspect_ratio": [
+                  799,
+                  540
+                ],
+                "duration_millis": 27983,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/pl/srrgitAWiW9QvHRC.m3u8?tag=21"
+                  },
+                  {
+                    "bitrate": 256000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/398x270/rZjJ8teaoqCMvxe0.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/532x360/9QGoYtLa8EWkXGV8.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/1064x720/cfBM-vIfaT7-et70.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/1598x1080/bzRznkASdpmQ2IZs.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 25128000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/3196x2160/4hOOwyDcSZ6UDF5g.mp4?tag=21"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "card": null,
+        "place": {},
+        "entities": {},
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1984092981763436689",
+      "url": "https://x.com/NIJISANJIEN_ANV/status/1984092981763436689",
+      "twitterUrl": "https://twitter.com/NIJISANJIEN_ANV/status/1984092981763436689",
+      "text": "＼On Sale Now!!／\nCelebrate the 2nd anniversary of #ClaudeClawmark with exclusive merch ✨\nDon’t miss this chance—check out the shop today!\n\n【Sales Period】Oct 25 (Sat) 9:00 PM PDT – Nov 26 (Wed) 6:59 AM PST\n\nShop here👇\nhttps://t.co/pTYxOGzWrq\nhttps://t.co/EYpdbRDyS1 https://t.co/HS3OhSBucW",
+      "source": "Twitter for iPhone",
+      "retweetCount": 95,
+      "replyCount": 1,
+      "likeCount": 641,
+      "quoteCount": 1,
+      "viewCount": 34565,
+      "createdAt": "Fri Oct 31 03:00:04 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 13,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1984092981763436689",
+      "displayTextRange": [
+        0,
+        263
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "NIJISANJIEN_ANV",
+        "url": "https://x.com/NIJISANJIEN_ANV",
+        "twitterUrl": "https://twitter.com/NIJISANJIEN_ANV",
+        "id": "1909832466384453633",
+        "name": "NIJISANJI EN Anniversary Special Project",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1920021852761862144/DUKzERca_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1909832466384453633/1746603857",
+        "description": "",
+        "location": "運営会社：株式会社サイバーエージェント",
+        "followers": 14664,
+        "following": 3,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Wed Apr 09 04:55:32 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 2,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 168,
+        "statusesCount": 176,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Keep updated on exclusive anniversary goods from every unit in NIJISANJI EN, produced by CyberAgent, Inc. #NIJISANJI_EN \n各ユニット周年記念オリジナルグッズ情報をお届けいたします。",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    106,
+                    119
+                  ],
+                  "text": "NIJISANJI_EN"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "cyber-goods-store.jp/shop",
+                  "expanded_url": "https://cyber-goods-store.jp/shop",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/zA4j56iLPj"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/HS3OhSBucW",
+            "expanded_url": "https://twitter.com/NIJISANJIEN_ANV/status/1984092981763436689/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 76,
+                    "w": 76,
+                    "x": 963,
+                    "y": 247
+                  },
+                  {
+                    "h": 213,
+                    "w": 213,
+                    "x": 343,
+                    "y": 500
+                  },
+                  {
+                    "h": 247,
+                    "w": 247,
+                    "x": 146,
+                    "y": 551
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 76,
+                    "w": 76,
+                    "x": 963,
+                    "y": 247
+                  },
+                  {
+                    "h": 213,
+                    "w": 213,
+                    "x": 343,
+                    "y": 500
+                  },
+                  {
+                    "h": 247,
+                    "w": 247,
+                    "x": 146,
+                    "y": 551
+                  }
+                ]
+              }
+            },
+            "id_str": "1979144467199234048",
+            "indices": [
+              264,
+              287
+            ],
+            "media_key": "3_1979144467199234048",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARt3VWgulxAACgACG4jqDgNa8JEAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG3dVaC6XEAAKAAIbiOoOA1rwkQAA",
+                "media_key": "3_1979144467199234048"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G3dVaC6XEAAwccq.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1075,
+                  "w": 1920,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 947,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 540,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 1920,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/HS3OhSBucW"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              49,
+              64
+            ],
+            "text": "ClaudeClawmark"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "nijisanji-store.com/collections/cl…",
+            "expanded_url": "https://nijisanji-store.com/collections/claude-clawmark-2nd-anniversary",
+            "indices": [
+              216,
+              239
+            ],
+            "url": "https://t.co/pTYxOGzWrq"
+          },
+          {
+            "display_url": "cyber-goods-store.jp/shop/product_c…",
+            "expanded_url": "https://cyber-goods-store.jp/shop/product_categories/ClaudeClawmark",
+            "indices": [
+              240,
+              263
+            ],
+            "url": "https://t.co/EYpdbRDyS1"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1985913256226205890",
+      "url": "https://x.com/tetumemo/status/1985913256226205890",
+      "twitterUrl": "https://twitter.com/tetumemo/status/1985913256226205890",
+      "text": "📕これは嬉しい！学びのチャンス！\n約38,000円分（250$）のClaude Codeの無料利用クレジットが降ってきた！\n\nMax : $1,000 分（約152,000円）\nPro : $250 分（約38,000円）  \n\n期間限定（11月18日まで）提供中とのこと",
+      "source": "Twitter for iPhone",
+      "retweetCount": 20,
+      "replyCount": 3,
+      "likeCount": 226,
+      "quoteCount": 1,
+      "viewCount": 47719,
+      "createdAt": "Wed Nov 05 03:33:11 +0000 2025",
+      "lang": "ja",
+      "bookmarkCount": 200,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1985913256226205890",
+      "displayTextRange": [
+        0,
+        160
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "tetumemo",
+        "url": "https://x.com/tetumemo",
+        "twitterUrl": "https://twitter.com/tetumemo",
+        "id": "131867975",
+        "name": "テツメモ｜AI図解×検証｜Newsletter",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1740572915685584896/7nsuwNFv_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/131867975/1703859714",
+        "description": "",
+        "location": "📒毎週火曜日ニュースレター発行：今日からはじまるAI生活",
+        "followers": 39285,
+        "following": 398,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Sun Apr 11 15:47:48 +0000 2010",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 39822,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 12479,
+        "statusesCount": 39551,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2013366456550072504"
+        ],
+        "profile_bio": {
+          "description": "10年以上ブロガー×AIクリエイター×図解する人🔳｜AIを中心に図解・検証レポートを発信中→結果はハイライト｜ 他Web3・Tech・Gadget・Game・3DCG等発信中｜本業 新規事業開発 GtoC向けApp｜筋トレ、写真、映像、アニメ｜ ⇨ https://t.co/qqv5Zts5V4",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "tetumemo.m-newsletter.com",
+                  "expanded_url": "https://tetumemo.m-newsletter.com/",
+                  "indices": [
+                    125,
+                    148
+                  ],
+                  "url": "https://t.co/qqv5Zts5V4"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "lit.link/tetumemo",
+                  "expanded_url": "https://lit.link/tetumemo",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/pn5QpvZzOH"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/MMPkeiqtU6",
+            "expanded_url": "https://twitter.com/tetumemo/status/1985913256226205890/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 67,
+                    "w": 67,
+                    "x": 1063,
+                    "y": 110
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 67,
+                    "w": 67,
+                    "x": 1063,
+                    "y": 110
+                  }
+                ]
+              }
+            },
+            "id_str": "1985911002924531712",
+            "indices": [
+              161,
+              184
+            ],
+            "media_key": "3_1985911002924531712",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuPX4kM20AACgACG49hlbAaMMIAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG49fiQzbQAAKAAIbj2GVsBowwgAA",
+                "media_key": "3_1985911002924531712"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G49fiQzbQAA3K_n.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 479,
+                  "w": 855,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 479,
+                  "w": 479,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 479,
+                  "w": 420,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 479,
+                  "w": 240,
+                  "x": 24,
+                  "y": 0
+                },
+                {
+                  "h": 479,
+                  "w": 1158,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 479,
+              "width": 1158
+            },
+            "sizes": {
+              "large": {
+                "h": 479,
+                "w": 1158
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/MMPkeiqtU6"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1948457568189514006",
+        "url": "https://x.com/tetumemo/status/1948457568189514006",
+        "twitterUrl": "https://twitter.com/tetumemo/status/1948457568189514006",
+        "text": "📝毎週月曜日にAIに特化した実体験型ニュースレターを発行しています\n\n無料で読めます\n\n購読お待ちしてます\n\nhttps://t.co/SjOHkXG3Up https://t.co/4tgu7oFleU",
+        "source": "Twitter for iPhone",
+        "retweetCount": 5,
+        "replyCount": 2,
+        "likeCount": 27,
+        "quoteCount": 1,
+        "viewCount": 90970,
+        "createdAt": "Thu Jul 24 18:57:39 +0000 2025",
+        "lang": "ja",
+        "bookmarkCount": 26,
+        "isReply": true,
+        "inReplyToId": "1948457565471605005",
+        "conversationId": "1948457515181834739",
+        "displayTextRange": [
+          0,
+          78
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "tetumemo",
+          "url": "https://x.com/tetumemo",
+          "twitterUrl": "https://twitter.com/tetumemo",
+          "id": "131867975",
+          "name": "テツメモ｜AI図解×検証｜Newsletter",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1740572915685584896/7nsuwNFv_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/131867975/1703859714",
+          "description": "",
+          "location": "📒毎週火曜日ニュースレター発行：今日からはじまるAI生活",
+          "followers": 39285,
+          "following": 398,
+          "status": "",
+          "canDm": false,
+          "canMediaTag": true,
+          "createdAt": "Sun Apr 11 15:47:48 +0000 2010",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 39822,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 12479,
+          "statusesCount": 39551,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [
+            "2013366456550072504"
+          ],
+          "profile_bio": {
+            "description": "10年以上ブロガー×AIクリエイター×図解する人🔳｜AIを中心に図解・検証レポートを発信中→結果はハイライト｜ 他Web3・Tech・Gadget・Game・3DCG等発信中｜本業 新規事業開発 GtoC向けApp｜筋トレ、写真、映像、アニメ｜ ⇨ https://t.co/qqv5Zts5V4",
+            "entities": {
+              "description": {
+                "urls": [
+                  {
+                    "display_url": "tetumemo.m-newsletter.com",
+                    "expanded_url": "https://tetumemo.m-newsletter.com/",
+                    "indices": [
+                      125,
+                      148
+                    ],
+                    "url": "https://t.co/qqv5Zts5V4"
+                  }
+                ]
+              },
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "lit.link/tetumemo",
+                    "expanded_url": "https://lit.link/tetumemo",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/pn5QpvZzOH"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {
+          "media": [
+            {
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.twitter.com/4tgu7oFleU",
+              "expanded_url": "https://twitter.com/tetumemo/status/1948457568189514006/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "h": 71,
+                      "w": 71,
+                      "x": 536,
+                      "y": 186
+                    },
+                    {
+                      "h": 87,
+                      "w": 87,
+                      "x": 516,
+                      "y": 253
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "h": 71,
+                      "w": 71,
+                      "x": 536,
+                      "y": 186
+                    },
+                    {
+                      "h": 87,
+                      "w": 87,
+                      "x": 516,
+                      "y": 253
+                    }
+                  ]
+                }
+              },
+              "id_str": "1948456175550476288",
+              "indices": [
+                79,
+                102
+              ],
+              "media_key": "3_1948456175550476288",
+              "media_results": {
+                "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARsKTpF8GjAACgACGwpP1bvbgRYAAA==",
+                "result": {
+                  "__typename": "ApiMedia",
+                  "id": "QXBpTWVkaWE6DAABCgABGwpOkXwaMAAKAAIbCk/Vu9uBFgAA",
+                  "media_key": "3_1948456175550476288"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/GwpOkXwaMAAw48g.png",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 356,
+                    "w": 636,
+                    "x": 44,
+                    "y": 0
+                  },
+                  {
+                    "h": 356,
+                    "w": 356,
+                    "x": 324,
+                    "y": 0
+                  },
+                  {
+                    "h": 356,
+                    "w": 312,
+                    "x": 368,
+                    "y": 0
+                  },
+                  {
+                    "h": 356,
+                    "w": 178,
+                    "x": 436,
+                    "y": 0
+                  },
+                  {
+                    "h": 356,
+                    "w": 680,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 356,
+                "width": 680
+              },
+              "sizes": {
+                "large": {
+                  "h": 356,
+                  "w": 680
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/4tgu7oFleU"
+            }
+          ]
+        },
+        "card": null,
+        "place": {},
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/tetumemo/statu…",
+              "expanded_url": "https://x.com/tetumemo/status/1948409828965339351",
+              "indices": [
+                55,
+                78
+              ],
+              "url": "https://t.co/SjOHkXG3Up"
+            }
+          ]
+        },
+        "quoted_tweet": {
+          "type": "tweet",
+          "id": "1948409828965339351",
+          "url": "",
+          "twitterUrl": "",
+          "text": "",
+          "source": "Twitter for iPhone",
+          "retweetCount": 0,
+          "replyCount": 0,
+          "likeCount": 0,
+          "quoteCount": 0,
+          "viewCount": 0,
+          "createdAt": "",
+          "lang": "",
+          "bookmarkCount": 0,
+          "isReply": false,
+          "inReplyToId": null,
+          "conversationId": "",
+          "displayTextRange": [],
+          "inReplyToUserId": null,
+          "inReplyToUsername": null,
+          "author": {},
+          "extendedEntities": {},
+          "card": null,
+          "place": {},
+          "entities": {},
+          "quoted_tweet": null,
+          "retweeted_tweet": null,
+          "isLimitedReply": false,
+          "article": null
+        },
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1984362483734495493",
+      "url": "https://x.com/vikhyatk/status/1984362483734495493",
+      "twitterUrl": "https://twitter.com/vikhyatk/status/1984362483734495493",
+      "text": "DO NOT USE CODEX AND CLAUDE CODE ON THE SAME CODEBASE https://t.co/38qNSYYuVj",
+      "source": "Twitter for iPhone",
+      "retweetCount": 29,
+      "replyCount": 57,
+      "likeCount": 1859,
+      "quoteCount": 8,
+      "viewCount": 124331,
+      "createdAt": "Fri Oct 31 20:50:58 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 111,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1984362483734495493",
+      "displayTextRange": [
+        0,
+        53
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "vikhyatk",
+        "url": "https://x.com/vikhyatk",
+        "twitterUrl": "https://twitter.com/vikhyatk",
+        "id": "17406365",
+        "name": "vik",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1664559115581145088/UMD1vtMw_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/17406365/1739877668",
+        "description": "",
+        "location": "",
+        "followers": 25632,
+        "following": 832,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sat Nov 15 11:17:54 +0000 2008",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 48028,
+        "hasCustomTimelines": true,
+        "isTranslator": true,
+        "mediaCount": 3137,
+        "statusesCount": 17099,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2011858194981929295"
+        ],
+        "profile_bio": {
+          "description": "teaching computers how to see @moondreamai",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    30,
+                    42
+                  ],
+                  "name": "",
+                  "screen_name": "moondreamai"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "vikhyat.net",
+                  "expanded_url": "https://vikhyat.net",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/zBNBVIQw7e"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/38qNSYYuVj",
+            "expanded_url": "https://twitter.com/vikhyatk/status/1984362483734495493/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1984362396694298627",
+            "indices": [
+              54,
+              77
+            ],
+            "media_key": "3_1984362396694298627",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuJ3xYQm0ADCgACG4nfKlSbQQUAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG4nfFhCbQAMKAAIbid8qVJtBBQAA",
+                "media_key": "3_1984362396694298627"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G4nfFhCbQAMugm-.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 295,
+                  "w": 526,
+                  "x": 0,
+                  "y": 178
+                },
+                {
+                  "h": 526,
+                  "w": 526,
+                  "x": 0,
+                  "y": 40
+                },
+                {
+                  "h": 566,
+                  "w": 496,
+                  "x": 30,
+                  "y": 0
+                },
+                {
+                  "h": 566,
+                  "w": 283,
+                  "x": 184,
+                  "y": 0
+                },
+                {
+                  "h": 566,
+                  "w": 526,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 566,
+              "width": 526
+            },
+            "sizes": {
+              "large": {
+                "h": 566,
+                "w": 526
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/38qNSYYuVj"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1984834572836606202",
+      "url": "https://x.com/iwashi86/status/1984834572836606202",
+      "twitterUrl": "https://twitter.com/iwashi86/status/1984834572836606202",
+      "text": "Claude Code をプライベートと仕事の両方でガッツリ使っている方の記事。\n\n・CLAUDE\\.mdファイルは、リポジトリのルールを定義する最も重要な「憲法」\n・仕事用のCLAUDE\\.mdは厳格に管理され、リポジトリの主要なツールやAPIのみを簡潔に文書化しておく\n・CLAUDE\\.mdは、最初から完璧なマニュアルを目指すのではなく、AIが間違えた点を修正するガードレールとして育てるべき\n・CLAUDE\\.md内では、他のドキュメントファイルを直接@\\Fileで埋め込むべきではない。コンテキストウィンドウを圧迫するため\n\n・ドキュメントファイルを参照させる場合は、いつ、なぜそのファイルを読むべきかをエージェントに具体的に指示する必要がある\n・「XXを絶対にするな」といった否定的な制約だけではなく、常に代替案を提示するべき\n\n・複雑なタスクを中断・再開する際は、計画や進捗をマークダウンファイルに出力させ、/clearした後にそのファイルを読み込ませる「Document & Clear」方式が有効\n\nhttps://t.co/jupaljZdgI",
+      "source": "Twitter for iPhone",
+      "retweetCount": 67,
+      "replyCount": 2,
+      "likeCount": 709,
+      "quoteCount": 4,
+      "viewCount": 73436,
+      "createdAt": "Sun Nov 02 04:06:53 +0000 2025",
+      "lang": "ja",
+      "bookmarkCount": 872,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1984834572836606202",
+      "displayTextRange": [
+        0,
+        161
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "iwashi86",
+        "url": "https://x.com/iwashi86",
+        "twitterUrl": "https://twitter.com/iwashi86",
+        "id": "38855628",
+        "name": "iwashi / Yoshimasa Iwase",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1409992269973704705/PIGP4eEZ_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/38855628/1585703737",
+        "description": "",
+        "location": "Amazonアソシエイト・プログラム参加者です。",
+        "followers": 16949,
+        "following": 639,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Sat May 09 13:52:00 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 15967,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 535,
+        "statusesCount": 16461,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1960684640374546508"
+        ],
+        "profile_bio": {
+          "description": "NTTドコモビジネスで生成AI周りのPJリードおよびエバンジェリスト ← Agile & PdM 推進 ← HR ← SWE / #fukabori.fm の人 / 早稲田大学 非常勤講師 / 翻訳者 / 発言は個人の見解であり、所属する組織の公式見解ではありません",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    65,
+                    74
+                  ],
+                  "text": "fukabori"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "iwashi.co",
+                  "expanded_url": "https://iwashi.co",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/g2M2WfKzZn"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": {
+        "binding_values": [
+          {
+            "key": "photo_image_full_size_large",
+            "value": {
+              "image_value": {
+                "height": 419,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=800x419",
+                "width": 800
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image",
+            "value": {
+              "image_value": {
+                "height": 200,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=400x400",
+                "width": 400
+              }
+            }
+          },
+          {
+            "key": "description",
+            "value": {
+              "string_value": "A brain dump of all the ways I've been using Claude Code."
+            }
+          },
+          {
+            "key": "domain",
+            "value": {
+              "string_value": "blog.sshh.io"
+            }
+          },
+          {
+            "key": "thumbnail_image_large",
+            "value": {
+              "image_value": {
+                "height": 300,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=600x600",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_small",
+            "value": {
+              "image_value": {
+                "height": 202,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=386x202",
+                "width": 386
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_original",
+            "value": {
+              "image_value": {
+                "height": 800,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=orig",
+                "width": 1600
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_small",
+            "value": {
+              "image_value": {
+                "height": 202,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=386x202",
+                "width": 386
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_large",
+            "value": {
+              "image_value": {
+                "height": 419,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=800x419",
+                "width": 800
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_small",
+            "value": {
+              "image_value": {
+                "height": 72,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=144x144",
+                "width": 144
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_x_large",
+            "value": {
+              "image_value": {
+                "height": 800,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=png&name=2048x2048_2_exp",
+                "width": 1600
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_original",
+            "value": {
+              "image_value": {
+                "height": 800,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=orig",
+                "width": 1600
+              }
+            }
+          },
+          {
+            "key": "vanity_url",
+            "value": {
+              "scribe_key": "vanity_url",
+              "string_value": "blog.sshh.io"
+            }
+          },
+          {
+            "key": "photo_image_full_size",
+            "value": {
+              "image_value": {
+                "height": 314,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=600x314",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "thumbnail_image_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 98.07,
+                    "rgb": {
+                      "blue": 19,
+                      "green": 19,
+                      "red": 19
+                    }
+                  },
+                  {
+                    "percentage": 1.26,
+                    "rgb": {
+                      "blue": 100,
+                      "green": 100,
+                      "red": 100
+                    }
+                  },
+                  {
+                    "percentage": 0.31,
+                    "rgb": {
+                      "blue": 83,
+                      "green": 38,
+                      "red": 62
+                    }
+                  },
+                  {
+                    "percentage": 0.18,
+                    "rgb": {
+                      "blue": 27,
+                      "green": 30,
+                      "red": 42
+                    }
+                  },
+                  {
+                    "percentage": 0.18,
+                    "rgb": {
+                      "blue": 33,
+                      "green": 29,
+                      "red": 17
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "title",
+            "value": {
+              "string_value": "How I Use Every Claude Code Feature"
+            }
+          },
+          {
+            "key": "summary_photo_image_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 98.07,
+                    "rgb": {
+                      "blue": 19,
+                      "green": 19,
+                      "red": 19
+                    }
+                  },
+                  {
+                    "percentage": 1.26,
+                    "rgb": {
+                      "blue": 100,
+                      "green": 100,
+                      "red": 100
+                    }
+                  },
+                  {
+                    "percentage": 0.31,
+                    "rgb": {
+                      "blue": 83,
+                      "green": 38,
+                      "red": 62
+                    }
+                  },
+                  {
+                    "percentage": 0.18,
+                    "rgb": {
+                      "blue": 27,
+                      "green": 30,
+                      "red": 42
+                    }
+                  },
+                  {
+                    "percentage": 0.18,
+                    "rgb": {
+                      "blue": 33,
+                      "green": 29,
+                      "red": 17
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image_x_large",
+            "value": {
+              "image_value": {
+                "height": 800,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=png&name=2048x2048_2_exp",
+                "width": 1600
+              }
+            }
+          },
+          {
+            "key": "summary_photo_image",
+            "value": {
+              "image_value": {
+                "height": 314,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=600x314",
+                "width": 600
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_color",
+            "value": {
+              "image_color_value": {
+                "palette": [
+                  {
+                    "percentage": 98.07,
+                    "rgb": {
+                      "blue": 19,
+                      "green": 19,
+                      "red": 19
+                    }
+                  },
+                  {
+                    "percentage": 1.26,
+                    "rgb": {
+                      "blue": 100,
+                      "green": 100,
+                      "red": 100
+                    }
+                  },
+                  {
+                    "percentage": 0.31,
+                    "rgb": {
+                      "blue": 83,
+                      "green": 38,
+                      "red": 62
+                    }
+                  },
+                  {
+                    "percentage": 0.18,
+                    "rgb": {
+                      "blue": 27,
+                      "green": 30,
+                      "red": 42
+                    }
+                  },
+                  {
+                    "percentage": 0.18,
+                    "rgb": {
+                      "blue": 33,
+                      "green": 29,
+                      "red": 17
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "photo_image_full_size_x_large",
+            "value": {
+              "image_value": {
+                "height": 800,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=png&name=2048x2048_2_exp",
+                "width": 1600
+              }
+            }
+          },
+          {
+            "key": "card_url",
+            "value": {
+              "scribe_key": "card_url",
+              "string_value": "https://t.co/jupaljZdgI"
+            }
+          },
+          {
+            "key": "summary_photo_image_original",
+            "value": {
+              "image_value": {
+                "height": 800,
+                "url": "https://pbs.twimg.com/card_img/2012692880574259201/nUekOjUp?format=jpg&name=orig",
+                "width": 1600
+              }
+            }
+          }
+        ],
+        "card_platform": {
+          "platform": {
+            "audience": {
+              "name": "production"
+            },
+            "device": {
+              "name": "iPhone",
+              "version": "13"
+            }
+          }
+        },
+        "name": "summary_large_image",
+        "url": "https://t.co/jupaljZdgI"
+      },
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "blog.sshh.io/p/how-i-use-ev…",
+            "expanded_url": "https://blog.sshh.io/p/how-i-use-every-claude-code-feature",
+            "indices": [
+              459,
+              482
+            ],
+            "url": "https://t.co/jupaljZdgI"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 3,
+    "stoppedBecause": "completed"
+  }
+}

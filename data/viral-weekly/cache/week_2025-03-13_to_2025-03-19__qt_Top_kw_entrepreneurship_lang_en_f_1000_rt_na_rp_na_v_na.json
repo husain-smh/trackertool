@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:01:58.880Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(entrepreneurship) lang:en min_faves:1000 since:2025-03-13 until:2025-03-20",
+  "weekSince": "2025-03-13",
+  "weekUntilInclusive": "2025-03-19",
+  "weekUntilExclusive": "2025-03-20",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1900513134856867859",
+      "url": "https://x.com/AlexHormozi/status/1900513134856867859",
+      "twitterUrl": "https://twitter.com/AlexHormozi/status/1900513134856867859",
+      "text": "Entrepreneurship is more a war of the heart than it is a war of the mind.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 286,
+      "replyCount": 197,
+      "likeCount": 3105,
+      "quoteCount": 6,
+      "viewCount": 117156,
+      "createdAt": "Fri Mar 14 11:43:35 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 328,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1900513134856867859",
+      "displayTextRange": [
+        0,
+        73
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "AlexHormozi",
+        "url": "https://x.com/AlexHormozi",
+        "twitterUrl": "https://twitter.com/AlexHormozi",
+        "id": "1417686048579018753",
+        "name": "Alex Hormozi",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1617408747080667136/C88UDPNZ_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1417686048579018753/1756173934",
+        "description": "",
+        "location": "",
+        "followers": 1001038,
+        "following": 180,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Jul 21 03:21:30 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 4453,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 199,
+        "statusesCount": 7195,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Founder https://t.co/gQN7Oehqnu, Co-Founder https://t.co/VLS8LzdCDa. Business Owners: Get your free scaling roadmap 👇",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "Acquisition.com",
+                  "expanded_url": "http://Acquisition.com",
+                  "indices": [
+                    8,
+                    31
+                  ],
+                  "url": "https://t.co/gQN7Oehqnu"
+                },
+                {
+                  "display_url": "Skool.com",
+                  "expanded_url": "http://Skool.com",
+                  "indices": [
+                    44,
+                    67
+                  ],
+                  "url": "https://t.co/VLS8LzdCDa"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "acquisition.com/roadmap-x",
+                  "expanded_url": "https://www.acquisition.com/roadmap-x",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/QdN1NNxYDk"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

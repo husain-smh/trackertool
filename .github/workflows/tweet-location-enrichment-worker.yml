@@ -1,0 +1,107 @@
+# GitHub Actions: Tweet Location Enrichment Worker
+# Drains tweet_location_enrichment_jobs and enriches engagers' account_based_in (geo heatmap).
+# Runs every 1 hour to keep QPS low and avoid competing with interactive traffic.
+
+name: Tweet Location Enrichment Worker
+
+on:
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      max_jobs:
+        description: 'Maximum tweet jobs to process per run'
+        required: false
+        default: '20'
+      batch_size:
+        description: 'Engagers per tweet batch'
+        required: false
+        default: '25'
+      qps:
+        description: 'Requests per second (twitterapi.io user_about)'
+        required: false
+        default: '1'
+      concurrency:
+        description: 'In-flight requests (keep low)'
+        required: false
+        default: '1'
+      seed_recent_tweets:
+        description: 'Optional: enqueue jobs for recent tweets with missing geo (0 disables)'
+        required: false
+        default: '0'
+
+env:
+  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+  TWITTER_API_KEY_SHARED: ${{ secrets.TWITTER_API_KEY_SHARED }}
+  TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }} # Fallback
+  TWITTER_API_URL: ${{ secrets.TWITTER_API_URL }}
+
+  # Worker tuning (defaults can be overridden via workflow_dispatch inputs)
+  GEO_MAX_JOBS: ${{ github.event.inputs.max_jobs || '20' }}
+  GEO_BATCH_SIZE: ${{ github.event.inputs.batch_size || '25' }}
+  GEO_QPS: ${{ github.event.inputs.qps || '1' }}
+  GEO_CONCURRENCY: ${{ github.event.inputs.concurrency || '1' }}
+  GEO_SEED_RECENT_TWEETS: ${{ github.event.inputs.seed_recent_tweets || '0' }}
+
+jobs:
+  process-tweet-location-jobs:
+    name: Process Tweet Location Jobs
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Tweet Location Worker
+        run: |
+          echo "🌍 Starting Tweet Location Enrichment Worker"
+          echo "   maxJobs: $GEO_MAX_JOBS"
+          echo "   batchSize: $GEO_BATCH_SIZE"
+          echo "   qps: $GEO_QPS"
+          echo "   concurrency: $GEO_CONCURRENCY"
+          echo "   seedRecentTweets: $GEO_SEED_RECENT_TWEETS"
+          
+          # Hard cap runtime so we never exceed workflow timeout.
+          # Exit code 124 means the timeout command killed it (acceptable for batch processing).
+          timeout 660 npx tsx scripts/tweet-location-enrichment-worker.ts \
+            --maxJobs "$GEO_MAX_JOBS" \
+            --batchSize "$GEO_BATCH_SIZE" \
+            --delayMs "1000" \
+            --qps "$GEO_QPS" \
+            --concurrency "$GEO_CONCURRENCY" \
+            --staleMinutes "15" \
+            --seedRecentTweets "$GEO_SEED_RECENT_TWEETS" \
+            --showQueueStats "true" || EXIT_CODE=$?
+          
+          if [ "${EXIT_CODE:-0}" -eq 124 ]; then
+            echo "⏰ Time cap reached (normal for batch processing)"
+            exit 0
+          elif [ "${EXIT_CODE:-0}" -ne 0 ]; then
+            echo "❌ Worker exited with code $EXIT_CODE"
+            exit $EXIT_CODE
+          fi
+          
+          echo "✅ Worker completed successfully"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Tweet Location Enrichment Worker" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time (UTC)**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- **maxJobs**: $GEO_MAX_JOBS" >> $GITHUB_STEP_SUMMARY
+          echo "- **batchSize**: $GEO_BATCH_SIZE" >> $GITHUB_STEP_SUMMARY
+          echo "- **qps**: $GEO_QPS" >> $GITHUB_STEP_SUMMARY
+          echo "- **concurrency**: $GEO_CONCURRENCY" >> $GITHUB_STEP_SUMMARY
+          echo "- **seedRecentTweets**: $GEO_SEED_RECENT_TWEETS" >> $GITHUB_STEP_SUMMARY
+

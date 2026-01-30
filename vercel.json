@@ -1,0 +1,17 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/sync-likers?maxJobs=1",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/check-new-tweets",
+      "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/cron/process-auto-analysis?maxJobs=5",
+      "schedule": "*/15 * * * *"
+    }
+  ]
+}
+

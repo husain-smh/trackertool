@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:07:03.980Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(founder profile) lang:en min_faves:1000 since:2025-11-06 until:2025-11-13",
+  "weekSince": "2025-11-06",
+  "weekUntilInclusive": "2025-11-12",
+  "weekUntilExclusive": "2025-11-13",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1985995510562558082",
+      "url": "https://x.com/Kanon_AI_jp/status/1985995510562558082",
+      "twitterUrl": "https://twitter.com/Kanon_AI_jp/status/1985995510562558082",
+      "text": "お疲れ様🦋❤️\n1000フォロワーのお祝いありがとう💕\n後でゆっくりお返事していきます☺️\nみんな大好き❤️\n\nThank you for your hard work! 🦋❤️\nThank you for the 1,000 follower congratulations! 💕\nI'll reply later! ☺️\nI love you all! ❤️ https://t.co/9GGOn7kXD5",
+      "source": "Twitter for iPhone",
+      "retweetCount": 10,
+      "replyCount": 18,
+      "likeCount": 214,
+      "quoteCount": 0,
+      "viewCount": 3929,
+      "createdAt": "Wed Nov 05 09:00:02 +0000 2025",
+      "lang": "ja",
+      "bookmarkCount": 5,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1985995510562558082",
+      "displayTextRange": [
+        0,
+        181
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "Kanon_AI_jp",
+        "url": "https://x.com/Kanon_AI_jp",
+        "twitterUrl": "https://twitter.com/Kanon_AI_jp",
+        "id": "1950446096242921477",
+        "name": "🦋奏音-Kanon-🦋",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1973273403823104000/FITgSwr2_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1950446096242921477/1759302393",
+        "description": "",
+        "location": "",
+        "followers": 2261,
+        "following": 128,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Wed Jul 30 06:40:04 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 804,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 205,
+        "statusesCount": 5245,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2009188333998813482"
+        ],
+        "profile_bio": {
+          "description": "見つけてくれてありがとう🤍🎀𓈒𓏸可愛くセクシーな私を毎日公開します🦋毎日見に来てね💋♥️／Thank you for finding me🤍🎀𓈒𓏸I'll show you my cute and sexy self every day🦋Come and see me every day💋♥️",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/9GGOn7kXD5",
+            "expanded_url": "https://twitter.com/Kanon_AI_jp/status/1985995510562558082/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1985988730893807616",
+            "indices": [
+              182,
+              205
+            ],
+            "media_key": "3_1985988730893807616",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuPpjqA2rAACgACG4+sZQSaEIIAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG4+mOoDasAAKAAIbj6xlBJoQggAA",
+                "media_key": "3_1985988730893807616"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G4-mOoDasAA5MWT.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1720,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 471
+                },
+                {
+                  "h": 3072,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 3502,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 4096,
+                  "w": 2048,
+                  "x": 512,
+                  "y": 0
+                },
+                {
+                  "h": 4096,
+                  "w": 3072,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 4096,
+              "width": 3072
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1536
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/9GGOn7kXD5"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

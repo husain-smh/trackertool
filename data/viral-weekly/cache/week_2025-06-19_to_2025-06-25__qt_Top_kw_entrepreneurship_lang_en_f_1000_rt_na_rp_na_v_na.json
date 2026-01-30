@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:02:31.036Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(entrepreneurship) lang:en min_faves:1000 since:2025-06-19 until:2025-06-26",
+  "weekSince": "2025-06-19",
+  "weekUntilInclusive": "2025-06-25",
+  "weekUntilExclusive": "2025-06-26",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1935978434355679691",
+      "url": "https://x.com/DAIEvolutionHub/status/1935978434355679691",
+      "twitterUrl": "https://twitter.com/DAIEvolutionHub/status/1935978434355679691",
+      "text": "This is cool https://t.co/pTKQXOqZfI",
+      "source": "Twitter for iPhone",
+      "retweetCount": 241,
+      "replyCount": 6,
+      "likeCount": 3505,
+      "quoteCount": 9,
+      "viewCount": 815976,
+      "createdAt": "Fri Jun 20 08:30:02 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1312,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1935978434355679691",
+      "displayTextRange": [
+        0,
+        12
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "DAIEvolutionHub",
+        "url": "https://x.com/DAIEvolutionHub",
+        "twitterUrl": "https://twitter.com/DAIEvolutionHub",
+        "id": "1909915818084954112",
+        "name": "Free Education - AI | Tech | Programming",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1968095138825244672/TSU422Z4_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1909915818084954112/1758269810",
+        "description": "",
+        "location": "Worldwide",
+        "followers": 31719,
+        "following": 164,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Apr 09 10:26:42 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 4238,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 715,
+        "statusesCount": 8233,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "💌 Collabs: kshitijmishra27@gmail.com\n\nSharing AI Resources, Tools & Insights 🔍\nFree Coding, DSA & Dev Tools to Learn, Build & Grow\n #AItools #AI #Developers",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    132,
+                    140
+                  ],
+                  "text": "AItools"
+                },
+                {
+                  "indices": [
+                    141,
+                    144
+                  ],
+                  "text": "AI"
+                },
+                {
+                  "indices": [
+                    145,
+                    156
+                  ],
+                  "text": "Developers"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/pTKQXOqZfI",
+            "expanded_url": "https://twitter.com/DAIEvolutionHub/status/1935978434355679691/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1935575752411385856",
+            "indices": [
+              13,
+              36
+            ],
+            "media_key": "13_1935575752411385856",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARrci+RGVxAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABGtyL5EZXEAAAAA==",
+                "media_key": "13_1935575752411385856"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1935575752411385856/img/MNYDdNpXkxI4dwBW.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 658,
+              "width": 658
+            },
+            "sizes": {
+              "large": {
+                "h": 658,
+                "w": 658
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/pTKQXOqZfI",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "duration_millis": 43142,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1935575752411385856/pl/S7AT6GUieP0psJUI.m3u8?tag=16&v=cfc"
+                },
+                {
+                  "bitrate": 432000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1935575752411385856/vid/avc1/320x320/8a53IW-KBcC6wCV2.mp4?tag=16"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1935575752411385856/vid/avc1/540x540/B0awKNQZ08XgBurB.mp4?tag=16"
+                },
+                {
+                  "bitrate": 1280000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1935575752411385856/vid/avc1/658x658/m9NR8HpoxHG-6654.mp4?tag=16"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1936657904343609580",
+      "url": "https://x.com/DAIEvolutionHub/status/1936657904343609580",
+      "twitterUrl": "https://twitter.com/DAIEvolutionHub/status/1936657904343609580",
+      "text": "Secret iPhone codes https://t.co/2zRD75BLBB",
+      "source": "Twitter for iPhone",
+      "retweetCount": 982,
+      "replyCount": 36,
+      "likeCount": 6322,
+      "quoteCount": 12,
+      "viewCount": 818875,
+      "createdAt": "Sun Jun 22 05:30:00 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 9520,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1936657904343609580",
+      "displayTextRange": [
+        0,
+        19
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "DAIEvolutionHub",
+        "url": "https://x.com/DAIEvolutionHub",
+        "twitterUrl": "https://twitter.com/DAIEvolutionHub",
+        "id": "1909915818084954112",
+        "name": "Free Education - AI | Tech | Programming",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1968095138825244672/TSU422Z4_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1909915818084954112/1758269810",
+        "description": "",
+        "location": "Worldwide",
+        "followers": 31719,
+        "following": 164,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Apr 09 10:26:42 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 4238,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 715,
+        "statusesCount": 8233,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "💌 Collabs: kshitijmishra27@gmail.com\n\nSharing AI Resources, Tools & Insights 🔍\nFree Coding, DSA & Dev Tools to Learn, Build & Grow\n #AItools #AI #Developers",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    132,
+                    140
+                  ],
+                  "text": "AItools"
+                },
+                {
+                  "indices": [
+                    141,
+                    144
+                  ],
+                  "text": "AI"
+                },
+                {
+                  "indices": [
+                    145,
+                    156
+                  ],
+                  "text": "Developers"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/2zRD75BLBB",
+            "expanded_url": "https://twitter.com/DAIEvolutionHub/status/1936657904343609580/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1936657551942107136",
+            "indices": [
+              20,
+              43
+            ],
+            "media_key": "3_1936657551942107136",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARrgY8hbFkAACgACGuBkGmfacOwAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGuBjyFsWQAAKAAIa4GQaZ9pw7AAA",
+                "media_key": "3_1936657551942107136"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GuBjyFsWQAAgeYx.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 412,
+                  "w": 736,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 736,
+                  "w": 736,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 839,
+                  "w": 736,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1033,
+                  "w": 517,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1033,
+                  "w": 736,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1033,
+              "width": 736
+            },
+            "sizes": {
+              "large": {
+                "h": 1033,
+                "w": 736
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/2zRD75BLBB"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1936431414628806894",
+      "url": "https://x.com/DAIEvolutionHub/status/1936431414628806894",
+      "twitterUrl": "https://twitter.com/DAIEvolutionHub/status/1936431414628806894",
+      "text": "Genius hack https://t.co/IGRDdZsZco",
+      "source": "Twitter for iPhone",
+      "retweetCount": 320,
+      "replyCount": 93,
+      "likeCount": 3689,
+      "quoteCount": 13,
+      "viewCount": 3287868,
+      "createdAt": "Sat Jun 21 14:30:01 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 2201,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1936431414628806894",
+      "displayTextRange": [
+        0,
+        11
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "DAIEvolutionHub",
+        "url": "https://x.com/DAIEvolutionHub",
+        "twitterUrl": "https://twitter.com/DAIEvolutionHub",
+        "id": "1909915818084954112",
+        "name": "Free Education - AI | Tech | Programming",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1968095138825244672/TSU422Z4_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1909915818084954112/1758269810",
+        "description": "",
+        "location": "Worldwide",
+        "followers": 31719,
+        "following": 164,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Apr 09 10:26:42 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 4238,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 715,
+        "statusesCount": 8233,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "💌 Collabs: kshitijmishra27@gmail.com\n\nSharing AI Resources, Tools & Insights 🔍\nFree Coding, DSA & Dev Tools to Learn, Build & Grow\n #AItools #AI #Developers",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    132,
+                    140
+                  ],
+                  "text": "AItools"
+                },
+                {
+                  "indices": [
+                    141,
+                    144
+                  ],
+                  "text": "AI"
+                },
+                {
+                  "indices": [
+                    145,
+                    156
+                  ],
+                  "text": "Developers"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/IGRDdZsZco",
+            "expanded_url": "https://twitter.com/DAIEvolutionHub/status/1936431414628806894/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1935577425787617280",
+            "indices": [
+              12,
+              35
+            ],
+            "media_key": "13_1935577425787617280",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARrcjWnjVgAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABGtyNaeNWAAAAAA==",
+                "media_key": "13_1935577425787617280"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1935577425787617280/img/P1E9TlddhPbUHqdj.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 480,
+              "width": 480
+            },
+            "sizes": {
+              "large": {
+                "h": 480,
+                "w": 480
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/IGRDdZsZco",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "duration_millis": 53359,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1935577425787617280/pl/XPkpxp4pts73j51I.m3u8?tag=16&v=19c"
+                },
+                {
+                  "bitrate": 432000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1935577425787617280/vid/avc1/320x320/rB8xW95dPWCuBu_x.mp4?tag=16"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1935577425787617280/vid/avc1/480x480/jQMfvDZzCVrROWBm.mp4?tag=16"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1937957212498104549",
+      "url": "https://x.com/Mashstartup/status/1937957212498104549",
+      "twitterUrl": "https://twitter.com/Mashstartup/status/1937957212498104549",
+      "text": "Stop forcing people into entrepreneurship just because they are unemployed.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1075,
+      "replyCount": 86,
+      "likeCount": 6545,
+      "quoteCount": 103,
+      "viewCount": 245980,
+      "createdAt": "Wed Jun 25 19:32:59 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 215,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1937957212498104549",
+      "displayTextRange": [
+        0,
+        75
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "Mashstartup",
+        "url": "https://x.com/Mashstartup",
+        "twitterUrl": "https://twitter.com/Mashstartup",
+        "id": "412921621",
+        "name": "Mashudu Modau",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2008537321965031424/NeuqWtw__normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/412921621/1763321789",
+        "description": "",
+        "location": "South Africa",
+        "followers": 66631,
+        "following": 8017,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Tue Nov 15 08:45:50 +0000 2011",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 199360,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 11426,
+        "statusesCount": 156532,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Building community for South Africa’s opportunity creators, solution builders and entrepreneurs. Start here: conversations for builders https://t.co/i1MWjewuk3",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "linktr.ee/mashstartup",
+                  "expanded_url": "http://linktr.ee/mashstartup",
+                  "indices": [
+                    136,
+                    159
+                  ],
+                  "url": "https://t.co/i1MWjewuk3"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

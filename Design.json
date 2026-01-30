@@ -1,0 +1,311 @@
+{
+    "designSystem": {
+      "name": "Analytics Dashboard Design System",
+      "version": "1.0.0",
+      "description": "Modern, data-focused dashboard design system with clean cards, vibrant accent colors, and sophisticated data visualization",
+      
+      "designPrinciples": {
+        "clarity": "Information hierarchy is paramount - key metrics are immediately scannable",
+        "consistency": "Uniform card-based layout creates predictable, organized interface",
+        "dataFirst": "Visualizations are clean and purposeful, avoiding unnecessary decoration",
+        "modernMinimalism": "Generous white space, subtle shadows, and restrained color palette",
+        "accessibility": "High contrast ratios, clear typography, and intuitive information architecture"
+      },
+  
+      "colorPalette": {
+        "primary": {
+          "vibrantBlue": "#4D4DFF",
+          "description": "Main accent color for charts, highlights, and active states",
+          "usage": "Bar charts, progress indicators, CTAs, data points"
+        },
+        "secondary": {
+          "lightPurple": "#C4B5FD",
+          "mediumPurple": "#A78BFA",
+          "description": "Supporting colors for secondary data series and softer accents",
+          "usage": "Secondary chart lines, badges, alternative data visualization"
+        },
+        "neutrals": {
+          "background": "#F5F5F7",
+          "cardBackground": "#FFFFFF",
+          "border": "#E5E7EB",
+          "textPrimary": "#1F2937",
+          "textSecondary": "#6B7280",
+          "textTertiary": "#9CA3AF",
+          "description": "Neutral palette for backgrounds, text, and subtle UI elements"
+        },
+        "semantic": {
+          "success": "#10B981",
+          "successLight": "#D1FAE5",
+          "positive": "#059669",
+          "description": "For positive trends, success states, and growth indicators"
+        },
+        "dataVisualization": {
+          "chartLine1": "#6366F1",
+          "chartLine2": "#C4B5FD",
+          "chartBar": "#4D4DFF",
+          "chartBackground": "#F9FAFB",
+          "description": "Specific colors for different chart types and data series"
+        }
+      },
+  
+      "typography": {
+        "fontFamily": {
+          "primary": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif",
+          "description": "System font stack prioritizing Inter for clean, modern appearance"
+        },
+        "scale": {
+          "metricValue": {
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "usage": "Large metric displays like $6,390.80"
+          },
+          "cardTitle": {
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "lineHeight": "1.4",
+            "letterSpacing": "0.3px",
+            "textTransform": "none",
+            "usage": "Card headers like 'Sales', 'Orders', 'Performance'"
+          },
+          "subtext": {
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "1.5",
+            "color": "textSecondary",
+            "usage": "Supporting text like '+2.5% vs. last month'"
+          },
+          "chartLabel": {
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "usage": "Axis labels, data point labels"
+          },
+          "badge": {
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "letterSpacing": "0.2px",
+            "usage": "Category labels, tags"
+          }
+        },
+        "hierarchy": {
+          "principle": "Size contrast creates clear information hierarchy",
+          "pattern": "Large metrics → Medium labels → Small supporting text"
+        }
+      },
+  
+      "spacing": {
+        "scale": {
+          "xs": "4px",
+          "sm": "8px",
+          "md": "12px",
+          "lg": "16px",
+          "xl": "24px",
+          "2xl": "32px",
+          "3xl": "48px"
+        },
+        "cardPadding": {
+          "default": "24px",
+          "compact": "16px",
+          "description": "Internal padding within cards"
+        },
+        "gridGap": {
+          "default": "16px",
+          "description": "Space between grid items"
+        },
+        "elementSpacing": {
+          "titleToValue": "8px",
+          "valueToSubtext": "4px",
+          "sectionGap": "24px",
+          "description": "Vertical spacing between related elements"
+        }
+      },
+  
+      "layout": {
+        "grid": {
+          "columns": "Responsive grid, typically 3 columns on desktop",
+          "pattern": "Card-based layout with uniform heights within rows",
+          "responsive": "Single column on mobile, 2 columns on tablet, 3+ on desktop"
+        },
+        "cardSizes": {
+          "small": "Single metric card (Sales, Orders, Avg order value)",
+          "medium": "Chart cards with single visualization",
+          "large": "Complex visualizations or multiple data points",
+          "description": "Cards span 1-2 grid columns based on content complexity"
+        },
+        "maxWidth": "1400px",
+        "containerPadding": "24px"
+      },
+  
+      "components": {
+        "card": {
+          "background": "#FFFFFF",
+          "borderRadius": "12px",
+          "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.04)",
+          "border": "1px solid rgba(0, 0, 0, 0.04)",
+          "padding": "24px",
+          "hoverEffect": "Subtle shadow lift on hover (optional)",
+          "description": "Primary container for all dashboard content"
+        },
+        
+        "metricCard": {
+          "structure": "Title → Large Value → Trend Indicator → Sparkline (optional)",
+          "titleStyle": "Small, medium weight, neutral color",
+          "valueStyle": "Extra large, bold, dark color",
+          "trendIndicator": {
+            "style": "Small text with icon or percentage",
+            "positiveColor": "success",
+            "negativeColor": "error",
+            "includeIcon": "Arrow or triangle for direction"
+          }
+        },
+  
+        "chart": {
+          "lineChart": {
+            "lineWidth": "2px",
+            "pointRadius": "0px (hidden unless hover)",
+            "gridLines": "Horizontal only, light gray",
+            "areaFill": "Subtle gradient fade to transparent",
+            "multiSeries": "Primary line bold, secondary lines lighter/dashed"
+          },
+          "barChart": {
+            "barWidth": "Dynamic based on data points",
+            "borderRadius": "4px on top corners",
+            "spacing": "4-8px between bars",
+            "color": "Solid vibrant blue",
+            "hoverState": "Slight brightness increase"
+          },
+          "donutChart": {
+            "thickness": "Medium weight (20-25% of radius)",
+            "centerLabel": "Large metric value",
+            "colors": "Primary blue with lighter secondary colors",
+            "spacing": "Small gap between segments"
+          },
+          "axes": {
+            "fontFamily": "Same as body",
+            "fontSize": "11px",
+            "color": "textTertiary",
+            "gridLines": "1px solid, very light gray"
+          },
+          "tooltips": {
+            "background": "Dark gray with slight transparency",
+            "textColor": "white",
+            "borderRadius": "6px",
+            "padding": "8px 12px",
+            "fontSize": "12px"
+          }
+        },
+  
+        "badge": {
+          "borderRadius": "16px",
+          "padding": "4px 12px",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "variants": {
+            "primary": {
+              "background": "vibrantBlue",
+              "color": "white"
+            },
+            "secondary": {
+              "background": "lightPurple",
+              "color": "darkPurple"
+            },
+            "outlined": {
+              "background": "transparent",
+              "border": "1px solid currentColor",
+              "color": "textSecondary"
+            }
+          }
+        },
+  
+        "iconButton": {
+          "size": "24px",
+          "padding": "4px",
+          "borderRadius": "6px",
+          "color": "textSecondary",
+          "hoverBackground": "rgba(0, 0, 0, 0.04)",
+          "usage": "Three-dot menus, info icons"
+        },
+  
+        "legend": {
+          "layout": "Horizontal below chart or vertical beside",
+          "itemSpacing": "16px",
+          "indicator": "8px circle or 12px line segment",
+          "textStyle": "12px, medium weight"
+        },
+  
+        "sparkline": {
+          "height": "40-60px",
+          "lineWidth": "2px",
+          "color": "Muted version of primary color",
+          "showAxes": false,
+          "showPoints": false,
+          "usage": "Inline trend visualization in metric cards"
+        }
+      },
+  
+      "interactions": {
+        "hover": {
+          "cards": "Optional subtle shadow increase",
+          "buttons": "Background darkening or lightening",
+          "chartElements": "Tooltip display, element highlight"
+        },
+        "transitions": {
+          "duration": "200ms",
+          "easing": "ease-in-out",
+          "properties": "Transform, opacity, background-color, box-shadow"
+        },
+        "states": {
+          "default": "Base styling",
+          "hover": "Subtle feedback",
+          "active": "Pressed state with slight scale or shadow",
+          "disabled": "50% opacity, no interaction"
+        }
+      },
+  
+      "dataVisualization": {
+        "principles": {
+          "clarity": "Avoid chart junk, every element serves a purpose",
+          "colorMeaning": "Consistent color usage across all visualizations",
+          "scannability": "Key insights immediately visible",
+          "interactivity": "Tooltips and hover states reveal detail on demand"
+        },
+        "bestPractices": {
+          "axisLabels": "Always include units and clear labels",
+          "dataPointLimit": "Simplify when showing >50 data points",
+          "comparison": "Use consistent scales when comparing metrics",
+          "trends": "Include time period context in labels",
+          "nullStates": "Show 'No data' with helpful context"
+        }
+      },
+  
+      "responsiveStrategy": {
+        "breakpoints": {
+          "mobile": "< 640px",
+          "tablet": "640px - 1024px",
+          "desktop": "> 1024px"
+        },
+        "adaptations": {
+          "mobile": "Single column, stacked cards, simplified charts",
+          "tablet": "2 column grid, full-featured charts",
+          "desktop": "3+ column grid, optimal data density"
+        },
+        "chartScaling": "Maintain aspect ratios, adjust label density, hide minor gridlines on mobile"
+      },
+  
+      "accessibilityGuidelines": {
+        "contrast": "Minimum 4.5:1 for text, 3:1 for UI elements",
+        "focusStates": "Visible focus rings on all interactive elements",
+        "screenReaders": "Proper ARIA labels for charts and complex widgets",
+        "keyboardNav": "Full keyboard navigation support",
+        "colorBlindness": "Don't rely solely on color to convey information"
+      },
+  
+      "implementationNotes": {
+        "chartLibrary": "Use modern library like Recharts, Chart.js, or D3",
+        "iconLibrary": "Lucide React or similar minimal icon set",
+        "stateManagement": "React hooks for interactive elements",
+        "performance": "Lazy load charts, virtualize long lists",
+        "dataFormat": "Consistent data structures for easy chart consumption"
+      }
+    }
+  }

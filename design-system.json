@@ -1,0 +1,503 @@
+{
+    "designSystem": {
+      "name": "Minimalist Editorial Design System",
+      "version": "1.0",
+      "philosophy": "A refined, literary aesthetic that emphasizes readability, breathing room, and typographic elegance. Inspired by high-end publishing and archival design with a focus on content over decoration.",
+      
+      "colors": {
+        "background": {
+          "primary": "#F5F3F0",
+          "description": "Warm off-white, paper-like texture background - use for all page backgrounds",
+          "tailwind": "bg-[#F5F3F0]",
+          "css": "--background: #F5F3F0;"
+        },
+        "text": {
+          "primary": "#4A4A4A",
+          "secondary": "#6B6B6B",
+          "description": "Deep charcoal gray for body text, lighter gray for secondary content",
+          "tailwind": {
+            "primary": "text-[#4A4A4A]",
+            "secondary": "text-[#6B6B6B]"
+          },
+          "css": {
+            "primary": "--text-primary: #4A4A4A;",
+            "secondary": "--text-secondary: #6B6B6B;"
+          }
+        },
+        "accent": {
+          "subtle": "#8B8680",
+          "description": "Muted taupe for dividers and subtle accents",
+          "tailwind": "text-[#8B8680] border-[#8B8680]",
+          "css": "--accent-subtle: #8B8680;"
+        },
+        "dividers": {
+          "color": "#E0DDD8",
+          "description": "Subtle gray for horizontal rules and dividers",
+          "tailwind": "border-[#E0DDD8]",
+          "css": "--divider: #E0DDD8;"
+        },
+        "principles": [
+          "Extremely minimal color usage - rely on typography and spacing",
+          "No bright or saturated colors - maintain neutral, timeless palette",
+          "Subtle contrast that's easy on the eyes for extended reading",
+          "Remove all gradients - use solid colors only",
+          "Remove all colored backgrounds except white/off-white",
+          "No colored badges or status indicators - use text only"
+        ]
+      },
+      
+      "typography": {
+        "fontFamily": {
+          "primary": "Georgia, 'Times New Roman', serif",
+          "fallback": "System serif stack",
+          "description": "Classic serif typeface for elegant, literary feel",
+          "tailwind": "font-serif",
+          "css": "font-family: Georgia, 'Times New Roman', serif;"
+        },
+        "typeScale": {
+          "hero": {
+            "size": "3.5rem",
+            "lineHeight": "1.2",
+            "weight": "400",
+            "usage": "Main page titles, hero headings",
+            "tailwind": "text-[3.5rem] leading-[1.2] font-normal",
+            "css": "font-size: 3.5rem; line-height: 1.2; font-weight: 400;"
+          },
+          "h1": {
+            "size": "2.5rem",
+            "lineHeight": "1.3",
+            "weight": "400",
+            "usage": "Primary section headings",
+            "tailwind": "text-[2.5rem] leading-[1.3] font-normal",
+            "css": "font-size: 2.5rem; line-height: 1.3; font-weight: 400;"
+          },
+          "h2": {
+            "size": "1.75rem",
+            "lineHeight": "1.4",
+            "weight": "400",
+            "usage": "Secondary headings",
+            "tailwind": "text-[1.75rem] leading-[1.4] font-normal",
+            "css": "font-size: 1.75rem; line-height: 1.4; font-weight: 400;"
+          },
+          "h3": {
+            "size": "1.5rem",
+            "lineHeight": "1.5",
+            "weight": "400",
+            "usage": "Tertiary headings",
+            "tailwind": "text-[1.5rem] leading-[1.5] font-normal",
+            "css": "font-size: 1.5rem; line-height: 1.5; font-weight: 400;"
+          },
+          "body": {
+            "size": "1.125rem",
+            "lineHeight": "1.75",
+            "weight": "400",
+            "usage": "Body text, paragraphs",
+            "tailwind": "text-[1.125rem] leading-[1.75] font-normal",
+            "css": "font-size: 1.125rem; line-height: 1.75; font-weight: 400;"
+          },
+          "small": {
+            "size": "0.875rem",
+            "lineHeight": "1.6",
+            "weight": "400",
+            "usage": "Captions, metadata, breadcrumbs",
+            "tailwind": "text-sm leading-[1.6] font-normal",
+            "css": "font-size: 0.875rem; line-height: 1.6; font-weight: 400;"
+          }
+        },
+        "principles": [
+          "Use regular weight (400) almost exclusively - avoid bold",
+          "Generous line-height for maximum readability (1.6-1.8)",
+          "Scale sizes proportionally using classic ratios",
+          "Embrace white space around text blocks",
+          "Italics for emphasis, not bold or color",
+          "Remove all font-semibold, font-bold classes - use font-normal",
+          "Change all sans-serif fonts to serif (Georgia)"
+        ]
+      },
+      
+      "spacing": {
+        "scale": {
+          "xs": "0.5rem",
+          "sm": "1rem",
+          "md": "2rem",
+          "lg": "3rem",
+          "xl": "4rem",
+          "2xl": "6rem",
+          "3xl": "8rem"
+        },
+        "contentWidth": {
+          "text": "65ch",
+          "maxWidth": "800px",
+          "description": "Optimal line length for readability (approx 650px)",
+          "tailwind": "max-w-[65ch]",
+          "css": "max-width: 65ch;"
+        },
+        "container": {
+          "maxWidth": "1200px",
+          "padding": "2rem",
+          "description": "Centered content with generous margins",
+          "tailwind": "max-w-[1200px] px-8",
+          "css": "max-width: 1200px; padding: 0 2rem;"
+        },
+        "principles": [
+          "Generous spacing is key - let content breathe",
+          "Use large vertical spacing between sections (3-6rem)",
+          "Consistent horizontal padding (2-3rem on containers)",
+          "Increase spacing at larger breakpoints",
+          "Create clear visual hierarchy through spacing, not decoration",
+          "Remove tight spacing - increase gaps between elements"
+        ]
+      },
+      
+      "layout": {
+        "structure": {
+          "maxWidth": "1200px",
+          "contentMaxWidth": "800px",
+          "padding": "2rem",
+          "description": "Centered content with generous margins"
+        },
+        "principles": [
+          "Center align primary content",
+          "Left align body text within content areas",
+          "Asymmetric layouts acceptable for visual interest",
+          "Single column for main content, generous margins",
+          "Avoid edge-to-edge content - always provide breathing room",
+          "Remove grid layouts - use single column with spacing"
+        ]
+      },
+      
+      "components": {
+        "header": {
+          "style": "Minimal, small text navigation",
+          "spacing": "Large top padding, subtle below",
+          "typography": "Small serif, understated",
+          "alignment": "Left or centered, depending on context",
+          "background": "Transparent or same as page background",
+          "border": "Subtle bottom border only if needed",
+          "remove": [
+            "Backdrop blur effects",
+            "Colored backgrounds",
+            "Shadow effects",
+            "Bold text",
+            "Icon backgrounds"
+          ]
+        },
+        "dividers": {
+          "style": "Thin horizontal rules",
+          "color": "#E0DDD8",
+          "thickness": "1px",
+          "spacing": "3-4rem above and below",
+          "tailwind": "border-t border-[#E0DDD8] my-12",
+          "css": "border-top: 1px solid #E0DDD8; margin: 3rem 0 4rem 0;"
+        },
+        "buttons": {
+          "style": "Text-based, minimal or no background",
+          "background": "Transparent or white",
+          "border": "Optional thin border (1px), never heavy",
+          "hover": "Subtle underline or opacity change",
+          "typography": "Same as body text, possibly smaller",
+          "padding": "0.75rem 1.5rem",
+          "remove": [
+            "Gradient backgrounds",
+            "Colored backgrounds (indigo, emerald, etc.)",
+            "Shadow effects",
+            "Bold text",
+            "Rounded corners larger than 0.5rem"
+          ],
+          "tailwind": "text-[#4A4A4A] border border-[#E0DDD8] px-6 py-3 hover:underline",
+          "css": "color: #4A4A4A; border: 1px solid #E0DDD8; padding: 0.75rem 1.5rem;"
+        },
+        "cards": {
+          "style": "Flat, no shadows or heavy borders",
+          "background": "White or same as page background",
+          "border": "Subtle border (1px) or none",
+          "spacing": "Generous internal padding (2rem+)",
+          "separation": "Spacing or subtle divider lines",
+          "borderRadius": "None or minimal (0.25rem max)",
+          "remove": [
+            "Shadow effects (shadow-xl, shadow-2xl, etc.)",
+            "Rounded corners larger than 0.25rem",
+            "Colored backgrounds",
+            "Gradient backgrounds",
+            "Hover scale effects"
+          ],
+          "tailwind": "bg-white border border-[#E0DDD8] p-8",
+          "css": "background: white; border: 1px solid #E0DDD8; padding: 2rem;"
+        },
+        "images": {
+          "style": "Full bleed within container or generous margins",
+          "borders": "None or very subtle",
+          "captions": "Small italic text below",
+          "spacing": "Generous margins around images"
+        },
+        "inputs": {
+          "style": "Minimal border, no background color",
+          "border": "1px solid #E0DDD8",
+          "background": "White",
+          "focus": "Subtle border color change, no ring",
+          "padding": "0.75rem 1rem",
+          "remove": [
+            "Colored focus rings",
+            "Background colors (bg-zinc-50, etc.)",
+            "Rounded corners larger than 0.25rem",
+            "Shadow effects"
+          ],
+          "tailwind": "border border-[#E0DDD8] bg-white px-4 py-3 focus:border-[#8B8680] focus:outline-none",
+          "css": "border: 1px solid #E0DDD8; background: white; padding: 0.75rem 1rem;"
+        },
+        "badges": {
+          "style": "Text only, no background",
+          "remove": [
+            "Colored backgrounds",
+            "Rounded pill shapes",
+            "Borders",
+            "Use plain text instead"
+          ]
+        },
+        "tables": {
+          "style": "Minimal borders, no alternating row colors",
+          "border": "Subtle horizontal dividers only",
+          "remove": [
+            "Alternating row backgrounds",
+            "Colored headers",
+            "Shadow effects",
+            "Rounded corners"
+          ]
+        }
+      },
+      
+      "shapes": {
+        "borderRadius": {
+          "none": "0",
+          "minimal": "0.25rem",
+          "description": "No rounded corners or minimal (0.25rem max)",
+          "remove": [
+            "rounded-xl (0.75rem)",
+            "rounded-2xl (1rem)",
+            "rounded-full (pill shapes)",
+            "All rounded corners larger than 0.25rem"
+          ]
+        },
+        "principles": [
+          "Remove all rounded corners larger than 0.25rem",
+          "No pill-shaped elements",
+          "Square or minimal corner radius only",
+          "Remove circular avatars - use square or minimal radius"
+        ]
+      },
+      
+      "effects": {
+        "remove": [
+          "All shadows (shadow-sm, shadow-md, shadow-xl, shadow-2xl)",
+          "All gradients (bg-gradient-to-r, from-indigo-500, etc.)",
+          "Backdrop blur effects",
+          "Hover scale effects (hover:scale-[1.02])",
+          "Animation effects (except subtle transitions)",
+          "Glow effects",
+          "Radial gradients in backgrounds"
+        ],
+        "allowed": [
+          "Subtle opacity changes on hover (opacity-80)",
+          "Underline on hover for links",
+          "Quick transitions (150-250ms) for interactions"
+        ]
+      },
+      
+      "aiTextRemoval": {
+        "description": "Remove all marketing-style, AI-generated, or unnecessary decorative text",
+        "patterns": [
+          {
+            "pattern": "Reverse-engineer viral content performance",
+            "replace": "Quote Tweet Analytics"
+          },
+          {
+            "pattern": "Advanced analytics for.*",
+            "replace": "Remove entire phrase"
+          },
+          {
+            "pattern": "Powered by Identity Labs.*",
+            "replace": "Remove footer marketing text"
+          },
+          {
+            "pattern": "How it works:",
+            "replace": "Remove entire section"
+          },
+          {
+            "pattern": "Real-time processing|Deep engagement analysis|Viral metrics tracking",
+            "replace": "Remove feature lists"
+          },
+          {
+            "pattern": "Analytics Tool for Identity Labs",
+            "replace": "Identity Labs"
+          },
+          {
+            "pattern": "Internal Tools",
+            "replace": "Tools"
+          },
+          {
+            "pattern": "Identity Labs Analytics",
+            "replace": "Remove badge/label"
+          },
+          {
+            "pattern": "Precision-grade metrics|comprehensive analytics|deep insights",
+            "replace": "Remove marketing adjectives"
+          }
+        ],
+        "instructions": [
+          "Remove all marketing taglines and descriptions",
+          "Remove 'How it works' sections",
+          "Remove feature lists with bullet points",
+          "Remove footer marketing text",
+          "Remove decorative badges and labels",
+          "Keep only essential functional text",
+          "Use simple, direct language",
+          "Remove AI-generated narrative text from reports"
+        ]
+      },
+      
+      "designPrinciples": [
+        "Content first - design serves the content, never overwhelms it",
+        "Embrace white space as a design element",
+        "Typography is the primary design tool",
+        "Minimal decoration - no gradients, shadows, or effects",
+        "Timeless over trendy - classic editorial design",
+        "Breathing room between all elements",
+        "Subtle over loud - whisper, don't shout",
+        "Create hierarchy through size, spacing, and weight, not color",
+        "Respect the reader's focus and attention",
+        "Every element should serve a purpose"
+      ],
+      
+      "interactions": {
+        "transitions": "Subtle and quick (150-250ms)",
+        "hover": "Minimal - slight opacity or underline",
+        "focus": "Subtle outline or underline, never heavy borders",
+        "loading": "Subtle fade-ins, no spinners unless necessary"
+      },
+      
+      "responsive": {
+        "breakpoints": {
+          "mobile": "320px",
+          "tablet": "768px",
+          "desktop": "1024px",
+          "wide": "1440px"
+        },
+        "principles": [
+          "Reduce font sizes slightly on mobile, but keep readable",
+          "Reduce spacing on mobile but maintain proportions",
+          "Single column layouts on mobile",
+          "Maintain generous padding even on small screens",
+          "Increase whitespace on larger screens"
+        ]
+      },
+      
+      "accessibility": {
+        "contrast": "Maintain WCAG AA standards minimum",
+        "focusStates": "Clear and visible without being intrusive",
+        "textSize": "Base size 18px minimum for body text",
+        "lineHeight": "Generous for readability (1.6+)",
+        "tapTargets": "Minimum 44x44px on mobile"
+      },
+      
+      "implementation": {
+        "globalChanges": [
+          "Change all bg-white to bg-[#F5F3F0] for page backgrounds",
+          "Change all text-zinc-900 to text-[#4A4A4A]",
+          "Change all text-zinc-500 to text-[#6B6B6B]",
+          "Change font-sans to font-serif throughout",
+          "Remove all gradient classes (bg-gradient-to-r, from-*, to-*)",
+          "Remove all shadow classes (shadow-*, drop-shadow-*)",
+          "Change all rounded-xl, rounded-2xl to rounded-sm or remove",
+          "Remove all colored backgrounds (bg-indigo-*, bg-emerald-*, etc.)",
+          "Change all border-zinc-200 to border-[#E0DDD8]",
+          "Remove all backdrop-blur effects",
+          "Increase spacing between sections (use my-12, my-16, py-12, py-16)",
+          "Remove all hover:scale effects",
+          "Change all font-semibold, font-bold to font-normal",
+          "Remove radial gradient backgrounds",
+          "Remove all colored badges and status indicators"
+        ],
+        "specificComponents": {
+          "Navbar": {
+            "remove": [
+              "backdrop-blur-xl",
+              "bg-background/80",
+              "Colored active states",
+              "Icon backgrounds",
+              "Shadow effects"
+            ],
+            "apply": [
+              "bg-[#F5F3F0]",
+              "border-b border-[#E0DDD8]",
+              "font-serif",
+              "text-[#4A4A4A]",
+              "Simple underline for active state"
+            ]
+          },
+          "Cards": {
+            "remove": [
+              "shadow-xl, shadow-2xl",
+              "rounded-2xl, rounded-xl",
+              "bg-gradient-to-*",
+              "hover:scale-*",
+              "Colored borders"
+            ],
+            "apply": [
+              "bg-white or bg-[#F5F3F0]",
+              "border border-[#E0DDD8]",
+              "rounded-sm or no rounding",
+              "p-8 (generous padding)",
+              "my-12 (generous spacing)"
+            ]
+          },
+          "Buttons": {
+            "remove": [
+              "bg-indigo-*, bg-emerald-*, bg-zinc-900",
+              "shadow-*",
+              "rounded-xl, rounded-2xl",
+              "font-semibold, font-bold",
+              "Gradient backgrounds"
+            ],
+            "apply": [
+              "bg-white or transparent",
+              "border border-[#E0DDD8]",
+              "text-[#4A4A4A]",
+              "font-normal",
+              "hover:underline",
+              "px-6 py-3"
+            ]
+          },
+          "Inputs": {
+            "remove": [
+              "bg-zinc-50",
+              "focus:ring-*",
+              "focus:border-indigo-*",
+              "rounded-xl",
+              "Shadow effects"
+            ],
+            "apply": [
+              "bg-white",
+              "border border-[#E0DDD8]",
+              "focus:border-[#8B8680]",
+              "focus:outline-none",
+              "rounded-sm"
+            ]
+          },
+          "Headings": {
+            "remove": [
+              "font-semibold, font-bold",
+              "text-zinc-900",
+              "Colored text"
+            ],
+            "apply": [
+              "font-normal",
+              "text-[#4A4A4A]",
+              "font-serif",
+              "Generous line-height (leading-[1.3] to leading-[1.75])"
+            ]
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,121 @@
+# GitHub Actions: Narrative Scans
+# Runs LLM narrative analysis on all active campaigns every 12 minutes
+# Requires OPENAIAPIKEY for GPT-4o-mini access
+
+name: Narrative Scans
+
+on:
+  schedule:
+    # Runs every 12 minutes
+    - cron: '*/12 * * * *'
+  workflow_dispatch:
+    inputs:
+      campaign_id:
+        description: 'Specific campaign ID (optional, runs all if empty)'
+        required: false
+      scan_type:
+        description: 'Type of scan to run'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - narrative-scan
+          - nested-narrative-scan
+          - reply-narrative-scan
+
+env:
+  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+  OPENAIAPIKEY: ${{ secrets.OPENAIAPIKEY }}
+  # Use SHARED key for batch operations (separate from monitoring to avoid rate limit conflicts)
+  TWITTER_API_KEY_SHARED: ${{ secrets.TWITTER_API_KEY_SHARED }}
+  TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}  # Fallback for backward compatibility
+  NEXT_PUBLIC_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
+
+jobs:
+  narrative-scan:
+    name: Run Narrative Scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: ${{ github.event.inputs.scan_type == 'all' || github.event.inputs.scan_type == 'narrative-scan' || github.event_name == 'schedule' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Narrative Scan
+        run: |
+          echo "🧠 Running narrative scan for quote tweets..."
+          
+          if [ -n "${{ github.event.inputs.campaign_id }}" ]; then
+            npx tsx scripts/narrative-scan.ts --campaign-id "${{ github.event.inputs.campaign_id }}"
+          else
+            npx tsx scripts/run-all-campaigns.ts --script narrative-scan
+          fi
+
+  nested-narrative-scan:
+    name: Run Nested Narrative Scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: ${{ github.event.inputs.scan_type == 'all' || github.event.inputs.scan_type == 'nested-narrative-scan' || github.event_name == 'schedule' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Nested Narrative Scan
+        run: |
+          echo "🧠 Running nested narrative scan for quotes-of-quotes..."
+          
+          if [ -n "${{ github.event.inputs.campaign_id }}" ]; then
+            npx tsx scripts/nested-narrative-scan.ts --campaign-id "${{ github.event.inputs.campaign_id }}"
+          else
+            npx tsx scripts/run-all-campaigns.ts --script nested-narrative-scan
+          fi
+
+  reply-narrative-scan:
+    name: Run Reply Narrative Scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: ${{ github.event.inputs.scan_type == 'all' || github.event.inputs.scan_type == 'reply-narrative-scan' || github.event_name == 'schedule' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Reply Narrative Scan
+        run: |
+          echo "🧠 Running reply narrative scan..."
+          
+          if [ -n "${{ github.event.inputs.campaign_id }}" ]; then
+            npx tsx scripts/reply-narrative-scan.ts --campaign-id "${{ github.event.inputs.campaign_id }}"
+          else
+            npx tsx scripts/run-all-campaigns.ts --script reply-narrative-scan
+          fi

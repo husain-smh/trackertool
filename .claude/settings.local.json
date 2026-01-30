@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nReal-time engagement notification system checkpoint 1\n\nComplete implementation of delta-based engagement tracking:\n\nBackend:\n- MonitoringEngagement model for storing all engager data\n- MonitoringNotification model with status workflow \\(generated/edited/sent/skipped\\)\n- Delta calculator for fetching only new engagers based on metric changes\n- Deletion tracker to detect and mark deleted engagements \\(no alerts\\)\n- Notification generator with LLM support for replies/quotes, templates for retweets/likes\n\nAPI Endpoints:\n- GET/PATCH /api/monitor-tweet/[tweetId]/settings - configure thresholds and Slack webhook\n- GET /api/monitor-tweet/[tweetId]/engagers - list engagers with filters\n- GET /api/monitor-tweet/[tweetId]/notifications - list notifications by status\n- GET/PATCH /api/monitor-tweet/[tweetId]/notifications/[id] - view/edit/skip notifications\n- POST /api/monitor-tweet/[tweetId]/notifications/send - send to Slack\n\nFrontend:\n- /monitor/[tweetId]/engagers - engager dashboard with filters, sorting, CSV export\n- /monitor/[tweetId]/notifications - creative director review UI with inline editing\n\nCron Enhancement:\n- check-monitors now processes realtime engagers when enabled\n- Ranks engagers and generates notifications for high-importance ones\n- Tracks deletions silently without alerting\n\nNote: Likes tracking deferred \\(requires OAuth setup\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(ls:*)",
+      "Bash(git commit:*)",
+      "Bash(npx tsx:*)",
+      "Bash(node -e:*)"
+    ]
+  }
+}

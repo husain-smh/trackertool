@@ -1,0 +1,92 @@
+# GitHub Actions: Aggregate Metrics
+# Fetches and aggregates quote metrics for all active campaigns every 15 minutes
+
+name: Aggregate Metrics
+
+on:
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      campaign_id:
+        description: 'Specific campaign ID (optional, runs all if empty)'
+        required: false
+      aggregate_type:
+        description: 'Type of aggregation to run'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - aggregate-quote-metrics
+          - aggregate-nested-quote-metrics
+
+env:
+  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+  # Use SHARED key for batch operations (separate from monitoring to avoid rate limit conflicts)
+  TWITTER_API_KEY_SHARED: ${{ secrets.TWITTER_API_KEY_SHARED }}
+  TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}  # Fallback for backward compatibility
+  TWITTER_API_URL: ${{ secrets.TWITTER_API_URL }}
+  NEXT_PUBLIC_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
+  REQUEST_INTERVAL_MS: '500'
+  MAX_PAGES: '60'
+
+jobs:
+  aggregate-quote-metrics:
+    name: Aggregate Quote Metrics
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: ${{ github.event.inputs.aggregate_type == 'all' || github.event.inputs.aggregate_type == 'aggregate-quote-metrics' || github.event_name == 'schedule' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Quote Metrics Aggregation
+        run: |
+          echo "📊 Aggregating quote metrics..."
+          
+          if [ -n "${{ github.event.inputs.campaign_id }}" ]; then
+            npx tsx scripts/aggregate-quote-metrics.ts --campaign "${{ github.event.inputs.campaign_id }}"
+          else
+            npx tsx scripts/run-all-campaigns.ts --script aggregate-quote-metrics
+          fi
+
+  aggregate-nested-quote-metrics:
+    name: Aggregate Nested Quote Metrics
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: ${{ github.event.inputs.aggregate_type == 'all' || github.event.inputs.aggregate_type == 'aggregate-nested-quote-metrics' || github.event_name == 'schedule' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Nested Quote Metrics Aggregation
+        run: |
+          echo "📊 Aggregating nested quote metrics..."
+          
+          if [ -n "${{ github.event.inputs.campaign_id }}" ]; then
+            npx tsx scripts/aggregate-nested-quote-metrics.ts --campaign "${{ github.event.inputs.campaign_id }}"
+          else
+            npx tsx scripts/run-all-campaigns.ts --script aggregate-nested-quote-metrics
+          fi

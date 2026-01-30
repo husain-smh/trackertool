@@ -1,0 +1,78 @@
+# GitHub Actions: SOCAP Worker
+# Runs the worker to process queued jobs every 5 minutes
+# Timeout: 5 minutes max per run (enough for batch processing)
+
+name: SOCAP Worker
+
+on:
+  schedule:
+    # Runs every 5 minutes
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      max_jobs:
+        description: 'Maximum jobs to process per run'
+        required: false
+        default: '200'
+      concurrency:
+        description: 'Worker concurrency'
+        required: false
+        default: '10'
+
+env:
+  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+  # Use SHARED key for batch operations (separate from monitoring to avoid rate limit conflicts)
+  TWITTER_API_KEY_SHARED: ${{ secrets.TWITTER_API_KEY_SHARED }}
+  TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}  # Fallback for backward compatibility
+  TWITTER_API_URL: ${{ secrets.TWITTER_API_URL }}
+  NEXT_PUBLIC_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
+  SOCAP_WORKER_CONCURRENCY: ${{ github.event.inputs.concurrency || '10' }}
+  SOCAP_MAX_JOBS_PER_BATCH: ${{ github.event.inputs.max_jobs || '200' }}
+
+jobs:
+  process-jobs:
+    name: Process SOCAP Jobs
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Worker (Batch Mode)
+        run: |
+          echo "🚀 Starting SOCAP Worker in batch mode"
+          echo "   Concurrency: $SOCAP_WORKER_CONCURRENCY"
+          echo "   Max jobs: $SOCAP_MAX_JOBS_PER_BATCH"
+          
+          # Run turbo-worker with timeout to prevent GitHub Actions from timing out
+          # The worker will process up to MAX_JOBS_PER_BATCH then exit
+          timeout 270 npx tsx scripts/turbo-worker.ts --batch-mode || EXIT_CODE=$?
+          
+          # Exit code 124 means timeout (which is expected for batch processing)
+          if [ "${EXIT_CODE:-0}" -eq 124 ]; then
+            echo "⏰ Batch processing time limit reached (normal)"
+            exit 0
+          elif [ "${EXIT_CODE:-0}" -ne 0 ]; then
+            echo "❌ Worker exited with code $EXIT_CODE"
+            exit $EXIT_CODE
+          fi
+          
+          echo "✅ Worker batch completed successfully"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## SOCAP Worker Run Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Concurrency**: $SOCAP_WORKER_CONCURRENCY" >> $GITHUB_STEP_SUMMARY
+          echo "- **Max Jobs**: $SOCAP_MAX_JOBS_PER_BATCH" >> $GITHUB_STEP_SUMMARY

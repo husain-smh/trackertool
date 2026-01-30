@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:07:18.627Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(founder profile) lang:en min_faves:1000 since:2025-12-04 until:2025-12-11",
+  "weekSince": "2025-12-04",
+  "weekUntilInclusive": "2025-12-10",
+  "weekUntilExclusive": "2025-12-11",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1997440330606530904",
+      "url": "https://x.com/_GhChronicles/status/1997440330606530904",
+      "twitterUrl": "https://twitter.com/_GhChronicles/status/1997440330606530904",
+      "text": "JUST IN:\nItalian billionaire and luxury fashion icon Angelo Galasso, founder of the famed Angelo Galasso brand, has arrived in Ghana ahead of the grand reopening of Nana Sarfo’s Savile Row boutique in East Legon. The high-profile event comes off tomorrow. https://t.co/911itJbaDt",
+      "source": "Twitter for iPhone",
+      "retweetCount": 449,
+      "replyCount": 62,
+      "likeCount": 6793,
+      "quoteCount": 42,
+      "viewCount": 1340752,
+      "createdAt": "Sat Dec 06 22:57:40 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 705,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1997440330606530904",
+      "displayTextRange": [
+        0,
+        255
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "_GhChronicles",
+        "url": "https://x.com/_GhChronicles",
+        "twitterUrl": "https://twitter.com/_GhChronicles",
+        "id": "1361605820748857347",
+        "name": "Ghana Chronicles",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2000354653737758722/W-7DDCXt_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1361605820748857347/1758023150",
+        "description": "",
+        "location": "Accra, Ghana",
+        "followers": 45053,
+        "following": 39,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Tue Feb 16 09:18:31 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 5816,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 7812,
+        "statusesCount": 18202,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Ghana source of verified General News. Reports as it is || Email: GhanaChronicles57@gmail.com",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/911itJbaDt",
+            "expanded_url": "https://twitter.com/_GhChronicles/status/1997440330606530904/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1997440232992489472",
+            "indices": [
+              256,
+              279
+            ],
+            "media_key": "13_1997440232992489472",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARu4VU8bl0AAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG7hVTxuXQAAAAA==",
+                "media_key": "13_1997440232992489472"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1997440232992489472/img/N94s6ksRkEkN0FPX.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1280,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 1280,
+                "w": 720
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/911itJbaDt",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 71866,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1997440232992489472/pl/WdAgJd8WxQlkNhgy.m3u8?tag=21&v=cfc"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1997440232992489472/vid/avc1/320x568/3PT05FbWokbGAcXE.mp4?tag=21"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1997440232992489472/vid/avc1/480x852/oRGIsxcTSQitRtSD.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1997440232992489472/vid/avc1/720x1280/T52LsEDE_k3Qgkyz.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1997788073753723165",
+      "url": "https://x.com/elchicanomarine/status/1997788073753723165",
+      "twitterUrl": "https://twitter.com/elchicanomarine/status/1997788073753723165",
+      "text": "\"Gateway Church founder Robert Morris was handcuffed and escorted out of the Osage County District Court in Oklahoma on Thursday after pleading guilty to five counts of lewd or indecent acts to a child.”\nHis church has been closely tied to high-profile Republican figures, including Donald Trump and former Texas Governor Rick Perry.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 2272,
+      "replyCount": 200,
+      "likeCount": 3586,
+      "quoteCount": 162,
+      "viewCount": 82312,
+      "createdAt": "Sun Dec 07 21:59:28 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 125,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1997788073753723165",
+      "displayTextRange": [
+        0,
+        297
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "elchicanomarine",
+        "url": "https://x.com/elchicanomarine",
+        "twitterUrl": "https://twitter.com/elchicanomarine",
+        "id": "132737804",
+        "name": "Chicano Marine 🇲🇽🇺🇸💙",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1934421280079638528/8zNDzWST_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/132737804/1750036959",
+        "description": "",
+        "location": "Phoenix, AZ",
+        "followers": 60548,
+        "following": 9418,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Wed Apr 14 01:55:10 +0000 2010",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 155755,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 12040,
+        "statusesCount": 47892,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1873097084116820466"
+        ],
+        "profile_bio": {
+          "description": "USMCVet/Center Left Politics/AZSports Fanatic/My kids are my Life. 🏈BoyDad 🩰GirlDad 💙Autism Dad. Firm believer that SI SE PUEDE✊🏽",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/pUhY9wKBOK",
+            "expanded_url": "https://twitter.com/elchicanomarine/status/1997788073753723165/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1997788069408460800",
+            "indices": [
+              298,
+              321
+            ],
+            "media_key": "3_1997788069408460800",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARu5kaoVmtAACgACG7mRqxiaQR0AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG7mRqhWa0AAKAAIbuZGrGJpBHQAA",
+                "media_key": "3_1997788069408460800"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G7mRqhWa0AAZgX3.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 675,
+                  "w": 1206,
+                  "x": 0,
+                  "y": 256
+                },
+                {
+                  "h": 1206,
+                  "w": 1206,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1375,
+                  "w": 1206,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1582,
+                  "w": 791,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1582,
+                  "w": 1206,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1582,
+              "width": 1206
+            },
+            "sizes": {
+              "large": {
+                "h": 1582,
+                "w": 1206
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/pUhY9wKBOK"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

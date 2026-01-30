@@ -1,0 +1,951 @@
+{
+  "locations": [
+    {
+      "location": "United States",
+      "country_codes": [
+        "US"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 879,
+      "unique_users": 409,
+      "importance_score_avg": 2.17,
+      "importance_score_max": 56
+    },
+    {
+      "location": "India",
+      "country_codes": [
+        "IN"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 621,
+      "unique_users": 157,
+      "importance_score_avg": 0.37,
+      "importance_score_max": 5
+    },
+    {
+      "location": "Bangladesh",
+      "country_codes": [
+        "BD"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 309,
+      "unique_users": 83,
+      "importance_score_avg": 0.04,
+      "importance_score_max": 2
+    },
+    {
+      "location": "United Kingdom",
+      "country_codes": [
+        "GB"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 249,
+      "unique_users": 73,
+      "importance_score_avg": 0.51,
+      "importance_score_max": 21
+    },
+    {
+      "location": "Nigeria",
+      "country_codes": [
+        "NG"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 249,
+      "unique_users": 144,
+      "importance_score_avg": 0,
+      "importance_score_max": 1
+    },
+    {
+      "location": null,
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 191,
+      "unique_users": 57,
+      "importance_score_avg": 0.82,
+      "importance_score_max": 4
+    },
+    {
+      "location": "Canada",
+      "country_codes": [
+        "CA"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 143,
+      "unique_users": 39,
+      "importance_score_avg": 0.31,
+      "importance_score_max": 2
+    },
+    {
+      "location": "Pakistan",
+      "country_codes": [
+        "PK"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 130,
+      "unique_users": 31,
+      "importance_score_avg": 0.12,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Kenya",
+      "country_codes": [
+        "KE"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 104,
+      "unique_users": 60,
+      "importance_score_avg": 0.01,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Africa",
+      "country_codes": [
+        "ZA",
+        "NG",
+        "KE",
+        "EG",
+        "GH",
+        "ET",
+        "TZ",
+        "UG",
+        "DZ",
+        "MA"
+      ],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 97,
+      "unique_users": 32,
+      "importance_score_avg": 0.14,
+      "importance_score_max": 2
+    },
+    {
+      "location": "South Asia",
+      "country_codes": [
+        "IN",
+        "PK",
+        "BD",
+        "LK",
+        "NP",
+        "BT",
+        "MV",
+        "AF"
+      ],
+      "region_type": "region",
+      "confidence": "high",
+      "engagement_count": 91,
+      "unique_users": 23,
+      "importance_score_avg": 1.51,
+      "importance_score_max": 37
+    },
+    {
+      "location": "Zimbabwe",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 85,
+      "unique_users": 5,
+      "importance_score_avg": 0.25,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Central Asia",
+      "country_codes": [
+        "IN",
+        "CN",
+        "JP",
+        "KR",
+        "ID",
+        "PK",
+        "BD",
+        "PH",
+        "VN",
+        "TH",
+        "MY",
+        "SG"
+      ],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 67,
+      "unique_users": 7,
+      "importance_score_avg": 0.42,
+      "importance_score_max": 4
+    },
+    {
+      "location": "South Africa",
+      "country_codes": [
+        "ZA"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 49,
+      "unique_users": 9,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Netherlands",
+      "country_codes": [
+        "NL"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 45,
+      "unique_users": 17,
+      "importance_score_avg": 0.98,
+      "importance_score_max": 10
+    },
+    {
+      "location": "Spain",
+      "country_codes": [
+        "ES"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 25,
+      "unique_users": 16,
+      "importance_score_avg": 4.64,
+      "importance_score_max": 29
+    },
+    {
+      "location": "Ghana",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 24,
+      "unique_users": 9,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Indonesia",
+      "country_codes": [
+        "ID"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 21,
+      "unique_users": 7,
+      "importance_score_avg": 0.48,
+      "importance_score_max": 2
+    },
+    {
+      "location": "Germany",
+      "country_codes": [
+        "DE"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 19,
+      "unique_users": 9,
+      "importance_score_avg": 0.16,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Brazil",
+      "country_codes": [
+        "BR"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 16,
+      "unique_users": 6,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Norway",
+      "country_codes": [
+        "NO"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 16,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Ireland",
+      "country_codes": [
+        "IE"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 15,
+      "unique_users": 6,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "North America",
+      "country_codes": [
+        "US",
+        "CA",
+        "MX"
+      ],
+      "region_type": "region",
+      "confidence": "high",
+      "engagement_count": 14,
+      "unique_users": 10,
+      "importance_score_avg": 0.14,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Kyrgyzstan",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 13,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Denmark",
+      "country_codes": [
+        "DK"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 11,
+      "unique_users": 2,
+      "importance_score_avg": 0.55,
+      "importance_score_max": 3
+    },
+    {
+      "location": "Czech Republic",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 10,
+      "unique_users": 3,
+      "importance_score_avg": 3.5,
+      "importance_score_max": 5
+    },
+    {
+      "location": "New Zealand",
+      "country_codes": [
+        "NZ"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 10,
+      "unique_users": 6,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "France",
+      "country_codes": [
+        "FR"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 10,
+      "unique_users": 6,
+      "importance_score_avg": 0.1,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Romania",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 9,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Peru",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 9,
+      "unique_users": 2,
+      "importance_score_avg": 0.89,
+      "importance_score_max": 1
+    },
+    {
+      "location": "South America",
+      "country_codes": [
+        "BR",
+        "AR",
+        "CL",
+        "CO",
+        "PE",
+        "VE",
+        "EC",
+        "BO",
+        "PY",
+        "UY"
+      ],
+      "region_type": "region",
+      "confidence": "high",
+      "engagement_count": 8,
+      "unique_users": 1,
+      "importance_score_avg": 1,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Australia",
+      "country_codes": [
+        "AU"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 8,
+      "unique_users": 5,
+      "importance_score_avg": 0.12,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Uganda",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 8,
+      "unique_users": 5,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Mexico",
+      "country_codes": [
+        "MX"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 7,
+      "unique_users": 6,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "West Asia",
+      "country_codes": [
+        "IN",
+        "CN",
+        "JP",
+        "KR",
+        "ID",
+        "PK",
+        "BD",
+        "PH",
+        "VN",
+        "TH",
+        "MY",
+        "SG"
+      ],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 7,
+      "unique_users": 1,
+      "importance_score_avg": 2,
+      "importance_score_max": 2
+    },
+    {
+      "location": "United Arab Emirates",
+      "country_codes": [
+        "AE"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 6,
+      "unique_users": 5,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Europe",
+      "country_codes": [
+        "GB",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "SE",
+        "CH",
+        "PL",
+        "BE",
+        "AT",
+        "DK",
+        "NO",
+        "FI",
+        "IE",
+        "PT",
+        "GR",
+        "RU"
+      ],
+      "region_type": "region",
+      "confidence": "medium",
+      "engagement_count": 6,
+      "unique_users": 6,
+      "importance_score_avg": 0.33,
+      "importance_score_max": 2
+    },
+    {
+      "location": "Turkey",
+      "country_codes": [
+        "TR"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 6,
+      "unique_users": 3,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Georgia",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 5,
+      "unique_users": 2,
+      "importance_score_avg": 0.8,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Switzerland",
+      "country_codes": [
+        "CH"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 5,
+      "unique_users": 5,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Japan",
+      "country_codes": [
+        "JP"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 5,
+      "unique_users": 4,
+      "importance_score_avg": 0.2,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Slovakia",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 5,
+      "unique_users": 2,
+      "importance_score_avg": 1,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Malaysia",
+      "country_codes": [
+        "MY"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 5,
+      "unique_users": 4,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Argentina",
+      "country_codes": [
+        "AR"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 4,
+      "unique_users": 4,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Morocco",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 4,
+      "unique_users": 2,
+      "importance_score_avg": 5.25,
+      "importance_score_max": 7
+    },
+    {
+      "location": "Bulgaria",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 3,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Singapore",
+      "country_codes": [
+        "SG"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 3,
+      "unique_users": 3,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Puerto Rico",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 3,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Philippines",
+      "country_codes": [
+        "PH"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 3,
+      "unique_users": 3,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Chile",
+      "country_codes": [
+        "CL"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "East Asia & Pacific",
+      "country_codes": [
+        "CN",
+        "JP",
+        "KR",
+        "TW",
+        "HK",
+        "MN"
+      ],
+      "region_type": "region",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0.5,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Thailand",
+      "country_codes": [
+        "TH"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Cambodia",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 2,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Ukraine",
+      "country_codes": [
+        "GB"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Greece",
+      "country_codes": [
+        "GR"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Dominican Republic",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Viet Nam",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0.5,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Saudi Arabia",
+      "country_codes": [
+        "SA"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Israel",
+      "country_codes": [
+        "IL"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0.5,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Croatia",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0.5,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Algeria",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 2,
+      "unique_users": 1,
+      "importance_score_avg": 1,
+      "importance_score_max": 1
+    },
+    {
+      "location": "Sweden",
+      "country_codes": [
+        "SE"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Maldives",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 2,
+      "unique_users": 2,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Congo",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Hong Kong",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Serbia",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Kuwait",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Yemen",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Cyprus",
+      "country_codes": [
+        "US"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Iceland",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 5,
+      "importance_score_max": 5
+    },
+    {
+      "location": "Ecuador",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Bolivia",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Lebanon",
+      "country_codes": [],
+      "region_type": "region",
+      "confidence": "low",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Taiwan",
+      "country_codes": [
+        "TW"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Colombia",
+      "country_codes": [
+        "CO"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Korea",
+      "country_codes": [
+        "KR"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    },
+    {
+      "location": "Portugal",
+      "country_codes": [
+        "PT"
+      ],
+      "region_type": "country",
+      "confidence": "high",
+      "engagement_count": 1,
+      "unique_users": 1,
+      "importance_score_avg": 0,
+      "importance_score_max": 0
+    }
+  ],
+  "total_engagements": 4980,
+  "total_locations": 77,
+  "metadata": {
+    "locations_with_data": 77,
+    "locations_missing_data": 1497,
+    "locations_unmapped": 28,
+    "last_updated": "2025-12-29T10:58:26.928Z"
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-23T14:26:24.313Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(claude code) since:2025-11-14 until:2025-11-21",
+  "weekSince": "2025-11-14",
+  "weekUntilInclusive": "2025-11-20",
+  "weekUntilExclusive": "2025-11-21",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1991001234359427451",
+      "url": "https://x.com/donvito/status/1991001234359427451",
+      "twitterUrl": "https://twitter.com/donvito/status/1991001234359427451",
+      "text": "Claude Code free credits extended!!!\n\nNew expiry: 23 Nov https://t.co/j0rt1k5D6W",
+      "source": "Twitter for iPhone",
+      "retweetCount": 2,
+      "replyCount": 9,
+      "likeCount": 282,
+      "quoteCount": 1,
+      "viewCount": 16399,
+      "createdAt": "Wed Nov 19 04:30:59 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 42,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1991001234359427451",
+      "displayTextRange": [
+        0,
+        56
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "donvito",
+        "url": "https://x.com/donvito",
+        "twitterUrl": "https://twitter.com/donvito",
+        "id": "7974112",
+        "name": "Melvin Vivas",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1948088618029080576/8Qsk5--v_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/7974112/1751444423",
+        "description": "",
+        "location": "Singapore",
+        "followers": 22268,
+        "following": 614,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sun Aug 05 15:50:16 +0000 2007",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 23505,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3925,
+        "statusesCount": 22687,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2013959507253117366"
+        ],
+        "profile_bio": {
+          "description": "building https://t.co/YMOQvBHo9X\nLLM APIs @aibackends\nglm coding plan https://t.co/YkdP982CHI\nminimax coding plan https://t.co/BBJpgEiOGH",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "skillsbento.com",
+                  "expanded_url": "http://skillsbento.com",
+                  "indices": [
+                    9,
+                    32
+                  ],
+                  "url": "https://t.co/YMOQvBHo9X"
+                },
+                {
+                  "display_url": "dub.sh/tryglm",
+                  "expanded_url": "https://dub.sh/tryglm",
+                  "indices": [
+                    70,
+                    93
+                  ],
+                  "url": "https://t.co/YkdP982CHI"
+                },
+                {
+                  "display_url": "dub.sh/tryminimax",
+                  "expanded_url": "https://dub.sh/tryminimax",
+                  "indices": [
+                    114,
+                    137
+                  ],
+                  "url": "https://t.co/BBJpgEiOGH"
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    42,
+                    53
+                  ],
+                  "name": "",
+                  "screen_name": "aibackends"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "donvitocodes.com",
+                  "expanded_url": "https://donvitocodes.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/E5ghwtLGE5"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/j0rt1k5D6W",
+            "expanded_url": "https://twitter.com/donvito/status/1991001234359427451/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 79,
+                    "w": 79,
+                    "x": 58,
+                    "y": 4
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 79,
+                    "w": 79,
+                    "x": 58,
+                    "y": 4
+                  }
+                ]
+              }
+            },
+            "id_str": "1991000891349188608",
+            "indices": [
+              57,
+              80
+            ],
+            "media_key": "3_1991000891349188608",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARuhdMMMWsAACgACG6F1EulboXsAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG6F0wwxawAAKAAIboXUS6VuhewAA",
+                "media_key": "3_1991000891349188608"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G6F0wwxawAArO-r.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 169,
+                  "w": 302,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 169,
+                  "x": 25,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 148,
+                  "x": 35,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 85,
+                  "x": 67,
+                  "y": 0
+                },
+                {
+                  "h": 169,
+                  "w": 489,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 169,
+              "width": 489
+            },
+            "sizes": {
+              "large": {
+                "h": 169,
+                "w": 489
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/j0rt1k5D6W"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1991280133014278273",
+      "url": "https://x.com/_catwu/status/1991280133014278273",
+      "twitterUrl": "https://twitter.com/_catwu/status/1991280133014278273",
+      "text": "We're extending our free usage credits for Claude Code on the web, and they'll now expire on November 22 11:59 PM PT.\n\nWe heard your feedback that Claude Code on the web would occasionally hang. We’ve landed several reliability improvements over the past two weeks to address this, and are continuing to work on it. \n\nLet us know how it's working for you!",
+      "source": "Twitter for iPhone",
+      "retweetCount": 69,
+      "replyCount": 196,
+      "likeCount": 1190,
+      "quoteCount": 22,
+      "viewCount": 181428,
+      "createdAt": "Wed Nov 19 22:59:14 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 252,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1991280133014278273",
+      "displayTextRange": [
+        0,
+        300
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "_catwu",
+        "url": "https://x.com/_catwu",
+        "twitterUrl": "https://twitter.com/_catwu",
+        "id": "974757274206978049",
+        "name": "cat",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1645578728532246528/Llilll47_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/974757274206978049/1635393880",
+        "description": "",
+        "location": "sf",
+        "followers": 52261,
+        "following": 372,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Fri Mar 16 21:20:19 +0000 2018",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 5930,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 153,
+        "statusesCount": 1316,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "claude code pm @anthropicai\nprev: @indexventures, @dagster, @scale_ai",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    15,
+                    27
+                  ],
+                  "name": "",
+                  "screen_name": "anthropicai"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    34,
+                    48
+                  ],
+                  "name": "",
+                  "screen_name": "indexventures"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    50,
+                    58
+                  ],
+                  "name": "",
+                  "screen_name": "dagster"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    60,
+                    69
+                  ],
+                  "name": "",
+                  "screen_name": "scale_ai"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1985754411675930775",
+        "url": "https://x.com/_catwu/status/1985754411675930775",
+        "twitterUrl": "https://twitter.com/_catwu/status/1985754411675930775",
+        "text": "We're giving Pro and Max users free usage credits for Claude Code on the web.\n\nSince launching, your feedback has been invaluable for improving Claude Code. We’re temporarily adding free usage so you can more flexibly experiment with the product. https://t.co/pJVBeoY3Kh",
+        "source": "Twitter for iPhone",
+        "retweetCount": 177,
+        "replyCount": 257,
+        "likeCount": 2390,
+        "quoteCount": 99,
+        "viewCount": 606049,
+        "createdAt": "Tue Nov 04 17:01:59 +0000 2025",
+        "lang": "en",
+        "bookmarkCount": 872,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "1985754411675930775",
+        "displayTextRange": [
+          0,
+          246
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "_catwu",
+          "url": "https://x.com/_catwu",
+          "twitterUrl": "https://twitter.com/_catwu",
+          "id": "974757274206978049",
+          "name": "cat",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1645578728532246528/Llilll47_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/974757274206978049/1635393880",
+          "description": "",
+          "location": "sf",
+          "followers": 52261,
+          "following": 372,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": true,
+          "createdAt": "Fri Mar 16 21:20:19 +0000 2018",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 5930,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 153,
+          "statusesCount": 1316,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [],
+          "profile_bio": {
+            "description": "claude code pm @anthropicai\nprev: @indexventures, @dagster, @scale_ai",
+            "entities": {
+              "description": {
+                "user_mentions": [
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      15,
+                      27
+                    ],
+                    "name": "",
+                    "screen_name": "anthropicai"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      34,
+                      48
+                    ],
+                    "name": "",
+                    "screen_name": "indexventures"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      50,
+                      58
+                    ],
+                    "name": "",
+                    "screen_name": "dagster"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      60,
+                      69
+                    ],
+                    "name": "",
+                    "screen_name": "scale_ai"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {
+          "media": [
+            {
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "display_url": "pic.twitter.com/pJVBeoY3Kh",
+              "expanded_url": "https://twitter.com/_catwu/status/1985754411675930775/video/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "id_str": "1985752880075395072",
+              "indices": [
+                247,
+                270
+              ],
+              "media_key": "13_1985752880075395072",
+              "media_results": {
+                "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARuOz7k0mlAAAAA=",
+                "result": {
+                  "__typename": "ApiMedia",
+                  "id": "QXBpTWVkaWE6DAAECgABG47PuTSaUAAAAA==",
+                  "media_key": "13_1985752880075395072"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1985752880075395072/img/NtZB04LRHvpshP5g.jpg",
+              "original_info": {
+                "focus_rects": [],
+                "height": 2160,
+                "width": 3196
+              },
+              "sizes": {
+                "large": {
+                  "h": 1384,
+                  "w": 2048
+                }
+              },
+              "type": "video",
+              "url": "https://t.co/pJVBeoY3Kh",
+              "video_info": {
+                "aspect_ratio": [
+                  799,
+                  540
+                ],
+                "duration_millis": 27983,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/pl/srrgitAWiW9QvHRC.m3u8?tag=21"
+                  },
+                  {
+                    "bitrate": 256000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/398x270/rZjJ8teaoqCMvxe0.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/532x360/9QGoYtLa8EWkXGV8.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/1064x720/cfBM-vIfaT7-et70.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/1598x1080/bzRznkASdpmQ2IZs.mp4?tag=21"
+                  },
+                  {
+                    "bitrate": 25128000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1985752880075395072/vid/avc1/3196x2160/4hOOwyDcSZ6UDF5g.mp4?tag=21"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "card": null,
+        "place": {},
+        "entities": {},
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

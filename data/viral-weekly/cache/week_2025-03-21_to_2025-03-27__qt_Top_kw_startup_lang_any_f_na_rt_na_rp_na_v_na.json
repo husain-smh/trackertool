@@ -1,0 +1,4939 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-23T14:29:31.450Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(startup) since:2025-03-21 until:2025-03-28",
+  "weekSince": "2025-03-21",
+  "weekUntilInclusive": "2025-03-27",
+  "weekUntilExclusive": "2025-03-28",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1905394823189987838",
+      "url": "https://x.com/cixliv/status/1905394823189987838",
+      "twitterUrl": "https://twitter.com/cixliv/status/1905394823189987838",
+      "text": "My robot startup has been incorporated.\n\nThis one, is going to be huge. I will give it every ounce of my being. Let's go. https://t.co/HUyAp0OUFF",
+      "source": "Twitter for iPhone",
+      "retweetCount": 7,
+      "replyCount": 47,
+      "likeCount": 324,
+      "quoteCount": 2,
+      "viewCount": 17309,
+      "createdAt": "Thu Mar 27 23:01:41 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 26,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905394823189987838",
+      "displayTextRange": [
+        0,
+        121
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "cixliv",
+        "url": "https://x.com/cixliv",
+        "twitterUrl": "https://twitter.com/cixliv",
+        "id": "1059939026",
+        "name": "CIX 🦾",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2001533291527380992/T0_Tcexs_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1059939026/1762545920",
+        "description": "",
+        "location": "California",
+        "followers": 32179,
+        "following": 8300,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Fri Jan 04 08:53:37 +0000 2013",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 152469,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 1479,
+        "statusesCount": 40033,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Building Real Steel - CEO / Chief Robot Fighter @REK - Decade of startups in AR/VR - Founder @LIV + more - Post about VR and Humanoid Robots",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    48,
+                    52
+                  ],
+                  "name": "",
+                  "screen_name": "REK"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    93,
+                    97
+                  ],
+                  "name": "",
+                  "screen_name": "LIV"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "rek.com",
+                  "expanded_url": "http://rek.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/RjHOENDGgz"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/HUyAp0OUFF",
+            "expanded_url": "https://twitter.com/cixliv/status/1905394823189987838/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905394022195335168",
+            "indices": [
+              122,
+              145
+            ],
+            "media_key": "3_1905394022195335168",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxUcSaGxAACgACGnFSfxkbgf4AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFRxJobEAAKAAIacVJ/GRuB/gAA",
+                "media_key": "3_1905394022195335168"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFRxJobEAAzBO1.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 412,
+                  "w": 735,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 502,
+                  "w": 502,
+                  "x": 134,
+                  "y": 0
+                },
+                {
+                  "h": 502,
+                  "w": 440,
+                  "x": 165,
+                  "y": 0
+                },
+                {
+                  "h": 502,
+                  "w": 251,
+                  "x": 260,
+                  "y": 0
+                },
+                {
+                  "h": 502,
+                  "w": 735,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 502,
+              "width": 735
+            },
+            "sizes": {
+              "large": {
+                "h": 502,
+                "w": 735
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/HUyAp0OUFF"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905397367857446974",
+      "url": "https://x.com/leolanza/status/1905397367857446974",
+      "twitterUrl": "https://twitter.com/leolanza/status/1905397367857446974",
+      "text": "What do you think Wall Street 🧱 is gonna do when they realize:\n\n•Trillions in stablecoins 💵 launching on ETH\n\n•Startup-style growth 🚀 like a tech stock\n\n•And it’s paying a 3% dividend 🤑?\n\nThey’re not gonna fade it.\nThey’re gonna FOMO in HARD.\n\nETH is inevitable.\nYou’re early.\nAct like it.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 6,
+      "replyCount": 1,
+      "likeCount": 84,
+      "quoteCount": 0,
+      "viewCount": 1371,
+      "createdAt": "Thu Mar 27 23:11:47 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905397367857446974",
+      "displayTextRange": [
+        0,
+        294
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "leolanza",
+        "url": "https://x.com/leolanza",
+        "twitterUrl": "https://twitter.com/leolanza",
+        "id": "1694099568198311936",
+        "name": "Leo Lanza | ETHisDigitalOil.eth",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1973107323087257600/PGWhFHR-_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1694099568198311936/1744729326",
+        "description": "",
+        "location": "",
+        "followers": 11554,
+        "following": 312,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Tue Aug 22 21:29:59 +0000 2023",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 11148,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 1759,
+        "statusesCount": 9160,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1915419241055998345"
+        ],
+        "profile_bio": {
+          "description": "https://t.co/5hAvqkTuPn contributor | Building wealth through crypto, DeFi, & smart investing strategies. YouTube https://t.co/DcbgiNj9wy",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "ethdigitaloil.com",
+                  "expanded_url": "http://ethdigitaloil.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/5hAvqkTuPn"
+                },
+                {
+                  "display_url": "youtube.com/@l3olanza",
+                  "expanded_url": "https://www.youtube.com/@l3olanza",
+                  "indices": [
+                    114,
+                    137
+                  ],
+                  "url": "https://t.co/DcbgiNj9wy"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "zora.co/@leolanza",
+                  "expanded_url": "https://zora.co/@leolanza",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/BQE9CzIAID"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/UdGNmdCgkz",
+            "expanded_url": "https://twitter.com/l3olanza/status/1905397367857446974/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905397362438148096",
+            "indices": [
+              295,
+              318
+            ],
+            "media_key": "3_1905397362438148096",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxVM5QF5AACgACGnFUz5MbgD4AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFUzlAXkAAKAAIacVTPkxuAPgAA",
+                "media_key": "3_1905397362438148096"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFUzlAXkAAF6ab.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 307,
+                  "w": 548,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 308,
+                  "w": 308,
+                  "x": 120,
+                  "y": 0
+                },
+                {
+                  "h": 308,
+                  "w": 270,
+                  "x": 139,
+                  "y": 0
+                },
+                {
+                  "h": 308,
+                  "w": 154,
+                  "x": 197,
+                  "y": 0
+                },
+                {
+                  "h": 308,
+                  "w": 548,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 308,
+              "width": 548
+            },
+            "sizes": {
+              "large": {
+                "h": 308,
+                "w": 548
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/UdGNmdCgkz"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905381673421996220",
+      "url": "https://x.com/manujagro/status/1905381673421996220",
+      "twitterUrl": "https://twitter.com/manujagro/status/1905381673421996220",
+      "text": "How we used AI to turn a startup into a $60M company in 2 years!\n\nAI is unlocking the power to combine industries and create groundbreaking solutions. Here’s how we did it:\n\n✅ We combined orthotics (for joint pain), healthcare, algorithms, computer vision, and 3D printing.\n\n ✅ The result? A custom 3D-printed orthotic device with 2mm accuracy—revolutionizing the market.\n\n ✅ A $43 billion German conglomerate saw the potential and licensed our technology globally.\nWant to explore new opportunities and make a huge impact with AI? \n\nLike this video & follow us for more!\n\n#AI #BusinessGrowth #Innovation #StartupSuccess #AIForBusiness",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 5,
+      "quoteCount": 0,
+      "viewCount": 145,
+      "createdAt": "Thu Mar 27 22:09:25 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905381673421996220",
+      "displayTextRange": [
+        0,
+        302
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "manujagro",
+        "url": "https://x.com/manujagro",
+        "twitterUrl": "https://twitter.com/manujagro",
+        "id": "358333297",
+        "name": "Manuj Aggarwal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1213884988598341632/oG2lkmTh_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/358333297/1754049504",
+        "description": "",
+        "location": "Vancouver BC",
+        "followers": 2415,
+        "following": 1472,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Fri Aug 19 19:13:25 +0000 2011",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 19186,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 8343,
+        "statusesCount": 25532,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "AI Consultant to Fortune 500s | Mensa-Endorsed | 4x Patents | Author & Speaker | CIO @TetraNoodle | Travel Lover ✈️",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    85,
+                    97
+                  ],
+                  "name": "",
+                  "screen_name": "TetraNoodle"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "s.manuj.biz",
+                  "expanded_url": "https://s.manuj.biz",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/iMtTtrwoIY"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/ySjvqoFvG5",
+            "expanded_url": "https://twitter.com/manujagro/status/1905381673421996220/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905381589749772288",
+            "indices": [
+              303,
+              326
+            ],
+            "media_key": "7_1905381589749772288",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARpxRnXymrAACgACGnFGiW3bgLwAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABGnFGdfKasAAKAAIacUaJbduAvAAA",
+                "media_key": "7_1905381589749772288"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905381589749772288/pu/img/nuZzYuZ2L1o0nSCh.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1280,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 1280,
+                "w": 720
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/ySjvqoFvG5",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 55867,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1905381589749772288/pu/pl/LXCcxCGycYkMKxs3.m3u8?tag=12"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905381589749772288/pu/vid/avc1/320x568/ltxeAZpfu2hKthsh.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905381589749772288/pu/vid/avc1/480x852/c6C1jsiWkmN5vhdH.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905381589749772288/pu/vid/avc1/720x1280/Nv19jiNbEwL3OTu6.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              573,
+              576
+            ],
+            "text": "AI"
+          },
+          {
+            "indices": [
+              577,
+              592
+            ],
+            "text": "BusinessGrowth"
+          },
+          {
+            "indices": [
+              593,
+              604
+            ],
+            "text": "Innovation"
+          },
+          {
+            "indices": [
+              605,
+              620
+            ],
+            "text": "StartupSuccess"
+          },
+          {
+            "indices": [
+              621,
+              635
+            ],
+            "text": "AIForBusiness"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905359178345968122",
+      "url": "https://x.com/PakStartup/status/1905359178345968122",
+      "twitterUrl": "https://twitter.com/PakStartup/status/1905359178345968122",
+      "text": "Huawei has announced a major training program to equip 60,000 Pakistanis with hi-tech skills, while 240,000 more will receive basic IT training.\n\n#HuaweiTraining #PakistanIT #DigitalSkills https://t.co/quwqpzYDng",
+      "source": "Twitter for iPhone",
+      "retweetCount": 35,
+      "replyCount": 5,
+      "likeCount": 288,
+      "quoteCount": 0,
+      "viewCount": 3483,
+      "createdAt": "Thu Mar 27 20:40:02 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905359178345968122",
+      "displayTextRange": [
+        0,
+        188
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "PakStartup",
+        "url": "https://x.com/PakStartup",
+        "twitterUrl": "https://twitter.com/PakStartup",
+        "id": "1325389497748623360",
+        "name": "Startup Pakistan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1325390160729616384/sTmxoWiN_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1325389497748623360/1641243633",
+        "description": "",
+        "location": "Pakistan",
+        "followers": 66567,
+        "following": 5,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Sun Nov 08 10:47:52 +0000 2020",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 3282,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 31874,
+        "statusesCount": 32035,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Pakistan's Leading Startups, Tech and General News Platform",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "startuppakistan.com.pk",
+                  "expanded_url": "https://startuppakistan.com.pk",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/Me2ZfWrhOK"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/quwqpzYDng",
+            "expanded_url": "https://twitter.com/PakStartup/status/1905359178345968122/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905359172423540737",
+            "indices": [
+              189,
+              212
+            ],
+            "media_key": "3_1905359172423540737",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxMhKB1mABCgACGnEyE+LXcfoAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnEyEoHWYAEKAAIacTIT4tdx+gAA",
+                "media_key": "3_1905359172423540737"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnEyEoHWYAEWQPB.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 640
+                },
+                {
+                  "h": 1081,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 220
+                },
+                {
+                  "h": 1232,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 69
+                },
+                {
+                  "h": 1301,
+                  "w": 651,
+                  "x": 227,
+                  "y": 0
+                },
+                {
+                  "h": 1301,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1301,
+              "width": 1081
+            },
+            "sizes": {
+              "large": {
+                "h": 1301,
+                "w": 1081
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/quwqpzYDng"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              146,
+              161
+            ],
+            "text": "HuaweiTraining"
+          },
+          {
+            "indices": [
+              162,
+              173
+            ],
+            "text": "PakistanIT"
+          },
+          {
+            "indices": [
+              174,
+              188
+            ],
+            "text": "DigitalSkills"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905398002665353400",
+      "url": "https://x.com/founderjournals/status/1905398002665353400",
+      "twitterUrl": "https://twitter.com/founderjournals/status/1905398002665353400",
+      "text": "They built more than a startup. They built an institution.\n\nBy aligning with public education and gaining support from seasoned leaders and creditors, @campusgrad set a lasting foundation.\n\nTrust isn’t optional, it’s the infrastructure.\n\n@tadeoyerinde on @startupgpod https://t.co/7kFRkEj63y",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1,
+      "replyCount": 1,
+      "likeCount": 17,
+      "quoteCount": 1,
+      "viewCount": 2719,
+      "createdAt": "Thu Mar 27 23:14:19 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905398002665353400",
+      "displayTextRange": [
+        0,
+        267
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "founderjournals",
+        "url": "https://x.com/founderjournals",
+        "twitterUrl": "https://twitter.com/founderjournals",
+        "id": "1843505047692554240",
+        "name": "FounderJournal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1852527116480638976/byloZ1xM_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1843505047692554240/1730511868",
+        "description": "",
+        "location": "San Francisco, CA",
+        "followers": 4447,
+        "following": 5444,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Tue Oct 08 04:14:06 +0000 2024",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 4502,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 563,
+        "statusesCount": 2472,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Tech news and analysis with a focus on founders and startups. Presented by @fondocom 🤝",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    75,
+                    84
+                  ],
+                  "name": "",
+                  "screen_name": "fondocom"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "tryfondo.com/blog",
+                  "expanded_url": "http://tryfondo.com/blog",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/QGw2LBgnEd"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/7kFRkEj63y",
+            "expanded_url": "https://twitter.com/founderjournals/status/1905398002665353400/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905392676255793152",
+            "indices": [
+              268,
+              291
+            ],
+            "media_key": "7_1905392676255793152",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARpxUIs524AACgACGnFVY2CbcLgAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABGnFQiznbgAAKAAIacVVjYJtwuAAA",
+                "media_key": "7_1905392676255793152"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905392676255793152/pu/img/L6COGI-uUgrf5SE6.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "w": 1080
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/7kFRkEj63y",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 40900,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1905392676255793152/pu/pl/fsl37-jbMD2Ex-oB.m3u8?tag=12&v=dd4"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905392676255793152/pu/vid/avc1/320x568/rpWV1LhglJyQhrZG.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905392676255793152/pu/vid/avc1/480x852/XzNY8HhGWdK-jRq3.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905392676255793152/pu/vid/avc1/720x1280/ApbbrkZ0BqL92hUV.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1438161609852063750",
+            "indices": [
+              151,
+              162
+            ],
+            "name": "Campus",
+            "screen_name": "Campusgrad"
+          },
+          {
+            "id_str": "373992912",
+            "indices": [
+              238,
+              251
+            ],
+            "name": "Tade Oyerinde 🇺🇸",
+            "screen_name": "tadeoyerinde"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905395822759420206",
+      "url": "https://x.com/TechNews24h/status/1905395822759420206",
+      "twitterUrl": "https://twitter.com/TechNews24h/status/1905395822759420206",
+      "text": "In 2004, a 19-year-old Mark Zuckerberg was focused on growing a simple site called “The Facebook” from his Harvard dorm room. \n\n#technews24h\n#markzuckerberg #facebook #meta #instagram #entrepreneur #entrepreneurship #business #startup #mindset #viral #explore #trending https://t.co/iQj6R0cACp",
+      "source": "Twitter for iPhone",
+      "retweetCount": 6,
+      "replyCount": 2,
+      "likeCount": 18,
+      "quoteCount": 1,
+      "viewCount": 5112,
+      "createdAt": "Thu Mar 27 23:05:39 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 5,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905395822759420206",
+      "displayTextRange": [
+        0,
+        269
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "TechNews24h",
+        "url": "https://x.com/TechNews24h",
+        "twitterUrl": "https://twitter.com/TechNews24h",
+        "id": "120835472",
+        "name": "Tech News 24h",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1901813858299265024/4AWaTpIs_normal.png",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/120835472/1690163177",
+        "description": "",
+        "location": "USA",
+        "followers": 10555,
+        "following": 11287,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Sun Mar 07 18:17:30 +0000 2010",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 7500,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 4796,
+        "statusesCount": 32490,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "#TechNews24h is a website focused around the Tech community.\n\nhttps://t.co/xpKeqok1GN",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    0,
+                    12
+                  ],
+                  "text": "TechNews24h"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "linktr.ee/technews24h",
+                  "expanded_url": "http://linktr.ee/technews24h",
+                  "indices": [
+                    62,
+                    85
+                  ],
+                  "url": "https://t.co/xpKeqok1GN"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "technews24h.com",
+                  "expanded_url": "https://www.technews24h.com/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/0tAnCPIgO2"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/iQj6R0cACp",
+            "expanded_url": "https://twitter.com/TechNews24h/status/1905395822759420206/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905395779469975552",
+            "indices": [
+              270,
+              293
+            ],
+            "media_key": "7_1905395779469975552",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARpxU12/1iAACgACGnFTZ9QWoS4AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABGnFTXb/WIAAKAAIacVNn1BahLgAA",
+                "media_key": "7_1905395779469975552"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905395779469975552/pu/img/gl8uLILUisUJbfXc.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 640,
+              "width": 360
+            },
+            "sizes": {
+              "large": {
+                "h": 640,
+                "w": 360
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/iQj6R0cACp",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 54588,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1905395779469975552/pu/pl/Q53sMxvP7Qen4xRO.m3u8?tag=12&v=120"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905395779469975552/pu/vid/avc1/320x568/ezVO05k9ffTElwRq.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905395779469975552/pu/vid/avc1/360x640/Axjq1JsGogIjflmz.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              128,
+              140
+            ],
+            "text": "technews24h"
+          },
+          {
+            "indices": [
+              141,
+              156
+            ],
+            "text": "markzuckerberg"
+          },
+          {
+            "indices": [
+              157,
+              166
+            ],
+            "text": "facebook"
+          },
+          {
+            "indices": [
+              167,
+              172
+            ],
+            "text": "meta"
+          },
+          {
+            "indices": [
+              173,
+              183
+            ],
+            "text": "instagram"
+          },
+          {
+            "indices": [
+              184,
+              197
+            ],
+            "text": "entrepreneur"
+          },
+          {
+            "indices": [
+              198,
+              215
+            ],
+            "text": "entrepreneurship"
+          },
+          {
+            "indices": [
+              216,
+              225
+            ],
+            "text": "business"
+          },
+          {
+            "indices": [
+              226,
+              234
+            ],
+            "text": "startup"
+          },
+          {
+            "indices": [
+              235,
+              243
+            ],
+            "text": "mindset"
+          },
+          {
+            "indices": [
+              244,
+              250
+            ],
+            "text": "viral"
+          },
+          {
+            "indices": [
+              251,
+              259
+            ],
+            "text": "explore"
+          },
+          {
+            "indices": [
+              260,
+              269
+            ],
+            "text": "trending"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905394625029767458",
+      "url": "https://x.com/mack_meyerr/status/1905394625029767458",
+      "twitterUrl": "https://twitter.com/mack_meyerr/status/1905394625029767458",
+      "text": "The first time, it’s chaos. The second time, it’s clarity.  Ryan Croft shares how everything shifts when you’ve already been through the fire—from decision-making to team building. \n\nListen to full episode on Spotify. Link in bio.\n\n#startup #finance #latamstartups https://t.co/mcCbekg8XK",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "viewCount": 59,
+      "createdAt": "Thu Mar 27 23:00:53 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905394625029767458",
+      "displayTextRange": [
+        0,
+        264
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "mack_meyerr",
+        "url": "https://x.com/mack_meyerr",
+        "twitterUrl": "https://twitter.com/mack_meyerr",
+        "id": "253600031",
+        "name": "Mack Meyer",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1798514269627047936/mmw3LFNA_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/253600031/1690681371",
+        "description": "",
+        "location": "Join 2k+ Community ➡️",
+        "followers": 2042,
+        "following": 1593,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Thu Feb 17 15:43:05 +0000 2011",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 6045,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 413,
+        "statusesCount": 8561,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1798731738694246685"
+        ],
+        "profile_bio": {
+          "description": "Born and raised in SF | Living in 🇲🇽| Former professional athlete | @venturecapmx",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    68,
+                    81
+                  ],
+                  "name": "",
+                  "screen_name": "venturecapmx"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "linktr.ee/venturecapital…",
+                  "expanded_url": "https://linktr.ee/venturecapitalmx",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/8vbXCSKpAQ"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/mcCbekg8XK",
+            "expanded_url": "https://twitter.com/mack_meyerr/status/1905394625029767458/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905394545568657408",
+            "indices": [
+              265,
+              288
+            ],
+            "media_key": "7_1905394545568657408",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARpxUj51ljAACgACGnFSUPXWgSIAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABGnFSPnWWMAAKAAIacVJQ9daBIgAA",
+                "media_key": "7_1905394545568657408"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905394545568657408/pu/img/1gGsJupJHLVGImY3.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "w": 1080
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/mcCbekg8XK",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 75466,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1905394545568657408/pu/pl/bPswVsGd3h2sc_n6.m3u8?tag=12"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905394545568657408/pu/vid/avc1/320x568/XoyeetkSbfXjwRhK.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905394545568657408/pu/vid/avc1/480x852/mhSpx44h-9bOnnaa.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905394545568657408/pu/vid/avc1/720x1280/wa1mn176LawFyp0z.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              232,
+              240
+            ],
+            "text": "startup"
+          },
+          {
+            "indices": [
+              241,
+              249
+            ],
+            "text": "finance"
+          },
+          {
+            "indices": [
+              250,
+              264
+            ],
+            "text": "latamstartups"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905379377669452111",
+      "url": "https://x.com/startupfesthq/status/1905379377669452111",
+      "twitterUrl": "https://twitter.com/startupfesthq/status/1905379377669452111",
+      "text": "WATCH: Investing in Startups: What Really Matters?\n\nAt #AfricaStartupFest Jeffery Akemu of @LaunchAfricaVC harps on the importance of having co-founders, and the emerging goldmine in Francophone Africa.\n\n#ASFXLagos #ASF2025 #AfricaStartupFestival https://t.co/tjQe1dSqZr",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 5,
+      "quoteCount": 0,
+      "viewCount": 224,
+      "createdAt": "Thu Mar 27 22:00:18 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905379377669452111",
+      "displayTextRange": [
+        0,
+        246
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "startupfesthq",
+        "url": "https://x.com/startupfesthq",
+        "twitterUrl": "https://twitter.com/startupfesthq",
+        "id": "1649313548416294913",
+        "name": "Africa Startup Festival",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1843639293643726848/zx2Bpryl_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1649313548416294913/1764358923",
+        "description": "",
+        "location": "Africa",
+        "followers": 1470,
+        "following": 3,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Fri Apr 21 07:26:14 +0000 2023",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 599,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 522,
+        "statusesCount": 901,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Africa's Foremost Deal-Making and Networking event #ASFXLagos #ASFXNairobi #ASF2026",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    51,
+                    61
+                  ],
+                  "text": "ASFXLagos"
+                },
+                {
+                  "indices": [
+                    62,
+                    74
+                  ],
+                  "text": "ASFXNairobi"
+                },
+                {
+                  "indices": [
+                    75,
+                    83
+                  ],
+                  "text": "ASF2026"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "linkin.bio/startupfesthq/",
+                  "expanded_url": "http://linkin.bio/startupfesthq/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/1IcGyBHQok"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/tjQe1dSqZr",
+            "expanded_url": "https://twitter.com/startupfesthq/status/1905379377669452111/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905379225890095104",
+            "indices": [
+              247,
+              270
+            ],
+            "media_key": "13_1905379225890095104",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARpxRE+RloAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABGnFET5GWgAAAAA==",
+                "media_key": "13_1905379225890095104"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1905379225890095104/img/mIZOllD9W7hfz0xc.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 720,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 720,
+                "w": 1280
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/tjQe1dSqZr",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 169333,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1905379225890095104/pl/gi-PwOjCu7bsqVS0.m3u8?tag=14"
+                },
+                {
+                  "bitrate": 288000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905379225890095104/vid/avc1/480x270/QULmO_31moHx_E1R.mp4?tag=14"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905379225890095104/vid/avc1/640x360/GQxmlJTk_58gW6O5.mp4?tag=14"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905379225890095104/vid/avc1/1280x720/esJuTQ8rLTGk2Pi_.mp4?tag=14"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              55,
+              73
+            ],
+            "text": "AfricaStartupFest"
+          },
+          {
+            "indices": [
+              204,
+              214
+            ],
+            "text": "ASFXLagos"
+          },
+          {
+            "indices": [
+              215,
+              223
+            ],
+            "text": "ASF2025"
+          },
+          {
+            "indices": [
+              224,
+              246
+            ],
+            "text": "AfricaStartupFestival"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "1422275104654839823",
+            "indices": [
+              91,
+              106
+            ],
+            "name": "Launch Africa Ventures",
+            "screen_name": "LaunchAfricaVC"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905401971416207477",
+      "url": "https://x.com/PakStartup/status/1905401971416207477",
+      "twitterUrl": "https://twitter.com/PakStartup/status/1905401971416207477",
+      "text": "Saudi Arabia’s Haramain Train service achieved a new milestone by transporting 48,000 passengers in a single day during Ramadan.\n\n#HaramainTrain #SaudiArabia #Ramadan https://t.co/baPV9vGVK0",
+      "source": "Twitter for iPhone",
+      "retweetCount": 10,
+      "replyCount": 0,
+      "likeCount": 117,
+      "quoteCount": 0,
+      "viewCount": 1285,
+      "createdAt": "Thu Mar 27 23:30:05 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905401971416207477",
+      "displayTextRange": [
+        0,
+        166
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "PakStartup",
+        "url": "https://x.com/PakStartup",
+        "twitterUrl": "https://twitter.com/PakStartup",
+        "id": "1325389497748623360",
+        "name": "Startup Pakistan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1325390160729616384/sTmxoWiN_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1325389497748623360/1641243633",
+        "description": "",
+        "location": "Pakistan",
+        "followers": 66567,
+        "following": 5,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Sun Nov 08 10:47:52 +0000 2020",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 3282,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 31874,
+        "statusesCount": 32035,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Pakistan's Leading Startups, Tech and General News Platform",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "startuppakistan.com.pk",
+                  "expanded_url": "https://startuppakistan.com.pk",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/Me2ZfWrhOK"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/baPV9vGVK0",
+            "expanded_url": "https://twitter.com/PakStartup/status/1905401971416207477/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905401960980697088",
+            "indices": [
+              167,
+              190
+            ],
+            "media_key": "3_1905401960980697088",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxWPz+llAACgACGnFY/2yXkHUAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFY/P6WUAAKAAIacVj/bJeQdQAA",
+                "media_key": "3_1905401960980697088"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFY_P6WUAA70JG.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 575
+                },
+                {
+                  "h": 1081,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 220
+                },
+                {
+                  "h": 1232,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 69
+                },
+                {
+                  "h": 1301,
+                  "w": 651,
+                  "x": 292,
+                  "y": 0
+                },
+                {
+                  "h": 1301,
+                  "w": 1081,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1301,
+              "width": 1081
+            },
+            "sizes": {
+              "large": {
+                "h": 1301,
+                "w": 1081
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/baPV9vGVK0"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              130,
+              144
+            ],
+            "text": "HaramainTrain"
+          },
+          {
+            "indices": [
+              145,
+              157
+            ],
+            "text": "SaudiArabia"
+          },
+          {
+            "indices": [
+              158,
+              166
+            ],
+            "text": "Ramadan"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905363931046306048",
+      "url": "https://x.com/AtomsNotBits/status/1905363931046306048",
+      "twitterUrl": "https://twitter.com/AtomsNotBits/status/1905363931046306048",
+      "text": "Africa goes eVTOL, C-UAS Raises, and In-Orbit Software Updates\n\nDaily Hard Tech Headlines:\n\n- Nanoprecise Sci Corp has raised a $38M Series C. The Alberta-based startup focuses on industrial maintenance technology.\n\n- Ethiopian Airlines has agreed to a $30M deal with @ArcherAviation. The deal “will primarily focus on supporting the initial deployment of our aircraft to develop an air taxi network on the continent, while exploring other use cases, including eco-tourism.”\n\n- @allencontrol has announced a $30M Series A. The round was led by Craft Ventures, with participation from Inspired Capital and Rally Ventures. The funding will help ACS scale the deployment of their Bullfrog C-UAS systems. Bullfrog boosts traditional weapon accuracy with AI, computer vision, and proprietary control systems, turning them into precision-targeting systems.\n\n- @torcrobotics, Flextronics International Ltd., and @nvidia are joining forces to build out the Onboard AI hardware platform for self-driving trucks. Torc develops autonomy-enabling technology such as radar, lidar, and computer vision.\n\n- Thales has partnered with Dedrone by Axon. The partnership focuses on outfitting Thales’ tactical vehicles with a C-UAS system developed by Dedrone.\n\n- SpearUAV, the Israeli defense company developing munition, UAS technology, and more, has raised funding led by Deep Insight venture fund. The funding amount was not disclosed.\n\n- Oshkosh Defense, based in Wisconsin, has showcased its rocket system that can be mounted onto a vehicle.\n\n- @Albedo has announced the “first on-orbit software update for Clarity-1,” their satellite.\n\n- Schneider Electric has announced a $700M investment into its American manufacturing operations, which will create 1,000 new jobs.\n\n- Vattenfall, the Swedish energy company, has announced the development of Germany's largest offshore wind farm. Construction is slated to begin in 2026.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1,
+      "replyCount": 1,
+      "likeCount": 16,
+      "quoteCount": 0,
+      "viewCount": 2395,
+      "createdAt": "Thu Mar 27 20:58:55 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 5,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905363931046306048",
+      "displayTextRange": [
+        0,
+        292
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "AtomsNotBits",
+        "url": "https://x.com/AtomsNotBits",
+        "twitterUrl": "https://twitter.com/AtomsNotBits",
+        "id": "1625708990339649538",
+        "name": "Atoms Not Bits",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1883027821335056384/LBDMBb0y_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1625708990339649538/1699158426",
+        "description": "",
+        "location": "",
+        "followers": 6147,
+        "following": 3382,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Feb 15 04:10:17 +0000 2023",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 6640,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 529,
+        "statusesCount": 1069,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2014503192588058889"
+        ],
+        "profile_bio": {
+          "description": "Covering technology not found in the cloud",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "atomsnotbits.com",
+                  "expanded_url": "http://atomsnotbits.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/TCd32qS7eR"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/nirQPD68I4",
+            "expanded_url": "https://twitter.com/AtomsNotBits/status/1905363931046306048/photo/1",
+            "ext_alt_text": "Source: Albedo",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 70,
+                    "w": 70,
+                    "x": 557,
+                    "y": 885
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 70,
+                    "w": 70,
+                    "x": 557,
+                    "y": 885
+                  }
+                ]
+              }
+            },
+            "id_str": "1905360753449992194",
+            "indices": [
+              293,
+              316
+            ],
+            "media_key": "3_1905360753449992194",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxM4KeW4ACCgACGnE2ZnXbYQAAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnEzgp5bgAIKAAIacTZmddthAAAA",
+                "media_key": "3_1905360753449992194"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnEzgp5bgAIa3zq.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 504,
+                  "w": 900,
+                  "x": 0,
+                  "y": 678
+                },
+                {
+                  "h": 900,
+                  "w": 900,
+                  "x": 0,
+                  "y": 300
+                },
+                {
+                  "h": 1026,
+                  "w": 900,
+                  "x": 0,
+                  "y": 174
+                },
+                {
+                  "h": 1200,
+                  "w": 600,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1200,
+                  "w": 900,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1200,
+              "width": 900
+            },
+            "sizes": {
+              "large": {
+                "h": 1200,
+                "w": 900
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/nirQPD68I4"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/nirQPD68I4",
+            "expanded_url": "https://twitter.com/AtomsNotBits/status/1905363931046306048/photo/1",
+            "ext_alt_text": "Source: Archer Aviation",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905360911466201091",
+            "indices": [
+              293,
+              316
+            ],
+            "media_key": "3_1905360911466201091",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxM6do24ADCgACGnE2ZnXbYQAAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnEzp2jbgAMKAAIacTZmddthAAAA",
+                "media_key": "3_1905360911466201091"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnEzp2jbgAMYo62.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 504,
+                  "w": 900,
+                  "x": 0,
+                  "y": 41
+                },
+                {
+                  "h": 545,
+                  "w": 545,
+                  "x": 289,
+                  "y": 0
+                },
+                {
+                  "h": 545,
+                  "w": 478,
+                  "x": 322,
+                  "y": 0
+                },
+                {
+                  "h": 545,
+                  "w": 273,
+                  "x": 425,
+                  "y": 0
+                },
+                {
+                  "h": 545,
+                  "w": 900,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 545,
+              "width": 900
+            },
+            "sizes": {
+              "large": {
+                "h": 545,
+                "w": 900
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/nirQPD68I4"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/nirQPD68I4",
+            "expanded_url": "https://twitter.com/AtomsNotBits/status/1905363931046306048/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905361006265761792",
+            "indices": [
+              293,
+              316
+            ],
+            "media_key": "3_1905361006265761792",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxM717WgAACgACGnE2ZnXbYQAAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnEzvXtaAAAKAAIacTZmddthAAAA",
+                "media_key": "3_1905361006265761792"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnEzvXtaAAAqUPX.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 504,
+                  "w": 900,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 514,
+                  "w": 514,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 514,
+                  "w": 451,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 514,
+                  "w": 257,
+                  "x": 29,
+                  "y": 0
+                },
+                {
+                  "h": 514,
+                  "w": 900,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 514,
+              "width": 900
+            },
+            "sizes": {
+              "large": {
+                "h": 514,
+                "w": 900
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/nirQPD68I4"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1687957014696148992",
+            "indices": [
+              478,
+              491
+            ],
+            "name": "Allen Control Systems",
+            "screen_name": "allencontrol"
+          },
+          {
+            "id_str": "61559439",
+            "indices": [
+              905,
+              912
+            ],
+            "name": "NVIDIA",
+            "screen_name": "nvidia"
+          },
+          {
+            "id_str": "1337836599942524931",
+            "indices": [
+              1531,
+              1538
+            ],
+            "name": "Albedo",
+            "screen_name": "Albedo"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905384191249777120",
+      "url": "https://x.com/Dragonmaurizio/status/1905384191249777120",
+      "twitterUrl": "https://twitter.com/Dragonmaurizio/status/1905384191249777120",
+      "text": "Encouraging news from the hydrogen forefront. \nA UK based startup company named Supercritical has developed ultra efficient membrane-less chemical electrolysers with a proprietary equipment capable to produce each kilogram of hydrogen with only 42 kWh of electrical power vs the 52-56 kWh required by standard industrial electrolysers commercially available on the market. Giant ventures capital Shell and Toyota have invested in the company. \n🔗 https://t.co/7oJSkHkvWx\n\nChinese manufactured alkaline hydrogen electrolysers slash product, installation and maintenance costs by 60%. Global figures suggest that electrolyser stacks for green hydrogen are 3 to 4 times cheaper than those produced in the West on a per-kW basis, but the gap may have possibly widened to about six times cheaper in the last 6 months or so. \n🔗 https://t.co/OeZq1IbbYp",
+      "source": "Twitter for iPhone",
+      "retweetCount": 3,
+      "replyCount": 0,
+      "likeCount": 21,
+      "quoteCount": 0,
+      "viewCount": 547,
+      "createdAt": "Thu Mar 27 22:19:26 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905384191249777120",
+      "displayTextRange": [
+        0,
+        303
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "Dragonmaurizio",
+        "url": "https://x.com/Dragonmaurizio",
+        "twitterUrl": "https://twitter.com/Dragonmaurizio",
+        "id": "3224440544",
+        "name": "Maurizio Iβλἄ",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2002175362235592704/mJWy6hee_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/3224440544/1704087043",
+        "description": "",
+        "location": "Italy",
+        "followers": 6765,
+        "following": 2892,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Sat May 23 16:43:30 +0000 2015",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 121454,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 6873,
+        "statusesCount": 19866,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1703414271063871974"
+        ],
+        "profile_bio": {
+          "description": "🔬Independent #Quantum researcher      🔭 #Skywatcher       ⚛️ Regenerative #Energy Systems",
+          "entities": {
+            "description": {
+              "hashtags": [
+                {
+                  "indices": [
+                    13,
+                    21
+                  ],
+                  "text": "Quantum"
+                },
+                {
+                  "indices": [
+                    40,
+                    51
+                  ],
+                  "text": "Skywatcher"
+                },
+                {
+                  "indices": [
+                    74,
+                    81
+                  ],
+                  "text": "Energy"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "callofthesea.org/about-us/our-f…",
+                  "expanded_url": "https://callofthesea.org/about-us/our-fleet/matthew-turner/regenerative-electric-propulsion/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/ApGO513rjq"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/vt71YFgkEa",
+            "expanded_url": "https://twitter.com/Dragonmaurizio/status/1905384191249777120/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905384186602508289",
+            "indices": [
+              304,
+              327
+            ],
+            "media_key": "3_1905384186602508289",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxSNKTFtABCgACGnFI06gWgeAAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFI0pMW0AEKAAIacUjTqBaB4AAA",
+                "media_key": "3_1905384186602508289"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFI0pMW0AEARGT.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 360,
+                  "w": 643,
+                  "x": 77,
+                  "y": 0
+                },
+                {
+                  "h": 360,
+                  "w": 360,
+                  "x": 360,
+                  "y": 0
+                },
+                {
+                  "h": 360,
+                  "w": 316,
+                  "x": 404,
+                  "y": 0
+                },
+                {
+                  "h": 360,
+                  "w": 180,
+                  "x": 504,
+                  "y": 0
+                },
+                {
+                  "h": 360,
+                  "w": 720,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 360,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 360,
+                "w": 720
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/vt71YFgkEa"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/vt71YFgkEa",
+            "expanded_url": "https://twitter.com/Dragonmaurizio/status/1905384191249777120/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905384186732544000",
+            "indices": [
+              304,
+              327
+            ],
+            "media_key": "3_1905384186732544000",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxSNKa1wAACgACGnFI06gWgeAAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFI0prXAAAKAAIacUjTqBaB4AAA",
+                "media_key": "3_1905384186732544000"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFI0prXAAAlgmC.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 464,
+                  "w": 828,
+                  "x": 0,
+                  "y": 37
+                },
+                {
+                  "h": 552,
+                  "w": 552,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 552,
+                  "w": 484,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 552,
+                  "w": 276,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 552,
+                  "w": 828,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 552,
+              "width": 828
+            },
+            "sizes": {
+              "large": {
+                "h": 552,
+                "w": 828
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/vt71YFgkEa"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "gosupercritical.com",
+            "expanded_url": "https://gosupercritical.com/",
+            "indices": [
+              446,
+              469
+            ],
+            "url": "https://t.co/7oJSkHkvWx"
+          },
+          {
+            "display_url": "hydrogeninsight.com/electrolysers/…",
+            "expanded_url": "https://www.hydrogeninsight.com/electrolysers/new-chinese-hydrogen-electrolyser-can-slash-installation-and-maintenance-costs-by-60-/2-1-1794777?utm_campaign=2025-03-20&utm_content=hydrogen&utm_medium=email&utm_source=email_campaign&utm_term=recharge",
+            "indices": [
+              821,
+              844
+            ],
+            "url": "https://t.co/OeZq1IbbYp"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905393963353194657",
+      "url": "https://x.com/rungalileo/status/1905393963353194657",
+      "twitterUrl": "https://twitter.com/rungalileo/status/1905393963353194657",
+      "text": "🌲 𝙎𝙚𝙖𝙩𝙩𝙡𝙚 𝙨𝙩𝙖𝙧𝙩𝙪𝙥 𝙘𝙧𝙚𝙬 — who will we see? 👋\n\nGalileo is proud to be an Elite sponsor of Seattle Startup Summit, bringing together builders, founders, and operators shaping the future of tech in the PNW.\n\n🧠 Great minds.\n💡 Big ideas.\n⚡ And yes, a whole lot of AI talk.\n\nWhether you’re scaling your first startup or just GenAI-curious, come hang with us. We’ll be there to talk evals, agents, and what it really takes to make AI production-ready.\n\nCome by and say hi to @ConorBronsdon & @erinmikail\n\n#SeattleStartups #GalileoAI #GenAI #StartupSummit #PNWTech #AIevaluation #LLMs",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1,
+      "replyCount": 1,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "viewCount": 140,
+      "createdAt": "Thu Mar 27 22:58:16 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905393963353194657",
+      "displayTextRange": [
+        0,
+        282
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "rungalileo",
+        "url": "https://x.com/rungalileo",
+        "twitterUrl": "https://twitter.com/rungalileo",
+        "id": "1407395607430537217",
+        "name": "Galileo",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business",
+        "profilePicture": "https://pbs.twimg.com/profile_images/1924648525339807744/m4vYUsgo_normal.png",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1407395607430537217/1748477545",
+        "description": "",
+        "location": "SF & NYC",
+        "followers": 1465,
+        "following": 455,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Tue Jun 22 17:52:06 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 560,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 532,
+        "statusesCount": 1300,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1945709604706591108"
+        ],
+        "profile_bio": {
+          "description": "The fastest way to ship reliable AI apps - Evaluation, Experimentation, and Observability Platform",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "galileo.ai",
+                  "expanded_url": "https://www.galileo.ai",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/c26aBvSLKG"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/LsrbaolZYe",
+            "expanded_url": "https://twitter.com/rungalileo/status/1905393963353194657/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 43,
+                    "w": 43,
+                    "x": 554,
+                    "y": 96
+                  },
+                  {
+                    "h": 34,
+                    "w": 34,
+                    "x": 680,
+                    "y": 199
+                  },
+                  {
+                    "h": 34,
+                    "w": 34,
+                    "x": 324,
+                    "y": 210
+                  },
+                  {
+                    "h": 38,
+                    "w": 38,
+                    "x": 439,
+                    "y": 210
+                  },
+                  {
+                    "h": 34,
+                    "w": 34,
+                    "x": 296,
+                    "y": 457
+                  },
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 318,
+                    "y": 96
+                  },
+                  {
+                    "h": 40,
+                    "w": 40,
+                    "x": 94,
+                    "y": 210
+                  },
+                  {
+                    "h": 58,
+                    "w": 58,
+                    "x": 431,
+                    "y": 96
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 552,
+                    "y": 207
+                  },
+                  {
+                    "h": 51,
+                    "w": 51,
+                    "x": 584,
+                    "y": 652
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 542,
+                    "y": 497
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 43,
+                    "w": 43,
+                    "x": 554,
+                    "y": 96
+                  },
+                  {
+                    "h": 34,
+                    "w": 34,
+                    "x": 680,
+                    "y": 199
+                  },
+                  {
+                    "h": 34,
+                    "w": 34,
+                    "x": 324,
+                    "y": 210
+                  },
+                  {
+                    "h": 38,
+                    "w": 38,
+                    "x": 439,
+                    "y": 210
+                  },
+                  {
+                    "h": 34,
+                    "w": 34,
+                    "x": 296,
+                    "y": 457
+                  },
+                  {
+                    "h": 46,
+                    "w": 46,
+                    "x": 318,
+                    "y": 96
+                  },
+                  {
+                    "h": 40,
+                    "w": 40,
+                    "x": 94,
+                    "y": 210
+                  },
+                  {
+                    "h": 58,
+                    "w": 58,
+                    "x": 431,
+                    "y": 96
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 552,
+                    "y": 207
+                  },
+                  {
+                    "h": 51,
+                    "w": 51,
+                    "x": 584,
+                    "y": 652
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 542,
+                    "y": 497
+                  }
+                ]
+              }
+            },
+            "id_str": "1905393960790474752",
+            "indices": [
+              283,
+              306
+            ],
+            "media_key": "3_1905393960790474752",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxUbZOF0AACgACGnFRtubXQKEAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFRtk4XQAAKAAIacVG25tdAoQAA",
+                "media_key": "3_1905393960790474752"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFRtk4XQAAbsif.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 448,
+                  "w": 800,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 800,
+                  "w": 800,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 800,
+                  "w": 702,
+                  "x": 98,
+                  "y": 0
+                },
+                {
+                  "h": 800,
+                  "w": 400,
+                  "x": 260,
+                  "y": 0
+                },
+                {
+                  "h": 800,
+                  "w": 800,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 800,
+              "width": 800
+            },
+            "sizes": {
+              "large": {
+                "h": 800,
+                "w": 800
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/LsrbaolZYe"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              497,
+              513
+            ],
+            "text": "SeattleStartups"
+          },
+          {
+            "indices": [
+              514,
+              524
+            ],
+            "text": "GalileoAI"
+          },
+          {
+            "indices": [
+              525,
+              531
+            ],
+            "text": "GenAI"
+          },
+          {
+            "indices": [
+              532,
+              546
+            ],
+            "text": "StartupSummit"
+          },
+          {
+            "indices": [
+              547,
+              555
+            ],
+            "text": "PNWTech"
+          },
+          {
+            "indices": [
+              556,
+              569
+            ],
+            "text": "AIevaluation"
+          },
+          {
+            "indices": [
+              570,
+              575
+            ],
+            "text": "LLMs"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "456255014",
+            "indices": [
+              467,
+              481
+            ],
+            "name": "Conor Bronsdon",
+            "screen_name": "ConorBronsdon"
+          },
+          {
+            "id_str": "102238505",
+            "indices": [
+              484,
+              495
+            ],
+            "name": "erinmikail.bsky.social✌️",
+            "screen_name": "erinmikail"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905368993709338990",
+      "url": "https://x.com/startupignition/status/1905368993709338990",
+      "twitterUrl": "https://twitter.com/startupignition/status/1905368993709338990",
+      "text": "We break down the real meaningful startup trends from the latest SVB &amp; PitchBook reports in this episode #8 of the Startup Ignition Podcast.\n\n🎧 Watch the full episode now. https://t.co/n95okxo7vo\n\n#startups #venturecapital #AI #founders #startupignition https://t.co/ngv9CXNuuR",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 1,
+      "viewCount": 126,
+      "createdAt": "Thu Mar 27 21:19:02 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905368993709338990",
+      "displayTextRange": [
+        0,
+        257
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "startupignition",
+        "url": "https://x.com/startupignition",
+        "twitterUrl": "https://twitter.com/startupignition",
+        "id": "3195815857",
+        "name": "Startup Ignition",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1790503138451230720/kGPvh32a_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/3195815857/1719450122",
+        "description": "",
+        "location": "Provo, UT",
+        "followers": 461,
+        "following": 67,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Fri May 15 00:33:03 +0000 2015",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 494,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 312,
+        "statusesCount": 524,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "🚀 Empowering startup owners to succeed\n💰 Pre-seed Venture Capital\n🤝 Mentorship & Community\n🔥 Join us and fellow entrepreneurs 👇",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "startupignition.com/links",
+                  "expanded_url": "http://startupignition.com/links",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/CJFlloyV6q"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/ngv9CXNuuR",
+            "expanded_url": "https://twitter.com/startupignition/status/1905368993709338990/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905368856031383552",
+            "indices": [
+              258,
+              281
+            ],
+            "media_key": "7_1905368856031383552",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARpxOuEl19AACgACGnE7ATQWsW4AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABGnE64SXX0AAKAAIacTsBNBaxbgAA",
+                "media_key": "7_1905368856031383552"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905368856031383552/pu/img/PDoY8_htphyRYXa3.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "w": 1080
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/ngv9CXNuuR",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 51966,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1905368856031383552/pu/pl/f50VcN3udC1xDM0j.m3u8?tag=12"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905368856031383552/pu/vid/avc1/320x568/M05VZnOTHWMB7Blk.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905368856031383552/pu/vid/avc1/480x852/YUKRXaBsTu_S_vX8.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1905368856031383552/pu/vid/avc1/720x1280/Y8NBK3OzDrHw3Bpu.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              201,
+              210
+            ],
+            "text": "startups"
+          },
+          {
+            "indices": [
+              211,
+              226
+            ],
+            "text": "venturecapital"
+          },
+          {
+            "indices": [
+              227,
+              230
+            ],
+            "text": "AI"
+          },
+          {
+            "indices": [
+              231,
+              240
+            ],
+            "text": "founders"
+          },
+          {
+            "indices": [
+              241,
+              257
+            ],
+            "text": "startupignition"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "youtu.be/VsQOMhuKt68",
+            "expanded_url": "https://youtu.be/VsQOMhuKt68",
+            "indices": [
+              176,
+              199
+            ],
+            "url": "https://t.co/n95okxo7vo"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905370530464624714",
+      "url": "https://x.com/QuikFormsCEO/status/1905370530464624714",
+      "twitterUrl": "https://twitter.com/QuikFormsCEO/status/1905370530464624714",
+      "text": "Mastering Lean Startup Techniques for Leadership Success - Peter LePiane, Founder of Idea Bridge, on The Customer Wins with Rich Walker Full Episode: https://t.co/vWv0k0d6JU https://t.co/wNjE8FulRl",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 21,
+      "createdAt": "Thu Mar 27 21:25:09 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905370530464624714",
+      "displayTextRange": [
+        0,
+        173
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "QuikFormsCEO",
+        "url": "https://x.com/QuikFormsCEO",
+        "twitterUrl": "https://twitter.com/QuikFormsCEO",
+        "id": "22059471",
+        "name": "Rich Walker",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1779881319322845184/c4fix1WH_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/22059471/1579813979",
+        "description": "",
+        "location": "Austin, TX",
+        "followers": 7049,
+        "following": 1077,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Thu Feb 26 20:47:46 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 20,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 2295,
+        "statusesCount": 4974,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "I started Quik! Forms in 2002 to save people from filling out forms by hand. My goal is to empower others to do their best work.",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "quikforms.com",
+                  "expanded_url": "http://quikforms.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/eXEAMWHVYt"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/wNjE8FulRl",
+            "expanded_url": "https://twitter.com/QuikFormsCEO/status/1905370530464624714/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905370267829800960",
+            "indices": [
+              174,
+              197
+            ],
+            "media_key": "13_1905370267829800960",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARpxPCnblhAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABGnE8KduWEAAAAA==",
+                "media_key": "13_1905370267829800960"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1905370267829800960/img/atimRKcFIq1-nphc.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 720,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 720,
+                "w": 720
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/wNjE8FulRl",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "duration_millis": 56021,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1905370267829800960/pl/4m9B1wO2pXkki_-X.m3u8?tag=14"
+                },
+                {
+                  "bitrate": 432000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905370267829800960/vid/avc1/320x320/TU7NsBtrQAPOjF3c.mp4?tag=14"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905370267829800960/vid/avc1/540x540/0B5Z8jIreHDTImjp.mp4?tag=14"
+                },
+                {
+                  "bitrate": 1280000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905370267829800960/vid/avc1/720x720/kwtebCndO6hQ4Y53.mp4?tag=14"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "quickforms.com/post/perspecti…",
+            "expanded_url": "https://www.quickforms.com/post/perspective-series-strategies-for-winning-customers-a-conversation-with-peter-lepiane",
+            "indices": [
+              150,
+              173
+            ],
+            "url": "https://t.co/vWv0k0d6JU"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905409322441425349",
+      "url": "https://x.com/jeremyau/status/1905409322441425349",
+      "twitterUrl": "https://twitter.com/jeremyau/status/1905409322441425349",
+      "text": "Startup Fundraising: Crafting the Pitch, Building Trust &amp; Ownership Auction – E554\n#StartupFounders #FundraisingTips #PitchStrategy #VentureCapital #TrustBuilding #FounderJourney #CapitalStack #InvestorRelations #StartupGrowth #BRAVEpodcast https://t.co/x7d6gncGcn",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 17,
+      "createdAt": "Thu Mar 27 23:59:17 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905409322441425349",
+      "displayTextRange": [
+        0,
+        244
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "jeremyau",
+        "url": "https://x.com/jeremyau",
+        "twitterUrl": "https://twitter.com/jeremyau",
+        "id": "636710837",
+        "name": "Jeremy Au 区汉辉",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1389564551553638400/CKsQkqe7_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/636710837/1620133286",
+        "description": "",
+        "location": "Singapore",
+        "followers": 775,
+        "following": 406,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Mon Jul 16 05:02:31 +0000 2012",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 3301,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 1360,
+        "statusesCount": 5539,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "COO Lucence. Angel, founder & Harvard MBA. Join BRAVE, Southeast Asia’s #1 tech podcast (80,000+ listeners). Dad of two, sci-fi & hiking. Forbes 30 Under 30.",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "bravesea.com",
+                  "expanded_url": "https://www.bravesea.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/RGvU5Cnqif"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/x7d6gncGcn",
+            "expanded_url": "https://twitter.com/jeremyau/status/1905409322441425349/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1905409295648247808",
+            "indices": [
+              245,
+              268
+            ],
+            "media_key": "13_1905409295648247808",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARpxX6i611AAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABGnFfqLrXUAAAAA==",
+                "media_key": "13_1905409295648247808"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1905409295648247808/img/iD4OY6mt2_MEptSj.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "w": 1080
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/x7d6gncGcn",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 51328,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1905409295648247808/pl/NexzYlYjkMgBYkvB.m3u8?tag=14"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905409295648247808/vid/avc1/320x568/QrIOkWGYx2bMuI95.mp4?tag=14"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905409295648247808/vid/avc1/480x852/iWjskTH1SNcgNFKc.mp4?tag=14"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1905409295648247808/vid/avc1/720x1280/4RC5_q6yXyU_kZAp.mp4?tag=14"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              87,
+              103
+            ],
+            "text": "StartupFounders"
+          },
+          {
+            "indices": [
+              104,
+              120
+            ],
+            "text": "FundraisingTips"
+          },
+          {
+            "indices": [
+              121,
+              135
+            ],
+            "text": "PitchStrategy"
+          },
+          {
+            "indices": [
+              136,
+              151
+            ],
+            "text": "VentureCapital"
+          },
+          {
+            "indices": [
+              152,
+              166
+            ],
+            "text": "TrustBuilding"
+          },
+          {
+            "indices": [
+              167,
+              182
+            ],
+            "text": "FounderJourney"
+          },
+          {
+            "indices": [
+              183,
+              196
+            ],
+            "text": "CapitalStack"
+          },
+          {
+            "indices": [
+              197,
+              215
+            ],
+            "text": "InvestorRelations"
+          },
+          {
+            "indices": [
+              216,
+              230
+            ],
+            "text": "StartupGrowth"
+          },
+          {
+            "indices": [
+              231,
+              244
+            ],
+            "text": "BRAVEpodcast"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905391420648673412",
+      "url": "https://x.com/mustafaergisi/status/1905391420648673412",
+      "twitterUrl": "https://twitter.com/mustafaergisi/status/1905391420648673412",
+      "text": "Startup idea: Magical glasses that turn your view into a Ghibli-style adventure. https://t.co/Nl6NqeTAUr",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "viewCount": 165,
+      "createdAt": "Thu Mar 27 22:48:09 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905391420648673412",
+      "displayTextRange": [
+        0,
+        80
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "mustafaergisi",
+        "url": "https://x.com/mustafaergisi",
+        "twitterUrl": "https://twitter.com/mustafaergisi",
+        "id": "4774517295",
+        "name": "Mustafa Ergisi",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1601481097375895553/oRQI_if2_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/4774517295/1732210647",
+        "description": "",
+        "location": "",
+        "followers": 5712,
+        "following": 4650,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Mon Jan 11 13:33:00 +0000 2016",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 29259,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 2596,
+        "statusesCount": 10886,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2011726796366938492"
+        ],
+        "profile_bio": {
+          "description": "👨‍💻 SaaS Founder\nBuilding https://t.co/olwitYCW8E ($10K MRR) | https://t.co/VS1bcK2g0y \nSharing what actually works\nDigital products → https://t.co/Spks1T5Dd7",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "AI2sql.io",
+                  "expanded_url": "http://AI2sql.io",
+                  "indices": [
+                    26,
+                    49
+                  ],
+                  "url": "https://t.co/olwitYCW8E"
+                },
+                {
+                  "display_url": "Deepworkz.one",
+                  "expanded_url": "http://Deepworkz.one",
+                  "indices": [
+                    63,
+                    86
+                  ],
+                  "url": "https://t.co/VS1bcK2g0y"
+                },
+                {
+                  "display_url": "mustafae.gumroad.com",
+                  "expanded_url": "http://mustafae.gumroad.com",
+                  "indices": [
+                    135,
+                    158
+                  ],
+                  "url": "https://t.co/Spks1T5Dd7"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/Nl6NqeTAUr",
+            "expanded_url": "https://twitter.com/mustafaergisi/status/1905391420648673412/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 97,
+                    "w": 97,
+                    "x": 24,
+                    "y": 773
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 97,
+                    "w": 97,
+                    "x": 24,
+                    "y": 773
+                  }
+                ]
+              }
+            },
+            "id_str": "1905391410653638656",
+            "indices": [
+              81,
+              104
+            ],
+            "media_key": "3_1905391410653638656",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxT2SOFzAACgACGnFPZuHXUIQAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFPZI4XMAAKAAIacU9m4ddQhAAA",
+                "media_key": "3_1905391410653638656"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFPZI4XMAAkW_D.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 573,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 46
+                },
+                {
+                  "h": 1024,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 898,
+                  "x": 126,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 512,
+                  "x": 384,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1024,
+              "width": 1024
+            },
+            "sizes": {
+              "large": {
+                "h": 1024,
+                "w": 1024
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Nl6NqeTAUr"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905389681640177787",
+      "url": "https://x.com/prmshra/status/1905389681640177787",
+      "twitterUrl": "https://twitter.com/prmshra/status/1905389681640177787",
+      "text": "OH REALLY?? AHHAHAHAHA REALLY? NO ONE COULDVE SEEN THIS COMING! NO ONE COULD HAVE STARTED A COMPANY IN MAY OF 2024 AND NOT SLEPT PROPERLY FOR MONTHS BECAUSE THEY ARE PRUDENT AND SAW THIS COMING. RIGHT? RIGHT?\n\nANYONE at google wants to talk to a startup for LIVE CELL data - HMU",
+      "source": "Twitter for iPhone",
+      "retweetCount": 12,
+      "replyCount": 9,
+      "likeCount": 341,
+      "quoteCount": 1,
+      "viewCount": 31083,
+      "createdAt": "Thu Mar 27 22:41:15 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 53,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905389681640177787",
+      "displayTextRange": [
+        0,
+        278
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "prmshra",
+        "url": "https://x.com/prmshra",
+        "twitterUrl": "https://twitter.com/prmshra",
+        "id": "1134927411047309312",
+        "name": "Parmita Mishra",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2012589599080472576/KWBsg1A4_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1134927411047309312/1765793009",
+        "description": "",
+        "location": "San Carlos, CA",
+        "followers": 32669,
+        "following": 4933,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sat Jun 01 20:59:15 +0000 2019",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 108210,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 6738,
+        "statusesCount": 52993,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1993168852822507698"
+        ],
+        "profile_bio": {
+          "description": "founder CEO @precigenetic. i build ASI and biosensing that controls mammalian cells and fights disease. \n\nprev. @penn comp bio @pennmedicine 🧫🧬",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    12,
+                    25
+                  ],
+                  "name": "",
+                  "screen_name": "precigenetic"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    112,
+                    117
+                  ],
+                  "name": "",
+                  "screen_name": "penn"
+                },
+                {
+                  "id_str": "0",
+                  "indices": [
+                    127,
+                    140
+                  ],
+                  "name": "",
+                  "screen_name": "pennmedicine"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "precigenetics.ai",
+                  "expanded_url": "http://precigenetics.ai",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/UbdeOURZSc"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1905214840911593578",
+        "url": "https://x.com/Nature/status/1905214840911593578",
+        "twitterUrl": "https://twitter.com/Nature/status/1905214840911593578",
+        "text": "AlphaFold, the revolutionary, Nobel prize-winning tool for predicting protein structures, has a problem: it’s running low on data\n\nhttps://t.co/joTohHqAO1",
+        "source": "Twitter for iPhone",
+        "retweetCount": 167,
+        "replyCount": 14,
+        "likeCount": 647,
+        "quoteCount": 30,
+        "viewCount": 96438,
+        "createdAt": "Thu Mar 27 11:06:29 +0000 2025",
+        "lang": "en",
+        "bookmarkCount": 165,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "1905214840911593578",
+        "displayTextRange": [
+          0,
+          154
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "Nature",
+          "url": "https://x.com/Nature",
+          "twitterUrl": "https://twitter.com/Nature",
+          "id": "15862891",
+          "name": "nature",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/15862891/1621000867",
+          "description": "",
+          "location": "Worldwide",
+          "followers": 2570458,
+          "following": 3234,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": false,
+          "createdAt": "Fri Aug 15 13:39:58 +0000 2008",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 2091,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 21312,
+          "statusesCount": 84723,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [],
+          "profile_bio": {
+            "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+            "entities": {
+              "description": {
+                "urls": [
+                  {
+                    "display_url": "go.nature.com/naturebriefing",
+                    "expanded_url": "http://go.nature.com/naturebriefing",
+                    "indices": [
+                      123,
+                      146
+                    ],
+                    "url": "https://t.co/wGmQlQ8a4D"
+                  }
+                ]
+              },
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "nature.com",
+                    "expanded_url": "http://www.nature.com",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/r17cjcVLWg"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {},
+        "card": {
+          "binding_values": [
+            {
+              "key": "photo_image_full_size_large",
+              "value": {
+                "image_value": {
+                  "height": 419,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=800x419",
+                  "width": 800
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image",
+              "value": {
+                "image_value": {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=280x150",
+                  "width": 267
+                }
+              }
+            },
+            {
+              "key": "description",
+              "value": {
+                "string_value": "Nature - Thousands of 3D protein structures locked up in big-pharma vaults will be used to create a new AI tool that won’t be open to academics."
+              }
+            },
+            {
+              "key": "domain",
+              "value": {
+                "string_value": "www.nature.com"
+              }
+            },
+            {
+              "key": "thumbnail_image_large",
+              "value": {
+                "image_value": {
+                  "height": 320,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=800x320_1",
+                  "width": 569
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_small",
+              "value": {
+                "image_value": {
+                  "height": 202,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=386x202",
+                  "width": 386
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_original",
+              "value": {
+                "image_value": {
+                  "height": 600,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=orig",
+                  "width": 1066
+                }
+              }
+            },
+            {
+              "key": "site",
+              "value": {
+                "scribe_key": "publisher_id",
+                "user_value": {
+                  "id_str": "15862891"
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_small",
+              "value": {
+                "image_value": {
+                  "height": 202,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=386x202",
+                  "width": 386
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_large",
+              "value": {
+                "image_value": {
+                  "height": 419,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=800x419",
+                  "width": 800
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_small",
+              "value": {
+                "image_value": {
+                  "height": 81,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=144x144",
+                  "width": 144
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_x_large",
+              "value": {
+                "image_value": {
+                  "height": 600,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=png&name=2048x2048_2_exp",
+                  "width": 1066
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_original",
+              "value": {
+                "image_value": {
+                  "height": 600,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=orig",
+                  "width": 1066
+                }
+              }
+            },
+            {
+              "key": "vanity_url",
+              "value": {
+                "scribe_key": "vanity_url",
+                "string_value": "nature.com"
+              }
+            },
+            {
+              "key": "photo_image_full_size",
+              "value": {
+                "image_value": {
+                  "height": 314,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=600x314",
+                  "width": 600
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 94.08,
+                      "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                      }
+                    },
+                    {
+                      "percentage": 4.57,
+                      "rgb": {
+                        "blue": 154,
+                        "green": 144,
+                        "red": 121
+                      }
+                    },
+                    {
+                      "percentage": 0.54,
+                      "rgb": {
+                        "blue": 139,
+                        "green": 173,
+                        "red": 192
+                      }
+                    },
+                    {
+                      "percentage": 0.44,
+                      "rgb": {
+                        "blue": 177,
+                        "green": 154,
+                        "red": 110
+                      }
+                    },
+                    {
+                      "percentage": 0.37,
+                      "rgb": {
+                        "blue": 171,
+                        "green": 187,
+                        "red": 141
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "title",
+              "value": {
+                "string_value": "AlphaFold is running out of data — so drug firms are building their own version"
+              }
+            },
+            {
+              "key": "summary_photo_image_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 94.08,
+                      "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                      }
+                    },
+                    {
+                      "percentage": 4.57,
+                      "rgb": {
+                        "blue": 154,
+                        "green": 144,
+                        "red": 121
+                      }
+                    },
+                    {
+                      "percentage": 0.54,
+                      "rgb": {
+                        "blue": 139,
+                        "green": 173,
+                        "red": 192
+                      }
+                    },
+                    {
+                      "percentage": 0.44,
+                      "rgb": {
+                        "blue": 177,
+                        "green": 154,
+                        "red": 110
+                      }
+                    },
+                    {
+                      "percentage": 0.37,
+                      "rgb": {
+                        "blue": 171,
+                        "green": 187,
+                        "red": 141
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_x_large",
+              "value": {
+                "image_value": {
+                  "height": 600,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=png&name=2048x2048_2_exp",
+                  "width": 1066
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image",
+              "value": {
+                "image_value": {
+                  "height": 314,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=600x314",
+                  "width": 600
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 94.08,
+                      "rgb": {
+                        "blue": 255,
+                        "green": 255,
+                        "red": 255
+                      }
+                    },
+                    {
+                      "percentage": 4.57,
+                      "rgb": {
+                        "blue": 154,
+                        "green": 144,
+                        "red": 121
+                      }
+                    },
+                    {
+                      "percentage": 0.54,
+                      "rgb": {
+                        "blue": 139,
+                        "green": 173,
+                        "red": 192
+                      }
+                    },
+                    {
+                      "percentage": 0.44,
+                      "rgb": {
+                        "blue": 177,
+                        "green": 154,
+                        "red": 110
+                      }
+                    },
+                    {
+                      "percentage": 0.37,
+                      "rgb": {
+                        "blue": 171,
+                        "green": 187,
+                        "red": 141
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_x_large",
+              "value": {
+                "image_value": {
+                  "height": 600,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=png&name=2048x2048_2_exp",
+                  "width": 1066
+                }
+              }
+            },
+            {
+              "key": "card_url",
+              "value": {
+                "scribe_key": "card_url",
+                "string_value": "https://t.co/joTohHqAO1"
+              }
+            },
+            {
+              "key": "summary_photo_image_original",
+              "value": {
+                "image_value": {
+                  "height": 600,
+                  "url": "https://pbs.twimg.com/card_img/2012403635204882432/PywoxXKj?format=jpg&name=orig",
+                  "width": 1066
+                }
+              }
+            }
+          ],
+          "card_platform": {
+            "platform": {
+              "audience": {
+                "name": "production"
+              },
+              "device": {
+                "name": "iPhone",
+                "version": "13"
+              }
+            }
+          },
+          "name": "summary_large_image",
+          "url": "https://t.co/joTohHqAO1",
+          "user_refs_results": [
+            {
+              "rest_id": "15862891",
+              "result": {
+                "__typename": "User",
+                "action_counts": {
+                  "favorites_count": 2091
+                },
+                "avatar": {
+                  "image_url": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg"
+                },
+                "banner": {
+                  "image_url": "https://pbs.twimg.com/profile_banners/15862891/1621000867"
+                },
+                "core": {
+                  "created_at": "Fri Aug 15 13:39:58 +0000 2008",
+                  "name": "nature",
+                  "screen_name": "Nature"
+                },
+                "dm_permissions": {
+                  "can_dm": true
+                },
+                "exclusive_tweet_following": false,
+                "identity_profile_labels_highlighted_label": {},
+                "location": {
+                  "location": "Worldwide"
+                },
+                "media_permissions": {
+                  "can_media_tag": false
+                },
+                "notifications_settings": {},
+                "pinned_items": {},
+                "privacy": {},
+                "private_super_following": false,
+                "profile_bio": {
+                  "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+                  "entities": {
+                    "description": {
+                      "urls": [
+                        {
+                          "display_url": "go.nature.com/naturebriefing",
+                          "expanded_url": "http://go.nature.com/naturebriefing",
+                          "indices": [
+                            123,
+                            146
+                          ],
+                          "url": "https://t.co/wGmQlQ8a4D"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "urls": [
+                        {
+                          "display_url": "nature.com",
+                          "expanded_url": "http://www.nature.com",
+                          "indices": [
+                            0,
+                            23
+                          ],
+                          "url": "https://t.co/r17cjcVLWg"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "profile_metadata": {
+                  "profile_interstitial_type": "",
+                  "profile_link_color": "DF1F1F"
+                },
+                "profile_translation": {
+                  "translator_type_enum": "None"
+                },
+                "properties": {
+                  "has_extended_profile": true
+                },
+                "relationship_counts": {
+                  "followers": 2570458,
+                  "following": 3234
+                },
+                "relationship_perspectives": {},
+                "rest_id": "15862891",
+                "super_follow_eligible": false,
+                "super_followed_by": false,
+                "super_following": false,
+                "tweet_counts": {
+                  "media_tweets": 21312,
+                  "tweets": 84723
+                },
+                "website": {
+                  "url": "https://t.co/r17cjcVLWg"
+                },
+                "verification": {
+                  "is_blue_verified": true
+                }
+              }
+            }
+          ]
+        },
+        "place": {},
+        "entities": {
+          "urls": [
+            {
+              "display_url": "go.nature.com/4l4DBzp",
+              "expanded_url": "https://go.nature.com/4l4DBzp",
+              "indices": [
+                131,
+                154
+              ],
+              "url": "https://t.co/joTohHqAO1"
+            }
+          ]
+        },
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905383204980462007",
+      "url": "https://x.com/kramarcollects/status/1905383204980462007",
+      "twitterUrl": "https://twitter.com/kramarcollects/status/1905383204980462007",
+      "text": "my first entry into @doodles came after a conversation with @SeanPRobb about building on @flow_blockchain . i was part of a startup at the time trying to bring kids content onchain and sean was incredibly generous with his time and insights on how we might do this. doodles had recently launched D2 on flow and it seemed like an ecosystem i was meant to be a part of.\n\neventually, D2 migrated to @base - same thesis (\"crypto for the masses\"), different pathway. i lamented the loss of my original reason for joining the community, but by that time i was already hooked. so much so that i bought another dood: this time, a pickle that i had bookmarked for months. why the pickle? i had started writing a story series about a pickle based on improvised bedtime stories my kids loved. my idea was to eventually create something using this doodles IP.\n\nthis was all before the summer of 2024. holy shit! do you remember the sheer number of partnerships, music collaborations, animations, film festivals, store takeovers, merch, and product releases? the doodles team was on an absolute tear. the funny thing is, though, it felt less likely during all that activity that my pickle story could find its place in the world. i was ecstatic to be on the thrill ride, but at the same time it didn't feel like it was my IP to use.\n\ntoday, i think, marks a full-circle moment to me joining doodles in the first place. i don't know all the ins and outs of what dreamnet is, but i have a feeling my pickle story will finally find its home there.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 0,
+      "replyCount": 9,
+      "likeCount": 52,
+      "quoteCount": 0,
+      "viewCount": 1864,
+      "createdAt": "Thu Mar 27 22:15:31 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905383204980462007",
+      "displayTextRange": [
+        0,
+        302
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "kramarcollects",
+        "url": "https://x.com/kramarcollects",
+        "twitterUrl": "https://twitter.com/kramarcollects",
+        "id": "1389270610950254592",
+        "name": "kramar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2009524170200084480/Gf8_aU-5_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1389270610950254592/1757398182",
+        "description": "",
+        "location": "",
+        "followers": 3631,
+        "following": 3121,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Mon May 03 17:28:29 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 52242,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 1881,
+        "statusesCount": 12267,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2014408958342320163"
+        ],
+        "profile_bio": {
+          "description": "minimalist. people maxi.",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/RaQiOIIyJK",
+            "expanded_url": "https://twitter.com/kramarcollects/status/1905383204980462007/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905378227868381184",
+            "indices": [
+              303,
+              326
+            ],
+            "media_key": "3_1905378227868381184",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxQ2cy27AACgACGnFH7gXbEbcAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFDZzLbsAAKAAIacUfuBdsRtwAA",
+                "media_key": "3_1905378227868381184"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFDZzLbsAAMioU.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1008,
+                  "w": 1800,
+                  "x": 0,
+                  "y": 261
+                },
+                {
+                  "h": 1800,
+                  "w": 1800,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1800,
+                  "w": 1579,
+                  "x": 66,
+                  "y": 0
+                },
+                {
+                  "h": 1800,
+                  "w": 900,
+                  "x": 405,
+                  "y": 0
+                },
+                {
+                  "h": 1800,
+                  "w": 1800,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1800,
+              "width": 1800
+            },
+            "sizes": {
+              "large": {
+                "h": 1800,
+                "w": 1800
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/RaQiOIIyJK"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1405701429646430212",
+            "indices": [
+              20,
+              28
+            ],
+            "name": "doodles",
+            "screen_name": "doodles"
+          },
+          {
+            "id_str": "44019831",
+            "indices": [
+              60,
+              70
+            ],
+            "name": "Sean Robb",
+            "screen_name": "SeanPRobb"
+          },
+          {
+            "id_str": "1167532630746828801",
+            "indices": [
+              89,
+              105
+            ],
+            "name": "Flow.com",
+            "screen_name": "flow_blockchain"
+          },
+          {
+            "id_str": "1628067904083181570",
+            "indices": [
+              396,
+              401
+            ],
+            "name": "Base",
+            "screen_name": "base"
+          }
+        ]
+      },
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1905359412421607833",
+        "url": "https://x.com/doodles/status/1905359412421607833",
+        "twitterUrl": "https://twitter.com/doodles/status/1905359412421607833",
+        "text": "the internet has shown us how generative tools flatten imagination. when everything's possible but nothing is remembered, creativity becomes slop. we're building universes where characters grow, stories persist and creators keep ownership.\n\nintroducing DreamNet, powered by $DOOD https://t.co/FBiBjBLoEV",
+        "source": "Twitter for iPhone",
+        "retweetCount": 345,
+        "replyCount": 228,
+        "likeCount": 1840,
+        "quoteCount": 171,
+        "viewCount": 316072,
+        "createdAt": "Thu Mar 27 20:40:58 +0000 2025",
+        "lang": "en",
+        "bookmarkCount": 156,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "1905359412421607833",
+        "displayTextRange": [
+          0,
+          279
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "doodles",
+          "url": "https://x.com/doodles",
+          "twitterUrl": "https://twitter.com/doodles",
+          "id": "1405701429646430212",
+          "name": "doodles",
+          "isVerified": false,
+          "isBlueVerified": false,
+          "verifiedType": "Business",
+          "profilePicture": "https://pbs.twimg.com/profile_images/1999705009307480065/pYyZa73W_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/1405701429646430212/1765603787",
+          "description": "",
+          "location": "Doodleverse",
+          "followers": 562976,
+          "following": 2436,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": true,
+          "createdAt": "Fri Jun 18 01:45:53 +0000 2021",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 53722,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 2569,
+          "statusesCount": 7735,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [],
+          "profile_bio": {
+            "description": "be beautiful. be everywhere.",
+            "entities": {
+              "description": {},
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "doodles.app",
+                    "expanded_url": "http://doodles.app",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/d5MRKsy221"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {
+          "media": [
+            {
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "allow_download_status": {
+                "allow_download": true
+              },
+              "display_url": "pic.twitter.com/FBiBjBLoEV",
+              "expanded_url": "https://twitter.com/doodles/status/1905359412421607833/video/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "id_str": "1905356610026819584",
+              "indices": [
+                280,
+                303
+              ],
+              "media_key": "7_1905356610026819584",
+              "media_results": {
+                "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARpxL73nF1AACgACGnEySmLWQZkAAA==",
+                "result": {
+                  "__typename": "ApiMedia",
+                  "id": "QXBpTWVkaWE6DAADCgABGnEvvecXUAAKAAIacTJKYtZBmQAA",
+                  "media_key": "7_1905356610026819584"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1905356610026819584/pu/img/Wxm2Z1HDwvJDOxFQ.jpg",
+              "original_info": {
+                "focus_rects": [],
+                "height": 1920,
+                "width": 1920
+              },
+              "sizes": {
+                "large": {
+                  "h": 1920,
+                  "w": 1920
+                }
+              },
+              "type": "video",
+              "url": "https://t.co/FBiBjBLoEV",
+              "video_info": {
+                "aspect_ratio": [
+                  1,
+                  1
+                ],
+                "duration_millis": 10000,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/ext_tw_video/1905356610026819584/pu/pl/k8UmKbp6LMGAmmCr.m3u8?tag=12&v=cfc"
+                  },
+                  {
+                    "bitrate": 432000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/ext_tw_video/1905356610026819584/pu/vid/avc1/320x320/k0nWwqL50dTlacWZ.mp4?tag=12"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/ext_tw_video/1905356610026819584/pu/vid/avc1/540x540/zn-R7lgU_-NZua68.mp4?tag=12"
+                  },
+                  {
+                    "bitrate": 1280000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/ext_tw_video/1905356610026819584/pu/vid/avc1/720x720/laznNxvTTC-PD91o.mp4?tag=12"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "card": null,
+        "place": {},
+        "entities": {
+          "symbols": [
+            {
+              "indices": [
+                274,
+                279
+              ],
+              "text": "DOOD"
+            }
+          ]
+        },
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1905378296981758120",
+      "url": "https://x.com/Cyjasthesmart/status/1905378296981758120",
+      "twitterUrl": "https://twitter.com/Cyjasthesmart/status/1905378296981758120",
+      "text": "Startup idea: submariner submarine https://t.co/dkSIRzWIj8",
+      "source": "Twitter for iPhone",
+      "retweetCount": 2,
+      "replyCount": 8,
+      "likeCount": 52,
+      "quoteCount": 4,
+      "viewCount": 5814,
+      "createdAt": "Thu Mar 27 21:56:00 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 0,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1905378296981758120",
+      "displayTextRange": [
+        0,
+        34
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "Cyjasthesmart",
+        "url": "https://x.com/Cyjasthesmart",
+        "twitterUrl": "https://twitter.com/Cyjasthesmart",
+        "id": "1892261727430991873",
+        "name": "CyJas LLM ®",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1892283136513327104/1wQcLn8s_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1892261727430991873/1740094045",
+        "description": "",
+        "location": "San Francisco, CA",
+        "followers": 216,
+        "following": 1617,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Wed Feb 19 17:15:35 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 24915,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 406,
+        "statusesCount": 3089,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1892720627104047586"
+        ],
+        "profile_bio": {
+          "description": "CyJas LLM, world’s first large language model on shitposting, co founder @rockybond42",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    73,
+                    85
+                  ],
+                  "name": "",
+                  "screen_name": "rockybond42"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/dkSIRzWIj8",
+            "expanded_url": "https://twitter.com/Cyjasthesmart/status/1905378296981758120/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1905378292317687808",
+            "indices": [
+              35,
+              58
+            ],
+            "media_key": "3_1905378292317687808",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpxQ3Y0VhAACgACGnFDd0pWIKgAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGnFDdjRWEAAKAAIacUN3SlYgqAAA",
+                "media_key": "3_1905378292317687808"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GnFDdjRWEAAFfjV.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 573,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 46
+                },
+                {
+                  "h": 1024,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 898,
+                  "x": 126,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 512,
+                  "x": 384,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1024,
+              "width": 1024
+            },
+            "sizes": {
+              "large": {
+                "h": 1024,
+                "w": 1024
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/dkSIRzWIj8"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

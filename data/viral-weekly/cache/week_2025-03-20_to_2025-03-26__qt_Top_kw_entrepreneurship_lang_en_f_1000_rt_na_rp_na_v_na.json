@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:02:01.918Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(entrepreneurship) lang:en min_faves:1000 since:2025-03-20 until:2025-03-27",
+  "weekSince": "2025-03-20",
+  "weekUntilInclusive": "2025-03-26",
+  "weekUntilExclusive": "2025-03-27",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1904165994399944759",
+      "url": "https://x.com/haugejostein/status/1904165994399944759",
+      "twitterUrl": "https://twitter.com/haugejostein/status/1904165994399944759",
+      "text": "House of Huawei is the best book I've read in a long time.\n\nIt's not only a story about the rise of an incredibly powerful company.\n\nIt's also a story about China's economic transformation, state-business relations, entrepreneurship, and geopolitics. https://t.co/bxA7X1ukaH",
+      "source": "Twitter for iPhone",
+      "retweetCount": 333,
+      "replyCount": 29,
+      "likeCount": 2391,
+      "quoteCount": 17,
+      "viewCount": 179856,
+      "createdAt": "Mon Mar 24 13:38:45 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 2230,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1904165994399944759",
+      "displayTextRange": [
+        0,
+        250
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "haugejostein",
+        "url": "https://x.com/haugejostein",
+        "twitterUrl": "https://twitter.com/haugejostein",
+        "id": "1852290439",
+        "name": "Jostein Hauge",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1854837751239348224/wuWINJYf_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1852290439/1731249992",
+        "description": "",
+        "location": "London, UK",
+        "followers": 42168,
+        "following": 2155,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Tue Sep 10 19:03:46 +0000 2013",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 4154,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 773,
+        "statusesCount": 4305,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1962854623523266843"
+        ],
+        "profile_bio": {
+          "description": "Political economist • Assistant Professor at Cambridge • Book: The Future of the Factory • Newsletter: https://t.co/4dDr0blbyn • Email: jlh202@cam.ac.uk",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "theglobalcurrents.com",
+                  "expanded_url": "http://theglobalcurrents.com",
+                  "indices": [
+                    103,
+                    126
+                  ],
+                  "url": "https://t.co/4dDr0blbyn"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "josteinhauge.com",
+                  "expanded_url": "http://www.josteinhauge.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/6zeJ6VxULX"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/bxA7X1ukaH",
+            "expanded_url": "https://twitter.com/haugejostein/status/1904165994399944759/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 85,
+                    "w": 85,
+                    "x": 70,
+                    "y": 7
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 85,
+                    "w": 85,
+                    "x": 70,
+                    "y": 7
+                  }
+                ]
+              }
+            },
+            "id_str": "1904163411048456192",
+            "indices": [
+              251,
+              274
+            ],
+            "media_key": "3_1904163411048456192",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARps8oid1uAACgACGmz04hmWUDcAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGmzyiJ3W4AAKAAIabPTiGZZQNwAA",
+                "media_key": "3_1904163411048456192"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GmzyiJ3W4AAZH6w.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 194,
+                  "w": 346,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 346,
+                  "w": 346,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 394,
+                  "w": 346,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 522,
+                  "w": 261,
+                  "x": 39,
+                  "y": 0
+                },
+                {
+                  "h": 522,
+                  "w": 346,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 522,
+              "width": 346
+            },
+            "sizes": {
+              "large": {
+                "h": 522,
+                "w": 346
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/bxA7X1ukaH"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1904892524310700193",
+      "url": "https://x.com/AliAbunimah/status/1904892524310700193",
+      "twitterUrl": "https://twitter.com/AliAbunimah/status/1904892524310700193",
+      "text": "Jews, especially most educated, are abandoning \"Israel\" in droves (official figures undoubtedly a gross undercount) and no one wants to move there. Also the idea that this genocidal settler-colony was ever a hub of \"entrepreneurship\" was always hasbara https://t.co/m3zYWcFNlc https://t.co/TutzEJj0lm",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1169,
+      "replyCount": 107,
+      "likeCount": 3541,
+      "quoteCount": 45,
+      "viewCount": 90451,
+      "createdAt": "Wed Mar 26 13:45:43 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 452,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1904892524310700193",
+      "displayTextRange": [
+        0,
+        276
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "AliAbunimah",
+        "url": "https://x.com/AliAbunimah",
+        "twitterUrl": "https://twitter.com/AliAbunimah",
+        "id": "16799023",
+        "name": "Ali Abunimah",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1961717471838359552/3joXZxpH_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/16799023/1394413578",
+        "description": "",
+        "location": "",
+        "followers": 266304,
+        "following": 3031,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Thu Oct 16 01:25:33 +0000 2008",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 29319,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 10673,
+        "statusesCount": 246071,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2011112156713140368"
+        ],
+        "profile_bio": {
+          "description": "Director of https://t.co/CcaKBPCA1u. Author of “One Country”and “The Battle for Justice in Palestine.” https://t.co/XWFh7V4KqA @aliabunimah.bsky.social",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "electronicintifada.net",
+                  "expanded_url": "http://electronicintifada.net",
+                  "indices": [
+                    12,
+                    35
+                  ],
+                  "url": "https://t.co/CcaKBPCA1u"
+                },
+                {
+                  "display_url": "t.me/ali_abunimah",
+                  "expanded_url": "http://t.me/ali_abunimah",
+                  "indices": [
+                    103,
+                    126
+                  ],
+                  "url": "https://t.co/XWFh7V4KqA"
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    127,
+                    139
+                  ],
+                  "name": "",
+                  "screen_name": "aliabunimah"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "electronicintifada.net/blog/ali-abuni…",
+                  "expanded_url": "http://electronicintifada.net/blog/ali-abunimah",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/JTSzw2hmMk"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/TutzEJj0lm",
+            "expanded_url": "https://twitter.com/AliAbunimah/status/1904892524310700193/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1904892072898785280",
+            "indices": [
+              277,
+              300
+            ],
+            "media_key": "3_1904892072898785280",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARpviT9slvAACgACGm+JqIbWIKEAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGm+JP2yW8AAKAAIab4mohtYgoQAA",
+                "media_key": "3_1904892072898785280"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/Gm-JP2yW8AAMTGs.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1010,
+                  "w": 1804,
+                  "x": 0,
+                  "y": 174
+                },
+                {
+                  "h": 1184,
+                  "w": 1184,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1184,
+                  "w": 1039,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1184,
+                  "w": 592,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1184,
+                  "w": 1804,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1184,
+              "width": 1804
+            },
+            "sizes": {
+              "large": {
+                "h": 1184,
+                "w": 1804
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/TutzEJj0lm"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "main.knesset.gov.il/en/news/pressr…",
+            "expanded_url": "https://main.knesset.gov.il/en/news/pressreleases/pages/press3225u.aspx",
+            "indices": [
+              253,
+              276
+            ],
+            "url": "https://t.co/m3zYWcFNlc"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1904557879962518006",
+      "url": "https://x.com/AmoriAdee/status/1904557879962518006",
+      "twitterUrl": "https://twitter.com/AmoriAdee/status/1904557879962518006",
+      "text": "I have tasted Education, I have tasted Entrepreneurship, I recommend being born in a rich home with a trust fund wallet😭😭😭😭😭",
+      "source": "Twitter for iPhone",
+      "retweetCount": 571,
+      "replyCount": 49,
+      "likeCount": 2485,
+      "quoteCount": 24,
+      "viewCount": 55335,
+      "createdAt": "Tue Mar 25 15:35:58 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 43,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1904557879962518006",
+      "displayTextRange": [
+        0,
+        124
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "AmoriAdee",
+        "url": "https://x.com/AmoriAdee",
+        "twitterUrl": "https://twitter.com/AmoriAdee",
+        "id": "1247898956706623489",
+        "name": "Amori-Alawo🫶",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2010285077465378816/__FfqnlY_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1247898956706623489/1767217026",
+        "description": "",
+        "location": "Lagos, Nigeria",
+        "followers": 12620,
+        "following": 2980,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Wed Apr 08 14:48:03 +0000 2020",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 79067,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 1286,
+        "statusesCount": 103337,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2010947706357776780"
+        ],
+        "profile_bio": {
+          "description": "HER|| Serial entrepreneur| 001 Grilled Guineafowl @amoriguineafowl | Bsc Sociology| MSc in view| ♈️ |MUSLIM | Outreach Volunteer| 30BG.",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    50,
+                    66
+                  ],
+                  "name": "",
+                  "screen_name": "amoriguineafowl"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1902752133448908871",
+      "url": "https://x.com/alimasubelele/status/1902752133448908871",
+      "twitterUrl": "https://twitter.com/alimasubelele/status/1902752133448908871",
+      "text": "We have to be honest about entrepreneurship and becoming a millionaire. \n\nIf you don’t have starting capital, connections and a good background your chances of making it are very slim, especially in SA. \n\nHard work is not enough.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 222,
+      "replyCount": 98,
+      "likeCount": 2520,
+      "quoteCount": 12,
+      "viewCount": 179889,
+      "createdAt": "Thu Mar 20 16:00:34 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 181,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1902752133448908871",
+      "displayTextRange": [
+        0,
+        229
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "alimasubelele",
+        "url": "https://x.com/alimasubelele",
+        "twitterUrl": "https://twitter.com/alimasubelele",
+        "id": "334123944",
+        "name": "AM",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1994622609187598336/f4M7XTQQ_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/334123944/1765174090",
+        "description": "",
+        "location": "Pretoria, South Africa",
+        "followers": 2418,
+        "following": 1053,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Tue Jul 12 16:24:10 +0000 2011",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 8014,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3735,
+        "statusesCount": 78937,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1972625642668834982"
+        ],
+        "profile_bio": {
+          "description": "",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "communityy.co.za",
+                  "expanded_url": "https://communityy.co.za",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/EsXdI5CrJg"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "1902707508155650538",
+        "url": "https://x.com/garyseconomics/status/1902707508155650538",
+        "twitterUrl": "https://twitter.com/garyseconomics/status/1902707508155650538",
+        "text": "Can you become a millionaire? https://t.co/f95VgvpqSN",
+        "source": "Twitter for iPhone",
+        "retweetCount": 6417,
+        "replyCount": 938,
+        "likeCount": 54950,
+        "quoteCount": 1518,
+        "viewCount": 14787818,
+        "createdAt": "Thu Mar 20 13:03:15 +0000 2025",
+        "lang": "en",
+        "bookmarkCount": 12362,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "1902707508155650538",
+        "displayTextRange": [
+          0,
+          29
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "garyseconomics",
+          "url": "https://x.com/garyseconomics",
+          "twitterUrl": "https://twitter.com/garyseconomics",
+          "id": "2893175579",
+          "name": "Gary Stevenson",
+          "isVerified": false,
+          "isBlueVerified": false,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1278754216983461888/JLaHcMVm_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/2893175579/1737661724",
+          "description": "",
+          "location": "London, England",
+          "followers": 184607,
+          "following": 303,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": true,
+          "createdAt": "Wed Nov 26 10:41:01 +0000 2014",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 16989,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 565,
+          "statusesCount": 3620,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [
+            "1765370127292539261"
+          ],
+          "profile_bio": {
+            "description": "Inequality Economist.  Former Trader.  Other Economists make predictions, but my ones are actually right.  Explaining Economics on YouTube - garyseconomics",
+            "entities": {
+              "description": {},
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "youtube.com/@garyseconomic…",
+                    "expanded_url": "https://youtube.com/@garyseconomics?si=MKAYIg-s9Oq6fd8M",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/ghQ3xfuBu4"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {
+          "media": [
+            {
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "display_url": "pic.twitter.com/f95VgvpqSN",
+              "expanded_url": "https://twitter.com/garyseconomics/status/1902707508155650538/video/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "id_str": "1902707111131254785",
+              "indices": [
+                30,
+                53
+              ],
+              "media_key": "7_1902707111131254785",
+              "media_results": {
+                "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARpnxglelpABCgACGmfGZc8WEeoAAA==",
+                "result": {
+                  "__typename": "ApiMedia",
+                  "id": "QXBpTWVkaWE6DAADCgABGmfGCV6WkAEKAAIaZ8ZlzxYR6gAA",
+                  "media_key": "7_1902707111131254785"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1902707111131254785/pu/img/7k5XZuU4YuSlnLTr.jpg",
+              "original_info": {
+                "focus_rects": [],
+                "height": 1920,
+                "width": 1080
+              },
+              "sizes": {
+                "large": {
+                  "h": 1920,
+                  "w": 1080
+                }
+              },
+              "type": "video",
+              "url": "https://t.co/f95VgvpqSN",
+              "video_info": {
+                "aspect_ratio": [
+                  9,
+                  16
+                ],
+                "duration_millis": 186440,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/ext_tw_video/1902707111131254785/pu/pl/MdWbLnHr_TaIDSCU.m3u8?tag=12&v=726"
+                  },
+                  {
+                    "bitrate": 632000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/ext_tw_video/1902707111131254785/pu/vid/avc1/320x568/rQ9jCp47i-1llPde.mp4?tag=12"
+                  },
+                  {
+                    "bitrate": 950000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/ext_tw_video/1902707111131254785/pu/vid/avc1/480x852/fzBBWmVRnnIdFguN.mp4?tag=12"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/ext_tw_video/1902707111131254785/pu/vid/avc1/720x1280/jv6F7YYrnH6JKxt_.mp4?tag=12"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "card": null,
+        "place": {},
+        "entities": {},
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

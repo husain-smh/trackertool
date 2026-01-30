@@ -1,0 +1,4067 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T14:59:45.309Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(tech) lang:en min_faves:1000 since:2025-09-18 until:2025-09-25",
+  "weekSince": "2025-09-18",
+  "weekUntilInclusive": "2025-09-24",
+  "weekUntilExclusive": "2025-09-25",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1970858876212756506",
+      "url": "https://x.com/levelsio/status/1970858876212756506",
+      "twitterUrl": "https://twitter.com/levelsio/status/1970858876212756506",
+      "text": "✨ Photo AI just reached a new record of $150,000/mo\n\n💳 2,573 active subscribers\n\n💸 87% profit margin\n\n👌 100% bootstrapped + $0 funding\n\n😊 Employees: 1 = just me on my laptop\n\n🥞 Tech: PHP + jQuery + SQLite on a Hetzner VPS with Nginx and Ubuntu\n\nIt took 2 years, 7 months, 14 days, or almost 1000 days to get there\n\nPhoto AI started out in 2022 as Avatar AI (the first app to make those gimmicky avatars which started that trend)\n\nThen I pivoted it into Photo AI a year later to take real AI photos of yourself. Because I thought that might be possible next. In a way I was way too early and the photos were actually pretty bad for about 2 years (remember the hands?). Faces were distorted and it didn't resemble you much. I used Stable Diffusion back then and it was the best model but it wasn't so good at people. But with a lot of help from @philz1337x I then built a giant pipeline of models on top of other models to fix faces, hands, and bodies and upscaling it to make it look somewhat good, but still it wasn't great\n\nIn a way I had product-market-fit (PMF) but without the product. Because I knew the demand would be there but the product, well the technology, definitely wasn't there (yet!)\n\nThen in 2024, a new AI image model called Flux was launched and overnight Photo AI was now good enough: the photos actually really resembled you, the quality was high and hands, faces and bodies looked real\n\nI now did have PMF!\n\nSince then Photo AI has grown a lot and it's now become a highly realistic AI photo and video production studio for content that features real people. There's other AI image generators, but they're not as good with people as mine, because that's my focus and niche\n\nPhoto AI is now used by fashion designers (to try on clothes), ad makers (for talking videos), marketers (to show people presenting physical products), education companies (to teach people courses), short film makers (making videos with real actors) and game designers (to create 3d characters from people)\n\nAnd even just people who want to do a photo shoot for their social media profile or dating app and can't afford an expensive $1000 photographer (you get 1000 pics for $49, so about 20x-50x cheaper)\n\nThe app itself is standing on the shoulders of giants, that I am grateful every day for, which are the countless AI models I use and combine which are made by companies like Black Forest Labs, Bytedance, Kuaishou and more recently Google (with Nano Banana) made by very smart AI researchers and my GPU providers FAL and Wavespeed hosting them reliably\n\nWhen I started people kept telling me I just made a \"GPT wrapper\" (of course it didn't even use ChatGPT), then a \"Flux wrapper\". I now use a lot more models than Flux, so yes I guess it's more like \"shitloads of models duct taped together with a lot of frontend and backend logic added wrapper\" but that doesn't roll of the tongue so easily 😂\n\nMost of my traffic comes from SEO and specifically pSEO, there's a lot of sub pages I added (like the photo packs and individual phtoos) which capture a lot of traffic and sign ups. X is about 9% of traffic and even less of paid signups, so a lot less than people usually think. I'm mostly on here to tell my story, X doesn't actually help so much revenue wise. Increasingly ChatGPT etc is becoming a bigger referrer of traffic and paid signups though\n\nThere's so many other AI apps out there, and mostly we all use the same models, and I guess Photo AI shows there is enough pie for everyone, it's not the biggest either, but it's big for me and it's nice in its own way and I get happy working on it\n\nIt's been a wild ride, and stressful at times (especially during 2023 trying to get Stable Diffusion to work), but mostly just really exciting to be able to work with groundbreaking technology every day and get paid for it too\n\nI remember in 2021 with my businesses Nomad List and Remote OK sitting and thinking \"after almost a decade coding, everything is finally kind of stable now, now I am satisfied\" but then the AI wave started in mid 2022 and I just knew I had to jump on it and catch that wave and I did with my entire being :D\n\nAnd I caught it I think!\n\n🏄‍♂️ Surf's uppppppppp 🤠",
+      "source": "Twitter for iPhone",
+      "retweetCount": 206,
+      "replyCount": 417,
+      "likeCount": 5276,
+      "quoteCount": 68,
+      "viewCount": 801980,
+      "createdAt": "Wed Sep 24 14:32:27 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 3002,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970858876212756506",
+      "displayTextRange": [
+        0,
+        299
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "levelsio",
+        "url": "https://x.com/levelsio",
+        "twitterUrl": "https://twitter.com/levelsio",
+        "id": "1577241403",
+        "name": "@levelsio",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1996831016720486400/vycHz0uG_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1577241403/1665964220",
+        "description": "",
+        "location": "📕 My book $6K/m  👉",
+        "followers": 791850,
+        "following": 2601,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Mon Jul 08 09:31:59 +0000 2013",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 160069,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 18189,
+        "statusesCount": 167477,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2007855491959902404"
+        ],
+        "profile_bio": {
+          "description": "🇪🇺https://t.co/NdorAWqJC3 @euacc \n📸https://t.co/lAyoqmSBRX $105K/m \n🏡https://t.co/1oqUgfD6CZ $35K/m \n🛰https://t.co/ZHSvI2wjyW $42K/m \n🌍https://t.co/UXK5AFqCaQ $25K/m \n👙https://t.co/RyXpqGuFM3 $14K/m \n💾https://t.co/M1hEUBAynC $5K/m",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "euacc.com",
+                  "expanded_url": "http://euacc.com",
+                  "indices": [
+                    2,
+                    25
+                  ],
+                  "url": "https://t.co/NdorAWqJC3"
+                },
+                {
+                  "display_url": "PhotoAI.com",
+                  "expanded_url": "http://PhotoAI.com",
+                  "indices": [
+                    35,
+                    58
+                  ],
+                  "url": "https://t.co/lAyoqmSBRX"
+                },
+                {
+                  "display_url": "InteriorAI.com",
+                  "expanded_url": "http://InteriorAI.com",
+                  "indices": [
+                    69,
+                    92
+                  ],
+                  "url": "https://t.co/1oqUgfD6CZ"
+                },
+                {
+                  "display_url": "RemoteOK.com",
+                  "expanded_url": "http://RemoteOK.com",
+                  "indices": [
+                    102,
+                    125
+                  ],
+                  "url": "https://t.co/ZHSvI2wjyW"
+                },
+                {
+                  "display_url": "Nomads.com",
+                  "expanded_url": "http://Nomads.com",
+                  "indices": [
+                    135,
+                    158
+                  ],
+                  "url": "https://t.co/UXK5AFqCaQ"
+                },
+                {
+                  "display_url": "levelsio.com",
+                  "expanded_url": "http://levelsio.com",
+                  "indices": [
+                    168,
+                    191
+                  ],
+                  "url": "https://t.co/RyXpqGuFM3"
+                },
+                {
+                  "display_url": "pieter.com",
+                  "expanded_url": "http://pieter.com",
+                  "indices": [
+                    201,
+                    224
+                  ],
+                  "url": "https://t.co/M1hEUBAynC"
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    26,
+                    32
+                  ],
+                  "name": "",
+                  "screen_name": "euacc"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "readMAKE.com",
+                  "expanded_url": "http://readMAKE.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/IFRqZDK2Lw"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/Syo0DEOI1h",
+            "expanded_url": "https://twitter.com/levelsio/status/1970858876212756506/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 56,
+                    "w": 56,
+                    "x": 166,
+                    "y": 1124
+                  },
+                  {
+                    "h": 56,
+                    "w": 56,
+                    "x": 268,
+                    "y": 1207
+                  },
+                  {
+                    "h": 115,
+                    "w": 115,
+                    "x": 706,
+                    "y": 826
+                  },
+                  {
+                    "h": 134,
+                    "w": 134,
+                    "x": 970,
+                    "y": 830
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 56,
+                    "w": 56,
+                    "x": 166,
+                    "y": 1124
+                  },
+                  {
+                    "h": 56,
+                    "w": 56,
+                    "x": 268,
+                    "y": 1207
+                  },
+                  {
+                    "h": 115,
+                    "w": 115,
+                    "x": 706,
+                    "y": 826
+                  },
+                  {
+                    "h": 134,
+                    "w": 134,
+                    "x": 970,
+                    "y": 830
+                  }
+                ]
+              }
+            },
+            "id_str": "1970853973734178816",
+            "indices": [
+              300,
+              323
+            ],
+            "media_key": "3_1970853973734178816",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtZ4T9Al8AACgACG1nltLMWQBoAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1nhP0CXwAAKAAIbWeW0sxZAGgAA",
+                "media_key": "3_1970853973734178816"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1nhP0CXwAA4CnM.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 656,
+                  "w": 1172,
+                  "x": 0,
+                  "y": 411
+                },
+                {
+                  "h": 1172,
+                  "w": 1172,
+                  "x": 0,
+                  "y": 153
+                },
+                {
+                  "h": 1336,
+                  "w": 1172,
+                  "x": 0,
+                  "y": 71
+                },
+                {
+                  "h": 1408,
+                  "w": 704,
+                  "x": 457,
+                  "y": 0
+                },
+                {
+                  "h": 1408,
+                  "w": 1172,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1408,
+              "width": 1172
+            },
+            "sizes": {
+              "large": {
+                "h": 1408,
+                "w": 1172
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Syo0DEOI1h"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/Syo0DEOI1h",
+            "expanded_url": "https://twitter.com/levelsio/status/1970858876212756506/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 52,
+                    "w": 52,
+                    "x": 713,
+                    "y": 654
+                  },
+                  {
+                    "h": 51,
+                    "w": 51,
+                    "x": 542,
+                    "y": 856
+                  },
+                  {
+                    "h": 60,
+                    "w": 60,
+                    "x": 702,
+                    "y": 856
+                  },
+                  {
+                    "h": 58,
+                    "w": 58,
+                    "x": 880,
+                    "y": 856
+                  },
+                  {
+                    "h": 63,
+                    "w": 63,
+                    "x": 377,
+                    "y": 1172
+                  },
+                  {
+                    "h": 71,
+                    "w": 71,
+                    "x": 114,
+                    "y": 3
+                  },
+                  {
+                    "h": 95,
+                    "w": 95,
+                    "x": 790,
+                    "y": 1164
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 52,
+                    "w": 52,
+                    "x": 713,
+                    "y": 654
+                  },
+                  {
+                    "h": 51,
+                    "w": 51,
+                    "x": 542,
+                    "y": 856
+                  },
+                  {
+                    "h": 60,
+                    "w": 60,
+                    "x": 702,
+                    "y": 856
+                  },
+                  {
+                    "h": 58,
+                    "w": 58,
+                    "x": 880,
+                    "y": 856
+                  },
+                  {
+                    "h": 63,
+                    "w": 63,
+                    "x": 377,
+                    "y": 1172
+                  },
+                  {
+                    "h": 71,
+                    "w": 71,
+                    "x": 114,
+                    "y": 3
+                  },
+                  {
+                    "h": 95,
+                    "w": 95,
+                    "x": 790,
+                    "y": 1164
+                  }
+                ]
+              }
+            },
+            "id_str": "1970854002712571904",
+            "indices": [
+              300,
+              323
+            ],
+            "media_key": "3_1970854002712571904",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtZ4UX/1vAACgACG1nltLMWQBoAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1nhRf/W8AAKAAIbWeW0sxZAGgAA",
+                "media_key": "3_1970854002712571904"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1nhRf_W8AADelE.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 662,
+                  "w": 1182,
+                  "x": 0,
+                  "y": 922
+                },
+                {
+                  "h": 1182,
+                  "w": 1182,
+                  "x": 0,
+                  "y": 402
+                },
+                {
+                  "h": 1347,
+                  "w": 1182,
+                  "x": 0,
+                  "y": 237
+                },
+                {
+                  "h": 1584,
+                  "w": 792,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1584,
+                  "w": 1182,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1584,
+              "width": 1182
+            },
+            "sizes": {
+              "large": {
+                "h": 1584,
+                "w": 1182
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Syo0DEOI1h"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/Syo0DEOI1h",
+            "expanded_url": "https://twitter.com/levelsio/status/1970858876212756506/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 149,
+                    "w": 149,
+                    "x": 1165,
+                    "y": 67
+                  },
+                  {
+                    "h": 147,
+                    "w": 147,
+                    "x": 1163,
+                    "y": 117
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 198,
+                    "w": 198,
+                    "x": 1544,
+                    "y": 90
+                  },
+                  {
+                    "h": 195,
+                    "w": 195,
+                    "x": 1541,
+                    "y": 156
+                  }
+                ]
+              }
+            },
+            "id_str": "1970854437217316864",
+            "indices": [
+              300,
+              323
+            ],
+            "media_key": "3_1970854437217316864",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtZ4asqVzAACgACG1nltLMWQBoAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1nhqypXMAAKAAIbWeW0sxZAGgAA",
+                "media_key": "3_1970854437217316864"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1nhqypXMAAEw-r.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1519,
+                  "w": 2712,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1970,
+                  "w": 1970,
+                  "x": 167,
+                  "y": 0
+                },
+                {
+                  "h": 1970,
+                  "w": 1728,
+                  "x": 288,
+                  "y": 0
+                },
+                {
+                  "h": 1970,
+                  "w": 985,
+                  "x": 660,
+                  "y": 0
+                },
+                {
+                  "h": 1970,
+                  "w": 2712,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1970,
+              "width": 2712
+            },
+            "sizes": {
+              "large": {
+                "h": 1488,
+                "w": 2048
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Syo0DEOI1h"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1611660808835964928",
+            "indices": [
+              843,
+              854
+            ],
+            "name": "philz1337x",
+            "screen_name": "philz1337x"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970214987336679524",
+      "url": "https://x.com/Wizarab10/status/1970214987336679524",
+      "twitterUrl": "https://twitter.com/Wizarab10/status/1970214987336679524",
+      "text": "Are you interested in getting into Tech? \n\nIf yes, fill this form and get the Sir Dickson Tech Scholarship which covers 100% of your fee at TS Academy. Best wishes 🙏🏾\n\nhttps://t.co/4TpP5MvoBv",
+      "source": "Twitter for iPhone",
+      "retweetCount": 3037,
+      "replyCount": 1823,
+      "likeCount": 10492,
+      "quoteCount": 233,
+      "viewCount": 656919,
+      "createdAt": "Mon Sep 22 19:53:52 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 3806,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970214987336679524",
+      "displayTextRange": [
+        0,
+        191
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "Wizarab10",
+        "url": "https://x.com/Wizarab10",
+        "twitterUrl": "https://twitter.com/Wizarab10",
+        "id": "710429203938856960",
+        "name": "Sir Dickson",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1530396051433218048/Q_SBiLY__normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/710429203938856960/1639408386",
+        "description": "",
+        "location": "Home",
+        "followers": 766196,
+        "following": 40836,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Thu Mar 17 11:34:56 +0000 2016",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 15346,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 29776,
+        "statusesCount": 363859,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2005705007400927480"
+        ],
+        "profile_bio": {
+          "description": "I See God in the Excellence of Men",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": {
+        "binding_values": [
+          {
+            "key": "description",
+            "value": {
+              "string_value": "This is the official application form for the Sir Dickson Tech Scholarship 2025 at TS Academy. Applicants will receive up to 100% tuition (₦447,000) scholarship off their tuition fees. Learn beginn..."
+            }
+          },
+          {
+            "key": "domain",
+            "value": {
+              "string_value": "docs.google.com"
+            }
+          },
+          {
+            "key": "vanity_url",
+            "value": {
+              "scribe_key": "vanity_url",
+              "string_value": "docs.google.com"
+            }
+          },
+          {
+            "key": "title",
+            "value": {
+              "string_value": "Sir Dickson Tech Scholarship 2025"
+            }
+          },
+          {
+            "key": "card_url",
+            "value": {
+              "scribe_key": "card_url",
+              "string_value": "https://t.co/4TpP5MvoBv"
+            }
+          }
+        ],
+        "card_platform": {
+          "platform": {
+            "audience": {
+              "name": "production"
+            },
+            "device": {
+              "name": "iPhone",
+              "version": "13"
+            }
+          }
+        },
+        "name": "summary",
+        "url": "https://t.co/4TpP5MvoBv"
+      },
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "docs.google.com/forms/d/e/1FAI…",
+            "expanded_url": "https://docs.google.com/forms/d/e/1FAIpQLSdSPc0Angv2ViQQOastijR5mTBXs5yXRs7E2uhrKSLWJ3USfA/viewform",
+            "indices": [
+              168,
+              191
+            ],
+            "url": "https://t.co/4TpP5MvoBv"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1968770039093281222",
+      "url": "https://x.com/RjeyTech/status/1968770039093281222",
+      "twitterUrl": "https://twitter.com/RjeyTech/status/1968770039093281222",
+      "text": "What's the iPhone AIR made of?\n\nThis phone is indestructible. https://t.co/lk0OvKJs50",
+      "source": "Twitter for iPhone",
+      "retweetCount": 863,
+      "replyCount": 758,
+      "likeCount": 16745,
+      "quoteCount": 364,
+      "viewCount": 3463390,
+      "createdAt": "Thu Sep 18 20:12:09 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 2426,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1968770039093281222",
+      "displayTextRange": [
+        0,
+        61
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "RjeyTech",
+        "url": "https://x.com/RjeyTech",
+        "twitterUrl": "https://twitter.com/RjeyTech",
+        "id": "43816942",
+        "name": "Rjey",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1604300368783056897/2ZChKLHN_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/43816942/1671330048",
+        "description": "",
+        "location": "Toronto, Ontario",
+        "followers": 34683,
+        "following": 223,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Mon Jun 01 03:07:48 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 30204,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 5708,
+        "statusesCount": 38890,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1970680506326159799"
+        ],
+        "profile_bio": {
+          "description": "Canadian 🇨🇦 Tech YouTuber..NEW 8K Quality Wallpaper!👇🏾 https://t.co/h7eAzvzwdc",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "rjey.sellfy.store/p/beyond-the-f…",
+                  "expanded_url": "https://rjey.sellfy.store/p/beyond-the-fog-8k-nature-collection/",
+                  "indices": [
+                    55,
+                    78
+                  ],
+                  "url": "https://t.co/h7eAzvzwdc"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "rjey.sellfy.store/p/beyond-the-f…",
+                  "expanded_url": "https://rjey.sellfy.store/p/beyond-the-fog-8k-nature-collection/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/h7eAzvzwdc"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/lk0OvKJs50",
+            "expanded_url": "https://twitter.com/RjeyTech/status/1968770039093281222/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1968770014715973632",
+            "indices": [
+              62,
+              85
+            ],
+            "media_key": "7_1968770014715973632",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARtSeeW7lhAACgACG1J562iWQcYAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABG1J55buWEAAKAAIbUnnraJZBxgAA",
+                "media_key": "7_1968770014715973632"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1968770014715973632/pu/img/Qb94OT03lKt0o5jZ.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1024,
+              "width": 576
+            },
+            "sizes": {
+              "large": {
+                "h": 1024,
+                "w": 576
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/lk0OvKJs50",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 22987,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1968770014715973632/pu/pl/j1aOA_Hc-4u4CYT8.m3u8?tag=12&v=cfc"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1968770014715973632/pu/vid/avc1/320x568/2sYcIRxlBuAQNcPD.mp4?tag=12"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1968770014715973632/pu/vid/avc1/480x852/OroxSRonMhu2Qfxz.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1968770014715973632/pu/vid/avc1/576x1024/XiJyy5zz0_YF86aW.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970287745898844372",
+      "url": "https://x.com/AndrewKolvet/status/1970287745898844372",
+      "twitterUrl": "https://twitter.com/AndrewKolvet/status/1970287745898844372",
+      "text": "🚨I just broke the news that our tech partners tracked over 277,000 devices in and around State Farm Stadium yesterday. They came from all across the country because Charlie pointed us all to Christ, and in his martyrdom given us the courage to do the same.\n\n@JesseBWatters https://t.co/MtsKV8BaYm",
+      "source": "Twitter for iPhone",
+      "retweetCount": 3316,
+      "replyCount": 1167,
+      "likeCount": 24697,
+      "quoteCount": 467,
+      "viewCount": 3038940,
+      "createdAt": "Tue Sep 23 00:42:59 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1218,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970287745898844372",
+      "displayTextRange": [
+        0,
+        272
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "AndrewKolvet",
+        "url": "https://x.com/AndrewKolvet",
+        "twitterUrl": "https://twitter.com/AndrewKolvet",
+        "id": "16549501",
+        "name": "Andrew Kolvet",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/3371537600/e82d03749b5f25422b82fdc8541fb912_normal.jpeg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/16549501/1610597503",
+        "description": "",
+        "location": "",
+        "followers": 260139,
+        "following": 1704,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Oct 01 20:08:27 +0000 2008",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 9019,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 532,
+        "statusesCount": 4485,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2011483409533845783"
+        ],
+        "profile_bio": {
+          "description": "Christian. Proud husband and father. TPUSA Spokesman. Executive Producer of The Charlie Kirk Show. Son of Nevada. American 🇺🇸",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "bit.ly/3QHIUrC",
+                  "expanded_url": "http://bit.ly/3QHIUrC",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/MLwrhbu0bb"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/MtsKV8BaYm",
+            "expanded_url": "https://twitter.com/AndrewKolvet/status/1970287745898844372/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1970284547305807874",
+            "indices": [
+              273,
+              296
+            ],
+            "media_key": "13_1970284547305807874",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtX21tUmqACAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1fbW1SaoAIAAA==",
+                "media_key": "13_1970284547305807874"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1970284547305807874/img/h9ya482JBGL7Hjbz.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 720,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 720,
+                "w": 1280
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/MtsKV8BaYm",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 275775,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1970284547305807874/pl/wSTEWYQbcidZrwGm.m3u8?tag=21&v=dda"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1970284547305807874/vid/avc1/480x270/x_zK1PjsixU4baTp.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1970284547305807874/vid/avc1/640x360/B9JE5ukml5_0qpHx.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1970284547305807874/vid/avc1/1280x720/ABR3rv7duVZu7ynO.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "56561449",
+            "indices": [
+              258,
+              272
+            ],
+            "name": "Jesse Watters",
+            "screen_name": "JesseBWatters"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1968827220769509472",
+      "url": "https://x.com/DiligentDenizen/status/1968827220769509472",
+      "twitterUrl": "https://twitter.com/DiligentDenizen/status/1968827220769509472",
+      "text": "‼️🇺🇸: Charlie Kirk Show's \"main tech guy\" used the chair Charlie was shot in to stand on and unhook the camera that recorded the crowd-facing view during the assassination.\n\nBlatant contamination of the crime scene AND removal of the evidence? 👀‼️\nhttps://t.co/Y2UCuZDeuy",
+      "source": "Twitter for iPhone",
+      "retweetCount": 2855,
+      "replyCount": 561,
+      "likeCount": 10871,
+      "quoteCount": 158,
+      "viewCount": 833691,
+      "createdAt": "Thu Sep 18 23:59:23 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1548,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1968827220769509472",
+      "displayTextRange": [
+        0,
+        271
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "DiligentDenizen",
+        "url": "https://x.com/DiligentDenizen",
+        "twitterUrl": "https://twitter.com/DiligentDenizen",
+        "id": "1585809424135995392",
+        "name": "Diligent Denizen 🇺🇸",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1898423998381195264/RxTFkT-B_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1585809424135995392/1764606304",
+        "description": "",
+        "location": "TURN ON ALL NOTIFICATIONS 🔔 ",
+        "followers": 168457,
+        "following": 3766,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Fri Oct 28 01:43:41 +0000 2022",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 265144,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 8260,
+        "statusesCount": 63330,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Hosting Conversations That Shape History | YOU Decide the Narrative | Citizen Journalist | FOLLOW for REAL NEWS | RECORDED X SPACES IN HIGHLIGHTS",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "youtube.com/channel/UCJNGm…",
+                  "expanded_url": "https://www.youtube.com/channel/UCJNGmnilnXPwlK05a4kdk8Q",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/4KgkxCWnip"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false,
+              "source_user": {
+                "user_results": {
+                  "rest_id": "1231314387119427584",
+                  "result": {
+                    "__typename": "User",
+                    "action_counts": {
+                      "favorites_count": 1932
+                    },
+                    "avatar": {
+                      "image_url": "https://pbs.twimg.com/profile_images/1804003003722055680/JUpxsoIN_normal.jpg"
+                    },
+                    "banner": {
+                      "image_url": "https://pbs.twimg.com/profile_banners/1231314387119427584/1746843617"
+                    },
+                    "core": {
+                      "created_at": "Sat Feb 22 20:27:01 +0000 2020",
+                      "name": "HustleBitch",
+                      "screen_name": "HustleBitch_"
+                    },
+                    "dm_permissions": {
+                      "can_dm": true
+                    },
+                    "exclusive_tweet_following": false,
+                    "identity_profile_labels_highlighted_label": {},
+                    "location": {
+                      "location": "United States"
+                    },
+                    "media_permissions": {
+                      "can_media_tag": true
+                    },
+                    "notifications_settings": {},
+                    "pinned_items": {
+                      "tweet_ids_str": [
+                        "1999316040346661309"
+                      ]
+                    },
+                    "privacy": {},
+                    "private_super_following": false,
+                    "profile_bio": {
+                      "description": "I seek the truth and share it but...\n\n📝Disclaimer: Posts made are not personalized nor financial advice for the viewer and are for entertainment purposes only.",
+                      "entities": {
+                        "description": {},
+                        "url": {
+                          "urls": [
+                            {
+                              "display_url": "youtube.com/@HustleBitch",
+                              "expanded_url": "https://www.youtube.com/@HustleBitch",
+                              "indices": [
+                                0,
+                                23
+                              ],
+                              "url": "https://t.co/qnKo92TNjG"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "profile_metadata": {
+                      "profile_interstitial_type": "",
+                      "profile_link_color": "1DA1F2"
+                    },
+                    "profile_translation": {
+                      "translator_type_enum": "None"
+                    },
+                    "properties": {
+                      "has_extended_profile": true
+                    },
+                    "relationship_counts": {
+                      "followers": 235486,
+                      "following": 1473
+                    },
+                    "relationship_perspectives": {},
+                    "rest_id": "1231314387119427584",
+                    "super_follow_eligible": true,
+                    "super_followed_by": false,
+                    "super_following": false,
+                    "tweet_counts": {
+                      "media_tweets": 6915,
+                      "tweets": 8398
+                    },
+                    "website": {
+                      "url": "https://t.co/qnKo92TNjG"
+                    },
+                    "verification": {
+                      "is_blue_verified": true
+                    }
+                  }
+                }
+              }
+            },
+            "display_url": "pic.twitter.com/Y2UCuZDeuy",
+            "expanded_url": "https://x.com/HustleBitch_/status/1968811440002711661/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1968809238597087232",
+            "indices": [
+              248,
+              271
+            ],
+            "media_key": "13_1968809238597087232",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtSnZJBFjAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1KdkkEWMAAAAA==",
+                "media_key": "13_1968809238597087232"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1968809238597087232/img/XyXbRUEMPUu2J2nw.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "source_status_id_str": "1968811440002711661",
+            "source_user_id_str": "1231314387119427584",
+            "type": "video",
+            "url": "https://t.co/Y2UCuZDeuy",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 61494,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1968809238597087232/pl/CfqMvE3roxd3yVoS.m3u8?tag=21&v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1968809238597087232/vid/avc1/480x270/8qamZ-3MNCwVuTnY.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1968809238597087232/vid/avc1/640x360/nodnDAKHi98Jpoo5.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1968809238597087232/vid/avc1/1280x720/Qx8IWnvldgi47RM4.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1968809238597087232/vid/avc1/1920x1080/5ep7w2d2GsKNqOGC.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970968776272379978",
+      "url": "https://x.com/TPUSA/status/1970968776272379978",
+      "twitterUrl": "https://twitter.com/TPUSA/status/1970968776272379978",
+      "text": "Crowds are lining up for the second stop of the This Is the Turning Point Tour at Virginia Tech with @megynkelly  and @GovernorVA  🇺🇸\n\n🎥: @topheronx \n\n@tpusastudents https://t.co/bXDnrAbckh",
+      "source": "Twitter for iPhone",
+      "retweetCount": 3435,
+      "replyCount": 824,
+      "likeCount": 25314,
+      "quoteCount": 166,
+      "viewCount": 2037914,
+      "createdAt": "Wed Sep 24 21:49:09 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 443,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970968776272379978",
+      "displayTextRange": [
+        0,
+        165
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "TPUSA",
+        "url": "https://x.com/TPUSA",
+        "twitterUrl": "https://twitter.com/TPUSA",
+        "id": "491719838",
+        "name": "Turning Point USA",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business",
+        "profilePicture": "https://pbs.twimg.com/profile_images/2002933589361692672/9QGbwinV_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/491719838/1766371556",
+        "description": "",
+        "location": "The United States of America",
+        "followers": 1507742,
+        "following": 1847,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Mon Feb 13 23:15:31 +0000 2012",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 20159,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 11804,
+        "statusesCount": 35083,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Leading the fight to save America 🇺🇸 Founded by @charliekirk11",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    48,
+                    62
+                  ],
+                  "name": "",
+                  "screen_name": "charliekirk11"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "linktr.ee/turningpointusa",
+                  "expanded_url": "https://linktr.ee/turningpointusa",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/40jQYw0Mo7"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/bXDnrAbckh",
+            "expanded_url": "https://twitter.com/TPUSA/status/1970968776272379978/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1970968611495047169",
+            "indices": [
+              166,
+              189
+            ],
+            "media_key": "13_1970968611495047169",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtaSYJvm3ABAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1pJgm+bcAEAAA==",
+                "media_key": "13_1970968611495047169"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1970968611495047169/img/M_OV055OdsuI4oG4.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1280,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 1280,
+                "w": 720
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/bXDnrAbckh",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 39566,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1970968611495047169/pl/aeaCfUB_LdB0-W3z.m3u8?tag=21&v=cfc"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1970968611495047169/vid/avc1/320x568/XdCuArpnkb6ImEvY.mp4?tag=21"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1970968611495047169/vid/avc1/480x852/g3iA5qLwCHd4EJEC.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1970968611495047169/vid/avc1/720x1280/7wlKsOrH5xzI2A7P.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "110445334",
+            "indices": [
+              101,
+              112
+            ],
+            "name": "Megyn Kelly",
+            "screen_name": "megynkelly"
+          },
+          {
+            "id_str": "1481701998273650692",
+            "indices": [
+              118,
+              129
+            ],
+            "name": "Governor Glenn Youngkin",
+            "screen_name": "GovernorVA"
+          },
+          {
+            "id_str": "1790789572302864384",
+            "indices": [
+              138,
+              148
+            ],
+            "name": "Topher",
+            "screen_name": "topheronx"
+          },
+          {
+            "id_str": "1560011403519348736",
+            "indices": [
+              151,
+              165
+            ],
+            "name": "TPUSA Students",
+            "screen_name": "tpusastudents"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1969866576552968703",
+      "url": "https://x.com/guychristensen_/status/1969866576552968703",
+      "twitterUrl": "https://twitter.com/guychristensen_/status/1969866576552968703",
+      "text": "Welcome to the United States of Israel!\n\nThis is an ULTIMATE breakdown of the broad picture of Zionist influence and genocide profiteering going on in America.\n\nEvery billionaire, tech company, media outlet, platform, and politician are involved to the deepest degree👇 https://t.co/kkYdgezxyW",
+      "source": "Twitter for iPhone",
+      "retweetCount": 3413,
+      "replyCount": 148,
+      "likeCount": 8457,
+      "quoteCount": 93,
+      "viewCount": 113269,
+      "createdAt": "Sun Sep 21 20:49:24 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1424,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1969866576552968703",
+      "displayTextRange": [
+        0,
+        268
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "guychristensen_",
+        "url": "https://x.com/guychristensen_",
+        "twitterUrl": "https://twitter.com/guychristensen_",
+        "id": "1346684094730612736",
+        "name": "YourFavoriteGuy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1969498663689859072/iUDwYk1Y_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1346684094730612736/1762995592",
+        "description": "",
+        "location": "",
+        "followers": 132476,
+        "following": 235,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Jan 06 05:05:01 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 2089,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 2280,
+        "statusesCount": 8995,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2011596595209355318"
+        ],
+        "profile_bio": {
+          "description": "Advocacy, insight, and ideas from a young passionate learner. People-first. Anti-genocide. $500k+ raised for Gaza. Support my work👇",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "bit.ly/yourfavoriteguy",
+                  "expanded_url": "http://bit.ly/yourfavoriteguy",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/C3vqRONTkx"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/kkYdgezxyW",
+            "expanded_url": "https://twitter.com/guychristensen_/status/1969866576552968703/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1969866004265136128",
+            "indices": [
+              269,
+              292
+            ],
+            "media_key": "13_1969866004265136128",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtWXrGvV3AAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1Zesa9XcAAAAA==",
+                "media_key": "13_1969866004265136128"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1969866004265136128/img/NYaCyE6-OHgwcLUk.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "w": 1080
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/kkYdgezxyW",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 518671,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1969866004265136128/pl/tWznKIHwQ6t2qU6G.m3u8?tag=21&v=bd0"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969866004265136128/vid/avc1/320x568/alzkQGLL9swSIGE9.mp4?tag=21"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969866004265136128/vid/avc1/480x852/firBMxLcibK4_fW0.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969866004265136128/vid/avc1/720x1280/al48RqL041nrqaeY.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969866004265136128/vid/avc1/1080x1920/Oh4BCxjFVfXl0-GO.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970292567402307695",
+      "url": "https://x.com/stupidtechtakes/status/1970292567402307695",
+      "twitterUrl": "https://twitter.com/stupidtechtakes/status/1970292567402307695",
+      "text": "smart take https://t.co/IHlfbGuckI",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1379,
+      "replyCount": 608,
+      "likeCount": 30546,
+      "quoteCount": 380,
+      "viewCount": 1528665,
+      "createdAt": "Tue Sep 23 01:02:08 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 3070,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970292567402307695",
+      "displayTextRange": [
+        0,
+        10
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "stupidtechtakes",
+        "url": "https://x.com/stupidtechtakes",
+        "twitterUrl": "https://twitter.com/stupidtechtakes",
+        "id": "1608457143098945537",
+        "name": "stupid tech takes",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1926060689421942785/7acDEg8E_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1608457143098945537/1723450402",
+        "description": "",
+        "location": "started on 7 April '23",
+        "followers": 32704,
+        "following": 105,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Thu Dec 29 13:37:50 +0000 2022",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 42851,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3737,
+        "statusesCount": 14414,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "very dumb tech tweets & occasional tech polls. rts ≠ bad takes. dm submissions. pfp/banner @entroprox.",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    91,
+                    101
+                  ],
+                  "name": "",
+                  "screen_name": "entroprox"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/IHlfbGuckI",
+            "expanded_url": "https://twitter.com/stupidtechtakes/status/1970292567402307695/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 217,
+                    "w": 217,
+                    "x": 4,
+                    "y": 981
+                  },
+                  {
+                    "h": 259,
+                    "w": 259,
+                    "x": 797,
+                    "y": 1181
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 217,
+                    "w": 217,
+                    "x": 4,
+                    "y": 981
+                  },
+                  {
+                    "h": 259,
+                    "w": 259,
+                    "x": 797,
+                    "y": 1181
+                  }
+                ]
+              }
+            },
+            "id_str": "1970292558782959616",
+            "indices": [
+              11,
+              34
+            ],
+            "media_key": "3_1970292558782959616",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtX4qSl2pAACgACG1fipqebYG8AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1fipKXakAAKAAIbV+Kmp5tgbwAA",
+                "media_key": "3_1970292558782959616"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1fipKXakAAFraM.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1231,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1704,
+                  "w": 852,
+                  "x": 42,
+                  "y": 0
+                },
+                {
+                  "h": 1704,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1704,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1704,
+                "w": 1080
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/IHlfbGuckI"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970156504960434603",
+      "url": "https://x.com/PcPhilanthropy/status/1970156504960434603",
+      "twitterUrl": "https://twitter.com/PcPhilanthropy/status/1970156504960434603",
+      "text": "How tech upgrades feel the last five years https://t.co/9aCo20gA3y",
+      "source": "Twitter for iPhone",
+      "retweetCount": 950,
+      "replyCount": 162,
+      "likeCount": 43041,
+      "quoteCount": 51,
+      "viewCount": 640519,
+      "createdAt": "Mon Sep 22 16:01:29 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 821,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970156504960434603",
+      "displayTextRange": [
+        0,
+        42
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "PcPhilanthropy",
+        "url": "https://x.com/PcPhilanthropy",
+        "twitterUrl": "https://twitter.com/PcPhilanthropy",
+        "id": "1299189408759980032",
+        "name": "PC Philanthropy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1905395540688310273/Pe1uzH5q_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1299189408759980032/1721738336",
+        "description": "",
+        "location": "United States",
+        "followers": 27213,
+        "following": 1694,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Fri Aug 28 03:38:06 +0000 2020",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 177289,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 16505,
+        "statusesCount": 37184,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2009278106205606273"
+        ],
+        "profile_bio": {
+          "description": "Tech enthusiast | Nostalgia Addict | Photography | Philosopher | The natural world has much to teach if we but just listen…",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/9aCo20gA3y",
+            "expanded_url": "https://twitter.com/PcPhilanthropy/status/1970156504960434603/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1970156501844041728",
+            "indices": [
+              43,
+              66
+            ],
+            "media_key": "3_1970156501844041728",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtXZuZsVyAACgACG1dm5yYXgasAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1dm5mxXIAAKAAIbV2bnJheBqwAA",
+                "media_key": "3_1970156501844041728"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1dm5mxXIAApriZ.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 739,
+                  "w": 1319,
+                  "x": 0,
+                  "y": 196
+                },
+                {
+                  "h": 935,
+                  "w": 935,
+                  "x": 27,
+                  "y": 0
+                },
+                {
+                  "h": 935,
+                  "w": 820,
+                  "x": 84,
+                  "y": 0
+                },
+                {
+                  "h": 935,
+                  "w": 468,
+                  "x": 260,
+                  "y": 0
+                },
+                {
+                  "h": 935,
+                  "w": 1319,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 935,
+              "width": 1319
+            },
+            "sizes": {
+              "large": {
+                "h": 935,
+                "w": 1319
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/9aCo20gA3y"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1969396353554874451",
+      "url": "https://x.com/USTechWorkers/status/1969396353554874451",
+      "twitterUrl": "https://twitter.com/USTechWorkers/status/1969396353554874451",
+      "text": "H-1B and L-1 visas have hollowed out opportunities for 🇺🇸 workers, leaving generations of families sidelined and dreams deferred. Here’s what @Troup1998 and his family endured after he was asked to train his foreign replacements on these visas before being let go from Siemens: https://t.co/jSsGw7MuVZ",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1774,
+      "replyCount": 215,
+      "likeCount": 7268,
+      "quoteCount": 101,
+      "viewCount": 643775,
+      "createdAt": "Sat Sep 20 13:40:54 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1103,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1969396353554874451",
+      "displayTextRange": [
+        0,
+        277
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "USTechWorkers",
+        "url": "https://x.com/USTechWorkers",
+        "twitterUrl": "https://twitter.com/USTechWorkers",
+        "id": "973576766651592704",
+        "name": "U.S. Tech Workers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1049775003330330624/N_nok1kq_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/973576766651592704/1717104883",
+        "description": "",
+        "location": "Washington, DC",
+        "followers": 57310,
+        "following": 732,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Tue Mar 13 15:09:24 +0000 2018",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 7877,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 2531,
+        "statusesCount": 15021,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "@ifspp we bring together civic minded people to advocate on behalf of American workers harmed by employment visa programs & demand Congress enact reforms.",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    0,
+                    6
+                  ],
+                  "name": "",
+                  "screen_name": "ifspp"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "instituteforsoundpublicpolicy.org/ustechworkers/",
+                  "expanded_url": "https://instituteforsoundpublicpolicy.org/ustechworkers/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/E0jGmli8mp"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/jSsGw7MuVZ",
+            "expanded_url": "https://twitter.com/USTechWorkers/status/1969396353554874451/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1969395978798080000",
+            "indices": [
+              278,
+              301
+            ],
+            "media_key": "13_1969395978798080000",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtUszVaV6AAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1SzNVpXoAAAAA==",
+                "media_key": "13_1969395978798080000"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1969395978798080000/img/lMqj_mDnXRibd89B.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 634,
+              "width": 886
+            },
+            "sizes": {
+              "large": {
+                "h": 634,
+                "w": 886
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/jSsGw7MuVZ",
+            "video_info": {
+              "aspect_ratio": [
+                443,
+                317
+              ],
+              "duration_millis": 172961,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1969395978798080000/pl/iTBr8WziE8enjO5o.m3u8?tag=21"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969395978798080000/vid/avc1/376x270/qcJccTW6f8wnuDTf.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969395978798080000/vid/avc1/502x360/Zh-7rjiIyXFigCG1.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969395978798080000/vid/avc1/886x634/985UKD47N75H9vCU.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "33597746",
+            "indices": [
+              142,
+              152
+            ],
+            "name": "Michael Emmons🇺🇸",
+            "screen_name": "Troup1998"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970450472642482473",
+      "url": "https://x.com/AmbAckermann/status/1970450472642482473",
+      "twitterUrl": "https://twitter.com/AmbAckermann/status/1970450472642482473",
+      "text": "Here is my call to all highly skilled Indians. \n\nGermany stands out with its stable migration policies, and with great job opportunities for Indians in IT, management, science and tech.\n\nFind your way to Germany to boost your career: https://t.co/u5CmmrHtoF https://t.co/HYiwX2iwME",
+      "source": "Twitter for iPhone",
+      "retweetCount": 3860,
+      "replyCount": 1211,
+      "likeCount": 26754,
+      "quoteCount": 543,
+      "viewCount": 2284882,
+      "createdAt": "Tue Sep 23 11:29:36 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 5083,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970450472642482473",
+      "displayTextRange": [
+        0,
+        257
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "AmbAckermann",
+        "url": "https://x.com/AmbAckermann",
+        "twitterUrl": "https://twitter.com/AmbAckermann",
+        "id": "1546739942784905216",
+        "name": "Dr Philipp Ackermann",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Government",
+        "profilePicture": "https://pbs.twimg.com/profile_images/1552880045735026692/NKGk1Btd_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1546739942784905216/1661171951",
+        "description": "",
+        "location": "6/50G, Shantipath,Chanakyapuri",
+        "followers": 22453,
+        "following": 787,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Tue Jul 12 06:15:29 +0000 2022",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 387,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 757,
+        "statusesCount": 1026,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "German Ambassador to India and Bhutan.",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "india.diplo.de/in-en/impressum",
+                  "expanded_url": "http://india.diplo.de/in-en/impressum",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/Aeq5oNzgz3"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/HYiwX2iwME",
+            "expanded_url": "https://twitter.com/AmbAckermann/status/1970450472642482473/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1970450391000133633",
+            "indices": [
+              258,
+              281
+            ],
+            "media_key": "7_1970450391000133633",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARtYcjDTF7ABCgACG1hyQ9VbESkAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABG1hyMNMXsAEKAAIbWHJD1VsRKQAA",
+                "media_key": "7_1970450391000133633"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1970450391000133633/pu/img/CtAIAIdDq9lfbp5I.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 720,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 720,
+                "w": 720
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/HYiwX2iwME",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "duration_millis": 56190,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1970450391000133633/pu/pl/gathVDWWws0-5PUj.m3u8?tag=12&v=6b6"
+                },
+                {
+                  "bitrate": 432000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1970450391000133633/pu/vid/avc1/320x320/h997B3hB05xtdbYr.mp4?tag=12"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1970450391000133633/pu/vid/avc1/540x540/qotBtyxaCUoy5Y-q.mp4?tag=12"
+                },
+                {
+                  "bitrate": 1280000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1970450391000133633/pu/vid/avc1/720x720/mcSreOFEJiaSqyAX.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "linktr.ee/germanyinindia",
+            "expanded_url": "http://linktr.ee/germanyinindia",
+            "indices": [
+              234,
+              257
+            ],
+            "url": "https://t.co/u5CmmrHtoF"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1969198408217862259",
+      "url": "https://x.com/ProjectConstitu/status/1969198408217862259",
+      "twitterUrl": "https://twitter.com/ProjectConstitu/status/1969198408217862259",
+      "text": "🚨 BREAKING: $180 MILLION REFUGEE Charter School Scam: Sacramento School Board Caught in Massive Fraud, Entire Board Resigns\n\nCalifornia grifters just pulled off one of the biggest taxpayer frauds in recent memory — and this time it wasn’t Hollywood, Newsom, or Big Tech. It was a Sacramento charter school board.\n\n💰 Auditors uncovered a $180 MILLION fraud scheme:\n\nFake students 👻\n\nSix-figure jobs for friends & family 💼\n\nLuxury travel ✈️\n\nAnd it was ALL billed to YOU, the taxpayer.\n\nThe school was supposed to teach English to Afghani & Ukrainian refugees. Heartwarming story, right? Except… the students never existed. It was a full-blown shell game, with ghost classrooms and fake results — just a front to funnel money into private pockets.\n\n👉 And the worst part? The entire board just resigned at once after being exposed.\n\nThis is what happens when “equity” and “refugee aid” are used as buzzwords to shut down any questions — while corrupt insiders cash in. California’s system is bloated with activist bureaucrats, fake nonprofits, and school boards that treat YOUR tax dollars like monopoly money.\n\nMeanwhile, real schools crumble, roads rot, and living costs skyrocket. But hey — somebody’s cousin just got a six-figure salary to “manage” a refugee ESL program that never existed.\n\nThis isn’t progress. It’s a racket. And they’re not even hiding it anymore.\n\n👀 Developing story — drop your thoughts below.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 14270,
+      "replyCount": 1219,
+      "likeCount": 29243,
+      "quoteCount": 668,
+      "viewCount": 577355,
+      "createdAt": "Sat Sep 20 00:34:21 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 2069,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1969198408217862259",
+      "displayTextRange": [
+        0,
+        304
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "ProjectConstitu",
+        "url": "https://x.com/ProjectConstitu",
+        "twitterUrl": "https://twitter.com/ProjectConstitu",
+        "id": "1605508047140438016",
+        "name": "Project Constitution",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1965886591538237440/28IOarUK_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1605508047140438016/1759088760",
+        "description": "",
+        "location": "Baltimore, MD",
+        "followers": 248429,
+        "following": 7794,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed Dec 21 10:19:50 +0000 2022",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 309873,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 4591,
+        "statusesCount": 483616,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2011666534960148537"
+        ],
+        "profile_bio": {
+          "description": "Visit My Website: https://t.co/2sDOSVMUB3 for tools to learn your rights...\nEmail: projectconstitutionvideos@gmail.com",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "projectconstitutiontiktok.com",
+                  "expanded_url": "https://projectconstitutiontiktok.com",
+                  "indices": [
+                    18,
+                    41
+                  ],
+                  "url": "https://t.co/2sDOSVMUB3"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "projectconstitutiontiktok.com",
+                  "expanded_url": "http://projectconstitutiontiktok.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/R77WfsfOyn"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/GrmVmPwaQ0",
+            "expanded_url": "https://twitter.com/ProjectConstitu/status/1969198408217862259/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1969197021463502849",
+            "indices": [
+              305,
+              328
+            ],
+            "media_key": "13_1969197021463502849",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtT/kH9FuABAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1P+Qf0W4AEAAA==",
+                "media_key": "13_1969197021463502849"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1969197021463502849/img/a61ZlgC-KBN6Sb4S.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1920,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1920,
+                "w": 1080
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/GrmVmPwaQ0",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 125333,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1969197021463502849/pl/k9qm_muKQQMrJ7Lw.m3u8?tag=21&v=69f"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969197021463502849/vid/avc1/320x568/2LEfmuaNNghQ3jj6.mp4?tag=21"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969197021463502849/vid/avc1/480x852/VOsHX-EAGLuFXnGV.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969197021463502849/vid/avc1/720x1280/Pf54azoDbvOTHhFn.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969197021463502849/vid/avc1/1080x1920/VZWt6Y34Kvnmyyvv.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970538759386194104",
+      "url": "https://x.com/techdevnotes/status/1970538759386194104",
+      "twitterUrl": "https://twitter.com/techdevnotes/status/1970538759386194104",
+      "text": "xAI is building a Team for AI-native knowledge base/search engine\n\n... https://t.co/VhewEtyycs",
+      "source": "Twitter for iPhone",
+      "retweetCount": 832,
+      "replyCount": 430,
+      "likeCount": 3741,
+      "quoteCount": 37,
+      "viewCount": 1706885,
+      "createdAt": "Tue Sep 23 17:20:25 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 236,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970538759386194104",
+      "displayTextRange": [
+        0,
+        70
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "techdevnotes",
+        "url": "https://x.com/techdevnotes",
+        "twitterUrl": "https://twitter.com/techdevnotes",
+        "id": "1604863807574212611",
+        "name": "Tech Dev Notes",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1618185418234646529/f9-GqDq1_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1604863807574212611/1691201064",
+        "description": "",
+        "location": "",
+        "followers": 52972,
+        "following": 0,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Mon Dec 19 15:38:51 +0000 2022",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 19956,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 5614,
+        "statusesCount": 12806,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Notes on tech | https://t.co/L0xyXaUV2y",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "techdevnotes.com",
+                  "expanded_url": "https://techdevnotes.com/",
+                  "indices": [
+                    16,
+                    39
+                  ],
+                  "url": "https://t.co/L0xyXaUV2y"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "youtube.com/@TechDevNotes",
+                  "expanded_url": "https://www.youtube.com/@TechDevNotes",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/5tJdhsoUcq"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/VhewEtyycs",
+            "expanded_url": "https://twitter.com/techdevnotes/status/1970538759386194104/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1970538444347637760",
+            "indices": [
+              71,
+              94
+            ],
+            "media_key": "3_1970538444347637760",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtYwkZXl4AACgACG1jCj7FaYLgAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1jCRleXgAAKAAIbWMKPsVpguAAA",
+                "media_key": "3_1970538444347637760"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1jCRleXgAABic4.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 646,
+                  "w": 1154,
+                  "x": 478,
+                  "y": 0
+                },
+                {
+                  "h": 646,
+                  "w": 646,
+                  "x": 986,
+                  "y": 0
+                },
+                {
+                  "h": 646,
+                  "w": 567,
+                  "x": 1059,
+                  "y": 0
+                },
+                {
+                  "h": 646,
+                  "w": 323,
+                  "x": 1181,
+                  "y": 0
+                },
+                {
+                  "h": 646,
+                  "w": 1632,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 646,
+              "width": 1632
+            },
+            "sizes": {
+              "large": {
+                "h": 646,
+                "w": 1632
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/VhewEtyycs"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970234961576833042",
+      "url": "https://x.com/NanoBaiter/status/1970234961576833042",
+      "twitterUrl": "https://twitter.com/NanoBaiter/status/1970234961576833042",
+      "text": "1/ Meet Abhishek Rawat. He's 24 years old running fraudulent tech support scams out of his apartment complex in Noida, India. \n\nAfter weeks of spying on him...I confronted Abhishiek through his own laptop webcam. https://t.co/Y6PkkmZVy7",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1430,
+      "replyCount": 174,
+      "likeCount": 7954,
+      "quoteCount": 85,
+      "viewCount": 480736,
+      "createdAt": "Mon Sep 22 21:13:14 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 683,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970234961576833042",
+      "displayTextRange": [
+        0,
+        212
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "NanoBaiter",
+        "url": "https://x.com/NanoBaiter",
+        "twitterUrl": "https://twitter.com/NanoBaiter",
+        "id": "1540672579358187520",
+        "name": "NanoBaiter",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1926039997230030848/8OrEYzJV_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1540672579358187520/1694460802",
+        "description": "",
+        "location": "",
+        "followers": 135956,
+        "following": 176,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Sat Jun 25 12:26:09 +0000 2022",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 1503,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 201,
+        "statusesCount": 918,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1957904875573956820"
+        ],
+        "profile_bio": {
+          "description": "I track down and identify scammers. https://t.co/EPDyCMDyiK",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "youtube.com/@nanobaiter",
+                  "expanded_url": "https://youtube.com/@nanobaiter",
+                  "indices": [
+                    36,
+                    59
+                  ],
+                  "url": "https://t.co/EPDyCMDyiK"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "nanobaiterstore.com",
+                  "expanded_url": "http://nanobaiterstore.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/fV4KtwNwOe"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/Y6PkkmZVy7",
+            "expanded_url": "https://twitter.com/NanoBaiter/status/1970234961576833042/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 155,
+                    "w": 155,
+                    "x": 76,
+                    "y": 88
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 155,
+                    "w": 155,
+                    "x": 76,
+                    "y": 88
+                  }
+                ]
+              }
+            },
+            "id_str": "1970233565007745024",
+            "indices": [
+              213,
+              236
+            ],
+            "media_key": "3_1970233565007745024",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtXrP0W1pAACgACG1euQkDXsBIAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1es/RbWkAAKAAIbV65CQNewEgAA",
+                "media_key": "3_1970233565007745024"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1es_RbWkAAw08z.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 179,
+                  "w": 320,
+                  "x": 0,
+                  "y": 95
+                },
+                {
+                  "h": 320,
+                  "w": 320,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 320,
+                  "w": 281,
+                  "x": 12,
+                  "y": 0
+                },
+                {
+                  "h": 320,
+                  "w": 160,
+                  "x": 72,
+                  "y": 0
+                },
+                {
+                  "h": 320,
+                  "w": 320,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 320,
+              "width": 320
+            },
+            "sizes": {
+              "large": {
+                "h": 320,
+                "w": 320
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Y6PkkmZVy7"
+          },
+          {
+            "display_url": "pic.twitter.com/Y6PkkmZVy7",
+            "expanded_url": "https://twitter.com/NanoBaiter/status/1970234961576833042/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1970229260238397440",
+            "indices": [
+              213,
+              236
+            ],
+            "media_key": "3_1970229260238397440",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtXqRLOlyAACgACG1euQkDXsBIAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1epEs6XIAAKAAIbV65CQNewEgAA",
+                "media_key": "3_1970229260238397440"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1epEs6XIAAFd9G.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 908,
+                  "w": 1621,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 908,
+                  "w": 908,
+                  "x": 68,
+                  "y": 0
+                },
+                {
+                  "h": 908,
+                  "w": 796,
+                  "x": 124,
+                  "y": 0
+                },
+                {
+                  "h": 908,
+                  "w": 454,
+                  "x": 295,
+                  "y": 0
+                },
+                {
+                  "h": 908,
+                  "w": 1902,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 908,
+              "width": 1902
+            },
+            "sizes": {
+              "large": {
+                "h": 908,
+                "w": 1902
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Y6PkkmZVy7"
+          },
+          {
+            "display_url": "pic.twitter.com/Y6PkkmZVy7",
+            "expanded_url": "https://twitter.com/NanoBaiter/status/1970234961576833042/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1970233663217336320",
+            "indices": [
+              213,
+              236
+            ],
+            "media_key": "3_1970233663217336320",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtXrRP0lgAACgACG1euQkDXsBIAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1etE/SWAAAKAAIbV65CQNewEgAA",
+                "media_key": "3_1970233663217336320"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1etE_SWAAADvWk.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 661,
+                  "w": 1180,
+                  "x": 55,
+                  "y": 0
+                },
+                {
+                  "h": 661,
+                  "w": 661,
+                  "x": 574,
+                  "y": 0
+                },
+                {
+                  "h": 661,
+                  "w": 580,
+                  "x": 655,
+                  "y": 0
+                },
+                {
+                  "h": 661,
+                  "w": 331,
+                  "x": 792,
+                  "y": 0
+                },
+                {
+                  "h": 661,
+                  "w": 1235,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 661,
+              "width": 1235
+            },
+            "sizes": {
+              "large": {
+                "h": 661,
+                "w": 1235
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/Y6PkkmZVy7"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1968758402604990577",
+      "url": "https://x.com/DiligentDenizen/status/1968758402604990577",
+      "twitterUrl": "https://twitter.com/DiligentDenizen/status/1968758402604990577",
+      "text": "‼️🇺🇸: Turning Point official CONFIRMS this individual apparently tampering with the camera crime evidence that was located directly over Charlie Kirk’s shoulder facing the crowd is Kirk’s “lead tech guy” for his show.\n\nHe grabs the SD &amp; looks SUS AF 🧐\n\n https://t.co/66Lk6CftX1",
+      "source": "Twitter for iPhone",
+      "retweetCount": 4972,
+      "replyCount": 549,
+      "likeCount": 23025,
+      "quoteCount": 152,
+      "viewCount": 3357634,
+      "createdAt": "Thu Sep 18 19:25:55 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 3538,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1968758402604990577",
+      "displayTextRange": [
+        0,
+        281
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "DiligentDenizen",
+        "url": "https://x.com/DiligentDenizen",
+        "twitterUrl": "https://twitter.com/DiligentDenizen",
+        "id": "1585809424135995392",
+        "name": "Diligent Denizen 🇺🇸",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1898423998381195264/RxTFkT-B_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1585809424135995392/1764606304",
+        "description": "",
+        "location": "TURN ON ALL NOTIFICATIONS 🔔 ",
+        "followers": 168457,
+        "following": 3766,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Fri Oct 28 01:43:41 +0000 2022",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 265144,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 8260,
+        "statusesCount": 63330,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Hosting Conversations That Shape History | YOU Decide the Narrative | Citizen Journalist | FOLLOW for REAL NEWS | RECORDED X SPACES IN HIGHLIGHTS",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "youtube.com/channel/UCJNGm…",
+                  "expanded_url": "https://www.youtube.com/channel/UCJNGmnilnXPwlK05a4kdk8Q",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/4KgkxCWnip"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false,
+              "source_user": {
+                "user_results": {
+                  "rest_id": "1608459779239706627",
+                  "result": {
+                    "__typename": "User",
+                    "action_counts": {
+                      "favorites_count": 0
+                    },
+                    "avatar": {
+                      "image_url": "https://pbs.twimg.com/profile_images/1608460256752926720/ouO0x9-k_normal.jpg"
+                    },
+                    "banner": {
+                      "image_url": "https://pbs.twimg.com/profile_banners/1608459779239706627/1672321794"
+                    },
+                    "core": {
+                      "created_at": "Thu Dec 29 13:47:56 +0000 2022",
+                      "name": "Shadow of Ezra",
+                      "screen_name": "ShadowofEzra"
+                    },
+                    "dm_permissions": {
+                      "can_dm": true
+                    },
+                    "exclusive_tweet_following": false,
+                    "identity_profile_labels_highlighted_label": {},
+                    "location": {
+                      "location": "Nowhere"
+                    },
+                    "media_permissions": {
+                      "can_media_tag": true
+                    },
+                    "notifications_settings": {},
+                    "pinned_items": {
+                      "tweet_ids_str": [
+                        "1684651698067816448"
+                      ]
+                    },
+                    "privacy": {},
+                    "private_super_following": false,
+                    "profile_bio": {
+                      "description": "",
+                      "entities": {
+                        "description": {},
+                        "url": {
+                          "urls": [
+                            {
+                              "display_url": "t.me/ShadowofEzra",
+                              "expanded_url": "http://t.me/ShadowofEzra",
+                              "indices": [
+                                0,
+                                23
+                              ],
+                              "url": "https://t.co/m8Dnga3fT0"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "profile_metadata": {
+                      "profile_interstitial_type": "",
+                      "profile_link_color": "1DA1F2"
+                    },
+                    "profile_translation": {
+                      "translator_type_enum": "None"
+                    },
+                    "properties": {
+                      "has_extended_profile": true
+                    },
+                    "relationship_counts": {
+                      "followers": 842350,
+                      "following": 0
+                    },
+                    "relationship_perspectives": {},
+                    "rest_id": "1608459779239706627",
+                    "super_follow_eligible": true,
+                    "super_followed_by": false,
+                    "super_following": false,
+                    "tweet_counts": {
+                      "media_tweets": 6009,
+                      "tweets": 6521
+                    },
+                    "website": {
+                      "url": "https://t.co/m8Dnga3fT0"
+                    },
+                    "verification": {
+                      "is_blue_verified": true
+                    }
+                  }
+                }
+              }
+            },
+            "display_url": "pic.twitter.com/66Lk6CftX1",
+            "expanded_url": "https://x.com/ShadowofEzra/status/1968749408381534682/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1968749382439755776",
+            "indices": [
+              258,
+              281
+            ],
+            "media_key": "7_1968749382439755776",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARtSZyHoF2AACgACG1JvVhPWAHEAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABG1JnIegXYAAKAAIbUm9WE9YAcQAA",
+                "media_key": "7_1968749382439755776"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1968749382439755776/pu/img/tUwhxJVJsG430PzW.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "source_status_id_str": "1968749408381534682",
+            "source_user_id_str": "1608459779239706627",
+            "type": "video",
+            "url": "https://t.co/66Lk6CftX1",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 23850,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1968749382439755776/pu/pl/R4cD1mkBCCANSSI6.m3u8?tag=12&v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1968749382439755776/pu/vid/avc1/480x270/03eN5XAPYg3PN3cq.mp4?tag=12"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1968749382439755776/pu/vid/avc1/640x360/9SFnDN1__UDTSceD.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1968749382439755776/pu/vid/avc1/1280x720/_BEplABqLaWLVYwE.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1969176312007831774",
+      "url": "https://x.com/Wall_St_Custo/status/1969176312007831774",
+      "twitterUrl": "https://twitter.com/Wall_St_Custo/status/1969176312007831774",
+      "text": "Big Tech censorship is STILL happening to conservatives, but they do is in subtle sneaky ways.\n\nHOW DARE @Google get away with this. \n\nShare this FAR AND WIDE. https://t.co/kiVsF6OKfY",
+      "source": "Twitter for iPhone",
+      "retweetCount": 6698,
+      "replyCount": 643,
+      "likeCount": 18971,
+      "quoteCount": 377,
+      "viewCount": 504858,
+      "createdAt": "Fri Sep 19 23:06:32 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 853,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1969176312007831774",
+      "displayTextRange": [
+        0,
+        159
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "Wall_St_Custo",
+        "url": "https://x.com/Wall_St_Custo",
+        "twitterUrl": "https://twitter.com/Wall_St_Custo",
+        "id": "1399763701264158720",
+        "name": "Common Sense Custodian",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1913053805098201088/yS7Ei0g1_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1399763701264158720/1713018397",
+        "description": "",
+        "location": "",
+        "followers": 14830,
+        "following": 1199,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Tue Jun 01 16:24:59 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 16647,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3950,
+        "statusesCount": 38211,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "1881938090631319596"
+        ],
+        "profile_bio": {
+          "description": "When Common Sense is lost - Chaos Follows. Courage is Contagious. Free Speech is everything!   SAVE AMERICA",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "youtube.com/channel/UC5muT…",
+                  "expanded_url": "https://youtube.com/channel/UC5muTSF7agsqiPquj518tEQ",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/8UKK3ADjgH"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/kiVsF6OKfY",
+            "expanded_url": "https://twitter.com/Wall_St_Custo/status/1969176312007831774/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 129,
+                    "w": 129,
+                    "x": 346,
+                    "y": 352
+                  },
+                  {
+                    "h": 144,
+                    "w": 144,
+                    "x": 87,
+                    "y": 355
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 129,
+                    "w": 129,
+                    "x": 346,
+                    "y": 352
+                  },
+                  {
+                    "h": 144,
+                    "w": 144,
+                    "x": 87,
+                    "y": 355
+                  }
+                ]
+              }
+            },
+            "id_str": "1969176304990715905",
+            "indices": [
+              160,
+              183
+            ],
+            "media_key": "3_1969176304990715905",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtT62qPFoABCgACG1PrbDFXMN4AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1Prao8WgAEKAAIbU+tsMVcw3gAA",
+                "media_key": "3_1969176304990715905"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1Prao8WgAEXyM6.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 333,
+                  "w": 594,
+                  "x": 0,
+                  "y": 268
+                },
+                {
+                  "h": 594,
+                  "w": 594,
+                  "x": 0,
+                  "y": 137
+                },
+                {
+                  "h": 677,
+                  "w": 594,
+                  "x": 0,
+                  "y": 96
+                },
+                {
+                  "h": 1024,
+                  "w": 512,
+                  "x": 82,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 594,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1024,
+              "width": 594
+            },
+            "sizes": {
+              "large": {
+                "h": 1024,
+                "w": 594
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/kiVsF6OKfY"
+          },
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/kiVsF6OKfY",
+            "expanded_url": "https://twitter.com/Wall_St_Custo/status/1969176312007831774/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 74,
+                    "w": 74,
+                    "x": 503,
+                    "y": 178
+                  },
+                  {
+                    "h": 206,
+                    "w": 206,
+                    "x": 211,
+                    "y": 371
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 74,
+                    "w": 74,
+                    "x": 503,
+                    "y": 178
+                  },
+                  {
+                    "h": 206,
+                    "w": 206,
+                    "x": 211,
+                    "y": 371
+                  }
+                ]
+              }
+            },
+            "id_str": "1969176305015889921",
+            "indices": [
+              160,
+              183
+            ],
+            "media_key": "3_1969176305015889921",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtT62qQlqABCgACG1PrbDFXMN4AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1PrapCWoAEKAAIbU+tsMVcw3gAA",
+                "media_key": "3_1969176305015889921"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1PrapCWoAEFILr.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 330,
+                  "w": 590,
+                  "x": 0,
+                  "y": 577
+                },
+                {
+                  "h": 590,
+                  "w": 590,
+                  "x": 0,
+                  "y": 434
+                },
+                {
+                  "h": 673,
+                  "w": 590,
+                  "x": 0,
+                  "y": 351
+                },
+                {
+                  "h": 1024,
+                  "w": 512,
+                  "x": 78,
+                  "y": 0
+                },
+                {
+                  "h": 1024,
+                  "w": 590,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1024,
+              "width": 590
+            },
+            "sizes": {
+              "large": {
+                "h": 1024,
+                "w": 590
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/kiVsF6OKfY"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "20536157",
+            "indices": [
+              105,
+              112
+            ],
+            "name": "Google",
+            "screen_name": "Google"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1969209380395499985",
+      "url": "https://x.com/USTechWorkers/status/1969209380395499985",
+      "twitterUrl": "https://twitter.com/USTechWorkers/status/1969209380395499985",
+      "text": "Sorry to cut the celebrations short. After reviewing the details of the proclamation:\n\n• The proclamation DOES NOT apply to individuals already in the U.S. on H-1B status, or to student visa holders on OPT seeking to change their status to H-1B.\n\n• It applies only to individuals outside the United States who are being sponsored for H-1B visas and seeking entry. This is specifically aimed at the Indian IT outsourcing companies whose business model is to sponsor large numbers of foreign workers abroad and bring them into the U.S. on H-1B visas. They may shift to sourcing workers who arrived on student visas or to heavily utilizing L-1 visas.\n\n• H-1B workers could also be affected if they ever travel abroad and require visa stamping in order to return to the United States, even if they are otherwise in valid status.\n\nThe proclamation isn’t terrible, but it falls short of truly helping American workers and STEM graduates. Companies like Google and Microsoft won’t be affected, because they source their foreign workers through L-1 visas or from those who arrived on student visas. So when @howardlutnick said tech companies support it, now we know why.\n\nIf the Trump administration truly wants to help American tech workers and STEM graduates, it needs to end the OPT program, which was created entirely through regulation. Otherwise, it isn’t serious about fixing this issue.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 2726,
+      "replyCount": 782,
+      "likeCount": 11454,
+      "quoteCount": 580,
+      "viewCount": 1352727,
+      "createdAt": "Sat Sep 20 01:17:57 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 2578,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1969209380395499985",
+      "displayTextRange": [
+        0,
+        292
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "USTechWorkers",
+        "url": "https://x.com/USTechWorkers",
+        "twitterUrl": "https://twitter.com/USTechWorkers",
+        "id": "973576766651592704",
+        "name": "U.S. Tech Workers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1049775003330330624/N_nok1kq_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/973576766651592704/1717104883",
+        "description": "",
+        "location": "Washington, DC",
+        "followers": 57310,
+        "following": 732,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Tue Mar 13 15:09:24 +0000 2018",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 7877,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 2531,
+        "statusesCount": 15021,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "@ifspp we bring together civic minded people to advocate on behalf of American workers harmed by employment visa programs & demand Congress enact reforms.",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    0,
+                    6
+                  ],
+                  "name": "",
+                  "screen_name": "ifspp"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "instituteforsoundpublicpolicy.org/ustechworkers/",
+                  "expanded_url": "https://instituteforsoundpublicpolicy.org/ustechworkers/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/E0jGmli8mp"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/EAv7gatw2g",
+            "expanded_url": "https://twitter.com/USTechWorkers/status/1969209380395499985/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1969209371126063105",
+            "indices": [
+              293,
+              316
+            ],
+            "media_key": "3_1969209371126063105",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARtUCX1eVuABCgACG1QJf4bXQdEAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABG1QJfV5W4AEKAAIbVAl/htdB0QAA",
+                "media_key": "3_1969209371126063105"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1QJfV5W4AE9ctr.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 579,
+                  "w": 1034,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 784,
+                  "w": 784,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 784,
+                  "w": 688,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 784,
+                  "w": 392,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 784,
+                  "w": 1034,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 784,
+              "width": 1034
+            },
+            "sizes": {
+              "large": {
+                "h": 784,
+                "w": 1034
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/EAv7gatw2g"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1393335583834091521",
+            "indices": [
+              1099,
+              1113
+            ],
+            "name": "Howard Lutnick",
+            "screen_name": "howardlutnick"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1970088185851240744",
+      "url": "https://x.com/profstonge/status/1970088185851240744",
+      "twitterUrl": "https://twitter.com/profstonge/status/1970088185851240744",
+      "text": "Trump slaps $100,000 fee on H1B’s.\n\nIt’s a great start to ending Big Tech’s 2.5 million worker sweatshop.\n\nStill, there’s another 2.3 million visas — including 350,000 “intern visas” — that replace Americans with low-wage foreigners. https://t.co/3fYgVmRXGz",
+      "source": "Twitter for iPhone",
+      "retweetCount": 1054,
+      "replyCount": 184,
+      "likeCount": 4425,
+      "quoteCount": 70,
+      "viewCount": 592968,
+      "createdAt": "Mon Sep 22 11:30:00 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 373,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1970088185851240744",
+      "displayTextRange": [
+        0,
+        233
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "profstonge",
+        "url": "https://x.com/profstonge",
+        "twitterUrl": "https://twitter.com/profstonge",
+        "id": "319495411",
+        "name": "Peter St Onge, Ph.D.",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1738594872125161472/oHWOsCs5_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/319495411/1734366842",
+        "description": "",
+        "location": "Join 22,000+ readers 👉",
+        "followers": 289567,
+        "following": 12820,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sat Jun 18 06:30:51 +0000 2011",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 36260,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 2730,
+        "statusesCount": 33845,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2006334534783005113"
+        ],
+        "profile_bio": {
+          "description": "Daily Videos on Economics and Freedom. \nEconomist @Heritage, former professor, ex-bartender.\nWeekly Articles at https://t.co/kD3fDmtXws",
+          "entities": {
+            "description": {
+              "urls": [
+                {
+                  "display_url": "profstonge.com",
+                  "expanded_url": "https://www.profstonge.com/",
+                  "indices": [
+                    112,
+                    135
+                  ],
+                  "url": "https://t.co/kD3fDmtXws"
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    50,
+                    59
+                  ],
+                  "name": "",
+                  "screen_name": "Heritage"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "profstonge.com",
+                  "expanded_url": "https://www.profstonge.com/",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/kD3fDmtXws"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/3fYgVmRXGz",
+            "expanded_url": "https://twitter.com/profstonge/status/1970088185851240744/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1969822994676510720",
+            "indices": [
+              234,
+              257
+            ],
+            "media_key": "13_1969822994676510720",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtWN5O8FvAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1Y3k7wW8AAAAA==",
+                "media_key": "13_1969822994676510720"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1969822994676510720/img/bSk8Uuap_G_KGZ6z.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/3fYgVmRXGz",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 211233,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1969822994676510720/pl/H4DTRRBcq2kXVfvD.m3u8?tag=21&v=531"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969822994676510720/vid/avc1/480x270/G1UifQDScqgu1PQE.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969822994676510720/vid/avc1/640x360/gHsCKdKk7sEqYoKh.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969822994676510720/vid/avc1/1280x720/Sz-cMX7A5EvK5DU2.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969822994676510720/vid/avc1/1920x1080/svhU3Hz6q9LhghE-.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

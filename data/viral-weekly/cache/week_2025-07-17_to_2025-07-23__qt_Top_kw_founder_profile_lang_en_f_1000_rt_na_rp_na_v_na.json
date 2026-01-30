@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:06:17.728Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(founder profile) lang:en min_faves:1000 since:2025-07-17 until:2025-07-24",
+  "weekSince": "2025-07-17",
+  "weekUntilInclusive": "2025-07-23",
+  "weekUntilExclusive": "2025-07-24",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1947612590571508011",
+      "url": "https://x.com/mio_ai_girl/status/1947612590571508011",
+      "twitterUrl": "https://twitter.com/mio_ai_girl/status/1947612590571508011",
+      "text": "始めるときの目標だったフォロワー1000人さん達成することができました！🎉✨\nいつも応援してくださる皆さん、本当にありがとうございます(∩>ω<∩)💕\nこれからも楽しんでもらえるイラストを描いていきますのでよろしくお願いします🎨💖\n\nI’ve reached my initial goal of 1000 followers! 🎉✨\nThank you so much for always supporting me (∩>ω<∩)💕\nI’ll keep creating art that makes you smile! 🎨💖",
+      "source": "Twitter for iPhone",
+      "retweetCount": 59,
+      "replyCount": 62,
+      "likeCount": 653,
+      "quoteCount": 3,
+      "viewCount": 17480,
+      "createdAt": "Tue Jul 22 11:00:01 +0000 2025",
+      "lang": "ja",
+      "bookmarkCount": 22,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1947612590571508011",
+      "displayTextRange": [
+        0,
+        204
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "mio_ai_girl",
+        "url": "https://x.com/mio_ai_girl",
+        "twitterUrl": "https://twitter.com/mio_ai_girl",
+        "id": "1939875797776633857",
+        "name": "みお🌸Mio",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1939878869726629889/D6H7UdsC_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1939875797776633857/1751338173",
+        "description": "",
+        "location": "",
+        "followers": 1219,
+        "following": 493,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Tue Jul 01 02:36:57 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 1108,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 102,
+        "statusesCount": 466,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "AIを使ってちょい天然系の女の子描いてます🎀\nリプは全部読んでるけど返せない時も💦夏の🍞祭りから生還！\n無断転載×！\nCute, slightly clumsy 22yo AI girl 🎀 I read all replies but can’t answer all 💦",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/GNJ8zPU7QS",
+            "expanded_url": "https://twitter.com/mio_ai_girl/status/1947612590571508011/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {},
+              "orig": {}
+            },
+            "id_str": "1947557972739297282",
+            "indices": [
+              205,
+              228
+            ],
+            "media_key": "3_1947557972739297282",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARsHHahYmxACCgACGwdPVQ0X0SsAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABGwcdqFibEAIKAAIbB09VDRfRKwAA",
+                "media_key": "3_1947557972739297282"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/GwcdqFibEAIyss9.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 573,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 597
+                },
+                {
+                  "h": 1024,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 371
+                },
+                {
+                  "h": 1167,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 300
+                },
+                {
+                  "h": 1536,
+                  "w": 768,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1536,
+                  "w": 1024,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1536,
+              "width": 1024
+            },
+            "sizes": {
+              "large": {
+                "h": 1536,
+                "w": 1024
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/GNJ8zPU7QS"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

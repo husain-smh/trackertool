@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:01:35.535Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(entrepreneurship) lang:en min_faves:1000 since:2025-01-02 until:2025-01-09",
+  "weekSince": "2025-01-02",
+  "weekUntilInclusive": "2025-01-08",
+  "weekUntilExclusive": "2025-01-09",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1876834891154804959",
+      "url": "https://x.com/jcubhilton/status/1876834891154804959",
+      "twitterUrl": "https://twitter.com/jcubhilton/status/1876834891154804959",
+      "text": "I gave my grade 9 entrepreneurship students 30 minutes to research Tesla and Elon Musk and write a tweet $TSLA\n\nI put their tweets in this thread and whoever gets the most likes wins a boost on their overall grade in my course! 👇 https://t.co/hCt5fFBNsi",
+      "source": "Twitter for iPhone",
+      "retweetCount": 187,
+      "replyCount": 709,
+      "likeCount": 3267,
+      "quoteCount": 69,
+      "viewCount": 1185003,
+      "createdAt": "Wed Jan 08 03:34:42 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 715,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1876834891154804959",
+      "displayTextRange": [
+        0,
+        229
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "jcubhilton",
+        "url": "https://x.com/jcubhilton",
+        "twitterUrl": "https://twitter.com/jcubhilton",
+        "id": "865059309570412544",
+        "name": "Jacob Hilton",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2002609457273188357/lWfwICUG_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/865059309570412544/1760495472",
+        "description": "",
+        "location": "",
+        "followers": 14003,
+        "following": 2026,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Thu May 18 04:19:46 +0000 2017",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 12115,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 1579,
+        "statusesCount": 7391,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Host of \"Everything Elon Musk Said Today\" on X & Youtube. Start your investing journey👇🏻",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "interactivebrokers.ca/mkt/?src=jacob…",
+                  "expanded_url": "https://www.interactivebrokers.ca/mkt/?src=jacobhX&url=%2Fen%2Fwhyib%2Foverview.php",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/ADl3jpQcHF"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/hCt5fFBNsi",
+            "expanded_url": "https://twitter.com/jcubhilton/status/1876834891154804959/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1876829461997613056",
+            "indices": [
+              230,
+              253
+            ],
+            "media_key": "7_1876829461997613056",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAwoAARoL1nOqWvAACgACGgvbY71XUN8AAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAADCgABGgvWc6pa8AAKAAIaC9tjvVdQ3wAA",
+                "media_key": "7_1876829461997613056"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1876829461997613056/pu/img/Z1sHuiVpMIYnAm2p.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/hCt5fFBNsi",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 166541,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1876829461997613056/pu/pl/Fb3kE-6SlyjKmSAa.m3u8?tag=12&v=cb2"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1876829461997613056/pu/vid/avc1/480x270/zN6afpCQ7NkFCeyF.mp4?tag=12"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1876829461997613056/pu/vid/avc1/640x360/Y8CNUMlE7neTurGi.mp4?tag=12"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1876829461997613056/pu/vid/avc1/1280x720/oowe2CoL5vdG1dlT.mp4?tag=12"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "symbols": [
+          {
+            "indices": [
+              105,
+              110
+            ],
+            "text": "TSLA"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1875289124997038106",
+      "url": "https://x.com/NikkiBeCoolin/status/1875289124997038106",
+      "twitterUrl": "https://twitter.com/NikkiBeCoolin/status/1875289124997038106",
+      "text": "I saw a TikTok and the lady was saying her financial hot take is that financial literacy programs leading to entrepreneurship is setting up Black kids for failure. They should focus on homeownership, 401Ks, and investing in standard stocks.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 885,
+      "replyCount": 68,
+      "likeCount": 7795,
+      "quoteCount": 232,
+      "viewCount": 363775,
+      "createdAt": "Fri Jan 03 21:12:23 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 1209,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1875289124997038106",
+      "displayTextRange": [
+        0,
+        240
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "NikkiBeCoolin",
+        "url": "https://x.com/NikkiBeCoolin",
+        "twitterUrl": "https://twitter.com/NikkiBeCoolin",
+        "id": "1449274674",
+        "name": "why am i getting so much backlash? 😕",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1885398701880852480/0RJdjtvs_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1449274674/1492052529",
+        "description": "",
+        "location": "",
+        "followers": 424,
+        "following": 370,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Wed May 22 15:56:34 +0000 2013",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 10845,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 5277,
+        "statusesCount": 154322,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "🇳🇬//I just be on here talking shit.",
+          "entities": {
+            "description": {}
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {},
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

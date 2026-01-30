@@ -1,0 +1,506 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:03:02.577Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(entrepreneurship) lang:en min_faves:1000 since:2025-09-18 until:2025-09-25",
+  "weekSince": "2025-09-18",
+  "weekUntilInclusive": "2025-09-24",
+  "weekUntilExclusive": "2025-09-25",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1969159804204564759",
+      "url": "https://x.com/andrewk_smith/status/1969159804204564759",
+      "twitterUrl": "https://twitter.com/andrewk_smith/status/1969159804204564759",
+      "text": "An hour before his event at UVU, I sat down with Charlie Kirk for what would become his final recorded conversation: a warm, inspiring, and apolitical dialogue on entrepreneurship, building businesses and an outlook for tomorrow.\n\n(0:00)  Intro\n(0:58)  Hometown and background\n(3:02)  Entrepreneurial journey\n(3:54)  What is an entrepreneur?\n(5:22)  The spark of a founder\n(11:59) @elonmusk's  time management method\n(15:52)  Building a lasting brand\n(22:55)  How to deal with feedback\n(24:06)  Lessons from leading Gen Z\n(26:10)  Privileges vs principals for leaders\n(27:38)  Outlook of America for business planning\n(31:36)  What is a quote you live by?",
+      "source": "Twitter for iPhone",
+      "retweetCount": 12551,
+      "replyCount": 1470,
+      "likeCount": 53654,
+      "quoteCount": 801,
+      "viewCount": 44053534,
+      "createdAt": "Fri Sep 19 22:00:57 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 33350,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1969159804204564759",
+      "displayTextRange": [
+        0,
+        301
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "andrewk_smith",
+        "url": "https://x.com/andrewk_smith",
+        "twitterUrl": "https://twitter.com/andrewk_smith",
+        "id": "60476879",
+        "name": "Andrew K Smith",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1866375214483038208/1gPBV7MU_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/60476879/1758047767",
+        "description": "",
+        "location": "Utah",
+        "followers": 18389,
+        "following": 255,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Mon Jul 27 03:31:11 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 578,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 8,
+        "statusesCount": 83,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Everyone has a seat at my table. \nInvesting into the nation's emerging restaurant brands.",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "savoryfund.com",
+                  "expanded_url": "http://savoryfund.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/PFusQFR1S7"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/9kUCwKHGxy",
+            "expanded_url": "https://twitter.com/andrewk_smith/status/1969159804204564759/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1969154182549516288",
+            "indices": [
+              302,
+              325
+            ],
+            "media_key": "13_1969154182549516288",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtT10vG1rAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1PXS8bWsAAAAA==",
+                "media_key": "13_1969154182549516288"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1969154182549516288/img/-n7Meu4TIBZjXPII.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 2160,
+              "width": 3840
+            },
+            "sizes": {
+              "large": {
+                "h": 1152,
+                "w": 2048
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/9kUCwKHGxy",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 2050131,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1969154182549516288/pl/I4GphJnJRKdgx7DJ.m3u8?tag=21&v=169"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969154182549516288/vid/avc1/480x270/90OlSg7QlrWPaqRK.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969154182549516288/vid/avc1/640x360/4FkALbc1qzfGGTKx.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969154182549516288/vid/avc1/1280x720/2Yye6YYM7BV11Jw6.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969154182549516288/vid/avc1/1920x1080/nq8BR-PwsEH0tga5.mp4?tag=21"
+                },
+                {
+                  "bitrate": 25128000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969154182549516288/vid/avc1/3840x2160/vMz9DtrPmC1pzDt0.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "44196397",
+            "indices": [
+              381,
+              390
+            ],
+            "name": "Elon Musk",
+            "screen_name": "elonmusk"
+          }
+        ],
+        "timestamps": [
+          {
+            "indices": [
+              232,
+              236
+            ],
+            "text": "0:00",
+            "seconds": 0
+          },
+          {
+            "indices": [
+              246,
+              250
+            ],
+            "text": "0:58",
+            "seconds": 58
+          },
+          {
+            "indices": [
+              278,
+              282
+            ],
+            "text": "3:02",
+            "seconds": 182
+          },
+          {
+            "indices": [
+              310,
+              314
+            ],
+            "text": "3:54",
+            "seconds": 234
+          },
+          {
+            "indices": [
+              343,
+              347
+            ],
+            "text": "5:22",
+            "seconds": 322
+          },
+          {
+            "indices": [
+              374,
+              379
+            ],
+            "text": "11:59",
+            "seconds": 719
+          },
+          {
+            "indices": [
+              418,
+              423
+            ],
+            "text": "15:52",
+            "seconds": 952
+          },
+          {
+            "indices": [
+              452,
+              457
+            ],
+            "text": "22:55",
+            "seconds": 1375
+          },
+          {
+            "indices": [
+              487,
+              492
+            ],
+            "text": "24:06",
+            "seconds": 1446
+          },
+          {
+            "indices": [
+              523,
+              528
+            ],
+            "text": "26:10",
+            "seconds": 1570
+          },
+          {
+            "indices": [
+              569,
+              574
+            ],
+            "text": "27:38",
+            "seconds": 1658
+          },
+          {
+            "indices": [
+              619,
+              624
+            ],
+            "text": "31:36",
+            "seconds": 1896
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    },
+    {
+      "type": "tweet",
+      "id": "1969418354365776258",
+      "url": "https://x.com/TPUSA/status/1969418354365776258",
+      "twitterUrl": "https://twitter.com/TPUSA/status/1969418354365776258",
+      "text": "On Sept. 10 in Salt Lake City, Utah, Charlie joined @andrewk_smith at the Restaurantology Summit by Savory for what would be his final interview, sharing insights on entrepreneurship and building a movement that endures. \n\nWatch below. https://t.co/9a4ZIp7rSF https://t.co/Tk9DthxigC",
+      "source": "Twitter for iPhone",
+      "retweetCount": 838,
+      "replyCount": 138,
+      "likeCount": 4244,
+      "quoteCount": 28,
+      "viewCount": 272517,
+      "createdAt": "Sat Sep 20 15:08:20 +0000 2025",
+      "lang": "en",
+      "bookmarkCount": 751,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1969418354365776258",
+      "displayTextRange": [
+        0,
+        259
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "TPUSA",
+        "url": "https://x.com/TPUSA",
+        "twitterUrl": "https://twitter.com/TPUSA",
+        "id": "491719838",
+        "name": "Turning Point USA",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business",
+        "profilePicture": "https://pbs.twimg.com/profile_images/2002933589361692672/9QGbwinV_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/491719838/1766371556",
+        "description": "",
+        "location": "The United States of America",
+        "followers": 1507763,
+        "following": 1847,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Mon Feb 13 23:15:31 +0000 2012",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 20159,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 11804,
+        "statusesCount": 35083,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [],
+        "profile_bio": {
+          "description": "Leading the fight to save America 🇺🇸 Founded by @charliekirk11",
+          "entities": {
+            "description": {
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    48,
+                    62
+                  ],
+                  "name": "",
+                  "screen_name": "charliekirk11"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "linktr.ee/turningpointusa",
+                  "expanded_url": "https://linktr.ee/turningpointusa",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/40jQYw0Mo7"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "description": "",
+              "monetizable": false,
+              "title": "Charlie Kirk’s Final Interview"
+            },
+            "allow_download_status": {
+              "allow_download": false
+            },
+            "display_url": "pic.twitter.com/Tk9DthxigC",
+            "expanded_url": "https://twitter.com/TPUSA/status/1969418354365776258/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "1969209928423522305",
+            "indices": [
+              260,
+              283
+            ],
+            "media_key": "13_1969209928423522305",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARtUCf8f20ABAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABG1QJ/x/bQAEAAA==",
+                "media_key": "13_1969209928423522305"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/G1QOCF2bwAAJYxb.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 720,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 720,
+                "w": 1280
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/Tk9DthxigC",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 2050131,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1969209928423522305/pl/aJs2qXFkLlg1uyGG.m3u8?tag=21&v=e10"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969209928423522305/vid/avc1/480x270/N9dAD9U-i6ZK-YLr.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969209928423522305/vid/avc1/640x360/DtjeddOe2oyBu89C.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969209928423522305/vid/avc1/1280x720/KDdi3_oj4CBg72iv.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969209928423522305/vid/avc1/1920x1080/pQhqRmfWq5HEndCO.mp4?tag=21"
+                },
+                {
+                  "bitrate": 25128000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1969209928423522305/vid/avc1/3840x2160/ERim7M6c0wRcr_y4.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "Restaurantologysummit.com",
+            "expanded_url": "http://Restaurantologysummit.com",
+            "indices": [
+              236,
+              259
+            ],
+            "url": "https://t.co/9a4ZIp7rSF"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "60476879",
+            "indices": [
+              52,
+              66
+            ],
+            "name": "Andrew K Smith",
+            "screen_name": "andrewk_smith"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

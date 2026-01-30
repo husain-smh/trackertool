@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-01-15T15:06:48.674Z",
+  "queryType": "Top",
+  "keyType": "shared",
+  "query": "(founder profile) lang:en min_faves:1000 since:2025-10-02 until:2025-10-09",
+  "weekSince": "2025-10-02",
+  "weekUntilInclusive": "2025-10-08",
+  "weekUntilExclusive": "2025-10-09",
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "1974254538962952495",
+      "url": "https://x.com/fuwafuwanokuma/status/1974254538962952495",
+      "twitterUrl": "https://twitter.com/fuwafuwanokuma/status/1974254538962952495",
+      "text": "あのね　noteの　ふぉろわーが　1000人に　なったの\nほとんど　ひらがなの　noteなのに　みんな　よんでくれて　ありがとうなの　ふわふわなの\nhttps://t.co/5MxhBsi2oU",
+      "source": "Twitter for iPhone",
+      "retweetCount": 32,
+      "replyCount": 11,
+      "likeCount": 322,
+      "quoteCount": 1,
+      "viewCount": 8459,
+      "createdAt": "Fri Oct 03 23:25:36 +0000 2025",
+      "lang": "ja",
+      "bookmarkCount": 2,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "1974254538962952495",
+      "displayTextRange": [
+        0,
+        97
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "fuwafuwanokuma",
+        "url": "https://x.com/fuwafuwanokuma",
+        "twitterUrl": "https://twitter.com/fuwafuwanokuma",
+        "id": "2255195790",
+        "name": "ふわふわのくま",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1425857192255795200/F6_1vTvq_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/2255195790/1740776258",
+        "description": "",
+        "location": "どいつなの!",
+        "followers": 60186,
+        "following": 23185,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Fri Dec 20 16:02:23 +0000 2013",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 47,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 3543,
+        "statusesCount": 675798,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2002300834613248170"
+        ],
+        "profile_bio": {
+          "description": "ぼくは こうしきの くまさんなの いっしょうけんめい つぶやくの ふわふわ",
+          "entities": {
+            "description": {},
+            "url": {
+              "urls": [
+                {
+                  "display_url": "youtube.com/watch?v=klQa76…",
+                  "expanded_url": "https://www.youtube.com/watch?v=klQa7644UIc",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/AwOSMnLshF"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": {
+        "binding_values": [
+          {
+            "key": "description",
+            "value": {
+              "string_value": "くまさん　ふわふわなの"
+            }
+          },
+          {
+            "key": "domain",
+            "value": {
+              "string_value": "note.com"
+            }
+          },
+          {
+            "key": "site",
+            "value": {
+              "scribe_key": "publisher_id",
+              "user_value": {
+                "id_str": "2426595726"
+              }
+            }
+          },
+          {
+            "key": "vanity_url",
+            "value": {
+              "scribe_key": "vanity_url",
+              "string_value": "note.com"
+            }
+          },
+          {
+            "key": "title",
+            "value": {
+              "string_value": "ふわふわのくま｜note"
+            }
+          },
+          {
+            "key": "card_url",
+            "value": {
+              "scribe_key": "card_url",
+              "string_value": "https://t.co/5MxhBsi2oU"
+            }
+          }
+        ],
+        "card_platform": {
+          "platform": {
+            "audience": {
+              "name": "production"
+            },
+            "device": {
+              "name": "iPhone",
+              "version": "13"
+            }
+          }
+        },
+        "name": "summary",
+        "url": "https://t.co/5MxhBsi2oU",
+        "user_refs_results": [
+          {
+            "rest_id": "2426595726",
+            "result": {
+              "__typename": "User",
+              "action_counts": {
+                "favorites_count": 43796
+              },
+              "avatar": {
+                "image_url": "https://pbs.twimg.com/profile_images/1650311140818419712/gjNmcVIA_normal.jpg"
+              },
+              "banner": {
+                "image_url": "https://pbs.twimg.com/profile_banners/2426595726/1713748031"
+              },
+              "core": {
+                "created_at": "Fri Apr 04 03:41:50 +0000 2014",
+                "name": "note",
+                "screen_name": "note_PR"
+              },
+              "dm_permissions": {
+                "can_dm": false
+              },
+              "exclusive_tweet_following": false,
+              "identity_profile_labels_highlighted_label": {},
+              "location": {
+                "location": ""
+              },
+              "media_permissions": {
+                "can_media_tag": false
+              },
+              "notifications_settings": {},
+              "pinned_items": {
+                "tweet_ids_str": [
+                  "2011279738929893718"
+                ]
+              },
+              "privacy": {},
+              "private_super_following": false,
+              "profile_bio": {
+                "description": "noteは、1000万人が創作をたのしむプラットフォームです。\n経験談やノウハウ、好きなものやひとへの熱い想い、小説や漫画などを毎日ご紹介。#創作のコツ #noteのコツ の投稿も！\n#創作大賞2025 についてのお知らせはハイライトへ👇\nInstagram：https://t.co/i5GddC6FlT",
+                "entities": {
+                  "description": {
+                    "hashtags": [
+                      {
+                        "indices": [
+                          70,
+                          76
+                        ],
+                        "text": "創作のコツ"
+                      },
+                      {
+                        "indices": [
+                          77,
+                          85
+                        ],
+                        "text": "noteのコツ"
+                      },
+                      {
+                        "indices": [
+                          92,
+                          101
+                        ],
+                        "text": "創作大賞2025"
+                      }
+                    ],
+                    "urls": [
+                      {
+                        "display_url": "bit.ly/42WU0Nv",
+                        "expanded_url": "https://bit.ly/42WU0Nv",
+                        "indices": [
+                          130,
+                          153
+                        ],
+                        "url": "https://t.co/i5GddC6FlT"
+                      }
+                    ]
+                  },
+                  "url": {
+                    "urls": [
+                      {
+                        "display_url": "note.com",
+                        "expanded_url": "http://note.com",
+                        "indices": [
+                          0,
+                          23
+                        ],
+                        "url": "https://t.co/I9n2ZLr4YM"
+                      }
+                    ]
+                  }
+                }
+              },
+              "profile_image_shape": "Square",
+              "profile_metadata": {
+                "profile_interstitial_type": "",
+                "profile_link_color": "41C9B4"
+              },
+              "profile_translation": {
+                "translator_type_enum": "None"
+              },
+              "properties": {
+                "has_extended_profile": false
+              },
+              "relationship_counts": {
+                "followers": 114819,
+                "following": 1171
+              },
+              "relationship_perspectives": {},
+              "rest_id": "2426595726",
+              "super_follow_eligible": false,
+              "super_followed_by": false,
+              "super_following": false,
+              "tweet_counts": {
+                "media_tweets": 5052,
+                "tweets": 78883
+              },
+              "website": {
+                "url": "https://t.co/I9n2ZLr4YM"
+              },
+              "verification": {
+                "is_blue_verified": true,
+                "verified_type": "Business"
+              }
+            }
+          }
+        ]
+      },
+      "place": {},
+      "entities": {
+        "urls": [
+          {
+            "display_url": "note.com/fuwafuwanokuma",
+            "expanded_url": "https://note.com/fuwafuwanokuma",
+            "indices": [
+              74,
+              97
+            ],
+            "url": "https://t.co/5MxhBsi2oU"
+          }
+        ]
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": true,
+      "article": null
+    }
+  ],
+  "meta": {
+    "pagesFetched": 2,
+    "stoppedBecause": "completed"
+  }
+}

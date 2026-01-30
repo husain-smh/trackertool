@@ -1,0 +1,195 @@
+{
+    "designSystem": {
+      "name": "Minimalist Editorial Design System",
+      "version": "1.0",
+      "philosophy": "A refined, literary aesthetic that emphasizes readability, breathing room, and typographic elegance. Inspired by high-end publishing and archival design with a focus on content over decoration.",
+      
+      "colorPalette": {
+        "primary": {
+          "background": "#F5F3F0",
+          "description": "Warm off-white, paper-like texture background"
+        },
+        "text": {
+          "primary": "#4A4A4A",
+          "secondary": "#6B6B6B",
+          "description": "Deep charcoal gray for body text, lighter gray for secondary content"
+        },
+        "accent": {
+          "subtle": "#8B8680",
+          "description": "Muted taupe for dividers and subtle accents"
+        },
+        "principles": [
+          "Extremely minimal color usage - rely on typography and spacing",
+          "No bright or saturated colors - maintain neutral, timeless palette",
+          "Subtle contrast that's easy on the eyes for extended reading"
+        ]
+      },
+      
+      "typography": {
+        "fontFamily": {
+          "primary": "Georgia, 'Times New Roman', serif",
+          "fallback": "System serif stack",
+          "description": "Classic serif typeface for elegant, literary feel"
+        },
+        "typeScale": {
+          "hero": {
+            "size": "3.5rem",
+            "lineHeight": "1.2",
+            "weight": "400",
+            "usage": "Main page titles, hero headings"
+          },
+          "h1": {
+            "size": "2.5rem",
+            "lineHeight": "1.3",
+            "weight": "400",
+            "usage": "Primary section headings"
+          },
+          "h2": {
+            "size": "1.75rem",
+            "lineHeight": "1.4",
+            "weight": "400",
+            "usage": "Secondary headings"
+          },
+          "body": {
+            "size": "1.125rem",
+            "lineHeight": "1.75",
+            "weight": "400",
+            "usage": "Body text, paragraphs"
+          },
+          "small": {
+            "size": "0.875rem",
+            "lineHeight": "1.6",
+            "weight": "400",
+            "usage": "Captions, metadata, breadcrumbs"
+          }
+        },
+        "principles": [
+          "Use regular weight (400) almost exclusively - avoid bold",
+          "Generous line-height for maximum readability (1.6-1.8)",
+          "Scale sizes proportionally using classic ratios",
+          "Embrace white space around text blocks",
+          "Italics for emphasis, not bold or color"
+        ]
+      },
+      
+      "spacing": {
+        "scale": {
+          "xs": "0.5rem",
+          "sm": "1rem",
+          "md": "2rem",
+          "lg": "3rem",
+          "xl": "4rem",
+          "2xl": "6rem",
+          "3xl": "8rem"
+        },
+        "contentWidth": {
+          "text": "65ch",
+          "description": "Optimal line length for readability (approx 650px)"
+        },
+        "principles": [
+          "Generous spacing is key - let content breathe",
+          "Use large vertical spacing between sections (3-6rem)",
+          "Consistent horizontal padding (2-3rem on containers)",
+          "Increase spacing at larger breakpoints",
+          "Create clear visual hierarchy through spacing, not decoration"
+        ]
+      },
+      
+      "layout": {
+        "structure": {
+          "maxWidth": "1200px",
+          "contentMaxWidth": "800px",
+          "padding": "2rem",
+          "description": "Centered content with generous margins"
+        },
+        "grid": {
+          "columns": "12",
+          "gap": "2rem",
+          "description": "Flexible grid for varied content layouts"
+        },
+        "principles": [
+          "Center align primary content",
+          "Left align body text within content areas",
+          "Asymmetric layouts acceptable for visual interest",
+          "Single column for main content, generous margins",
+          "Avoid edge-to-edge content - always provide breathing room"
+        ]
+      },
+      
+      "components": {
+        "header": {
+          "style": "Minimal, small text navigation",
+          "spacing": "Large top padding, subtle below",
+          "typography": "Small serif, understated",
+          "alignment": "Left or centered, depending on context"
+        },
+        "dividers": {
+          "style": "Thin horizontal rules",
+          "color": "Subtle gray (#E0DDD8)",
+          "thickness": "1px",
+          "spacing": "3-4rem above and below"
+        },
+        "buttons": {
+          "style": "Text-based, minimal or no background",
+          "hover": "Subtle underline or opacity change",
+          "typography": "Same as body text, possibly smaller",
+          "border": "Optional thin border, never heavy"
+        },
+        "cards": {
+          "style": "Flat, no shadows or heavy borders",
+          "background": "Same as page or very subtle variation",
+          "spacing": "Generous internal padding (2rem+)",
+          "separation": "Spacing or subtle divider lines"
+        },
+        "images": {
+          "style": "Full bleed within container or generous margins",
+          "borders": "None or very subtle",
+          "captions": "Small italic text below"
+        }
+      },
+      
+      "designPrinciples": [
+        "Content first - design serves the content, never overwhelms it",
+        "Embrace white space as a design element",
+        "Typography is the primary design tool",
+        "Minimal decoration - no gradients, shadows, or effects",
+        "Timeless over trendy - classic editorial design",
+        "Breathing room between all elements",
+        "Subtle over loud - whisper, don't shout",
+        "Create hierarchy through size, spacing, and weight, not color",
+        "Respect the reader's focus and attention",
+        "Every element should serve a purpose"
+      ],
+      
+      "interactions": {
+        "transitions": "Subtle and quick (150-250ms)",
+        "hover": "Minimal - slight opacity or underline",
+        "focus": "Subtle outline or underline, never heavy borders",
+        "loading": "Subtle fade-ins, no spinners unless necessary"
+      },
+      
+      "responsive": {
+        "breakpoints": {
+          "mobile": "320px",
+          "tablet": "768px",
+          "desktop": "1024px",
+          "wide": "1440px"
+        },
+        "principles": [
+          "Reduce font sizes slightly on mobile, but keep readable",
+          "Reduce spacing on mobile but maintain proportions",
+          "Single column layouts on mobile",
+          "Maintain generous padding even on small screens",
+          "Increase whitespace on larger screens"
+        ]
+      },
+      
+      "accessibility": {
+        "contrast": "Maintain WCAG AA standards minimum",
+        "focusStates": "Clear and visible without being intrusive",
+        "textSize": "Base size 18px minimum for body text",
+        "lineHeight": "Generous for readability (1.6+)",
+        "tapTargets": "Minimum 44x44px on mobile"
+      }
+    }
+  }
