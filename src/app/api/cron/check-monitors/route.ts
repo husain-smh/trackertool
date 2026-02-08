@@ -10,7 +10,6 @@ import {
 import {
   fetchTweetMetrics,
   fetchQuoteMetricsAggregate,
-  fetchTweetDetails,
   QuoteAggregateResult,
   TweetMetrics,
 } from '@/lib/external-api';
@@ -22,19 +21,11 @@ import {
 } from '@/lib/twitter-api-client';
 import { calculateAllDeltas, shouldFetchLikers, summarizeDeltas, PAGINATION_CONFIG } from '@/lib/monitoring/delta-calculator';
 import { detectAllDeletions, summarizeDeletions } from '@/lib/monitoring/deletion-tracker';
-import { generateNotificationDraft, TweetContext } from '@/lib/monitoring/notification-generator';
 import { bulkUpsertEngagements, MonitoringEngagement } from '@/lib/models/monitoring-engagements';
-import {
-  createNotification,
-  notificationExists,
-} from '@/lib/models/monitoring-notifications';
 import { rankEngagers, EngagerInput } from '@/lib/models/ranker';
-
-const DEFAULT_NOTIFICATION_THRESHOLD = 5;
 
 interface RealtimeProcessingResult {
   newEngagers: number;
-  notificationsGenerated: number;
   deletionsMarked: number;
 }
 
@@ -95,17 +86,14 @@ function toMonitoringEngagement(
  */
 async function processRealtimeEngagers(
   job: MonitoringJob,
-  currentMetrics: TweetMetrics,
-  tweetContext: TweetContext
+  currentMetrics: TweetMetrics
 ): Promise<RealtimeProcessingResult> {
   const result: RealtimeProcessingResult = {
     newEngagers: 0,
-    notificationsGenerated: 0,
     deletionsMarked: 0,
   };
 
   const tweetId = job.tweet_id;
-  const threshold = job.notification_threshold ?? DEFAULT_NOTIFICATION_THRESHOLD;
 
   // Get previous metrics (default to 0 if first run)
   const prevMetrics = job.prev_metrics || {
@@ -221,45 +209,6 @@ async function processRealtimeEngagers(
     `[cron-monitors] Upserted engagements for ${tweetId}: ${upsertResult.upserted} new, ${upsertResult.modified} updated`
   );
 
-  // Generate notifications for high-importance engagers
-  const highImportanceEngagers = engagementsToUpsert.filter(
-    (e) => e.importance_score >= threshold
-  );
-
-  for (const engager of highImportanceEngagers) {
-    // Check if notification already exists
-    const exists = await notificationExists(tweetId, engager.user_id, engager.action_type);
-    if (exists) continue;
-
-    try {
-      // Generate notification draft
-      const draft = await generateNotificationDraft(
-        engager as MonitoringEngagement,
-        tweetContext
-      );
-
-      await createNotification({
-        tweet_id: tweetId,
-        engagement_id: engager.engagement_id || `${engager.user_id}-${engager.action_type}`,
-        user_id: engager.user_id,
-        action_type: engager.action_type,
-        generated_text: draft.generatedText,
-        status: 'generated',
-        importance_score: engager.importance_score,
-        engager_username: engager.username,
-        engager_name: engager.name,
-        engager_followers: engager.followers,
-      });
-
-      result.notificationsGenerated++;
-    } catch (e) {
-      console.error(
-        `[cron-monitors] Error generating notification for ${engager.username}:`,
-        e
-      );
-    }
-  }
-
   // Detect deletions by comparing current engager IDs with previous known IDs
   const previousKnownEngagers = job.known_engagers || {
     replies: [],
@@ -327,7 +276,6 @@ export async function GET() {
     let completed = 0;
     let usedFallback = 0;
     let totalNewEngagers = 0;
-    let totalNotifications = 0;
     const errors: string[] = [];
     const jobDetails: Array<{
       tweetId: string;
@@ -335,7 +283,6 @@ export async function GET() {
       quoteViewSum: number;
       source: string;
       newEngagers?: number;
-      notifications?: number;
     }> = [];
 
     // Process each active job
@@ -451,32 +398,12 @@ export async function GET() {
         let realtimeResult: RealtimeProcessingResult | null = null;
         if (job.realtime_enabled) {
           try {
-            // Fetch tweet details for context
-            let tweetContext: TweetContext = {
-              tweetId: job.tweet_id,
-              tweetUrl: job.tweet_url,
-            };
-
-            try {
-              const tweetDetails = await fetchTweetDetails(job.tweet_id, 1, 'monitor');
-              tweetContext = {
-                tweetId: job.tweet_id,
-                tweetUrl: job.tweet_url,
-                authorUsername: tweetDetails.authorUsername,
-                tweetText: tweetDetails.text,
-              };
-            } catch (e) {
-              console.warn(`[cron-monitors] Could not fetch tweet details for context: ${e}`);
-            }
-
-            realtimeResult = await processRealtimeEngagers(job, metrics, tweetContext);
+            realtimeResult = await processRealtimeEngagers(job, metrics);
             totalNewEngagers += realtimeResult.newEngagers;
-            totalNotifications += realtimeResult.notificationsGenerated;
 
             console.log(
               `[cron-monitors] Realtime processing for ${job.tweet_id}: ` +
                 `${realtimeResult.newEngagers} new engagers, ` +
-                `${realtimeResult.notificationsGenerated} notifications, ` +
                 `${realtimeResult.deletionsMarked} deletions`
             );
           } catch (realtimeError) {
@@ -502,7 +429,6 @@ export async function GET() {
           quoteViewSum: finalQuoteViewSum,
           source: dataSource,
           newEngagers: realtimeResult?.newEngagers,
-          notifications: realtimeResult?.notificationsGenerated,
         });
 
         // Check again after storing
@@ -550,7 +476,7 @@ export async function GET() {
     console.log(
       `[cron-monitors] Cron run complete: ` +
         `processed=${processed}, completed=${completed}, usedFallback=${usedFallback}, ` +
-        `newEngagers=${totalNewEngagers}, notifications=${totalNotifications}, ` +
+        `newEngagers=${totalNewEngagers}, ` +
         `errors=${errors.length}, elapsed=${totalElapsed}ms`
     );
 
@@ -562,7 +488,6 @@ export async function GET() {
       total_active: activeJobs.length,
       realtime: {
         new_engagers: totalNewEngagers,
-        notifications_generated: totalNotifications,
       },
       errors: errors.length > 0 ? errors : undefined,
       error_count: errors.length,

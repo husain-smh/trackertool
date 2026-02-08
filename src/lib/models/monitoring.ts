@@ -27,9 +27,6 @@ export interface MonitoringJob {
   };
   likers_last_fetched_at?: Date;
 
-  // Configurable settings
-  notification_threshold?: number;  // Default: 5, configurable from UI
-  slack_webhook_url?: string;  // Per-job Slack webhook (optional override)
 }
 
 export interface MetricSnapshot {
@@ -255,44 +252,6 @@ export async function updateMonitoringJobRealtimeState(
     { tweet_id: tweetId },
     { $set: update }
   );
-}
-
-/**
- * Update monitoring job settings
- */
-export async function updateMonitoringJobSettings(
-  tweetId: string,
-  settings: {
-    realtime_enabled?: boolean;
-    notification_threshold?: number;
-    slack_webhook_url?: string;
-  }
-): Promise<MonitoringJob | null> {
-  const collection = await getMonitoringJobsCollection();
-  const result = await collection.findOneAndUpdate(
-    { tweet_id: tweetId },
-    { $set: settings },
-    { returnDocument: 'after' }
-  );
-  return result;
-}
-
-/**
- * Get active realtime monitoring jobs
- */
-export async function getActiveRealtimeMonitoringJobs(): Promise<MonitoringJob[]> {
-  const collection = await getMonitoringJobsCollection();
-  const now = new Date();
-  const monitorDurationMs = 5 * 24 * 60 * 60 * 1000; // 5 days
-  const windowStart = new Date(now.getTime() - monitorDurationMs);
-
-  return await collection
-    .find({
-      status: 'active',
-      realtime_enabled: true,
-      started_at: { $gte: windowStart },
-    })
-    .toArray();
 }
 
 // ===== Index Creation =====

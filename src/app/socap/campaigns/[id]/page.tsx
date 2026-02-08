@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Bell } from 'lucide-react';
 import {
   ComposedChart,
   Area,
@@ -1314,13 +1313,6 @@ export default function CampaignDashboardPage() {
                 }`}>
                   {data.campaign.status}
                 </div>
-                <button
-                  onClick={() => router.push(`/socap/campaigns/${campaignId}/alerts`)}
-                  className="px-4 py-2 border border-primary/50 text-primary rounded-lg font-medium transition-colors hover:border-primary hover:bg-primary/5 flex items-center gap-2"
-                >
-                  <Bell className="w-4 h-4" />
-                  Alerts
-                </button>
               </div>
             </div>
           </div>

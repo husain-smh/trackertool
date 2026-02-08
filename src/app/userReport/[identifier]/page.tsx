@@ -413,7 +413,7 @@ export default async function UserReportPage({
         {/* Footer Stamp */}
         <div className="mt-24 mb-12 text-center opacity-50">
             <div className="inline-block border-2 border-foreground p-4 transform -rotate-2">
-                <div className="font-mono text-xs uppercase tracking-widest mb-1">Social Capital Inc.</div>
+                <div className="font-mono text-xs uppercase tracking-widest mb-1">BrandWorks</div>
                 <div className="font-sans italic text-sm">Confidential User Analysis</div>
             </div>
         </div>

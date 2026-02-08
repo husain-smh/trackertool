@@ -10,8 +10,6 @@ export * from './quote-tweets';
 export * from './nested-quote-tweets';
 export * from './engagements';
 export * from './worker-state';
-export * from './alert-queue';
-export * from './alert-history';
 export * from './metric-snapshots';
 export * from './utils';
 
@@ -22,8 +20,6 @@ import {
   createNestedQuoteTweetIndexes,
   createEngagementIndexes,
   createWorkerStateIndexes,
-  createAlertQueueIndexes,
-  createAlertHistoryIndexes,
   createMetricSnapshotIndexes,
 } from './indexes';
 
@@ -52,12 +48,6 @@ export async function initializeSocapIndexes(): Promise<void> {
     
     await createWorkerStateIndexes();
     console.log('✅ Worker state indexes created');
-    
-    await createAlertQueueIndexes();
-    console.log('✅ Alert queue indexes created');
-    
-    await createAlertHistoryIndexes();
-    console.log('✅ Alert history indexes created');
     
     await createMetricSnapshotIndexes();
     console.log('✅ Metric snapshot indexes created');

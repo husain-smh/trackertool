@@ -6,30 +6,20 @@ import Navbar from '@/components/Navbar';
 export default function Home() {
   const tools = [
     {
-      name: 'Quote Tweets',
-      description: 'Analyze quote tweet engagement and viral content performance.',
-      href: '/quotetweets',
-    },
-    {
-      name: 'Engagement Analysis',
-      description: 'Deep-dive into tweet engagement patterns and user interaction data.',
-      href: '/twtengagement',
-    },
-    {
-      name: 'Importance Ranker',
-      description: 'Manage important people and rank tweet engagers.',
-      href: '/ranker',
-    },
-    {
-      name: 'Tweets Analyzed',
-      description: 'View all analyzed tweets and their metrics.',
-      href: '/tweets',
+      name: 'Campaigns',
+      description: 'Create and monitor campaigns with alerts, metrics, and dashboards.',
+      href: '/socap',
     },
     {
       name: 'Monitored Tweets',
       description: 'Track real-time engagement metrics over 72 hours.',
       href: '/monitor',
-    }
+    },
+    // Hidden for now — will be re-enabled as new features:
+    // { name: 'Quote Tweets', description: 'Analyze quote tweet engagement and viral content performance.', href: '/quotetweets' },
+    // { name: 'Engagement Analysis', description: 'Deep-dive into tweet engagement patterns and user interaction data.', href: '/twtengagement' },
+    // { name: 'Importance Ranker', description: 'Manage important people and rank tweet engagers.', href: '/ranker' },
+    // { name: 'Tweets Analyzed', description: 'View all analyzed tweets and their metrics.', href: '/tweets' },
   ];
 
   return (
@@ -40,7 +30,7 @@ export default function Home() {
         {/* Header Section */}
         <div className="max-w-[800px] mx-auto text-center mb-12 md:mb-24">
           <h1 className="text-4xl md:text-[3.5rem] leading-[1.2] font-bold mb-6 md:mb-8 text-foreground">
-            Social Capital <span className="text-[#1D9BF0]">Inc.</span>
+            BrandWorks
           </h1>
 
           <p className="text-[1.125rem] leading-[1.75] text-muted-foreground max-w-[65ch] mx-auto">
@@ -77,7 +67,7 @@ export default function Home() {
         {/* Footer */}
         <div className="mt-32 py-12 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            Social Capital Inc.
+            BrandWorks
           </p>
         </div>
       </main>

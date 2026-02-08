@@ -27,14 +27,6 @@ export {
 } from './worker-state';
 
 export {
-  createAlertQueueIndexes,
-} from './alert-queue';
-
-export {
-  createAlertHistoryIndexes,
-} from './alert-history';
-
-export {
   createMetricSnapshotIndexes,
 } from './metric-snapshots';
 

@@ -8,7 +8,7 @@ import PaperTextureDefs from "@/components/PaperTextureDefs";
 import PaperTextureOverlay from "@/components/PaperTextureOverlay";
 
 export const metadata: Metadata = {
-  title: "Social Capital Inc.",
+  title: "BrandWorks",
   description: "Social analytics and intelligence tools.",
 };
 

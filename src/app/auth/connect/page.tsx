@@ -7,7 +7,7 @@ import Link from 'next/link';
 /**
  * OAuth Connect Page - "Lab Report" Style
  * 
- * Design System: Social Capital Inc. (Premium Dark)
+ * Design System: BrandWorks (Premium Dark)
  * - Paper background (inherited)
  * - Ink typography (Serif headings, Mono data)
  * - Solid borders, no shadows
@@ -50,10 +50,10 @@ function ConnectContent() {
         {/* Header / Stamp */}
         <div className="text-center mb-10">
           <div className="inline-block border border-foreground p-2 mb-6 transform -rotate-1">
-            <div className="font-mono text-[10px] uppercase tracking-[0.2em]">Social Capital Inc.</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.2em]">BrandWorks</div>
           </div>
           <h1 className="font-sans text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
-            Connect to Social Capital
+            Connect to BrandWorks
           </h1>
           <p className="font-sans text-lg text-foreground/80 leading-relaxed">
             Authorization required for detailed analysis.

@@ -80,7 +80,7 @@ export default function SystemSettingsPage() {
         </Link>
         <h1 className="text-[2.5rem] leading-[1.3] font-normal">System Settings</h1>
         <p className="text-muted-foreground mt-3">
-          Configure global settings for the SOCAP monitoring system.
+          Configure global settings for the BrandWorks monitoring system.
         </p>
       </div>
 

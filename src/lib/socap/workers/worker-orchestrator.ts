@@ -66,16 +66,7 @@ export class WorkerOrchestrator {
         await completeJob(job._id);
       }
       
-      // If this was an engagement job (not metrics or location_enrichment), trigger alert detection
-      if (job.job_type !== 'metrics' && job.job_type !== 'location_enrichment') {
-        try {
-          const { detectAndQueueAlerts } = await import('../alert-detector');
-          await detectAndQueueAlerts(job.campaign_id);
-        } catch (error) {
-          // Log but don't fail the job
-          console.error('Error detecting alerts:', error);
-        }
-      } else if (job.job_type === 'metrics') {
+      if (job.job_type === 'metrics') {
         // If this was a metrics job, check if we should create snapshot
         try {
           const { processMetricSnapshots } = await import('../metric-snapshot-processor');
@@ -85,8 +76,6 @@ export class WorkerOrchestrator {
           console.error('Error processing metric snapshot:', error);
         }
       }
-      
-      // Note: liking_users jobs also trigger alert detection since they're engagement jobs
     } catch (error) {
       // Mark job as failed
       const errorMessage = error instanceof Error ? error.message : 'Unknown error';

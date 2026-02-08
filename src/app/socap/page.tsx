@@ -140,7 +140,7 @@ export default function SocapCampaignsPage() {
         <div className="max-w-[1200px] mx-auto">
           <div className="max-w-[800px] mx-auto text-center mb-16">
             <h1 className="text-[2.5rem] leading-[1.3] font-normal mb-6 text-[#2B2B2B]">
-              SOCAP Campaigns
+              BrandWorks Campaigns
             </h1>
             <p className="text-[1.125rem] leading-[1.75] text-[#6B6B6B] max-w-[65ch] mx-auto">
               Create and monitor campaigns. Alerts, metrics, and dashboards live inside each campaign.

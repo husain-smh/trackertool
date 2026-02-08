@@ -43,14 +43,6 @@ export default function EditCampaignPage() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
 
-  // Form state for alert preferences
-  const [settingsForm, setSettingsForm] = useState({
-    importance_threshold: 10,
-    alert_spacing_minutes: 20,
-    frequency_window_minutes: 30,
-    channels: ['email'] as string[],
-  });
-
   // Form state for new tweets to add
   const [newTweets, setNewTweets] = useState<{
     maintweets_raw: string;
@@ -69,15 +61,6 @@ export default function EditCampaignPage() {
       
       if (result.success) {
         setData(result.data);
-        // Initialize settings form from campaign data
-        if (result.data.campaign?.alert_preferences) {
-          setSettingsForm({
-            importance_threshold: result.data.campaign.alert_preferences.importance_threshold || 10,
-            alert_spacing_minutes: result.data.campaign.alert_preferences.alert_spacing_minutes || 20,
-            frequency_window_minutes: result.data.campaign.alert_preferences.frequency_window_minutes || 30,
-            channels: result.data.campaign.alert_preferences.channels || ['email'],
-          });
-        }
       }
     } catch (error) {
       console.error('Error fetching campaign data:', error);
@@ -89,19 +72,6 @@ export default function EditCampaignPage() {
   useEffect(() => {
     fetchCampaignData();
   }, [fetchCampaignData]);
-
-  function handleSettingsChange(field: keyof typeof settingsForm, value: any) {
-    setSettingsForm((prev) => ({ ...prev, [field]: value }));
-  }
-
-  function toggleChannel(channel: string) {
-    setSettingsForm((prev) => ({
-      ...prev,
-      channels: prev.channels.includes(channel)
-        ? prev.channels.filter((c: string) => c !== channel)
-        : [...prev.channels, channel],
-    }));
-  }
 
   /**
    * Extract tweet URLs from a free-form textarea string.
@@ -174,7 +144,6 @@ export default function EditCampaignPage() {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          alert_preferences: settingsForm,
           maintweets: allMainTweets,
           influencer_twts: allInfluencerTweets,
           investor_twts: allInvestorTweets,
@@ -394,105 +363,6 @@ export default function EditCampaignPage() {
                   <p className="text-xs text-muted-foreground mt-2">
                     URLs can be separated by commas, spaces, or new lines.
                   </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Alert Settings */}
-            <div className="glass rounded-sm p-6">
-              <h2 className="text-2xl font-normal text-foreground mb-6">Alert Settings</h2>
-              
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-sm text-muted-foreground mb-1">
-                    Importance Threshold
-                  </label>
-                  <input
-                    type="number"
-                    min="1"
-                    value={settingsForm.importance_threshold}
-                    onChange={(e) =>
-                      handleSettingsChange(
-                        'importance_threshold',
-                        parseInt(e.target.value || '0', 10)
-                      )
-                    }
-                    className="w-full px-3 py-2 bg-background border border-input rounded-sm text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-2 focus:ring-ring/20 focus:outline-none transition-all"
-                    required
-                  />
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Minimum importance score to trigger alerts
-                  </p>
-                </div>
-
-                <div>
-                  <label className="block text-sm text-muted-foreground mb-1">
-                    Alert Spacing (minutes)
-                  </label>
-                  <input
-                    type="number"
-                    min="1"
-                    value={settingsForm.alert_spacing_minutes}
-                    onChange={(e) =>
-                      handleSettingsChange(
-                        'alert_spacing_minutes',
-                        parseInt(e.target.value || '0', 10)
-                      )
-                    }
-                    className="w-full px-3 py-2 bg-background border border-input rounded-sm text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-2 focus:ring-ring/20 focus:outline-none transition-all"
-                    required
-                  />
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Time window to spread alerts from same run (recommended: 80% of schedule interval)
-                  </p>
-                </div>
-
-                <div>
-                  <label className="block text-sm text-muted-foreground mb-1">
-                    Frequency Window (minutes)
-                  </label>
-                  <input
-                    type="number"
-                    min="1"
-                    value={settingsForm.frequency_window_minutes}
-                    onChange={(e) =>
-                      handleSettingsChange(
-                        'frequency_window_minutes',
-                        parseInt(e.target.value || '0', 10)
-                      )
-                    }
-                    className="w-full px-3 py-2 bg-background border border-input rounded-sm text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-2 focus:ring-ring/20 focus:outline-none transition-all"
-                    required
-                  />
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Don&apos;t send duplicate alerts within this window
-                  </p>
-                </div>
-
-                <div>
-                  <label className="block text-sm text-muted-foreground mb-2">
-                    Alert Channels
-                  </label>
-                  <div className="space-y-2">
-                    <label className="flex items-center text-foreground">
-                      <input
-                        type="checkbox"
-                        checked={settingsForm.channels.includes('email')}
-                        onChange={() => toggleChannel('email')}
-                        className="mr-2 rounded-sm border-input bg-background text-[#2F6FED] focus:ring-ring focus:ring-2"
-                      />
-                      Email
-                    </label>
-                    <label className="flex items-center text-foreground">
-                      <input
-                        type="checkbox"
-                        checked={settingsForm.channels.includes('slack')}
-                        onChange={() => toggleChannel('slack')}
-                        className="mr-2 rounded-sm border-input bg-background text-[#2F6FED] focus:ring-ring focus:ring-2"
-                      />
-                      Slack
-                    </label>
-                  </div>
                 </div>
               </div>
             </div>

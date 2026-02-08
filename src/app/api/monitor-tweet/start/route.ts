@@ -1,22 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createMonitoringJob, getMonitoringJobByTweetId, storeMetricSnapshot, getMonitoringJobsCollection } from '@/lib/models/monitoring';
+import { createMonitoringJob, getMonitoringJobByTweetId, storeMetricSnapshot } from '@/lib/models/monitoring';
 import { fetchTweetMetrics, fetchQuoteMetricsAggregate, QuoteAggregateResult } from '@/lib/external-api';
 import { extractTweetIdFromUrl } from '@/lib/utils/tweet-utils';
 
-const DEFAULT_NOTIFICATION_THRESHOLD = 5;
-
 export async function POST(request: NextRequest) {
   const startTime = Date.now();
-  
+
   try {
     const body = await request.json();
-    const { tweetUrl, realtime_notifications, notification_threshold, slack_webhook_url } = body;
-
-    // Parse realtime settings
-    const realtimeEnabled = realtime_notifications === true;
-    const threshold = typeof notification_threshold === 'number' && notification_threshold > 0
-      ? notification_threshold
-      : DEFAULT_NOTIFICATION_THRESHOLD;
+    const { tweetUrl } = body;
 
     // Validate tweet URL
     if (!tweetUrl || typeof tweetUrl !== 'string') {
@@ -125,21 +117,6 @@ export async function POST(request: NextRequest) {
     // Create monitoring job
     const job = await createMonitoringJob(tweetId, tweetUrl);
 
-    // Update with realtime settings if enabled
-    if (realtimeEnabled || slack_webhook_url) {
-      const collection = await getMonitoringJobsCollection();
-      await collection.updateOne(
-        { tweet_id: tweetId },
-        {
-          $set: {
-            realtime_enabled: realtimeEnabled,
-            notification_threshold: threshold,
-            ...(slack_webhook_url ? { slack_webhook_url } : {}),
-          },
-        }
-      );
-    }
-
     // Capture the first snapshot immediately so the user sees metrics right away
     try {
       const quoteTweetCount = initialQuoteAgg?.quoteTweetCount || initialMetrics.quoteCount;
@@ -169,17 +146,13 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: realtimeEnabled
-        ? 'Monitoring started with real-time engagement tracking. Metrics will be collected every 10 minutes for 5 days.'
-        : 'Monitoring started successfully. Metrics will be collected every 10 minutes for 5 days.',
+      message: 'Monitoring started successfully. Metrics will be collected every 10 minutes for 5 days.',
       tweet_id: tweetId,
       job: {
         tweet_id: job.tweet_id,
         tweet_url: job.tweet_url,
         status: job.status,
         started_at: job.started_at,
-        realtime_enabled: realtimeEnabled,
-        notification_threshold: realtimeEnabled ? threshold : undefined,
       },
       initial_quote_metrics: initialQuoteAgg ? {
         quoteTweetCount: initialQuoteAgg.quoteTweetCount,

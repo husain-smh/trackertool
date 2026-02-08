@@ -213,12 +213,6 @@ export default function EngagersPage() {
                   Export CSV
                 </button>
                 <Link
-                  href={`/monitor/${tweetId}/notifications`}
-                  className="bg-card hover:bg-muted border border-border text-foreground font-semibold py-2 px-4 rounded-xl transition-all"
-                >
-                  View Notifications
-                </Link>
-                <Link
                   href={`/monitor/${tweetId}`}
                   className="bg-card hover:bg-muted border border-border text-foreground font-semibold py-2 px-4 rounded-xl transition-all flex items-center gap-2"
                 >

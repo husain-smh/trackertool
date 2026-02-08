@@ -9,13 +9,15 @@ export default function Navbar() {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'Quote Tweets', href: '/quotetweets' },
-    { name: 'Engagement', href: '/twtengagement' },
-    { name: 'Ranker', href: '/ranker' },
-    { name: 'Tweets', href: '/tweets' },
-    { name: 'Client', href: '/client' },
+    { name: 'Campaigns', href: '/socap' },
     { name: 'Monitor', href: '/monitor' },
-    { name: 'Notifications', href: '/notifications' }
+    // Hidden for now — will be re-enabled as new features:
+    // { name: 'Quote Tweets', href: '/quotetweets' },
+    // { name: 'Engagement', href: '/twtengagement' },
+    // { name: 'Ranker', href: '/ranker' },
+    // { name: 'Tweets', href: '/tweets' },
+    // { name: 'Client', href: '/client' },
+    // { name: 'Notifications', href: '/notifications' },
   ];
 
   return (
@@ -27,13 +29,13 @@ export default function Navbar() {
              {/* Assuming image is transparent/suitable, otherwise might need filter */}
             <Image
               src="/social-capital-logo.png"
-              alt="Social Capital Logo"
+              alt="BrandWorks Logo"
               width={28}
               height={28}
               className="object-contain rounded"
             />
             <span className="font-sans text-lg font-bold text-foreground group-hover:opacity-70 transition-opacity">
-              Social Capital
+              BrandWorks
             </span>
           </Link>
 

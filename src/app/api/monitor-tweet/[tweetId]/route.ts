@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getMonitoringData } from '@/lib/models/monitoring';
 import { getEngagements, getDeletedCount } from '@/lib/models/monitoring-engagements';
-import { getNotificationStats, getNotifications } from '@/lib/models/monitoring-notifications';
 
 export async function GET(
   request: NextRequest,
@@ -29,11 +28,9 @@ export async function GET(
     // Fetch realtime data if enabled
     let realtimeData = null;
     if (job.realtime_enabled) {
-      const [engagersResult, notificationStats, deletedCount, recentNotifications] = await Promise.all([
+      const [engagersResult, deletedCount] = await Promise.all([
         getEngagements(tweetId, { limit: 20, sortBy: 'importance' }),
-        getNotificationStats(tweetId),
         getDeletedCount(tweetId),
-        getNotifications(tweetId, { status: ['generated', 'edited'], limit: 10 }),
       ]);
 
       realtimeData = {
@@ -48,18 +45,6 @@ export async function GET(
             followers: e.followers,
             engagement_url: e.engagement_url,
             first_seen_at: e.first_seen_at,
-          })),
-        },
-        notifications: {
-          ...notificationStats,
-          pending: recentNotifications.notifications.map(n => ({
-            id: n._id?.toString(),
-            user_id: n.user_id,
-            username: n.engager_username,
-            action_type: n.action_type,
-            status: n.status,
-            importance_score: n.importance_score,
-            generated_at: n.generated_at,
           })),
         },
         deleted_count: deletedCount,
@@ -83,7 +68,6 @@ export async function GET(
         started_at: job.started_at,
         created_at: job.created_at,
         realtime_enabled: job.realtime_enabled,
-        notification_threshold: job.notification_threshold,
       },
       snapshots: snapshots.map(s => ({
         timestamp: s.timestamp,
