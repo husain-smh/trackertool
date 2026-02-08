@@ -187,11 +187,11 @@ export default function MonitoringDashboard() {
       <Navbar />
 
       <div className="relative z-10">
-        <div className="pt-24 pb-8">
+        <div className="pt-20 pb-8">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-5">
               <div>
-                <h1 className="text-3xl font-bold text-foreground mb-2">
+                <h1 className="text-2xl font-bold text-foreground mb-1">
                   Tweet Monitoring
                 </h1>
                 <p className="text-muted-foreground">
@@ -234,46 +234,46 @@ export default function MonitoringDashboard() {
             </div>
 
             {/* Status + Info - Horizontal Strip */}
-            <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-6">
+            <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-5">
               <div className="flex flex-wrap">
-                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
-                  <p className="text-sm text-muted-foreground mb-1">Status</p>
+                <div className="flex-1 min-w-[120px] px-5 py-3.5 border-r border-border">
+                  <p className="text-xs text-muted-foreground mb-0.5">Status</p>
                   <div className="flex items-center gap-2">
-                    <div className={`w-2.5 h-2.5 rounded-full ${
+                    <div className={`w-2 h-2 rounded-full ${
                       data.stats.is_active ? 'bg-emerald-500 animate-pulse' : 'bg-muted-foreground'
                     }`}></div>
-                    <span className="text-foreground font-semibold capitalize">
+                    <span className="text-foreground text-sm font-semibold capitalize">
                       {data.job.status}
                     </span>
                   </div>
                 </div>
-                <div className="flex-1 min-w-[160px] px-6 py-5 border-r border-border">
-                  <p className="text-sm text-muted-foreground mb-1">Started</p>
-                  <p className="text-foreground font-medium text-sm">
+                <div className="flex-1 min-w-[140px] px-5 py-3.5 border-r border-border">
+                  <p className="text-xs text-muted-foreground mb-0.5">Started</p>
+                  <p className="text-foreground font-medium text-xs">
                     {new Date(data.job.started_at).toLocaleString()}
                   </p>
                 </div>
                 {data.stats.is_active && (
-                  <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
-                    <p className="text-sm text-muted-foreground mb-1">Time Remaining</p>
-                    <p className="text-foreground font-medium">
+                  <div className="flex-1 min-w-[120px] px-5 py-3.5 border-r border-border">
+                    <p className="text-xs text-muted-foreground mb-0.5">Time Remaining</p>
+                    <p className="text-foreground text-sm font-medium">
                       {data.stats.hours_remaining}h {data.stats.minutes_remaining}m
                     </p>
                   </div>
                 )}
-                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
-                  <p className="text-sm text-muted-foreground mb-1">Total Snapshots</p>
-                  <p className="text-foreground font-medium">{data.stats.total_snapshots}</p>
+                <div className="flex-1 min-w-[120px] px-5 py-3.5 border-r border-border">
+                  <p className="text-xs text-muted-foreground mb-0.5">Total Snapshots</p>
+                  <p className="text-foreground text-sm font-medium">{data.stats.total_snapshots}</p>
                 </div>
-                <div className="flex-1 min-w-[140px] px-6 py-5">
+                <div className="flex-1 min-w-[120px] px-5 py-3.5">
                   <a
                     href={data.job.tweet_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary hover:text-primary/80 font-medium flex items-center gap-2 text-sm"
+                    className="text-primary hover:text-primary/80 font-medium flex items-center gap-2 text-xs"
                   >
                     View Tweet
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
                   </a>
@@ -283,7 +283,7 @@ export default function MonitoringDashboard() {
 
             {/* Current Metrics - Horizontal Strip */}
             {latestSnapshot && (
-              <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-8">
+              <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-6">
                 <div className="flex flex-wrap">
                   {[
                     { label: 'Likes', value: latestSnapshot.likeCount, first: firstSnapshot?.likeCount },
@@ -293,11 +293,11 @@ export default function MonitoringDashboard() {
                     { label: 'Views', value: latestSnapshot.viewCount, first: firstSnapshot?.viewCount },
                     { label: 'Bookmarks', value: latestSnapshot.bookmarkCount, first: firstSnapshot?.bookmarkCount },
                   ].map((metric, i, arr) => (
-                    <div key={metric.label} className={`flex-1 min-w-[120px] px-6 py-5 ${i < arr.length - 1 ? 'border-r border-border' : ''}`}>
-                      <p className="text-sm text-muted-foreground mb-1">{metric.label}</p>
-                      <p className="text-2xl font-bold text-foreground">{metric.value.toLocaleString()}</p>
+                    <div key={metric.label} className={`flex-1 min-w-[100px] px-5 py-3.5 ${i < arr.length - 1 ? 'border-r border-border' : ''}`}>
+                      <p className="text-xs text-muted-foreground mb-0.5">{metric.label}</p>
+                      <p className="text-xl font-bold text-foreground">{metric.value.toLocaleString()}</p>
                       {firstSnapshot && metric.value > metric.first && (
-                        <p className="text-emerald-600 text-xs mt-1">+{(metric.value - metric.first).toLocaleString()}</p>
+                        <p className="text-emerald-600 text-[11px] mt-0.5">+{(metric.value - metric.first).toLocaleString()}</p>
                       )}
                     </div>
                   ))}
@@ -307,11 +307,11 @@ export default function MonitoringDashboard() {
 
             {/* Charts */}
             {chartData.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                 {metricCharts.map((cfg) => (
-                  <div key={cfg.key} className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-6">
-                    <h2 className="text-foreground text-lg font-bold mb-4">{cfg.title}</h2>
-                    <ResponsiveContainer width="100%" height={260}>
+                  <div key={cfg.key} className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-5">
+                    <h2 className="text-foreground text-sm font-bold mb-3">{cfg.title}</h2>
+                    <ResponsiveContainer width="100%" height={220}>
                       <ComposedChart data={chartData}>
                         <defs>
                           <linearGradient id={`grad-${cfg.key}`} x1="0" y1="0" x2="0" y2="1">

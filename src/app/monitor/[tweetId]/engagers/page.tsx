@@ -181,12 +181,12 @@ export default function EngagersPage() {
       <Navbar />
 
       <div className="relative z-10">
-        <div className="pt-24 pb-8">
+        <div className="pt-20 pb-8">
           <div className="max-w-7xl mx-auto px-6">
             {/* Header */}
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-5">
               <div>
-                <h1 className="text-3xl font-bold text-foreground mb-2">Engagers</h1>
+                <h1 className="text-2xl font-bold text-foreground mb-1">Engagers</h1>
                 <p className="text-muted-foreground">
                   All engagement data for tweet {tweetId.slice(0, 10)}...
                 </p>
@@ -224,7 +224,7 @@ export default function EngagersPage() {
             )}
 
             {/* Filters */}
-            <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-4 mb-6">
+            <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-3.5 mb-5">
               <div className="flex flex-wrap items-center gap-4">
                 {/* Action Type Filter */}
                 <div className="flex items-center gap-2">
@@ -286,25 +286,25 @@ export default function EngagersPage() {
             </div>
 
             {/* Stats - Horizontal Strip */}
-            <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-6">
+            <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-5">
               <div className="flex flex-wrap">
-                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
-                  <p className="text-sm text-muted-foreground">Total Engagers</p>
-                  <p className="text-2xl font-bold">{total}</p>
+                <div className="flex-1 min-w-[120px] px-5 py-3.5 border-r border-border">
+                  <p className="text-xs text-muted-foreground">Total Engagers</p>
+                  <p className="text-xl font-bold">{total}</p>
                 </div>
-                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
-                  <p className="text-sm text-muted-foreground">Deleted</p>
-                  <p className="text-2xl font-bold text-muted-foreground">{deletedCount}</p>
+                <div className="flex-1 min-w-[120px] px-5 py-3.5 border-r border-border">
+                  <p className="text-xs text-muted-foreground">Deleted</p>
+                  <p className="text-xl font-bold text-muted-foreground">{deletedCount}</p>
                 </div>
-                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
-                  <p className="text-sm text-muted-foreground">High Importance (5+)</p>
-                  <p className="text-2xl font-bold text-emerald-600">
+                <div className="flex-1 min-w-[120px] px-5 py-3.5 border-r border-border">
+                  <p className="text-xs text-muted-foreground">High Importance (5+)</p>
+                  <p className="text-xl font-bold text-emerald-600">
                     {engagers.filter((e) => e.importance_score >= 5).length}
                   </p>
                 </div>
-                <div className="flex-1 min-w-[140px] px-6 py-5">
-                  <p className="text-sm text-muted-foreground">Verified</p>
-                  <p className="text-2xl font-bold text-primary">
+                <div className="flex-1 min-w-[120px] px-5 py-3.5">
+                  <p className="text-xs text-muted-foreground">Verified</p>
+                  <p className="text-xl font-bold text-primary">
                     {engagers.filter((e) => e.verified).length}
                   </p>
                 </div>

@@ -188,12 +188,12 @@ export default function NotificationsPage() {
       <Navbar />
 
       <div className="relative z-10">
-        <div className="pt-24 pb-8">
+        <div className="pt-20 pb-8">
           <div className="max-w-7xl mx-auto px-6">
             {/* Header */}
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-5">
               <div>
-                <h1 className="text-3xl font-bold text-foreground mb-2">Notification Review</h1>
+                <h1 className="text-2xl font-bold text-foreground mb-1">Notification Review</h1>
                 <p className="text-muted-foreground">
                   Review and send engagement notifications for tweet {tweetId.slice(0, 10)}...
                 </p>
@@ -245,26 +245,26 @@ export default function NotificationsPage() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-4 gap-4 mb-6">
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">Total</p>
-                <p className="text-2xl font-bold">{total}</p>
+            <div className="grid grid-cols-4 gap-3 mb-5">
+              <div className="card-base p-3.5">
+                <p className="text-muted-foreground text-xs">Total</p>
+                <p className="text-xl font-bold">{total}</p>
               </div>
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">Pending</p>
-                <p className="text-2xl font-bold">
+              <div className="card-base p-3.5">
+                <p className="text-muted-foreground text-xs">Pending</p>
+                <p className="text-xl font-bold">
                   {notifications.filter((n) => n.status === 'generated' || n.status === 'edited').length}
                 </p>
               </div>
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">Sent</p>
-                <p className="text-2xl font-bold text-green-600">
+              <div className="card-base p-3.5">
+                <p className="text-muted-foreground text-xs">Sent</p>
+                <p className="text-xl font-bold text-green-600">
                   {notifications.filter((n) => n.status === 'sent').length}
                 </p>
               </div>
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">Skipped</p>
-                <p className="text-2xl font-bold text-gray-500">
+              <div className="card-base p-3.5">
+                <p className="text-muted-foreground text-xs">Skipped</p>
+                <p className="text-xl font-bold text-gray-500">
                   {notifications.filter((n) => n.status === 'skipped').length}
                 </p>
               </div>
@@ -278,12 +278,12 @@ export default function NotificationsPage() {
             ) : (
               <div className="space-y-4">
                 {notifications.map((notification) => (
-                  <div key={notification.id} className="card-base p-6">
+                  <div key={notification.id} className="card-base p-5">
                     <div className="flex items-start justify-between">
                       <div className="flex-1">
                         {/* Header */}
                         <div className="flex items-center gap-3 mb-3">
-                          <span className="text-2xl">{getActionIcon(notification.action_type)}</span>
+                          <span className="text-xl">{getActionIcon(notification.action_type)}</span>
                           <div>
                             <div className="flex items-center gap-2">
                               <span className="font-semibold">{notification.engager_name}</span>
