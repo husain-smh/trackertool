@@ -9,12 +9,12 @@ export async function GET(request: NextRequest) {
 
     const jobs = await getAllMonitoringJobs(limit, skip);
 
-    // Calculate time remaining and snapshot counts for each job (5 days = 120 hours)
+    // Calculate time remaining and snapshot counts for each job (24 hours)
     const now = new Date();
     const jobsWithStats = await Promise.all(
       jobs.map(async (job) => {
         const startedAt = new Date(job.started_at);
-        const monitorDurationMs = 5 * 24 * 60 * 60 * 1000; // 5 days
+        const monitorDurationMs = 24 * 60 * 60 * 1000; // 24 hours
         const elapsed = now.getTime() - startedAt.getTime();
         const remaining = Math.max(0, monitorDurationMs - elapsed);
         const isActive = job.status === 'active' && remaining > 0;

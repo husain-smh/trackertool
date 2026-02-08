@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
@@ -18,14 +17,7 @@ export default function Navbar() {
       <div className="max-w-[1200px] mx-auto px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <Image
-              src="/social-capital-logo.png"
-              alt="BrandWorks Logo"
-              width={28}
-              height={28}
-              className="object-contain rounded"
-            />
+          <Link href="/" className="flex items-center group">
             <span className="font-sans text-lg font-bold text-foreground group-hover:opacity-70 transition-opacity">
               BrandWorks
             </span>

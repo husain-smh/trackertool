@@ -291,9 +291,9 @@ export async function GET() {
       console.log(`[cron-monitors] Processing job: tweetId=${job.tweet_id}`);
 
       try {
-        // Check if monitoring period (5 days) has passed
+        // Check if monitoring period (24 hours) has passed
         const startedAt = new Date(job.started_at);
-        const monitorDurationMs = 5 * 24 * 60 * 60 * 1000; // 5 days
+        const monitorDurationMs = 24 * 60 * 60 * 1000; // 24 hours
         const endTime = new Date(startedAt.getTime() + monitorDurationMs);
         const shouldComplete = now >= endTime;
 
