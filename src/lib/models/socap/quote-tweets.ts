@@ -1,5 +1,5 @@
 import { Collection } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 export interface QuoteTweet {
   _id?: string;
@@ -57,8 +57,7 @@ export interface QuoteTweetInput {
 }
 
 export async function getQuoteTweetsCollection(): Promise<Collection<QuoteTweet>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<QuoteTweet>('socap_quote_tweets');
 }
 

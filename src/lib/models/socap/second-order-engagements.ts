@@ -1,5 +1,5 @@
 import { Collection } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 export type SecondOrderActionType = 'retweet' | 'reply';
 
@@ -46,8 +46,7 @@ export interface SecondOrderEngagementInput {
 }
 
 export async function getSecondOrderEngagementsCollection(): Promise<Collection<SecondOrderEngagement>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<SecondOrderEngagement>('socap_second_order_engagements');
 }
 

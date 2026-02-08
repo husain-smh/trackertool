@@ -11,7 +11,7 @@
  */
 
 import { Collection, ObjectId } from 'mongodb';
-import { getClient } from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 import crypto from 'crypto';
 
 // ===== Encryption Configuration =====
@@ -124,8 +124,7 @@ export interface ClientOAuthInput {
 // ===== Collection Getter =====
 
 export async function getClientOAuthCollection(): Promise<Collection<ClientOAuth>> {
-  const client = await getClient();
-  const db = client.db();
+  const db = await getDb();
   return db.collection<ClientOAuth>('socap_client_oauth');
 }
 

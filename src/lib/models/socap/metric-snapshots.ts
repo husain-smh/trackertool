@@ -1,5 +1,5 @@
 import { Collection } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 import { roundToHour } from './utils';
 
 // ===== TypeScript Interfaces =====
@@ -59,8 +59,7 @@ export interface CreateMetricSnapshotInput {
 // ===== Collection Getter =====
 
 export async function getMetricSnapshotsCollection(): Promise<Collection<MetricSnapshot>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<MetricSnapshot>('socap_metric_snapshots');
 }
 

@@ -1,5 +1,5 @@
 import { Collection, ObjectId } from 'mongodb';
-import { getClient } from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 // ===== TypeScript Interfaces =====
 
@@ -95,8 +95,7 @@ export interface CreateCampaignInput {
 // ===== Collection Getter =====
 
 export async function getCampaignsCollection(): Promise<Collection<Campaign>> {
-  const client = await getClient();
-  const db = client.db();
+  const db = await getDb();
   return db.collection<Campaign>('socap_campaigns');
 }
 

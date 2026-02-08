@@ -1,5 +1,5 @@
 import { Collection, ObjectId } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 // ===== TypeScript Interfaces =====
 
@@ -34,8 +34,7 @@ export interface CreateAlertInput {
 // ===== Collection Getter =====
 
 export async function getAlertQueueCollection(): Promise<Collection<AlertQueue>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<AlertQueue>('socap_alert_queue');
 }
 

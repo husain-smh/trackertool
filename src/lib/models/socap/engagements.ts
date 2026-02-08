@@ -1,5 +1,5 @@
 import { Collection } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 // ===== TypeScript Interfaces =====
 
@@ -90,8 +90,7 @@ export interface EngagementInput {
 // ===== Collection Getter =====
 
 export async function getEngagementsCollection(): Promise<Collection<Engagement>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<Engagement>('socap_engagements');
 }
 

@@ -1,5 +1,5 @@
 import { Collection } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 export interface Reply {
   _id?: string;
@@ -42,8 +42,7 @@ export interface ReplyInput {
 }
 
 export async function getRepliesCollection(): Promise<Collection<Reply>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<Reply>('socap_replies');
 }
 

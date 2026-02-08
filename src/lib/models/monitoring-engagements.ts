@@ -1,5 +1,5 @@
 import { Collection, ObjectId } from 'mongodb';
-import { getDb } from '../mongodb-ranker';
+import { getDb } from '../mongodb-tooltracker';
 
 // ===== TypeScript Interfaces =====
 

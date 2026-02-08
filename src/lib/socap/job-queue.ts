@@ -1,5 +1,5 @@
 import { Collection, ObjectId } from 'mongodb';
-import clientPromise from '../mongodb';
+import { getDb } from '../mongodb-tooltracker';
 import { logger } from '../logger';
 
 // ===== TypeScript Interfaces =====
@@ -31,8 +31,7 @@ export interface EnqueueJobInput {
 // ===== Collection Getter =====
 
 export async function getJobQueueCollection(): Promise<Collection<Job>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<Job>('socap_job_queue');
 }
 

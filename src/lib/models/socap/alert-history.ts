@@ -1,5 +1,5 @@
 import { Collection } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 import { roundToHour } from './utils';
 
 // ===== TypeScript Interfaces =====
@@ -26,8 +26,7 @@ export interface CreateAlertHistoryInput {
 // ===== Collection Getter =====
 
 export async function getAlertHistoryCollection(): Promise<Collection<AlertHistory>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<AlertHistory>('socap_alert_history');
 }
 

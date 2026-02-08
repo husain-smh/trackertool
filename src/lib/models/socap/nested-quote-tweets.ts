@@ -1,5 +1,5 @@
 import { Collection } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 export interface NestedQuoteTweet {
   _id?: string;
@@ -50,8 +50,7 @@ export interface NestedQuoteTweetInput {
  * (note the intentional spelling per requirement).
  */
 export async function getNestedQuoteTweetsCollection(): Promise<Collection<NestedQuoteTweet>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<NestedQuoteTweet>('SOCAP_Nested_Qotes_Tweets');
 }
 

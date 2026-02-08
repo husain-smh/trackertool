@@ -1,5 +1,5 @@
 import { Collection, ObjectId } from 'mongodb';
-import clientPromise from '../../mongodb';
+import { getDb } from '../../mongodb-tooltracker';
 
 export interface SystemSettings {
   _id?: string | ObjectId;
@@ -12,8 +12,7 @@ export interface SystemSettings {
 const SETTINGS_DOC_ID = new ObjectId('000000000000000000000001');
 
 export async function getSystemSettingsCollection(): Promise<Collection<SystemSettings>> {
-  const client = await clientPromise;
-  const db = client.db();
+  const db = await getDb();
   return db.collection<SystemSettings>('socap_system_settings');
 }
 

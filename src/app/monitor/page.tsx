@@ -22,6 +22,10 @@ export default function MonitorPage() {
   const [jobs, setJobs] = useState<MonitoringJob[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [tweetUrl, setTweetUrl] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [submitSuccess, setSubmitSuccess] = useState<string | null>(null);
 
   const fetchJobs = useCallback(async () => {
     try {
@@ -54,6 +58,36 @@ export default function MonitorPage() {
       return () => clearInterval(interval);
     }
   }, [jobs, fetchJobs]);
+
+  const handleStartMonitoring = async () => {
+    const trimmed = tweetUrl.trim();
+    if (!trimmed) return;
+
+    setSubmitting(true);
+    setSubmitError(null);
+    setSubmitSuccess(null);
+
+    try {
+      const res = await fetch('/api/monitor-tweet/start', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tweetUrl: trimmed }),
+      });
+      const data = await res.json();
+
+      if (res.ok && data.success) {
+        setSubmitSuccess(`Monitoring started for tweet ${data.tweet_id}`);
+        setTweetUrl('');
+        fetchJobs();
+      } else {
+        setSubmitError(data.error || 'Failed to start monitoring');
+      }
+    } catch {
+      setSubmitError('Network error. Please try again.');
+    } finally {
+      setSubmitting(false);
+    }
+  };
 
   const getStatusBadge = (job: MonitoringJob) => {
     if (job.stats.is_active) {
@@ -113,8 +147,50 @@ export default function MonitorPage() {
               Monitored Tweets
             </h1>
             <p className="text-muted-foreground">
-              View active monitoring jobs.
+              Track engagement metrics for any tweet over 5 days.
             </p>
+          </div>
+
+          {/* Add Tweet URL Input */}
+          <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border p-6 mb-8">
+            <h2 className="text-lg font-semibold text-foreground mb-4">Start Monitoring a Tweet</h2>
+            <div className="flex gap-3">
+              <input
+                type="text"
+                value={tweetUrl}
+                onChange={(e) => {
+                  setTweetUrl(e.target.value);
+                  setSubmitError(null);
+                  setSubmitSuccess(null);
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && !submitting) handleStartMonitoring();
+                }}
+                placeholder="https://x.com/username/status/1234567890"
+                disabled={submitting}
+                className="flex-1 px-4 py-2.5 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all disabled:opacity-50"
+              />
+              <button
+                onClick={handleStartMonitoring}
+                disabled={submitting || !tweetUrl.trim()}
+                className="px-6 py-2.5 rounded-lg bg-primary text-white font-medium hover:bg-primary/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 shrink-0"
+              >
+                {submitting ? (
+                  <>
+                    <span className="animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent" />
+                    Starting...
+                  </>
+                ) : (
+                  'Start Monitoring'
+                )}
+              </button>
+            </div>
+            {submitError && (
+              <p className="mt-3 text-sm text-destructive">{submitError}</p>
+            )}
+            {submitSuccess && (
+              <p className="mt-3 text-sm text-emerald-600">{submitSuccess}</p>
+            )}
           </div>
 
           {/* Horizontal Metric Strip */}
