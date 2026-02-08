@@ -42,11 +42,13 @@ interface MonitoringData {
   };
 }
 
+const CHART_COLOR = '#6C5CE7';
+
 export default function MonitoringDashboard() {
   const params = useParams();
   const router = useRouter();
   const tweetId = params?.tweetId as string;
-  
+
   const [data, setData] = useState<MonitoringData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -78,7 +80,6 @@ export default function MonitoringDashboard() {
 
   useEffect(() => {
     if (data?.stats.is_active) {
-      // Auto-refresh every 30 seconds if monitoring is active
       const interval = setInterval(() => {
         fetchData();
       }, 30000);
@@ -103,7 +104,6 @@ export default function MonitoringDashboard() {
       const result = await response.json();
 
       if (response.ok && result.success) {
-        // Refresh data to show updated status
         await fetchData();
       } else {
         setError(result.error || 'Failed to stop monitoring');
@@ -115,7 +115,6 @@ export default function MonitoringDashboard() {
     }
   };
 
-  // Format data for charts
   const chartData = data?.snapshots.map((snapshot) => ({
     time: new Date(snapshot.timestamp).toLocaleTimeString('en-US', {
       hour: '2-digit',
@@ -132,15 +131,13 @@ export default function MonitoringDashboard() {
     QuoteTweets: snapshot.quoteTweetCount ?? 0,
   })) || [];
 
-  const chartColor = '#2F6FED'; // Vibrant Blue accent (Design-v2 updated)
-
   const metricCharts = [
-    { key: 'Likes', title: 'Likes Over Time', color: chartColor },
-    { key: 'Retweets', title: 'Retweets Over Time', color: chartColor },
-    { key: 'Replies', title: 'Replies Over Time', color: chartColor },
-    { key: 'Quotes', title: 'Quotes Over Time', color: chartColor },
-    { key: 'Views', title: 'Views Over Time', color: chartColor },
-    { key: 'Bookmarks', title: 'Bookmarks Over Time', color: chartColor },
+    { key: 'Likes', title: 'Likes Over Time', color: CHART_COLOR },
+    { key: 'Retweets', title: 'Retweets Over Time', color: '#00B894' },
+    { key: 'Replies', title: 'Replies Over Time', color: '#FDCB6E' },
+    { key: 'Quotes', title: 'Quotes Over Time', color: '#E17055' },
+    { key: 'Views', title: 'Views Over Time', color: '#74B9FF' },
+    { key: 'Bookmarks', title: 'Bookmarks Over Time', color: CHART_COLOR },
   ];
 
   if (loading) {
@@ -162,7 +159,7 @@ export default function MonitoringDashboard() {
       <div className="min-h-screen bg-background text-foreground">
         <Navbar />
         <div className="flex items-center justify-center min-h-screen">
-          <div className="text-center card-base p-8 max-w-md">
+          <div className="text-center bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-8 max-w-md">
             <div className="w-16 h-16 bg-destructive/10 border border-destructive/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-destructive" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -188,14 +185,13 @@ export default function MonitoringDashboard() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
-      
+
       <div className="relative z-10">
-        {/* Header */}
         <div className="pt-24 pb-8">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-center justify-between mb-6">
               <div>
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
+                <h1 className="text-3xl font-bold text-foreground mb-2">
                   Tweet Monitoring
                 </h1>
                 <p className="text-muted-foreground">
@@ -207,7 +203,7 @@ export default function MonitoringDashboard() {
                   <button
                     onClick={handleStopMonitoring}
                     disabled={isStopping}
-                    className="bg-destructive hover:bg-destructive/90 disabled:opacity-50 disabled:cursor-not-allowed border border-destructive text-destructive-foreground font-semibold py-2 px-4 rounded-xl transition-all flex items-center gap-2"
+                    className="bg-destructive hover:bg-destructive/90 disabled:opacity-50 disabled:cursor-not-allowed text-destructive-foreground font-semibold py-2 px-4 rounded-xl transition-all flex items-center gap-2"
                   >
                     {isStopping ? (
                       <>
@@ -237,13 +233,13 @@ export default function MonitoringDashboard() {
               </div>
             </div>
 
-            {/* Status Card */}
-            <div className="card-base p-6 mb-6">
-              <div className="flex flex-wrap items-center gap-6">
-                <div>
-                  <p className="text-muted-foreground text-sm mb-1">Status</p>
+            {/* Status + Info - Horizontal Strip */}
+            <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-6">
+              <div className="flex flex-wrap">
+                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Status</p>
                   <div className="flex items-center gap-2">
-                    <div className={`w-3 h-3 rounded-full ${
+                    <div className={`w-2.5 h-2.5 rounded-full ${
                       data.stats.is_active ? 'bg-emerald-500 animate-pulse' : 'bg-muted-foreground'
                     }`}></div>
                     <span className="text-foreground font-semibold capitalize">
@@ -251,30 +247,30 @@ export default function MonitoringDashboard() {
                     </span>
                   </div>
                 </div>
-                <div>
-                  <p className="text-muted-foreground text-sm mb-1">Started</p>
-                  <p className="text-foreground font-medium">
+                <div className="flex-1 min-w-[160px] px-6 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Started</p>
+                  <p className="text-foreground font-medium text-sm">
                     {new Date(data.job.started_at).toLocaleString()}
                   </p>
                 </div>
                 {data.stats.is_active && (
-                  <div>
-                    <p className="text-muted-foreground text-sm mb-1">Time Remaining</p>
+                  <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
+                    <p className="text-sm text-muted-foreground mb-1">Time Remaining</p>
                     <p className="text-foreground font-medium">
                       {data.stats.hours_remaining}h {data.stats.minutes_remaining}m
                     </p>
                   </div>
                 )}
-                <div>
-                  <p className="text-muted-foreground text-sm mb-1">Total Snapshots</p>
+                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Total Snapshots</p>
                   <p className="text-foreground font-medium">{data.stats.total_snapshots}</p>
                 </div>
-                <div className="ml-auto">
+                <div className="flex-1 min-w-[140px] px-6 py-5">
                   <a
                     href={data.job.tweet_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary hover:text-primary/80 font-medium flex items-center gap-2"
+                    className="text-primary hover:text-primary/80 font-medium flex items-center gap-2 text-sm"
                   >
                     View Tweet
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -285,50 +281,26 @@ export default function MonitoringDashboard() {
               </div>
             </div>
 
-            {/* Current Metrics */}
+            {/* Current Metrics - Horizontal Strip */}
             {latestSnapshot && (
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
-                <div className="card-base p-4">
-                  <p className="text-muted-foreground text-sm mb-1">Likes</p>
-                  <p className="text-2xl font-bold text-foreground">{latestSnapshot.likeCount.toLocaleString()}</p>
-                  {firstSnapshot && latestSnapshot.likeCount > firstSnapshot.likeCount && (
-                    <p className="text-emerald-500 text-xs mt-1">+{(latestSnapshot.likeCount - firstSnapshot.likeCount).toLocaleString()}</p>
-                  )}
-                </div>
-                <div className="card-base p-4">
-                  <p className="text-muted-foreground text-sm mb-1">Retweets</p>
-                  <p className="text-2xl font-bold text-foreground">{latestSnapshot.retweetCount.toLocaleString()}</p>
-                  {firstSnapshot && latestSnapshot.retweetCount > firstSnapshot.retweetCount && (
-                    <p className="text-emerald-500 text-xs mt-1">+{(latestSnapshot.retweetCount - firstSnapshot.retweetCount).toLocaleString()}</p>
-                  )}
-                </div>
-                <div className="card-base p-4">
-                  <p className="text-muted-foreground text-sm mb-1">Replies</p>
-                  <p className="text-2xl font-bold text-foreground">{latestSnapshot.replyCount.toLocaleString()}</p>
-                  {firstSnapshot && latestSnapshot.replyCount > firstSnapshot.replyCount && (
-                    <p className="text-emerald-500 text-xs mt-1">+{(latestSnapshot.replyCount - firstSnapshot.replyCount).toLocaleString()}</p>
-                  )}
-                </div>
-                <div className="card-base p-4">
-                  <p className="text-muted-foreground text-sm mb-1">Quotes</p>
-                  <p className="text-2xl font-bold text-foreground">{latestSnapshot.quoteCount.toLocaleString()}</p>
-                  {firstSnapshot && latestSnapshot.quoteCount > firstSnapshot.quoteCount && (
-                    <p className="text-emerald-500 text-xs mt-1">+{(latestSnapshot.quoteCount - firstSnapshot.quoteCount).toLocaleString()}</p>
-                  )}
-                </div>
-                <div className="card-base p-4">
-                  <p className="text-muted-foreground text-sm mb-1">Views</p>
-                  <p className="text-2xl font-bold text-foreground">{latestSnapshot.viewCount.toLocaleString()}</p>
-                  {firstSnapshot && latestSnapshot.viewCount > firstSnapshot.viewCount && (
-                    <p className="text-emerald-500 text-xs mt-1">+{(latestSnapshot.viewCount - firstSnapshot.viewCount).toLocaleString()}</p>
-                  )}
-                </div>
-                <div className="card-base p-4">
-                  <p className="text-muted-foreground text-sm mb-1">Bookmarks</p>
-                  <p className="text-2xl font-bold text-foreground">{latestSnapshot.bookmarkCount.toLocaleString()}</p>
-                  {firstSnapshot && latestSnapshot.bookmarkCount > firstSnapshot.bookmarkCount && (
-                    <p className="text-emerald-500 text-xs mt-1">+{(latestSnapshot.bookmarkCount - firstSnapshot.bookmarkCount).toLocaleString()}</p>
-                  )}
+              <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-8">
+                <div className="flex flex-wrap">
+                  {[
+                    { label: 'Likes', value: latestSnapshot.likeCount, first: firstSnapshot?.likeCount },
+                    { label: 'Retweets', value: latestSnapshot.retweetCount, first: firstSnapshot?.retweetCount },
+                    { label: 'Replies', value: latestSnapshot.replyCount, first: firstSnapshot?.replyCount },
+                    { label: 'Quotes', value: latestSnapshot.quoteCount, first: firstSnapshot?.quoteCount },
+                    { label: 'Views', value: latestSnapshot.viewCount, first: firstSnapshot?.viewCount },
+                    { label: 'Bookmarks', value: latestSnapshot.bookmarkCount, first: firstSnapshot?.bookmarkCount },
+                  ].map((metric, i, arr) => (
+                    <div key={metric.label} className={`flex-1 min-w-[120px] px-6 py-5 ${i < arr.length - 1 ? 'border-r border-border' : ''}`}>
+                      <p className="text-sm text-muted-foreground mb-1">{metric.label}</p>
+                      <p className="text-2xl font-bold text-foreground">{metric.value.toLocaleString()}</p>
+                      {firstSnapshot && metric.value > metric.first && (
+                        <p className="text-emerald-600 text-xs mt-1">+{(metric.value - metric.first).toLocaleString()}</p>
+                      )}
+                    </div>
+                  ))}
                 </div>
               </div>
             )}
@@ -337,14 +309,14 @@ export default function MonitoringDashboard() {
             {chartData.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                 {metricCharts.map((cfg) => (
-                  <div key={cfg.key} className="card-base p-6">
+                  <div key={cfg.key} className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-6">
                     <h2 className="text-foreground text-lg font-bold mb-4">{cfg.title}</h2>
                     <ResponsiveContainer width="100%" height={260}>
                       <ComposedChart data={chartData}>
                         <defs>
                           <linearGradient id={`grad-${cfg.key}`} x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="0%" stopColor={cfg.color} stopOpacity={0.35} />
-                            <stop offset="100%" stopColor={cfg.color} stopOpacity={0.05} />
+                            <stop offset="0%" stopColor={cfg.color} stopOpacity={0.2} />
+                            <stop offset="100%" stopColor={cfg.color} stopOpacity={0.02} />
                           </linearGradient>
                         </defs>
                         <XAxis
@@ -364,7 +336,7 @@ export default function MonitoringDashboard() {
                           contentStyle={{
                             backgroundColor: 'var(--popover)',
                             border: '1px solid var(--border)',
-                            borderRadius: '8px',
+                            borderRadius: '12px',
                             color: 'var(--popover-foreground)',
                             boxShadow: 'var(--shadow-card)',
                           }}
@@ -386,7 +358,7 @@ export default function MonitoringDashboard() {
                 ))}
               </div>
             ) : (
-              <div className="card-base p-12 text-center">
+              <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-12 text-center">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -394,7 +366,7 @@ export default function MonitoringDashboard() {
                 </div>
                 <h3 className="text-foreground text-lg font-semibold mb-2">No Data Yet</h3>
                 <p className="text-muted-foreground">
-                  {data.stats.is_active 
+                  {data.stats.is_active
                     ? 'Waiting for first metrics snapshot. Scheduler will collect data every few minutes.'
                     : 'Monitoring has completed. No snapshots were collected.'}
                 </p>

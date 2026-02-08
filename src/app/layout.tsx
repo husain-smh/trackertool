@@ -4,8 +4,6 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import "leaflet/dist/leaflet.css";
 import RouteScaler from "@/components/RouteScaler";
-import PaperTextureDefs from "@/components/PaperTextureDefs";
-import PaperTextureOverlay from "@/components/PaperTextureOverlay";
 
 export const metadata: Metadata = {
   title: "BrandWorks",
@@ -20,8 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <body className="antialiased">
-        <PaperTextureDefs />
-        <PaperTextureOverlay />
         <RouteScaler>
           {children}
         </RouteScaler>

@@ -11,22 +11,14 @@ export default function Navbar() {
     { name: 'Home', href: '/' },
     { name: 'Campaigns', href: '/socap' },
     { name: 'Monitor', href: '/monitor' },
-    // Hidden for now — will be re-enabled as new features:
-    // { name: 'Quote Tweets', href: '/quotetweets' },
-    // { name: 'Engagement', href: '/twtengagement' },
-    // { name: 'Ranker', href: '/ranker' },
-    // { name: 'Tweets', href: '/tweets' },
-    // { name: 'Client', href: '/client' },
-    // { name: 'Notifications', href: '/notifications' },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border text-foreground">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border shadow-sm text-foreground">
       <div className="max-w-[1200px] mx-auto px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center gap-2 group">
-             {/* Assuming image is transparent/suitable, otherwise might need filter */}
             <Image
               src="/social-capital-logo.png"
               alt="BrandWorks Logo"
@@ -47,9 +39,9 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`text-sm font-mono uppercase tracking-widest transition-colors whitespace-nowrap border-b-2 py-1 ${
+                  className={`text-sm font-medium transition-colors whitespace-nowrap border-b-2 py-1 ${
                     isActive
-                      ? 'text-foreground border-foreground'
+                      ? 'text-primary border-primary'
                       : 'text-muted-foreground border-transparent hover:text-foreground hover:border-muted-foreground'
                   }`}
                 >
@@ -63,4 +55,3 @@ export default function Navbar() {
     </nav>
   );
 }
-

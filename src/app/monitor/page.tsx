@@ -27,7 +27,7 @@ export default function MonitorPage() {
     try {
       const res = await fetch('/api/monitor-tweet');
       const data = await res.json();
-      
+
       if (data.success) {
         setJobs(data.jobs);
         setError(null);
@@ -50,7 +50,7 @@ export default function MonitorPage() {
       const interval = setInterval(() => {
         fetchJobs();
       }, 30000);
-      
+
       return () => clearInterval(interval);
     }
   }, [jobs, fetchJobs]);
@@ -58,20 +58,25 @@ export default function MonitorPage() {
   const getStatusBadge = (job: MonitoringJob) => {
     if (job.stats.is_active) {
       return (
-        <span className="text-[#4A4A4A]">Active</span>
+        <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200">
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+          Active
+        </span>
       );
     }
     return (
-      <span className="text-[#6B6B6B]">Completed</span>
+      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-muted text-muted-foreground border border-border">
+        Completed
+      </span>
     );
   };
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-transparent text-[#2B2B2B] font-sans">
+      <div className="min-h-screen bg-background text-foreground font-sans">
         <Navbar />
         <div className="pt-32 flex justify-center">
-          <p className="text-[#6B6B6B]">Loading...</p>
+          <div className="animate-spin rounded-full h-8 w-8 border-4 border-primary border-t-transparent" />
         </div>
       </div>
     );
@@ -79,13 +84,13 @@ export default function MonitorPage() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-transparent text-[#2B2B2B] font-sans">
+      <div className="min-h-screen bg-background text-foreground font-sans">
         <Navbar />
         <div className="pt-32 flex flex-col items-center">
-          <p className="text-red-500 mb-4">{error}</p>
+          <p className="text-destructive mb-4">{error}</p>
           <button
             onClick={fetchJobs}
-            className="text-[#2B2B2B] underline"
+            className="text-primary hover:underline"
           >
             Retry
           </button>
@@ -98,63 +103,65 @@ export default function MonitorPage() {
   const completedJobs = jobs.filter(j => !j.stats.is_active);
 
   return (
-    <div className="min-h-screen bg-transparent text-[#2B2B2B] font-sans">
+    <div className="min-h-screen bg-background text-foreground font-sans">
       <Navbar />
-      
-      <main className="relative pt-32 pb-20 px-6">
-        <div className="max-w-[800px] mx-auto text-center mb-16">
-          <h1 className="text-[2.5rem] leading-[1.3] font-normal mb-6 text-[#2B2B2B]">
-            Monitored Tweets
-          </h1>
-          <p className="text-[1.125rem] leading-[1.75] text-[#6B6B6B] max-w-[65ch] mx-auto">
-            View active monitoring jobs.
-          </p>
-        </div>
 
+      <main className="pt-28 pb-20 px-6">
         <div className="max-w-[1200px] mx-auto">
-          {/* Stats Summary */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-[#FEFEFE] border border-[#E8E4DF] p-6 rounded-sm">
-              <p className="text-[#6B6B6B] text-sm mb-1">Total</p>
-              <p className="text-2xl text-[#2B2B2B]">{jobs.length}</p>
-            </div>
-            <div className="bg-[#FEFEFE] border border-[#E8E4DF] p-6 rounded-sm">
-              <p className="text-[#6B6B6B] text-sm mb-1">Active</p>
-              <p className="text-2xl text-[#2B2B2B]">{activeJobs.length}</p>
-            </div>
-            <div className="bg-[#FEFEFE] border border-[#E8E4DF] p-6 rounded-sm">
-              <p className="text-[#6B6B6B] text-sm mb-1">Completed</p>
-              <p className="text-2xl text-[#2B2B2B]">{completedJobs.length}</p>
+          <div className="mb-10">
+            <h1 className="text-3xl font-bold text-foreground mb-2">
+              Monitored Tweets
+            </h1>
+            <p className="text-muted-foreground">
+              View active monitoring jobs.
+            </p>
+          </div>
+
+          {/* Horizontal Metric Strip */}
+          <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-8">
+            <div className="flex flex-wrap">
+              <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border last:border-r-0">
+                <p className="text-sm text-muted-foreground mb-1">Total</p>
+                <p className="text-2xl font-bold text-foreground">{jobs.length}</p>
+              </div>
+              <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border last:border-r-0">
+                <p className="text-sm text-muted-foreground mb-1">Active</p>
+                <p className="text-2xl font-bold text-foreground">{activeJobs.length}</p>
+              </div>
+              <div className="flex-1 min-w-[140px] px-6 py-5">
+                <p className="text-sm text-muted-foreground mb-1">Completed</p>
+                <p className="text-2xl font-bold text-foreground">{completedJobs.length}</p>
+              </div>
             </div>
           </div>
 
           {jobs.length === 0 ? (
-            <div className="text-center text-[#6B6B6B]">
+            <div className="text-center text-muted-foreground py-12">
               <p>No monitoring jobs yet.</p>
             </div>
           ) : (
-            <div className="bg-[#FEFEFE] border border-[#E8E4DF] rounded-sm overflow-hidden">
+            <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-left">
-                  <thead className="bg-[#F5F3F0] text-[#6B6B6B] text-sm uppercase tracking-wide border-b border-[#E8E4DF]">
+                  <thead className="bg-muted text-muted-foreground text-sm border-b border-border">
                     <tr>
-                      <th className="px-6 py-4 font-normal">Tweet</th>
-                      <th className="px-6 py-4 font-normal">Status</th>
-                      <th className="px-6 py-4 font-normal">Started</th>
-                      <th className="px-6 py-4 font-normal">Time Remaining</th>
-                      <th className="px-6 py-4 font-normal">Snapshots</th>
-                      <th className="px-6 py-4 font-normal">Action</th>
+                      <th className="px-6 py-4 font-medium">Tweet</th>
+                      <th className="px-6 py-4 font-medium">Status</th>
+                      <th className="px-6 py-4 font-medium">Started</th>
+                      <th className="px-6 py-4 font-medium">Time Remaining</th>
+                      <th className="px-6 py-4 font-medium">Snapshots</th>
+                      <th className="px-6 py-4 font-medium">Action</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-[#E8E4DF]">
+                  <tbody className="divide-y divide-border">
                     {jobs.map((job) => (
-                      <tr key={job.tweet_id} className="hover:bg-[#F5F3F0]/50 transition-colors">
+                      <tr key={job.tweet_id} className="hover:bg-muted/50 transition-colors">
                         <td className="px-6 py-4">
                           <a
                             href={job.tweet_url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline"
+                            className="text-foreground hover:text-primary hover:underline font-mono text-sm"
                           >
                             {job.tweet_id}
                           </a>
@@ -162,10 +169,10 @@ export default function MonitorPage() {
                         <td className="px-6 py-4">
                           {getStatusBadge(job)}
                         </td>
-                        <td className="px-6 py-4 text-[#6B6B6B] text-sm">
+                        <td className="px-6 py-4 text-muted-foreground text-sm">
                           {new Date(job.started_at).toLocaleString()}
                         </td>
-                        <td className="px-6 py-4 text-[#6B6B6B] text-sm">
+                        <td className="px-6 py-4 text-muted-foreground text-sm">
                           {job.stats.is_active ? (
                             <span>
                               {job.stats.hours_remaining}h {job.stats.minutes_remaining}m
@@ -174,13 +181,13 @@ export default function MonitorPage() {
                             <span>-</span>
                           )}
                         </td>
-                        <td className="px-6 py-4 text-[#2B2B2B]">
+                        <td className="px-6 py-4 text-foreground font-medium">
                           {job.stats.total_snapshots}
                         </td>
                         <td className="px-6 py-4 text-sm">
                           <Link
                             href={`/monitor/${job.tweet_id}`}
-                            className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline"
+                            className="text-primary hover:text-primary/80 font-medium hover:underline"
                           >
                             Dashboard
                           </Link>
@@ -197,4 +204,3 @@ export default function MonitorPage() {
     </div>
   );
 }
-

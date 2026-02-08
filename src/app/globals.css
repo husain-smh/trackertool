@@ -4,62 +4,59 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Design System v4.0: Social Capital Inc. (Premium Dark) */
+  /* Design System v5.0: BrandWorks Light Mode */
 
   /* Typography */
   --font-sans: var(--font-geist-sans), sans-serif;
   --font-mono: var(--font-geist-mono), monospace;
 
-  /* Colors - Dark Premium Palette */
-  --background: #0A0A0A; /* Near Black */
-  --foreground: #F5F5F5; /* Clean White */
+  /* Colors - Light Premium Palette */
+  --background: #FAFBFC;
+  --foreground: #1A1A2E;
 
-  --card: #111111; /* Elevated surface */
-  --card-foreground: #F5F5F5;
+  --card: #FFFFFF;
+  --card-foreground: #1A1A2E;
 
-  --popover: #141414;
-  --popover-foreground: #F5F5F5;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1A2E;
 
-  --primary: #F5F5F5; /* White */
-  --primary-foreground: #0A0A0A;
+  --primary: #6C5CE7; /* Purple */
+  --primary-foreground: #FFFFFF;
 
-  --secondary: #1A1A1A; /* Dark gray surface */
-  --secondary-foreground: #E0E0E0;
+  --secondary: #F0EDFF;
+  --secondary-foreground: #1A1A2E;
 
-  --muted: #222222; /* Subtle dark */
-  --muted-foreground: #888888; /* Dimmed text */
+  --muted: #F1F3F5;
+  --muted-foreground: #6B7280;
 
-  --accent: #1D9BF0; /* Twitter/X Verification Blue */
+  --accent: #00B894; /* Teal Green */
   --accent-foreground: #FFFFFF;
 
-  --destructive: #EF4444; /* Alert Red */
+  --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
 
-  --border: #222222; /* Subtle border */
-  --input: #1A1A1A;
-  --ring: #1D9BF0;
+  --border: #E5E7EB;
+  --input: #F9FAFB;
+  --ring: #6C5CE7;
 
-  /* Paper texture opacities - reduced for dark mode */
+  /* Paper texture opacities - not used in light mode */
   --paper-texture-opacity: 0;
   --paper-distort-opacity: 0;
   --paper-noise-opacity: 0;
 
-  /*
-    Data Visualization - "Neon on Dark"
-    Vibrant colors that pop against the dark background.
-  */
-  --chart-1: #1D9BF0; /* Twitter Blue */
-  --chart-2: #F43F5E; /* Rose */
-  --chart-3: #10B981; /* Emerald */
-  --chart-4: #F59E0B; /* Amber */
-  --chart-5: #8B5CF6; /* Violet */
+  /* Data Visualization - Light Mode Palette */
+  --chart-1: #6C5CE7; /* Purple */
+  --chart-2: #00B894; /* Teal */
+  --chart-3: #FDCB6E; /* Gold */
+  --chart-4: #E17055; /* Coral */
+  --chart-5: #74B9FF; /* Sky Blue */
 
   /* Spacing & Radius */
-  --radius: 8px; /* Modern rounded corners */
+  --radius: 12px;
 
   /* Shadows */
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4); /* Subtle depth */
-  --shadow-hard: 0 4px 12px rgba(29, 155, 240, 0.15); /* Blue glow for emphasis */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-hard: 0 4px 16px rgba(108, 92, 231, 0.12);
 }
 
 @theme inline {
@@ -110,7 +107,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Dark background */
 html {
   background-color: var(--background);
 }
@@ -123,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
-/* Component overrides - Premium Dark Cards */
+/* Component overrides - Light Cards */
 .card-base {
   background-color: var(--card);
   border-radius: var(--radius);
@@ -162,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--foreground);
 }
 
-/* Accent glow for emphasis */
+/* Accent text */
 .ink-text {
   color: var(--accent);
 }

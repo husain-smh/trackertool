@@ -27,6 +27,9 @@ export interface MonitoringJob {
   };
   likers_last_fetched_at?: Date;
 
+  // Settings
+  notification_threshold?: number;
+  slack_webhook_url?: string;
 }
 
 export interface MetricSnapshot {
@@ -252,6 +255,26 @@ export async function updateMonitoringJobRealtimeState(
     { tweet_id: tweetId },
     { $set: update }
   );
+}
+
+/**
+ * Update monitoring job settings
+ */
+export async function updateMonitoringJobSettings(
+  tweetId: string,
+  update: {
+    realtime_enabled?: boolean;
+    notification_threshold?: number;
+    slack_webhook_url?: string;
+  }
+): Promise<MonitoringJob | null> {
+  const collection = await getMonitoringJobsCollection();
+  const result = await collection.findOneAndUpdate(
+    { tweet_id: tweetId },
+    { $set: update },
+    { returnDocument: 'after' }
+  );
+  return result;
 }
 
 // ===== Index Creation =====

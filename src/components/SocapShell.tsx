@@ -9,12 +9,9 @@ export default function SocapShell({ children }: { children: ReactNode }) {
   const showNav = !pathname.startsWith('/socap/auth');
 
   return (
-    <div className="socap-scope min-h-screen bg-background text-foreground font-sans">
+    <div className="min-h-screen bg-background text-foreground font-sans">
       {showNav ? <SocapNavbar /> : null}
       <div className={showNav ? 'pt-20' : ''}>{children}</div>
     </div>
   );
 }
-
-
-

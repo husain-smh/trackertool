@@ -93,31 +93,21 @@ export default function EngagersPage() {
 
   const getActionIcon = (actionType: string) => {
     switch (actionType) {
-      case 'retweet':
-        return '🔄';
-      case 'reply':
-        return '💬';
-      case 'quote':
-        return '🔁';
-      case 'like':
-        return '❤️';
-      default:
-        return '📝';
+      case 'retweet': return '🔄';
+      case 'reply': return '💬';
+      case 'quote': return '🔁';
+      case 'like': return '❤️';
+      default: return '📝';
     }
   };
 
   const getActionColor = (actionType: string) => {
     switch (actionType) {
-      case 'retweet':
-        return 'bg-green-100 text-green-800';
-      case 'reply':
-        return 'bg-blue-100 text-blue-800';
-      case 'quote':
-        return 'bg-purple-100 text-purple-800';
-      case 'like':
-        return 'bg-red-100 text-red-800';
-      default:
-        return 'bg-gray-100 text-gray-800';
+      case 'retweet': return 'bg-emerald-50 text-emerald-700 border border-emerald-200';
+      case 'reply': return 'bg-blue-50 text-blue-700 border border-blue-200';
+      case 'quote': return 'bg-purple-50 text-purple-700 border border-purple-200';
+      case 'like': return 'bg-red-50 text-red-700 border border-red-200';
+      default: return 'bg-muted text-muted-foreground border border-border';
     }
   };
 
@@ -140,7 +130,6 @@ export default function EngagersPage() {
       const result = await response.json();
 
       if (response.ok && result.success) {
-        // Convert to CSV
         const headers = ['Username', 'Name', 'Action', 'Followers', 'Importance Score', 'Verified', 'Bio', 'Location', 'First Seen', 'Deleted'];
         const rows = result.engagers.map((e: Engager) => [
           e.username,
@@ -235,7 +224,7 @@ export default function EngagersPage() {
             )}
 
             {/* Filters */}
-            <div className="card-base p-4 mb-6">
+            <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-4 mb-6">
               <div className="flex flex-wrap items-center gap-4">
                 {/* Action Type Filter */}
                 <div className="flex items-center gap-2">
@@ -245,9 +234,9 @@ export default function EngagersPage() {
                       <button
                         key={action}
                         onClick={() => setActionFilter(action)}
-                        className={`px-3 py-1 rounded-lg text-sm font-medium transition-all ${
+                        className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
                           actionFilter === action
-                            ? 'bg-primary text-primary-foreground'
+                            ? 'bg-primary text-primary-foreground shadow-sm'
                             : 'bg-muted hover:bg-muted/80 text-foreground'
                         }`}
                       >
@@ -263,7 +252,7 @@ export default function EngagersPage() {
                   <select
                     value={sortBy}
                     onChange={(e) => setSortBy(e.target.value as SortBy)}
-                    className="px-3 py-1 rounded-lg bg-muted border border-border text-foreground text-sm"
+                    className="px-3 py-1.5 rounded-lg bg-input border border-border text-foreground text-sm"
                   >
                     <option value="importance">Importance</option>
                     <option value="followers">Followers</option>
@@ -278,7 +267,7 @@ export default function EngagersPage() {
                     type="number"
                     value={minImportance}
                     onChange={(e) => setMinImportance(parseInt(e.target.value) || 0)}
-                    className="w-16 px-2 py-1 rounded-lg bg-muted border border-border text-foreground text-sm"
+                    className="w-16 px-2 py-1.5 rounded-lg bg-input border border-border text-foreground text-sm"
                     min="0"
                   />
                 </div>
@@ -296,37 +285,39 @@ export default function EngagersPage() {
               </div>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-4 gap-4 mb-6">
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">Total Engagers</p>
-                <p className="text-2xl font-bold">{total}</p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">Deleted</p>
-                <p className="text-2xl font-bold text-gray-500">{deletedCount}</p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">High Importance (5+)</p>
-                <p className="text-2xl font-bold text-green-600">
-                  {engagers.filter((e) => e.importance_score >= 5).length}
-                </p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-muted-foreground text-sm">Verified</p>
-                <p className="text-2xl font-bold text-blue-600">
-                  {engagers.filter((e) => e.verified).length}
-                </p>
+            {/* Stats - Horizontal Strip */}
+            <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-6">
+              <div className="flex flex-wrap">
+                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground">Total Engagers</p>
+                  <p className="text-2xl font-bold">{total}</p>
+                </div>
+                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground">Deleted</p>
+                  <p className="text-2xl font-bold text-muted-foreground">{deletedCount}</p>
+                </div>
+                <div className="flex-1 min-w-[140px] px-6 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground">High Importance (5+)</p>
+                  <p className="text-2xl font-bold text-emerald-600">
+                    {engagers.filter((e) => e.importance_score >= 5).length}
+                  </p>
+                </div>
+                <div className="flex-1 min-w-[140px] px-6 py-5">
+                  <p className="text-sm text-muted-foreground">Verified</p>
+                  <p className="text-2xl font-bold text-primary">
+                    {engagers.filter((e) => e.verified).length}
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Engagers List */}
             {engagers.length === 0 ? (
-              <div className="card-base p-12 text-center">
+              <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-12 text-center">
                 <p className="text-muted-foreground">No engagers found matching your filters.</p>
               </div>
             ) : (
-              <div className="card-base overflow-hidden">
+              <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] overflow-hidden">
                 <table className="w-full">
                   <thead className="bg-muted border-b border-border">
                     <tr>
@@ -344,7 +335,7 @@ export default function EngagersPage() {
                       <>
                         <tr
                           key={engager.id}
-                          className={`hover:bg-muted/50 cursor-pointer ${engager.is_deleted ? 'opacity-50' : ''}`}
+                          className={`hover:bg-muted/50 cursor-pointer transition-colors ${engager.is_deleted ? 'opacity-50' : ''}`}
                           onClick={() => setExpandedId(expandedId === engager.id ? null : engager.id)}
                         >
                           <td className="px-4 py-3">
@@ -353,7 +344,7 @@ export default function EngagersPage() {
                                 <div className="flex items-center gap-1">
                                   <span className="font-medium">{engager.name}</span>
                                   {engager.verified && (
-                                    <svg className="w-4 h-4 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 24 24">
                                       <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                                     </svg>
                                   )}
@@ -375,11 +366,11 @@ export default function EngagersPage() {
                               {getActionIcon(engager.action_type)} {engager.action_type}
                             </span>
                           </td>
-                          <td className="px-4 py-3 text-right font-mono">
+                          <td className="px-4 py-3 text-right font-mono text-sm">
                             {engager.followers.toLocaleString()}
                           </td>
                           <td className="px-4 py-3 text-right">
-                            <span className={`font-bold ${engager.importance_score >= 5 ? 'text-green-600' : ''}`}>
+                            <span className={`font-bold ${engager.importance_score >= 5 ? 'text-emerald-600' : ''}`}>
                               {engager.importance_score}
                             </span>
                           </td>
@@ -398,9 +389,9 @@ export default function EngagersPage() {
                           </td>
                           <td className="px-4 py-3 text-center">
                             {engager.is_deleted ? (
-                              <span className="px-2 py-1 text-xs bg-red-100 text-red-800 rounded-full">Deleted</span>
+                              <span className="px-2 py-1 text-xs bg-red-50 text-red-700 border border-red-200 rounded-full">Deleted</span>
                             ) : (
-                              <span className="px-2 py-1 text-xs bg-green-100 text-green-800 rounded-full">Active</span>
+                              <span className="px-2 py-1 text-xs bg-emerald-50 text-emerald-700 border border-emerald-200 rounded-full">Active</span>
                             )}
                           </td>
                         </tr>
@@ -423,7 +414,7 @@ export default function EngagersPage() {
                                 {engager.engagement_text && (
                                   <div>
                                     <span className="text-sm font-medium text-muted-foreground">Engagement Text:</span>
-                                    <p className="text-sm mt-1 bg-card p-2 rounded">{engager.engagement_text}</p>
+                                    <p className="text-sm mt-1 bg-card p-2 rounded-lg border border-border">{engager.engagement_text}</p>
                                   </div>
                                 )}
                                 {engager.engagement_url && (
@@ -453,7 +444,7 @@ export default function EngagersPage() {
                                     <span className="text-sm font-medium text-muted-foreground">Followed By:</span>
                                     <div className="flex flex-wrap gap-2 mt-1">
                                       {engager.followed_by.map((f) => (
-                                        <span key={f.username} className="px-2 py-1 text-xs bg-card rounded">
+                                        <span key={f.username} className="px-2 py-1 text-xs bg-card border border-border rounded-lg">
                                           @{f.username} (w:{f.weight})
                                         </span>
                                       ))}

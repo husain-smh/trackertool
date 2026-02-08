@@ -98,10 +98,10 @@ type CategoryMetrics = {
   quote_views?: number;
 };
 
-// Design.json palette
-const COLORS = ['#4D4DFF', '#C4B5FD', '#10B981', '#3B82F6', '#F472B6', '#FBBF24', '#FB923C', '#9CA3AF'];
+// Light mode palette
+const COLORS = ['#6C5CE7', '#00B894', '#FDCB6E', '#E17055', '#74B9FF', '#A29BFE', '#55EFC4', '#FAB1A0'];
 const REFRESH_INTERVAL_MS = 180_000; // 3 minutes
-const CHART_BLUE = '#4D4DFF'; // vibrantBlue
+const CHART_BLUE = '#6C5CE7'; // Purple accent
 
 type FilterType = 'all' | 'main_twt' | 'influencer_twt' | 'investor_twt';
 
@@ -141,7 +141,7 @@ function MetricChart({ title, metric, chartData }: MetricChartProps) {
           style={{
             backgroundColor: 'var(--popover)',
             border: '1px solid var(--border)',
-            borderRadius: '6px',
+            borderRadius: '12px',
             padding: '12px',
             boxShadow: 'var(--shadow-card)',
             color: 'var(--popover-foreground)',
@@ -878,7 +878,7 @@ export default function CampaignDashboardPage() {
 
         mainTweetContainerRef.current.innerHTML = '';
         await twttr.widgets.createTweet(mainTweet.tweet_id, mainTweetContainerRef.current, {
-          theme: 'dark',
+          theme: 'light',
           align: 'center',
           conversation: 'none',
           width,
@@ -1306,9 +1306,9 @@ export default function CampaignDashboardPage() {
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <div className={`px-4 py-2 rounded-full font-semibold text-sm border ${
-                  data.campaign.status === 'active' ? 'bg-emerald-500/10 text-emerald-600 border-emerald-500/20' :
-                  data.campaign.status === 'paused' ? 'bg-yellow-500/10 text-yellow-600 border-yellow-500/20' :
+                <div className={`px-3 py-1 rounded-full text-xs font-medium border capitalize ${
+                  data.campaign.status === 'active' ? 'bg-emerald-50 text-emerald-700 border-emerald-200' :
+                  data.campaign.status === 'paused' ? 'bg-amber-50 text-amber-700 border-amber-200' :
                   'bg-muted text-muted-foreground border-border'
                 }`}>
                   {data.campaign.status}
@@ -1346,42 +1346,45 @@ export default function CampaignDashboardPage() {
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                    <div className="card-base p-6 lg:col-span-2 md:col-span-2 shadow-sm border-primary/20">
-                      <p className="text-sm font-semibold text-foreground">Views</p>
-                      <p className="text-3xl font-black text-foreground mt-2">
-                        {(categoryTotals.main_twt?.views ?? 0).toLocaleString()}
-                      </p>
-                    </div>
-                    <div className="card-base p-3">
-                      <p className="text-xs text-muted-foreground">Likes</p>
-                      <p className="text-xl font-semibold text-foreground mt-1">
-                        {(categoryTotals.main_twt?.likes ?? 0).toLocaleString()}
-                      </p>
-                    </div>
-                    <div className="card-base p-3">
-                      <p className="text-xs text-muted-foreground">Retweets</p>
-                      <p className="text-xl font-semibold text-foreground mt-1">
-                        {(categoryTotals.main_twt?.retweets ?? 0).toLocaleString()}
-                      </p>
-                    </div>
-                    <div className="card-base p-3">
-                      <p className="text-xs text-muted-foreground">Replies</p>
-                      <p className="text-xl font-semibold text-foreground mt-1">
-                        {(categoryTotals.main_twt?.replies ?? 0).toLocaleString()}
-                      </p>
-                    </div>
-                    <div className="card-base p-3">
-                      <p className="text-xs text-muted-foreground">Quote Tweets</p>
-                      <p className="text-xl font-semibold text-foreground mt-1">
-                        {(categoryTotals.main_twt?.quotes ?? 0).toLocaleString()}
-                      </p>
-                    </div>
-                    <div className="card-base p-3">
-                      <p className="text-xs text-muted-foreground">Quote Views</p>
-                      <p className="text-xl font-semibold text-foreground mt-1">
-                        {(categoryTotals.main_twt?.quote_views ?? 0).toLocaleString()}
-                      </p>
+                  {/* Main Tweet Metrics - Horizontal Strip */}
+                  <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border">
+                    <div className="flex flex-wrap">
+                      <div className="flex-1 min-w-[120px] px-6 py-5 border-r border-border">
+                        <p className="text-sm text-muted-foreground mb-1">Views</p>
+                        <p className="text-2xl font-bold text-foreground">
+                          {(categoryTotals.main_twt?.views ?? 0).toLocaleString()}
+                        </p>
+                      </div>
+                      <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                        <p className="text-sm text-muted-foreground mb-1">Likes</p>
+                        <p className="text-2xl font-bold text-foreground">
+                          {(categoryTotals.main_twt?.likes ?? 0).toLocaleString()}
+                        </p>
+                      </div>
+                      <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                        <p className="text-sm text-muted-foreground mb-1">Retweets</p>
+                        <p className="text-2xl font-bold text-foreground">
+                          {(categoryTotals.main_twt?.retweets ?? 0).toLocaleString()}
+                        </p>
+                      </div>
+                      <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                        <p className="text-sm text-muted-foreground mb-1">Replies</p>
+                        <p className="text-2xl font-bold text-foreground">
+                          {(categoryTotals.main_twt?.replies ?? 0).toLocaleString()}
+                        </p>
+                      </div>
+                      <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                        <p className="text-sm text-muted-foreground mb-1">Quote Tweets</p>
+                        <p className="text-2xl font-bold text-foreground">
+                          {(categoryTotals.main_twt?.quotes ?? 0).toLocaleString()}
+                        </p>
+                      </div>
+                      <div className="flex-1 min-w-[100px] px-5 py-5">
+                        <p className="text-sm text-muted-foreground mb-1">Quote Views</p>
+                        <p className="text-2xl font-bold text-foreground">
+                          {(categoryTotals.main_twt?.quote_views ?? 0).toLocaleString()}
+                        </p>
+                      </div>
                     </div>
                   </div>
 
@@ -1808,30 +1811,33 @@ export default function CampaignDashboardPage() {
                       </div>
                     ) : (
                       <>
-                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-4">
-                          <div className="card-base p-3 border border-primary/20">
-                            <p className="text-xs text-muted-foreground">Quote Views</p>
-                            <p className="text-xl font-bold text-foreground mt-1">
-                              {(secondDegreeTotals.main_twt.views || 0).toLocaleString()}
-                            </p>
-                          </div>
-                          <div className="card-base p-3">
-                            <p className="text-xs text-muted-foreground">Quote Likes</p>
-                            <p className="text-xl font-bold text-foreground mt-1">
-                              {(secondDegreeTotals.main_twt.likes || 0).toLocaleString()}
-                            </p>
-                          </div>
-                          <div className="card-base p-3">
-                            <p className="text-xs text-muted-foreground">Quote Retweets</p>
-                            <p className="text-xl font-bold text-foreground mt-1">
-                              {(secondDegreeTotals.main_twt.retweets || 0).toLocaleString()}
-                            </p>
-                          </div>
-                          <div className="card-base p-3">
-                            <p className="text-xs text-muted-foreground">Quote Replies</p>
-                            <p className="text-xl font-bold text-foreground mt-1">
-                              {(secondDegreeTotals.main_twt.replies || 0).toLocaleString()}
-                            </p>
+                        {/* Second-Degree Metrics - Horizontal Strip */}
+                        <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-4">
+                          <div className="flex flex-wrap">
+                            <div className="flex-1 min-w-[120px] px-5 py-4 border-r border-border">
+                              <p className="text-sm text-muted-foreground mb-1">Quote Views</p>
+                              <p className="text-xl font-bold text-foreground">
+                                {(secondDegreeTotals.main_twt.views || 0).toLocaleString()}
+                              </p>
+                            </div>
+                            <div className="flex-1 min-w-[120px] px-5 py-4 border-r border-border">
+                              <p className="text-sm text-muted-foreground mb-1">Quote Likes</p>
+                              <p className="text-xl font-bold text-foreground">
+                                {(secondDegreeTotals.main_twt.likes || 0).toLocaleString()}
+                              </p>
+                            </div>
+                            <div className="flex-1 min-w-[120px] px-5 py-4 border-r border-border">
+                              <p className="text-sm text-muted-foreground mb-1">Quote Retweets</p>
+                              <p className="text-xl font-bold text-foreground">
+                                {(secondDegreeTotals.main_twt.retweets || 0).toLocaleString()}
+                              </p>
+                            </div>
+                            <div className="flex-1 min-w-[120px] px-5 py-4">
+                              <p className="text-sm text-muted-foreground mb-1">Quote Replies</p>
+                              <p className="text-xl font-bold text-foreground">
+                                {(secondDegreeTotals.main_twt.replies || 0).toLocaleString()}
+                              </p>
+                            </div>
                           </div>
                         </div>
 
@@ -1857,42 +1863,45 @@ export default function CampaignDashboardPage() {
           {/* ===== Combined Metrics ===== */}
           <div className="card-base p-6 mb-6">
             <h2 className="text-xl font-semibold text-foreground mb-4">Combined Metrics</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
-              <div className="card-base p-6 lg:col-span-2 md:col-span-2 shadow-sm border-primary/20">
-                <p className="text-sm font-semibold text-foreground">First-degree Views</p>
-                <p className="text-3xl font-black text-foreground mt-2">
-                  {data.metrics.total_views.toLocaleString()}
-                </p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-sm font-semibold text-foreground">Total Views from Quote Twt</p>
-                <p className="text-2xl font-bold text-foreground mt-1">
-                  {(data.metrics.total_quote_views ?? 0).toLocaleString()}
-                </p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-sm text-muted-foreground">Total Likes</p>
-                <p className="text-2xl font-bold text-foreground mt-1">{data.metrics.total_likes.toLocaleString()}</p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-sm text-muted-foreground">Total Retweets</p>
-                <p className="text-2xl font-bold text-foreground mt-1">{data.metrics.total_retweets.toLocaleString()}</p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-sm text-muted-foreground">Total Replies</p>
-                <p className="text-2xl font-bold text-foreground mt-1">
-                  {data.metrics.total_replies.toLocaleString()}
-                </p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-sm text-muted-foreground">Total Quote Tweets</p>
-                <p className="text-2xl font-bold text-foreground mt-1">
-                  {data.metrics.total_quotes.toLocaleString()}
-                </p>
-              </div>
-              <div className="card-base p-4">
-                <p className="text-sm text-muted-foreground">Total Engagements</p>
-                <p className="text-2xl font-bold text-foreground mt-1">{data.metrics.total_engagements.toLocaleString()}</p>
+            {/* Combined Metrics - Horizontal Strip */}
+            <div className="bg-card rounded-xl shadow-[var(--shadow-card)] border border-border mb-6">
+              <div className="flex flex-wrap">
+                <div className="flex-1 min-w-[120px] px-6 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Views</p>
+                  <p className="text-2xl font-bold text-foreground">
+                    {data.metrics.total_views.toLocaleString()}
+                  </p>
+                </div>
+                <div className="flex-1 min-w-[120px] px-5 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Quote Views</p>
+                  <p className="text-2xl font-bold text-foreground">
+                    {(data.metrics.total_quote_views ?? 0).toLocaleString()}
+                  </p>
+                </div>
+                <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Likes</p>
+                  <p className="text-2xl font-bold text-foreground">{data.metrics.total_likes.toLocaleString()}</p>
+                </div>
+                <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Retweets</p>
+                  <p className="text-2xl font-bold text-foreground">{data.metrics.total_retweets.toLocaleString()}</p>
+                </div>
+                <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Replies</p>
+                  <p className="text-2xl font-bold text-foreground">
+                    {data.metrics.total_replies.toLocaleString()}
+                  </p>
+                </div>
+                <div className="flex-1 min-w-[100px] px-5 py-5 border-r border-border">
+                  <p className="text-sm text-muted-foreground mb-1">Quotes</p>
+                  <p className="text-2xl font-bold text-foreground">
+                    {data.metrics.total_quotes.toLocaleString()}
+                  </p>
+                </div>
+                <div className="flex-1 min-w-[100px] px-5 py-5">
+                  <p className="text-sm text-muted-foreground mb-1">Engagements</p>
+                  <p className="text-2xl font-bold text-foreground">{data.metrics.total_engagements.toLocaleString()}</p>
+                </div>
               </div>
             </div>
 
@@ -2025,7 +2034,7 @@ export default function CampaignDashboardPage() {
                         contentStyle={{
                           backgroundColor: 'var(--popover)',
                           border: '1px solid var(--border)',
-                          borderRadius: '8px',
+                          borderRadius: '12px',
                           color: 'var(--popover-foreground)',
                           boxShadow: 'var(--shadow-card)',
                         }}

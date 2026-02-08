@@ -39,7 +39,7 @@ export default function SocapCampaignsPage() {
       setError(null);
       const response = await fetch('/api/socap/campaigns');
       const data = await response.json();
-      
+
       if (data.success) {
         setCampaigns(data.data || []);
       } else {
@@ -53,16 +53,16 @@ export default function SocapCampaignsPage() {
     }
   }
 
-  function getStatusColor(status: string) {
+  function getStatusPill(status: string) {
     switch (status) {
       case 'active':
-        return 'bg-green-100 text-green-800';
+        return 'bg-emerald-50 text-emerald-700 border-emerald-200';
       case 'paused':
-        return 'bg-yellow-100 text-yellow-800';
+        return 'bg-amber-50 text-amber-700 border-amber-200';
       case 'completed':
-        return 'bg-gray-100 text-gray-800';
+        return 'bg-muted text-muted-foreground border-border';
       default:
-        return 'bg-gray-100 text-gray-800';
+        return 'bg-muted text-muted-foreground border-border';
     }
   }
 
@@ -124,10 +124,10 @@ export default function SocapCampaignsPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-transparent text-[#2B2B2B] font-sans">
-        <main className="relative pt-6 pb-20 px-6">
-          <div className="max-w-[1200px] mx-auto text-center">
-            <p className="text-[#6B6B6B]">Loading campaigns...</p>
+      <div className="min-h-screen bg-background text-foreground font-sans">
+        <main className="pt-6 pb-20 px-6">
+          <div className="max-w-[1200px] mx-auto text-center pt-12">
+            <div className="animate-spin rounded-full h-8 w-8 border-4 border-primary border-t-transparent mx-auto" />
           </div>
         </main>
       </div>
@@ -135,112 +135,110 @@ export default function SocapCampaignsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-transparent text-[#2B2B2B] font-sans">
-      <main className="relative pt-6 pb-20 px-6">
+    <div className="min-h-screen bg-background text-foreground font-sans">
+      <main className="pt-6 pb-20 px-6">
         <div className="max-w-[1200px] mx-auto">
-          <div className="max-w-[800px] mx-auto text-center mb-16">
-            <h1 className="text-[2.5rem] leading-[1.3] font-normal mb-6 text-[#2B2B2B]">
-              BrandWorks Campaigns
+          <div className="mb-10">
+            <h1 className="text-3xl font-bold text-foreground mb-2">
+              Campaigns
             </h1>
-            <p className="text-[1.125rem] leading-[1.75] text-[#6B6B6B] max-w-[65ch] mx-auto">
+            <p className="text-muted-foreground">
               Create and monitor campaigns. Alerts, metrics, and dashboards live inside each campaign.
             </p>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-[1rem]">
-              <Link
-                href="/socap/settings"
-                className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 transition-colors"
-              >
-                System Settings
-              </Link>
+            <div className="mt-6 flex flex-wrap items-center gap-4">
               <Link
                 href="/socap/create"
-                className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 transition-colors"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-2 px-5 rounded-xl transition-all"
               >
                 Create Campaign
+              </Link>
+              <Link
+                href="/socap/settings"
+                className="bg-card hover:bg-muted border border-border text-foreground font-medium py-2 px-5 rounded-xl transition-all"
+              >
+                System Settings
               </Link>
             </div>
           </div>
 
           {error ? (
-            <div className="bg-[#FEFEFE] border border-[#E8E4DF] rounded-sm p-8 text-center">
-              <p className="text-[#2B2B2B] font-normal mb-2">Error loading campaigns</p>
-              <p className="text-[#6B6B6B] text-sm mb-6">{error}</p>
+            <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-8 text-center">
+              <p className="text-foreground font-medium mb-2">Error loading campaigns</p>
+              <p className="text-muted-foreground text-sm mb-6">{error}</p>
               <button
                 onClick={fetchCampaigns}
-                className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 transition-colors"
+                className="text-primary hover:underline font-medium"
               >
                 Retry
               </button>
             </div>
           ) : campaigns.length === 0 ? (
             <div className="text-center py-12">
-              <p className="text-[#6B6B6B] mb-4">No campaigns yet</p>
-              <Link href="/socap/create" className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4">
+              <p className="text-muted-foreground mb-4">No campaigns yet</p>
+              <Link href="/socap/create" className="text-primary hover:underline font-medium">
                 Create your first campaign
               </Link>
             </div>
           ) : (
-            <div className="grid gap-8">
+            <div className="grid gap-6">
               {campaigns.map((campaign) => (
                 <div
                   key={campaign._id}
-                  className="bg-[#FEFEFE] border border-[#E8E4DF] rounded-sm p-8 transition-colors hover:border-[#2F6FED]"
+                  className="bg-card border border-border rounded-xl shadow-[var(--shadow-card)] p-6 transition-all hover:shadow-[var(--shadow-hard)] hover:border-primary/30"
                 >
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                     <div className="min-w-0">
                       <Link
                         href={`/socap/campaigns/${campaign._id}`}
-                        className="text-[1.75rem] leading-[1.4] font-normal text-[#2B2B2B] hover:text-[#2F6FED] hover:underline decoration-1 underline-offset-4 transition-colors break-words"
+                        className="text-xl font-bold text-foreground hover:text-primary transition-colors break-words"
                       >
                         {campaign.launch_name}
                       </Link>
-                      <p className="text-[#6B6B6B] mt-3">
+                      <p className="text-muted-foreground mt-2 text-sm">
                         Client: {campaign.client_info.name}
                       </p>
-                      <p className="text-sm text-[#6B6B6B] mt-2">
+                      <p className="text-sm text-muted-foreground mt-1">
                         {new Date(campaign.monitor_window.start_date).toLocaleDateString()} -{' '}
                         {new Date(campaign.monitor_window.end_date).toLocaleDateString()}
                       </p>
                     </div>
 
-                    <div className="flex flex-col md:items-end gap-4">
+                    <div className="flex flex-col md:items-end gap-3">
                       <span
-                        className={`inline-flex px-3 py-1 rounded-full text-sm font-normal border border-[#E8E4DF] ${getStatusColor(
-                          campaign.status
-                        )}`}
+                        className={`inline-flex px-3 py-1 rounded-full text-xs font-medium border capitalize ${getStatusPill(campaign.status)}`}
                       >
                         {campaign.status}
                       </span>
-                      <div className="flex flex-wrap gap-3 md:justify-end text-sm">
+                      <div className="flex flex-wrap gap-2 md:justify-end text-sm">
                         <Link
                           href={`/socap/campaigns/${campaign._id}/edit`}
-                          className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 transition-colors inline-flex items-center gap-2"
+                          className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1.5"
                         >
-                          <Pencil className="w-4 h-4" />
+                          <Pencil className="w-3.5 h-3.5" />
                           Edit
                         </Link>
                         {campaign.status === 'active' ? (
                           <button
                             onClick={() => openConfirm('pause', campaign)}
-                            className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 transition-colors inline-flex items-center gap-2"
+                            className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1.5"
                           >
-                            <PauseCircle className="w-4 h-4" />
+                            <PauseCircle className="w-3.5 h-3.5" />
                             Pause
                           </button>
                         ) : (
                           <button
                             onClick={() => openConfirm('resume', campaign)}
-                            className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 transition-colors inline-flex items-center gap-2"
+                            className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1.5"
                           >
-                            <Play className="w-4 h-4" />
+                            <Play className="w-3.5 h-3.5" />
                             Resume
                           </button>
                         )}
                         <button
                           onClick={() => openConfirm('delete', campaign)}
-                          className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 transition-colors inline-flex items-center gap-2"
+                          className="text-muted-foreground hover:text-destructive transition-colors inline-flex items-center gap-1.5"
                         >
-                          <Pin className="w-4 h-4" />
+                          <Pin className="w-3.5 h-3.5" />
                           Delete
                         </button>
                       </div>
@@ -252,36 +250,40 @@ export default function SocapCampaignsPage() {
           )}
 
           {confirmModal && (
-            <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 px-6">
-              <div className="bg-[#FEFEFE] border border-[#E8E4DF] rounded-sm p-8 max-w-md w-full">
-                <h3 className="text-[1.75rem] leading-[1.4] font-normal mb-3 text-[#2B2B2B]">
+            <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50 px-6">
+              <div className="bg-card border border-border rounded-xl shadow-[var(--shadow-hard)] p-8 max-w-md w-full">
+                <h3 className="text-xl font-bold mb-3 text-foreground">
                   {confirmModal.action === 'delete'
                     ? 'Delete Campaign'
                     : confirmModal.action === 'pause'
                     ? 'Pause Campaign'
                     : 'Resume Campaign'}
                 </h3>
-                <p className="text-sm text-[#6B6B6B] mb-6">
+                <p className="text-sm text-muted-foreground mb-6">
                   {confirmModal.action === 'delete'
                     ? 'This will permanently remove the campaign.'
                     : confirmModal.action === 'pause'
                     ? 'The campaign will stop processing new engagements.'
                     : 'The campaign will resume processing engagements.'}{' '}
-                  <span className="text-[#2B2B2B]">&ldquo;{confirmModal.campaign.launch_name}&rdquo;</span>
+                  <span className="text-foreground font-medium">&ldquo;{confirmModal.campaign.launch_name}&rdquo;</span>
                 </p>
-                {actionError && <p className="text-sm text-red-700 mb-4">{actionError}</p>}
-                <div className="flex justify-end gap-4 text-sm">
+                {actionError && <p className="text-sm text-destructive mb-4">{actionError}</p>}
+                <div className="flex justify-end gap-3">
                   <button
                     onClick={closeConfirm}
                     disabled={actionLoading}
-                    className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 disabled:opacity-50 transition-colors"
+                    className="px-4 py-2 bg-muted hover:bg-muted/80 text-foreground rounded-xl transition-all disabled:opacity-50 text-sm font-medium"
                   >
                     Cancel
                   </button>
                   <button
                     onClick={handleConfirmAction}
                     disabled={actionLoading}
-                    className="text-[#2B2B2B] hover:text-[#2F6FED] hover:underline underline-offset-4 disabled:opacity-50 transition-colors"
+                    className={`px-4 py-2 rounded-xl transition-all disabled:opacity-50 text-sm font-medium ${
+                      confirmModal.action === 'delete'
+                        ? 'bg-destructive hover:bg-destructive/90 text-destructive-foreground'
+                        : 'bg-primary hover:bg-primary/90 text-primary-foreground'
+                    }`}
                   >
                     {actionLoading ? 'Processing...' : 'Confirm'}
                   </button>
@@ -294,5 +296,3 @@ export default function SocapCampaignsPage() {
     </div>
   );
 }
-
-
