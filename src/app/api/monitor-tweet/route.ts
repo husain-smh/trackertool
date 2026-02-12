@@ -14,7 +14,7 @@ export async function GET(request: NextRequest) {
     const jobsWithStats = await Promise.all(
       jobs.map(async (job) => {
         const startedAt = new Date(job.started_at);
-        const monitorDurationMs = 48 * 60 * 60 * 1000; // 48 hours
+        const monitorDurationMs = 120 * 60 * 60 * 1000; // 5 days
         const elapsed = now.getTime() - startedAt.getTime();
         const remaining = Math.max(0, monitorDurationMs - elapsed);
         const isActive = job.status === 'active' && remaining > 0;

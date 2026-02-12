@@ -147,7 +147,7 @@ export default function MonitorPage() {
               Monitored Tweets
             </h1>
             <p className="text-muted-foreground">
-              Track engagement metrics for any tweet over 48 hours.
+              Track engagement metrics for any tweet over 5 days.
             </p>
           </div>
 

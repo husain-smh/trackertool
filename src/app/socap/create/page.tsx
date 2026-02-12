@@ -100,7 +100,7 @@ export default function CreateCampaignPage() {
   }
 
   const today = new Date().toISOString().split('T')[0];
-  const tenDaysLater = new Date(Date.now() + 10 * 24 * 60 * 60 * 1000)
+  const fiveDaysLater = new Date(Date.now() + 5 * 24 * 60 * 60 * 1000)
     .toISOString()
     .split('T')[0];
 
@@ -108,7 +108,7 @@ export default function CreateCampaignPage() {
     formData.start_date = today;
   }
   if (!formData.end_date) {
-    formData.end_date = tenDaysLater;
+    formData.end_date = fiveDaysLater;
   }
 
   const inputClass = "w-full px-4 py-2.5 bg-input border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-2 focus:ring-ring/20 focus:outline-none transition-all";
