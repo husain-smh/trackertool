@@ -32,6 +32,19 @@ const HeatmapLegend = dynamic(() => import('@/components/WorldHeatmap').then(mod
   ssr: false,
 });
 
+// Human-readable labels for the "Account Categories" pie (keys come from
+// categorizeEngager / account_categories on engagement docs).
+const CATEGORY_LABELS: Record<string, string> = {
+  founders: 'Founders',
+  vcs: 'VCs',
+  ai_creators: 'AI Creators',
+  media: 'Media',
+  developers: 'Developers',
+  c_level: 'C-Level',
+  yc_alumni: 'YC Alumni',
+  others: 'Others',
+};
+
 declare global {
   interface Window {
     twttr?: any;
@@ -964,7 +977,7 @@ export default function CampaignDashboardPage() {
   }
 
   const pieData = Object.entries(data.category_breakdown).map(([name, value]) => ({
-    name,
+    name: CATEGORY_LABELS[name] ?? name,
     value,
   }));
 

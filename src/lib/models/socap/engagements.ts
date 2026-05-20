@@ -273,6 +273,38 @@ export async function getUniqueEngagersByCampaign(campaignId: string): Promise<n
 }
 
 /**
+ * Get a breakdown of unique engagers by account category for a campaign.
+ *
+ * Powers the dashboard "Account Categories" pie chart. Cheap aggregation:
+ * dedupes by user (so an account isn't counted once per action), then tallies
+ * each account_category. Returns a map of category key -> unique-user count.
+ * Note: an account can belong to multiple categories, so counts may overlap.
+ */
+export async function getCategoryBreakdownByCampaign(
+  campaignId: string
+): Promise<Record<string, number>> {
+  const collection = await getEngagementsCollection();
+
+  const results = await collection
+    .aggregate([
+      { $match: { campaign_id: campaignId } },
+      // Dedupe by user so an account isn't counted once per engagement
+      { $group: { _id: '$user_id', account_categories: { $first: '$account_categories' } } },
+      { $unwind: '$account_categories' },
+      { $match: { account_categories: { $nin: [null, ''] } } },
+      { $group: { _id: '$account_categories', count: { $sum: 1 } } },
+      { $sort: { count: -1 } },
+    ])
+    .toArray();
+
+  const breakdown: Record<string, number> = {};
+  for (const row of results) {
+    breakdown[row._id as string] = row.count as number;
+  }
+  return breakdown;
+}
+
+/**
  * Get potential viewers: important people who follow top engagers but haven't engaged.
  * 
  * Simple logic:

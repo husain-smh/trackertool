@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getCampaignById } from '@/lib/models/socap/campaigns';
 import { getTweetsByCampaign } from '@/lib/models/socap/tweets';
+import { getCategoryBreakdownByCampaign } from '@/lib/models/socap/engagements';
 
 // Vercel Hobby has 10s hard limit, Pro allows up to 60s
 // We optimize code to stay under 10s whenever possible
@@ -21,11 +22,14 @@ export async function GET(
   try {
     const { id } = await params;
     
-    // Run both queries in PARALLEL to save time on cold starts
-    // This is much faster than sequential: campaign -> tweets
-    const [campaign, tweets] = await Promise.all([
+    // Run queries in PARALLEL to save time on cold starts
+    // This is much faster than sequential: campaign -> tweets -> categories.
+    // category_breakdown is a lightweight count aggregation (no engager payload),
+    // so it stays well within the 10s budget alongside the other two queries.
+    const [campaign, tweets, categoryBreakdown] = await Promise.all([
       getCampaignById(id),
       getTweetsByCampaign(id),
+      getCategoryBreakdownByCampaign(id),
     ]);
     
     if (!campaign) {
@@ -103,7 +107,7 @@ export async function GET(
         })),
         // Engagements are lazy loaded via separate API call now
         latest_engagements: [],
-        category_breakdown: {},
+        category_breakdown: categoryBreakdown,
       },
     });
   } catch (error) {
